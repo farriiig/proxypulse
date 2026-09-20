@@ -1,17 +1,17 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-09-20T07:14:06Z",
+  "generated_at": "2026-09-20T07:17:24Z",
   "test_level": "TCP reachability / latency pre-check",
-  "source_count": 2,
-  "source_ok": 2,
+  "source_count": 1,
+  "source_ok": 1,
   "discovered_nodes": 205,
   "scanned_nodes": 205,
   "online_nodes": 146,
   "offline_nodes": 59,
   "online_rate": 71.2,
-  "avg_score": 93.3,
-  "avg_gaming_score": 89.6,
-  "avg_latency_ms": 113.2,
+  "avg_score": 92.8,
+  "avg_gaming_score": 88.8,
+  "avg_latency_ms": 159.5,
   "reality_nodes": 60,
   "protocols": {
     "hysteria2": 74,
@@ -21,11 +21,11 @@
     "vmess": 16
   },
   "statuses": {
-    "DEGRADING": 1,
+    "DEGRADING": 4,
     "HEALTHY": 127,
     "OFFLINE": 59,
-    "STABLE": 16,
-    "WEAK": 2
+    "RECOVERED": 1,
+    "STABLE": 14
   },
   "subscriptions": {
     "all": {
@@ -44,17 +44,17 @@
       "base64_path": "subscriptions/online.base64.txt"
     },
     "stable": {
-      "count": 139,
+      "count": 135,
       "path": "subscriptions/stable.txt",
       "base64_path": "subscriptions/stable.base64.txt"
     },
     "fast": {
-      "count": 90,
+      "count": 91,
       "path": "subscriptions/fast.txt",
       "base64_path": "subscriptions/fast.base64.txt"
     },
     "gaming": {
-      "count": 123,
+      "count": 122,
       "path": "subscriptions/gaming.txt",
       "base64_path": "subscriptions/gaming.base64.txt"
     },
@@ -64,7 +64,7 @@
       "base64_path": "subscriptions/reality.base64.txt"
     },
     "healthy": {
-      "count": 127,
+      "count": 128,
       "path": "subscriptions/healthy.txt",
       "base64_path": "subscriptions/healthy.base64.txt"
     },
@@ -74,7 +74,7 @@
       "base64_path": "subscriptions/hysteria2.base64.txt"
     },
     "ss": {
-      "count": 32,
+      "count": 31,
       "path": "subscriptions/ss.txt",
       "base64_path": "subscriptions/ss.base64.txt"
     },
@@ -89,7 +89,7 @@
       "base64_path": "subscriptions/vless.base64.txt"
     },
     "vmess": {
-      "count": 15,
+      "count": 16,
       "path": "subscriptions/vmess.txt",
       "base64_path": "subscriptions/vmess.base64.txt"
     }
