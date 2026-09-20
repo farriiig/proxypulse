@@ -2,15 +2,29 @@
   {
     "url": "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/configs/proxy_configs_tested.txt",
     "status": "ok",
-    "fetch_ms": 85.2,
+    "fetch_ms": 96.8,
     "bytes_read": 47728,
     "fetched": 205,
     "valid": 205,
     "unique": 205,
+    "total_fetches": 2,
+    "successful_fetches": 2,
+    "reliability": 100.0,
+    "reputation": 99.8,
+    "error": null
+  },
+  {
+    "url": "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/xray_secure_loadbalanced_config.json",
+    "status": "ok",
+    "fetch_ms": 263.1,
+    "bytes_read": 77687,
+    "fetched": 0,
+    "valid": 0,
+    "unique": 0,
     "total_fetches": 1,
     "successful_fetches": 1,
     "reliability": 100.0,
-    "reputation": 99.8,
+    "reputation": 59.5,
     "error": null
   }
 ]

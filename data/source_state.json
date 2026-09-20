@@ -1,8 +1,14 @@
 {
   "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/configs/proxy_configs_tested.txt": {
+    "total_fetches": 2,
+    "successful_fetches": 2,
+    "reliability": 100.0,
+    "reputation": 99.8
+  },
+  "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/xray_secure_loadbalanced_config.json": {
     "total_fetches": 1,
     "successful_fetches": 1,
     "reliability": 100.0,
-    "reputation": 99.8
+    "reputation": 59.5
   }
 }
