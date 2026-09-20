@@ -1,5 +1,4 @@
 const $ = (s) => document.querySelector(s);
-let allNodes = [];
 let project = { repository: 'farriiig/proxypulse-mvp', generated_branch: 'generated' };
 let toastTimer;
 
@@ -15,29 +14,6 @@ function badge(status){return `<span class="status status-${String(status||'').t
 function fmtMs(v){return v==null?'—':`${Math.round(Number(v))} ms`;}
 function showToast(message){const t=$('#toast');t.textContent=message;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),1800);}
 async function copyText(text){try{await navigator.clipboard.writeText(text);showToast('Copied to clipboard');}catch{showToast('Copy failed');}}
-
-function renderNodes(){
-  const q = ($('#search')?.value||'').trim().toLowerCase();
-  const protocol = $('#protocolFilter')?.value||'';
-  const status = $('#statusFilter')?.value||'';
-  const filtered = allNodes
-    .filter(n=>!protocol||n.protocol===protocol)
-    .filter(n=>!status||n.status===status)
-    .filter(n=>!q||`${n.protocol} ${n.host} ${n.port} ${n.security||''} ${n.transport||''} ${n.name||''}`.toLowerCase().includes(q));
-  const rows = filtered.slice(0,150);
-  $('#nodeCountLabel').textContent = `${filtered.length} matching · showing ${rows.length}`;
-  $('#nodes').innerHTML = rows.length ? rows.map(n=>`<tr>
-    <td><span class="proto">${esc(n.protocol)}</span></td>
-    <td><code>${esc(n.host)}:${n.port}</code><div class="node-name" title="${esc(n.name||'')}">${esc(n.name||'')}</div></td>
-    <td>${esc(n.security||'—')}<div class="source-meta risk-${String(n.config_risk||'low').toLowerCase()}">${esc(n.config_risk||'LOW')} config risk</div></td>
-    <td>${badge(n.status)}</td>
-    <td class="num">${fmtMs(n.latency_ms)}</td>
-    <td class="num">${fmtMs(n.jitter_ms)}</td>
-    <td class="num">${Number(n.uptime||0).toFixed(1)}%</td>
-    <td class="num score-strong">${Number(n.score||0).toFixed(1)}</td>
-    <td class="num">${Number(n.gaming_score||0).toFixed(1)}</td>
-  </tr>`).join('') : '<tr><td colspan="9" class="empty">No matching nodes.</td></tr>';
-}
 
 function renderProtocols(protocols={}){
   const entries = Object.entries(protocols).sort((a,b)=>b[1]-a[1]);
@@ -74,19 +50,14 @@ function renderSubscriptions(manifest={}){
   document.querySelectorAll('[data-copy]').forEach(btn=>btn.addEventListener('click',()=>copyText(btn.dataset.copy)));
 }
 
-function renderSources(sources=[]){
-  const sorted=[...sources].sort((a,b)=>Number(b.reputation||0)-Number(a.reputation||0));
-  $('#sources').innerHTML = sorted.length ? sorted.map(s=>`<div class="source"><div class="source-main"><span class="dot ${s.status==='ok'?'dot-ok':'dot-bad'}"></span><div style="min-width:0"><div class="url" title="${esc(s.url)}">${esc(s.url)}</div><div class="source-meta">${s.status==='ok'?`${s.valid} valid · ${Math.round(s.fetch_ms||0)} ms`:`${esc(s.error||'Fetch failed')}`}</div></div></div><div class="source-score"><strong>${Number(s.reputation||0).toFixed(1)}</strong><span>reputation</span></div></div>`).join('') : '<div class="empty">No sources configured.</div>';
-}
-
 async function load(){
   $('#notice').className='notice loading';
   $('#notice').textContent='Loading the latest snapshot…';
   try{
-    const [stats,nodes,sources,proj]=await Promise.all([
-      getJSON('./data/stats.json'),getJSON('./data/nodes.json'),getJSON('./data/sources.json'),getJSON('./data/project.json')
+    const [stats,proj]=await Promise.all([
+      getJSON('./data/stats.json'),getJSON('./data/project.json')
     ]);
-    project=proj||project;allNodes=Array.isArray(nodes)?nodes:[];
+    project=proj||project;
     $('#discovered').textContent=stats.discovered_nodes??'—';
     $('#scanned').textContent=stats.scanned_nodes??'—';
     $('#online').textContent=stats.online_nodes??'—';
@@ -95,18 +66,12 @@ async function load(){
     $('#avgScore').textContent=Number(stats.avg_score||0).toFixed(1);
     $('#reality').textContent=stats.reality_nodes??0;
     $('#lastUpdate').textContent=fmtTime(stats.generated_at);
-    renderSubscriptions(stats.subscriptions||{});renderProtocols(stats.protocols||{});renderHealth(stats.statuses||{});renderSources(sources||[]);
-
-    const protocols=[...new Set(allNodes.map(n=>n.protocol).filter(Boolean))].sort();
-    $('#protocolFilter').innerHTML='<option value="">All protocols</option>'+protocols.map(p=>`<option value="${esc(p)}">${esc(p.toUpperCase())}</option>`).join('');
-    const statuses=[...new Set(allNodes.map(n=>n.status).filter(Boolean))].sort();
-    $('#statusFilter').innerHTML='<option value="">All states</option>'+statuses.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('');
-    renderNodes();
+    renderSubscriptions(stats.subscriptions||{});renderProtocols(stats.protocols||{});renderHealth(stats.statuses||{});
 
     const repo=`https://github.com/${project.repository}`;
-    $('#repoLink').href=repo;$('#actionsLink').href=`${repo}/actions`;$('#sourcesEditLink').href=`${repo}/edit/main/settings/sources.txt`;
+    $('#repoLink').href=repo;$('#actionsLink').href=`${repo}/actions`;
     $('#notice').className='notice ok';
-    $('#notice').textContent=`Live snapshot · ${stats.test_level||'TCP pre-check'} · ${stats.source_ok||0}/${stats.source_count||0} sources online`;
+    $('#notice').textContent=`Live snapshot · ${stats.test_level||'TCP pre-check'}`;
   }catch(err){
     $('#notice').className='notice bad';
     $('#notice').textContent=`Could not load snapshot: ${err.message}. Run the GitHub workflow once.`;
@@ -114,7 +79,4 @@ async function load(){
 }
 
 $('#refreshBtn').addEventListener('click',load);
-$('#search').addEventListener('input',renderNodes);
-$('#protocolFilter').addEventListener('change',renderNodes);
-$('#statusFilter').addEventListener('change',renderNodes);
 load();

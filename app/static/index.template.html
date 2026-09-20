@@ -60,40 +60,6 @@
     </section>
   </section>
 
-  <details class="panel accordion" id="topNodesPanel">
-    <summary class="accordion-summary">
-      <div>
-        <h2>Top Nodes</h2>
-        <p>Collapsed by default. TCP reachability is a pre-check, not end-to-end protocol validation.</p>
-      </div>
-      <div class="accordion-action"><span class="show-text">Show nodes</span><span class="chevron">⌄</span></div>
-    </summary>
-    <div class="accordion-body">
-      <div class="toolbar">
-        <div class="toolbar-note" id="nodeCountLabel">—</div>
-        <div class="filters">
-          <input id="search" type="search" placeholder="Search endpoint, name, protocol…" autocomplete="off">
-          <select id="protocolFilter"><option value="">All protocols</option></select>
-          <select id="statusFilter"><option value="">All states</option></select>
-        </div>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>Protocol</th><th>Endpoint</th><th>Security</th><th>State</th><th>Latency</th><th>Jitter</th><th>Uptime</th><th>Score</th><th>Gaming</th></tr></thead>
-          <tbody id="nodes"></tbody>
-        </table>
-      </div>
-    </div>
-  </details>
-
-  <section class="panel">
-    <div class="panel-head">
-      <div><h2>Sources</h2><p>Source reputation combines fetch reliability, parse quality, uniqueness and response speed.</p></div>
-      <a id="sourcesEditLink" class="btn secondary small" target="_blank" rel="noreferrer">Edit sources ↗</a>
-    </div>
-    <div id="sources" class="source-list"></div>
-  </section>
-
   <section class="panel compact-panel">
     <div class="legend-grid">
       <div><span class="legend-title">Validation level</span><strong>TCP pre-check</strong><small>Open port ≠ working proxy authentication.</small></div>
