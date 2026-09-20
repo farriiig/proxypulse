@@ -1,1 +1,3 @@
+trojan://skynet@64.120.95.203:119?sni=cloud.lakshan.us&fp=chrome&type=tcp&path=/#🇸🇬
+trojan://skynet@cloud.lakshan.us:119?security=tls&sni=cloud.lakshan.us&fp=chrome&type=tcp&path=/#🇸🇬
 trojan://d5bee0afdbc500b8cda02d80@nl2.pleiades.codes:2053?security=tls&path=/#🇮🇹
