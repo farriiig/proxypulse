@@ -1,0 +1,139 @@
+name: ProxyPulse Scan + Pages
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "README.md"
+      - "LICENSE"
+      - ".gitignore"
+  workflow_dispatch:
+    inputs:
+      scan_limit:
+        description: "Maximum nodes to TCP-test in this run"
+        required: false
+        default: "800"
+  schedule:
+    - cron: "17 */3 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: proxypulse-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  scan:
+    name: Scan & Deploy
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Restore history from generated branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .runtime
+          if git fetch origin generated --depth=1; then
+            git show origin/generated:data/state.json > .runtime/state.json 2>/dev/null || true
+            git show origin/generated:data/source_state.json > .runtime/source_state.json 2>/dev/null || true
+            echo "Previous history restored."
+          else
+            echo "No generated branch yet; starting with fresh history."
+          fi
+
+      - name: Run ProxyPulse pipeline
+        env:
+          SCAN_LIMIT: ${{ inputs.scan_limit || '800' }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python -m app.pipeline
+
+      - name: Run tests
+        run: pytest -q
+
+      - name: Verify site artifact
+        run: |
+          test -f build/site/index.html
+          test -f build/site/data/stats.json
+          test -f build/site/subscriptions/online.txt
+          echo "Site artifact verified."
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: build/site
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+      - name: Publish generated snapshot branch
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          TMP_DIR="$(mktemp -d)"
+          REMOTE_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          if git clone --depth=1 --branch generated "$REMOTE_URL" "$TMP_DIR" 2>/dev/null; then
+            echo "Updating existing generated branch."
+          else
+            rm -rf "$TMP_DIR"
+            TMP_DIR="$(mktemp -d)"
+            git -C "$TMP_DIR" init -b generated
+            git -C "$TMP_DIR" remote add origin "$REMOTE_URL"
+            echo "Creating generated branch."
+          fi
+
+          find "$TMP_DIR" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -a build/publish/. "$TMP_DIR"/
+
+          git -C "$TMP_DIR" config user.name "github-actions[bot]"
+          git -C "$TMP_DIR" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "$TMP_DIR" add -A
+
+          if git -C "$TMP_DIR" diff --cached --quiet; then
+            echo "Generated snapshot is unchanged."
+            exit 0
+          fi
+
+          git -C "$TMP_DIR" commit -m "chore: publish ProxyPulse snapshot"
+          git -C "$TMP_DIR" push origin HEAD:generated
+          echo "Generated snapshot published."
+
+      - name: Workflow summary
+        if: always()
+        run: |
+          echo "## ProxyPulse" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Dashboard: ${{ steps.deployment.outputs.page_url }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Schedule: every 3 hours" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Scan limit: ${{ inputs.scan_limit || '800' }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Persistent snapshot branch: generated" >> "$GITHUB_STEP_SUMMARY"
