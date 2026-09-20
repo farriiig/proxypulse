@@ -2,15 +2,18 @@
 
 > **GitHub-native proxy aggregation, monitoring, scoring and subscription publishing — fully automated with GitHub Actions + Pages.**
 
-ProxyPulse collects public proxy configurations, normalizes and semantically deduplicates them, performs bounded **TCP reachability and latency pre-checks**, tracks reliability across runs, scores nodes, generates curated subscriptions, and publishes a live GitHub Pages dashboard — without requiring an always-on VPS or database.
+ProxyPulse collects public proxy configurations, normalizes and semantically deduplicates them, performs bounded **TCP reachability/latency pre-checks**, then runs bounded **end-to-end tunnel validation** on selected reachable configs to discover the final egress IP and country. It tracks reliability, scores nodes, generates curated and country-based subscriptions, and publishes a live GitHub Pages dashboard — without requiring an always-on VPS or database.
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## ⚠️ Validation level
 
-ProxyPulse v1 performs a **TCP-level pre-check** only.
+ProxyPulse v1.1 uses a **two-stage validation model**:
 
-A reachable TCP port does **not** prove that VLESS, VMess, Trojan, Shadowsocks, Hysteria2 or TUIC authentication and end-to-end proxy traffic are working correctly. Latency values are TCP connection measurements, not full tunnel or game-server benchmarks.
+1. Every selected candidate receives a bounded **TCP reachability / latency pre-check**.
+2. Up to the configured `egress_test_limit` of TCP-reachable candidates are then started through **sing-box** and used for an actual outbound request. The returned **final egress IP and country code** are captured from Cloudflare trace data.
+
+A reachable TCP port alone still does **not** prove that VLESS, VMess, Trojan, Shadowsocks, Hysteria2 or TUIC authentication works. Only nodes marked as end-to-end verified are included in country subscriptions. TCP latency values remain connection measurements, not full tunnel or game-server benchmarks.
 
 ## ⚙️ How it works
 
@@ -25,10 +28,12 @@ GitHub Actions · every 3 hours
         ├─ Semantic fingerprinting + deduplication
         ├─ Fair known/new candidate sampling
         ├─ Multi-attempt TCP reachability probes
+        ├─ Bounded sing-box end-to-end tunnel validation
+        ├─ Final egress IP + country detection
         ├─ Latency + rolling history + jitter tracking
         ├─ General score + TCP gaming score
         ├─ Source reputation + config hygiene analysis
-        ├─ Curated subscription generation
+        ├─ Curated + country subscription generation
         │
         ├──────────────► GitHub Pages dashboard
         │
@@ -46,6 +51,9 @@ The source code stays on **`main`** while generated state and subscription snaps
 - ⚡ Concurrent source fetching with retry, timeout and response-size limits
 - 🧪 Configurable scan cap, probe concurrency, timeout and retry count
 - 📡 Multi-attempt TCP reachability and latency pre-checks
+- 🌐 Bounded **end-to-end tunnel validation** using sing-box
+- 📍 Final egress IP + country detection for successfully validated configs
+- 🗺️ Country-based subscriptions generated only from end-to-end verified nodes
 - 📈 Rolling uptime, recent reliability and jitter tracking
 - 🧠 Node health states: `HEALTHY`, `STABLE`, `RECOVERED`, `NEW`, `DEGRADING`, `WEAK`, `OFFLINE`
 - 🏆 General node score and approximate **TCP Gaming Score**
@@ -71,6 +79,8 @@ The dashboard shows the latest generated snapshot, including:
 - average score
 - online Reality count
 - curated subscription endpoints
+- end-to-end verified country subscriptions
+- end-to-end test / geolocation counts
 - protocol distribution
 - current health-state distribution
 
@@ -88,6 +98,7 @@ Each successful run publishes both normal text and Base64 variants.
 
 | Subscription | Purpose |
 |---|---|
+| `verified` | Nodes that passed the actual end-to-end tunnel/final-IP check |
 | `best100` | Top 100 currently reachable nodes by score |
 | `stable` | Reachable nodes meeting score + historical uptime thresholds |
 | `fast` | Reachable nodes below the configured TCP latency threshold |
@@ -95,18 +106,21 @@ Each successful run publishes both normal text and Base64 variants.
 | `healthy` | Nodes currently classified as `HEALTHY` or `RECOVERED` |
 | `reality` | Reachable nodes using Reality security |
 | `online` | All currently reachable tested nodes |
-| `all` | Entire tested candidate set, including currently unreachable nodes |
+| `all` | All candidates selected for the current bounded scan, including currently unreachable nodes |
 | `vless`, `vmess`, `trojan`, `ss`, `hysteria2`, `tuic` | Reachable nodes grouped by protocol when present |
+| `countries/<cc>` | End-to-end verified nodes grouped by final egress country, for example `countries/de.txt` |
 
 Examples:
 
 ```text
+https://farriiig.github.io/proxypulse-mvp/subscriptions/verified.txt
 https://farriiig.github.io/proxypulse-mvp/subscriptions/best100.txt
 https://farriiig.github.io/proxypulse-mvp/subscriptions/stable.txt
 https://farriiig.github.io/proxypulse-mvp/subscriptions/fast.txt
 https://farriiig.github.io/proxypulse-mvp/subscriptions/gaming.txt
 https://farriiig.github.io/proxypulse-mvp/subscriptions/reality.txt
 https://farriiig.github.io/proxypulse-mvp/subscriptions/online.txt
+https://farriiig.github.io/proxypulse-mvp/subscriptions/countries/de.txt
 ```
 
 Base64 variants use the same name with `.base64.txt`, for example:
@@ -125,6 +139,22 @@ Each subscription card on the dashboard includes:
 - **Open** — opens the raw subscription in the browser
 
 The corresponding client must be installed on the device for its custom URI button to work.
+
+### 🌍 End-to-end country verification
+
+After the normal TCP pre-check, ProxyPulse takes up to `egress_test_limit` of the best currently reachable candidates and validates them through a temporary local **sing-box** instance. A request is sent through the actual proxy tunnel to Cloudflare's trace endpoint.
+
+A node is considered end-to-end verified only when the request succeeds and a valid **final egress IP** is returned. When a valid country code is also returned, the node is added to a country subscription such as:
+
+```text
+subscriptions/countries/de.txt
+subscriptions/countries/nl.txt
+subscriptions/countries/us.txt
+```
+
+The dashboard exposes these under **Verified Countries**, and every country card includes **Incy**, **Happ**, **Copy**, and **Open** actions.
+
+Country grouping is based on the observed final egress IP of the successful tunnel request — **not** on the hostname, source URL, or the proxy server's DNS name.
 
 ## 🚀 First-time setup
 
@@ -232,11 +262,16 @@ Default values:
   "fast_max_latency_ms": 100.0,
   "gaming_max_latency_ms": 140.0,
   "top_nodes_export": 500,
-  "user_agent": "ProxyPulse/1.0 (+GitHub Actions)"
+  "egress_test_limit": 200,
+  "egress_concurrency": 8,
+  "egress_timeout": 10.0,
+  "egress_startup_timeout": 2.5,
+  "egress_trace_url": "https://www.cloudflare.com/cdn-cgi/trace",
+  "user_agent": "ProxyPulse/1.1 (+GitHub Actions)"
 }
 ```
 
-`SCAN_LIMIT` can also be overridden manually from the **Run workflow** form.
+`SCAN_LIMIT` and `EGRESS_TEST_LIMIT` can also be overridden manually from the **Run workflow** form. The default egress limit is intentionally smaller than the TCP scan limit because end-to-end validation launches a real proxy client and performs an outbound request for each tested config.
 
 ## 🧮 Scoring
 
@@ -308,6 +343,8 @@ This avoids asset-path issues when deploying to GitHub Pages.
 
 ## 💻 Local development
 
+TCP collection/scoring works with the Python dependencies alone. End-to-end country validation additionally requires `sing-box` and `curl` to be available in `PATH` (the GitHub Actions workflow installs the pinned sing-box runtime automatically).
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate
@@ -345,9 +382,9 @@ Keeping generated output separate from `main` prevents recurring workflow commit
 
 Possible future improvements:
 
-- protocol-level validation using Xray-core or sing-box
-- Reality handshake validation
-- end-to-end proxy traffic checks
+- broader protocol/transport compatibility for end-to-end validation
+- dedicated Reality handshake diagnostics
+- multiple end-to-end validation targets
 - country and ASN enrichment
 - route-quality probes from multiple regions
 - packet-loss-aware testing
@@ -356,7 +393,7 @@ Possible future improvements:
 
 ## 🔐 Responsible use
 
-Use ProxyPulse only with sources, infrastructure and networks you are authorized to access. Keep scan frequency, timeouts and concurrency at reasonable levels.
+Use ProxyPulse only with sources, infrastructure and networks you are authorized to access. Keep scan frequency, timeouts and concurrency at reasonable levels. End-to-end verification creates real outbound connections through tested proxies, so keep `egress_test_limit` and `egress_concurrency` bounded.
 
 ## 📄 License
 
@@ -367,7 +404,7 @@ Released under the [MIT License](LICENSE).
 ### 🧷 Suggested GitHub About
 
 ```text
-🌐 GitHub-native proxy monitor: dedupe, TCP checks, scoring, history, curated subscriptions & one-click Incy/Happ import. ⚡📊
+🌐 GitHub-native proxy monitor: TCP + egress checks, country subscriptions, scoring, history & one-click Incy/Happ import. ⚡📊
 ```
 
 © 2026 farriiig

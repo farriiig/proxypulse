@@ -12,6 +12,7 @@ from pathlib import Path
 
 from .analyzer import analyze_config
 from .collector import fetch_sources
+from .egress import find_curl_binary, find_singbox_binary, validate_egress_many
 from .parser import ParsedNode, parse_uri
 from .probe import ProbeResult, probe_many
 from .scoring import calculate_score, gaming_score, mean_absolute_delta
@@ -192,6 +193,11 @@ def safe_node(parsed: ParsedNode, sources: list[str], probe: ProbeResult, histor
         "config_risk": analysis["config_risk"],
         "config_issues": analysis["issues"],
         "sources": sources[:5],
+        "egress_validated": False,
+        "egress_ip": None,
+        "country_code": None,
+        "egress_latency_ms": None,
+        "egress_error": None,
         "raw_uri": parsed.raw_uri,
     }
 
@@ -225,11 +231,35 @@ def _sort_nodes(nodes: list[dict], key: str = "score") -> list[dict]:
     )
 
 
+def _publish_subscription(relative_path: str, members: list[dict]) -> dict:
+    lines = [n["raw_uri"] for n in members]
+    relative = Path(relative_path)
+    pub_path = PUBLISH_DIR / relative
+    site_path = SITE_DIR / relative
+    write_text(pub_path, lines)
+    write_text(site_path, lines)
+
+    encoded = base64.b64encode(("\n".join(lines) + ("\n" if lines else "")).encode()).decode()
+    base64_relative = relative.with_name(relative.stem + ".base64.txt")
+    pub_b64 = PUBLISH_DIR / base64_relative
+    site_b64 = SITE_DIR / base64_relative
+    pub_b64.parent.mkdir(parents=True, exist_ok=True)
+    site_b64.parent.mkdir(parents=True, exist_ok=True)
+    pub_b64.write_text(encoded + ("\n" if encoded else ""), encoding="utf-8")
+    site_b64.write_text(encoded + ("\n" if encoded else ""), encoding="utf-8")
+    return {
+        "count": len(lines),
+        "path": relative.as_posix(),
+        "base64_path": base64_relative.as_posix(),
+    }
+
+
 def generate_subscriptions(nodes: list[dict], settings: Settings) -> dict[str, dict]:
     online = [n for n in nodes if n["reachable"]]
     groups: dict[str, list[dict]] = {
         "all": _sort_nodes(nodes),
         "best100": _sort_nodes(online)[:100],
+        "verified": _sort_nodes([n for n in online if n.get("egress_validated")]),
         "online": _sort_nodes(online),
         "stable": _sort_nodes([n for n in online if n["score"] >= settings.stable_min_score and n["uptime"] >= settings.stable_min_uptime]),
         "fast": _sort_nodes([n for n in online if n["latency_ms"] is not None and n["latency_ms"] <= settings.fast_max_latency_ms]),
@@ -241,16 +271,25 @@ def generate_subscriptions(nodes: list[dict], settings: Settings) -> dict[str, d
         groups[protocol] = _sort_nodes([n for n in online if n["protocol"] == protocol])
 
     manifest: dict[str, dict] = {}
-    pub_sub = PUBLISH_DIR / "subscriptions"
-    site_sub = SITE_DIR / "subscriptions"
     for name, members in groups.items():
-        lines = [n["raw_uri"] for n in members]
-        write_text(pub_sub / f"{name}.txt", lines)
-        write_text(site_sub / f"{name}.txt", lines)
-        encoded = base64.b64encode(("\n".join(lines) + ("\n" if lines else "")).encode()).decode()
-        (pub_sub / f"{name}.base64.txt").write_text(encoded + ("\n" if encoded else ""), encoding="utf-8")
-        (site_sub / f"{name}.base64.txt").write_text(encoded + ("\n" if encoded else ""), encoding="utf-8")
-        manifest[name] = {"count": len(lines), "path": f"subscriptions/{name}.txt", "base64_path": f"subscriptions/{name}.base64.txt"}
+        manifest[name] = _publish_subscription(f"subscriptions/{name}.txt", members)
+    return manifest
+
+
+def generate_country_subscriptions(nodes: list[dict]) -> dict[str, dict]:
+    groups: dict[str, list[dict]] = defaultdict(list)
+    for node in nodes:
+        code = str(node.get("country_code") or "").upper()
+        if not node.get("egress_validated") or len(code) != 2 or not code.isalpha():
+            continue
+        groups[code].append(node)
+
+    manifest: dict[str, dict] = {}
+    for code, members in sorted(groups.items(), key=lambda item: (-len(item[1]), item[0])):
+        key = code.lower()
+        item = _publish_subscription(f"subscriptions/countries/{key}.txt", _sort_nodes(members))
+        item["code"] = code
+        manifest[key] = item
     return manifest
 
 
@@ -354,9 +393,40 @@ async def run() -> dict:
         next_state[parsed.fingerprint] = history
         nodes.append(safe_node(parsed, node_sources[parsed.fingerprint], probe, history, status, analysis))
 
+    singbox_binary = find_singbox_binary()
+    curl_binary = find_curl_binary()
+    egress_results = {}
+    egress_candidates: list[tuple[int, ParsedNode]] = []
+    if settings.egress_test_limit > 0 and singbox_binary and curl_binary:
+        candidate_indexes = [i for i, node in enumerate(nodes) if node["reachable"]]
+        candidate_indexes.sort(
+            key=lambda i: (
+                -float(nodes[i].get("score") or 0),
+                float(nodes[i].get("latency_ms")) if nodes[i].get("latency_ms") is not None else 10**9,
+            )
+        )
+        candidate_indexes = candidate_indexes[: settings.egress_test_limit]
+        egress_candidates = [(i, candidates[i]) for i in candidate_indexes]
+        if egress_candidates:
+            egress_results = await validate_egress_many(
+                egress_candidates,
+                settings,
+                singbox_binary=singbox_binary,
+                curl_binary=curl_binary,
+            )
+
+    for idx, result in egress_results.items():
+        node = nodes[idx]
+        node["egress_validated"] = result.validated
+        node["egress_ip"] = result.egress_ip
+        node["country_code"] = result.country_code
+        node["egress_latency_ms"] = result.elapsed_ms
+        node["egress_error"] = result.error
+
     nodes = _sort_nodes(nodes)
     next_state = prune_state(next_state, generated_at, settings.state_retention_days)
     manifest = generate_subscriptions(nodes, settings)
+    country_manifest = generate_country_subscriptions(nodes)
 
     protocol_counts = Counter(n["protocol"] for n in nodes)
     status_counts = Counter(n["status"] for n in nodes)
@@ -366,10 +436,15 @@ async def run() -> dict:
     avg_latency = round(sum(n["latency_ms"] for n in with_latency) / len(with_latency), 1) if with_latency else 0.0
     avg_gaming = round(sum(n["gaming_score"] for n in online_nodes) / len(online_nodes), 1) if online_nodes else 0.0
 
+    egress_tested = len(egress_results)
+    egress_verified = sum(1 for result in egress_results.values() if result.validated)
+    egress_geolocated = sum(1 for result in egress_results.values() if result.validated and result.country_code)
+
     stats = {
-        "version": "1.0.0",
+        "version": "1.1.0",
         "generated_at": generated_at,
-        "test_level": "TCP reachability / latency pre-check",
+        "test_level": "TCP pre-check + bounded end-to-end egress validation",
+        "egress_test_level": "sing-box tunnel + Cloudflare final IP/country check",
         "source_count": len(sources),
         "source_ok": sum(1 for s in source_reports if s["status"] == "ok"),
         "discovered_nodes": discovered_total,
@@ -384,10 +459,18 @@ async def run() -> dict:
         "protocols": dict(sorted(protocol_counts.items())),
         "statuses": dict(sorted(status_counts.items())),
         "subscriptions": manifest,
+        "country_subscriptions": country_manifest,
+        "egress_tested_nodes": egress_tested,
+        "egress_verified_nodes": egress_verified,
+        "egress_geolocated_nodes": egress_geolocated,
+        "egress_country_count": len(country_manifest),
+        "egress_runtime_available": bool(singbox_binary and curl_binary),
         "settings": {
             "scan_limit": settings.scan_limit,
             "probe_attempts": settings.probe_attempts,
             "probe_concurrency": settings.probe_concurrency,
+            "egress_test_limit": settings.egress_test_limit,
+            "egress_concurrency": settings.egress_concurrency,
         },
     }
 
@@ -396,17 +479,31 @@ async def run() -> dict:
         for r in source_reports
     }
 
+    egress_snapshot = [
+        {
+            "fingerprint": n["fingerprint"],
+            "protocol": n["protocol"],
+            "egress_ip": n.get("egress_ip"),
+            "country_code": n.get("country_code"),
+            "egress_latency_ms": n.get("egress_latency_ms"),
+        }
+        for n in nodes
+        if n.get("egress_validated")
+    ]
+
     # Persistent snapshot for the generated branch.
     write_json(PUBLISH_DIR / "data" / "state.json", next_state)
     write_json(PUBLISH_DIR / "data" / "source_state.json", source_state)
     write_json(PUBLISH_DIR / "data" / "stats.json", stats)
     write_json(PUBLISH_DIR / "data" / "nodes.json", nodes[: settings.top_nodes_export])
     write_json(PUBLISH_DIR / "data" / "sources.json", source_reports)
+    write_json(PUBLISH_DIR / "data" / "egress.json", egress_snapshot)
 
     # Dashboard data.
     write_json(SITE_DIR / "data" / "stats.json", stats)
     write_json(SITE_DIR / "data" / "nodes.json", nodes[: settings.top_nodes_export])
     write_json(SITE_DIR / "data" / "sources.json", source_reports)
+    write_json(SITE_DIR / "data" / "egress.json", egress_snapshot)
     write_json(SITE_DIR / "data" / "project.json", {
         "repository": os.getenv("GITHUB_REPOSITORY", "farriiig/proxypulse-mvp"),
         "generated_at": generated_at,

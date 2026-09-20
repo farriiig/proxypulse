@@ -2,7 +2,7 @@
 
 1. Upload all files to the repository root, including `.github/`.
 2. GitHub → **Settings → Pages → Source → GitHub Actions**.
-3. GitHub → **Actions → ProxyPulse Scan + Pages → Run workflow**.
+3. GitHub → **Actions → ProxyPulse Scan + Pages → Run workflow**. The workflow installs the pinned sing-box runtime automatically for end-to-end country validation.
 4. Wait for **Deploy GitHub Pages** to turn green.
 5. Open `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/`.
 6. Add or remove proxy sources only in `settings/sources.txt`.

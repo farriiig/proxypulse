@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#081018">
-<meta name="description" content="ProxyPulse — GitHub-native proxy aggregation, TCP pre-checks, scoring, history and subscription publishing.">
+<meta name="description" content="ProxyPulse — GitHub-native proxy aggregation, TCP + end-to-end egress checks, country grouping, scoring and subscription publishing.">
 <title>ProxyPulse · Proxy Intelligence</title>
 <style>
 /*__INLINE_CSS__*/
@@ -17,7 +17,7 @@
     <div>
       <div class="eyebrow"><span class="live-dot"></span> PROXY INTELLIGENCE · GITHUB EDITION</div>
       <h1>ProxyPulse</h1>
-      <p class="hero-sub">Collect · Fingerprint · Probe · Score · Publish</p>
+      <p class="hero-sub">Collect · Fingerprint · Probe · Verify · Geo · Publish</p>
     </div>
     <div class="header-actions">
       <a id="repoLink" class="btn secondary" target="_blank" rel="noreferrer">Repository ↗</a>
@@ -48,6 +48,18 @@
     <div id="subscriptions" class="endpoint-grid"></div>
   </section>
 
+
+  <section class="panel">
+    <div class="panel-head">
+      <div>
+        <h2>Verified Countries</h2>
+        <p>Country subscriptions contain only configs that passed an end-to-end sing-box tunnel check and returned a final egress IP.</p>
+      </div>
+      <div id="egressSummary" class="panel-meta">—</div>
+    </div>
+    <div id="countries" class="endpoint-grid"></div>
+  </section>
+
   <section class="grid-2">
     <section class="panel">
       <div class="panel-head"><div><h2>Protocol Mix</h2><p>Distribution across the tested candidate pool.</p></div></div>
@@ -62,7 +74,7 @@
 
   <section class="panel compact-panel">
     <div class="legend-grid">
-      <div><span class="legend-title">Validation level</span><strong>TCP pre-check</strong><small>Open port ≠ working proxy authentication.</small></div>
+      <div><span class="legend-title">Validation level</span><strong>TCP + bounded egress</strong><small>Reachable nodes are pre-checked; selected nodes are then tunnel-tested for final IP/country.</small></div>
       <div><span class="legend-title">Automation</span><strong>Every 3 hours</strong><small>GitHub Actions + Pages, no always-on server.</small></div>
       <div><span class="legend-title">Persistent history</span><strong>generated branch</strong><small>Main branch stays clean and conflict-resistant.</small></div>
     </div>

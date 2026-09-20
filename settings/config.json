@@ -12,6 +12,11 @@
   "fast_max_latency_ms": 100.0,
   "gaming_max_latency_ms": 140.0,
   "top_nodes_export": 500,
-  "user_agent": "ProxyPulse/1.0 (+GitHub Actions)",
-  "state_retention_days": 30
+  "user_agent": "ProxyPulse/1.1 (+GitHub Actions)",
+  "state_retention_days": 30,
+  "egress_test_limit": 200,
+  "egress_concurrency": 8,
+  "egress_timeout": 10.0,
+  "egress_startup_timeout": 2.5,
+  "egress_trace_url": "https://www.cloudflare.com/cdn-cgi/trace"
 }
