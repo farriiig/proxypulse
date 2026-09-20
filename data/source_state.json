@@ -1,14 +1,20 @@
 {
   "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/configs/proxy_configs_tested.txt": {
-    "total_fetches": 4,
-    "successful_fetches": 4,
+    "total_fetches": 5,
+    "successful_fetches": 5,
     "reliability": 100.0,
-    "reputation": 99.6
+    "reputation": 99.0
   },
   "https://raw.githubusercontent.com/eliv2-hub/ELiV2-RAY/refs/heads/main/By_ELENAa.txt": {
+    "total_fetches": 2,
+    "successful_fetches": 2,
+    "reliability": 100.0,
+    "reputation": 99.4
+  },
+  "https://t.me/v2ray_claim": {
     "total_fetches": 1,
     "successful_fetches": 1,
     "reliability": 100.0,
-    "reputation": 99.5
+    "reputation": 58.9
   }
 }
