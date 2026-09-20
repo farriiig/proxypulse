@@ -1,4 +1,7 @@
 vless://e8b1500b-e9e8-5492-8312-f4eadf7d0767@162.19.10.99:443?alpn=h2&encryption=none&flow=xtls-rprx-vision&fp=chrome&security=tls&sni=nasnet-162191099-direct.mbghalibaf.com&type=tcp#🇫🇷
+vless://wZLxUUikZEWZq1@62.133.62.17:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.free.fr&fp=chrome&pbk=A95WNfoLr0YCFjI1QRGf_G-7eQmITHGprEqCEry1pmU&sid=08170b96&type=tcp&path=/#🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCcW5xVG9paDBQYlU@51.255.13.232:8388#🇫🇷
+vless://nasnet@nasnet-162191099-direct.mbghalibaf.com:443?flow=xtls-rprx-vision&security=tls&encryption=none&sni=nasnet-162191099-direct.mbghalibaf.com&alpn=h2&fp=chrome&type=tcp&headerType=none&host=v2rayNplus--v2rayNplus--v2rayNplus&path=/&allow_insecure=0#🇫🇷
+vless://nasnet@nasnet-162191099-direct.mbghalibaf.com:443?flow=xtls-rprx-vision&security=tls&sni=nasnet-162191099-direct.mbghalibaf.com&fp=chrome&type=tcp&path=/#🇫🇷
 hysteria2://dongtaiwang.com@62.210.124.146:22000?insecure=1&sni=www.microsoft.com#🇫🇷
 vless://e8b1500b-e9e8-5492-8312-f4eadf7d0767@nasnet-162191099-direct.mbghalibaf.com:443?allowInsecure=1&encryption=none&flow=xtls-rprx-vision&security=tls&sni=nasnet-162191099-direct.mbghalibaf.com&type=tcp#🇫🇷
