@@ -8,3 +8,4 @@ https://raw.githubusercontent.com/eliv2-hub/ELiV2-RAY/refs/heads/main/By_ELENAa.
 # Examples:
 # https://t.me/s/your_public_channel
 # https://raw.githubusercontent.com/user/repo/main/subscription.txt
+https://t.me/v2ray_claim
