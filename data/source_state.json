@@ -1,8 +1,14 @@
 {
   "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/configs/proxy_configs_tested.txt": {
-    "total_fetches": 3,
-    "successful_fetches": 3,
+    "total_fetches": 4,
+    "successful_fetches": 4,
     "reliability": 100.0,
-    "reputation": 99.9
+    "reputation": 99.6
+  },
+  "https://raw.githubusercontent.com/eliv2-hub/ELiV2-RAY/refs/heads/main/By_ELENAa.txt": {
+    "total_fetches": 1,
+    "successful_fetches": 1,
+    "reliability": 100.0,
+    "reputation": 99.5
   }
 }

@@ -2,15 +2,29 @@
   {
     "url": "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/configs/proxy_configs_tested.txt",
     "status": "ok",
-    "fetch_ms": 62.4,
-    "bytes_read": 47728,
-    "fetched": 205,
-    "valid": 205,
-    "unique": 205,
-    "total_fetches": 3,
-    "successful_fetches": 3,
+    "fetch_ms": 178.7,
+    "bytes_read": 37764,
+    "fetched": 180,
+    "valid": 180,
+    "unique": 180,
+    "total_fetches": 4,
+    "successful_fetches": 4,
     "reliability": 100.0,
-    "reputation": 99.9,
+    "reputation": 99.6,
+    "error": null
+  },
+  {
+    "url": "https://raw.githubusercontent.com/eliv2-hub/ELiV2-RAY/refs/heads/main/By_ELENAa.txt",
+    "status": "ok",
+    "fetch_ms": 254.7,
+    "bytes_read": 5405,
+    "fetched": 24,
+    "valid": 24,
+    "unique": 24,
+    "total_fetches": 1,
+    "successful_fetches": 1,
+    "reliability": 100.0,
+    "reputation": 99.5,
     "error": null
   }
 ]
