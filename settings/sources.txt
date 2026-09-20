@@ -4,8 +4,7 @@
 #
 # Starter source from the reference project. Replace or add sources you trust.
 https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/configs/proxy_configs_tested.txt
-https://raw.githubusercontent.com/eliv2-hub/ELiV2-RAY/refs/heads/main/By_ELENAa.txt
+
 # Examples:
 # https://t.me/s/your_public_channel
 # https://raw.githubusercontent.com/user/repo/main/subscription.txt
-https://t.me/v2ray_claim

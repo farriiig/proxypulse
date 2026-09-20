@@ -1,0 +1,28 @@
+name: Tests
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - "app/**"
+      - "tests/**"
+      - "settings/config.json"
+      - "requirements.txt"
+      - ".github/workflows/tests.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: "pip"
+      - run: pip install -r requirements.txt
+      - run: pytest -q
+      - run: python -m compileall -q app

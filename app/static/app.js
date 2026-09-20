@@ -58,7 +58,18 @@ function renderSubscriptions(manifest={}){
     const item=manifest[name]||{};
     const path=item.path||`subscriptions/${name}.txt`;
     const url=new URL(path,window.location.href).href;
-    return `<div class="endpoint"><div class="endpoint-main"><strong>${esc(name)}</strong><span>${Number(item.count||0)} nodes</span></div><div class="endpoint-actions"><button type="button" data-copy="${esc(url)}">Copy</button><a href="${esc(path)}" target="_blank" rel="noreferrer">Open</a></div></div>`;
+    // Both clients accept the public subscription URL through their custom URI schemes.
+    const incyUrl=`incy://import/${url}`;
+    const happUrl=`happ://add/${url}`;
+    return `<div class="endpoint">
+      <div class="endpoint-main"><strong>${esc(name)}</strong><span>${Number(item.count||0)} nodes</span></div>
+      <div class="endpoint-actions">
+        <a class="app-import app-incy" href="${esc(incyUrl)}" title="Import this subscription into Incy" aria-label="Add ${esc(name)} subscription to Incy">Incy</a>
+        <a class="app-import app-happ" href="${esc(happUrl)}" title="Import this subscription into Happ" aria-label="Add ${esc(name)} subscription to Happ">Happ</a>
+        <button type="button" data-copy="${esc(url)}">Copy</button>
+        <a href="${esc(path)}" target="_blank" rel="noreferrer">Open</a>
+      </div>
+    </div>`;
   }).join('') : '<div class="empty">No subscription output yet.</div>';
   document.querySelectorAll('[data-copy]').forEach(btn=>btn.addEventListener('click',()=>copyText(btn.dataset.copy)));
 }
