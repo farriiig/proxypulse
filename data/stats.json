@@ -1,36 +1,36 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-09-20T10:20:29Z",
+  "generated_at": "2026-09-20T11:12:05Z",
   "test_level": "TCP reachability / latency pre-check",
-  "source_count": 3,
-  "source_ok": 3,
-  "discovered_nodes": 207,
-  "scanned_nodes": 207,
-  "online_nodes": 147,
-  "offline_nodes": 60,
-  "online_rate": 71.0,
-  "avg_score": 87.0,
-  "avg_gaming_score": 79.6,
-  "avg_latency_ms": 161.6,
-  "reality_nodes": 58,
+  "source_count": 1,
+  "source_ok": 1,
+  "discovered_nodes": 183,
+  "scanned_nodes": 183,
+  "online_nodes": 125,
+  "offline_nodes": 58,
+  "online_rate": 68.3,
+  "avg_score": 89.6,
+  "avg_gaming_score": 84.0,
+  "avg_latency_ms": 103.0,
+  "reality_nodes": 50,
   "protocols": {
     "hysteria2": 75,
     "ss": 29,
     "trojan": 2,
-    "vless": 83,
+    "vless": 59,
     "vmess": 18
   },
   "statuses": {
-    "DEGRADING": 8,
-    "HEALTHY": 106,
-    "NEW": 16,
-    "OFFLINE": 60,
-    "STABLE": 13,
-    "WEAK": 4
+    "DEGRADING": 1,
+    "HEALTHY": 105,
+    "OFFLINE": 58,
+    "RECOVERED": 1,
+    "STABLE": 16,
+    "WEAK": 2
   },
   "subscriptions": {
     "all": {
-      "count": 207,
+      "count": 183,
       "path": "subscriptions/all.txt",
       "base64_path": "subscriptions/all.base64.txt"
     },
@@ -40,27 +40,27 @@
       "base64_path": "subscriptions/best100.base64.txt"
     },
     "online": {
-      "count": 147,
+      "count": 125,
       "path": "subscriptions/online.txt",
       "base64_path": "subscriptions/online.base64.txt"
     },
     "stable": {
-      "count": 127,
+      "count": 115,
       "path": "subscriptions/stable.txt",
       "base64_path": "subscriptions/stable.base64.txt"
     },
     "fast": {
-      "count": 30,
+      "count": 79,
       "path": "subscriptions/fast.txt",
       "base64_path": "subscriptions/fast.base64.txt"
     },
     "gaming": {
-      "count": 101,
+      "count": 104,
       "path": "subscriptions/gaming.txt",
       "base64_path": "subscriptions/gaming.base64.txt"
     },
     "reality": {
-      "count": 58,
+      "count": 50,
       "path": "subscriptions/reality.txt",
       "base64_path": "subscriptions/reality.base64.txt"
     },
@@ -75,7 +75,7 @@
       "base64_path": "subscriptions/hysteria2.base64.txt"
     },
     "ss": {
-      "count": 29,
+      "count": 27,
       "path": "subscriptions/ss.txt",
       "base64_path": "subscriptions/ss.base64.txt"
     },
@@ -85,12 +85,12 @@
       "base64_path": "subscriptions/trojan.base64.txt"
     },
     "vless": {
-      "count": 78,
+      "count": 59,
       "path": "subscriptions/vless.txt",
       "base64_path": "subscriptions/vless.base64.txt"
     },
     "vmess": {
-      "count": 18,
+      "count": 17,
       "path": "subscriptions/vmess.txt",
       "base64_path": "subscriptions/vmess.base64.txt"
     }
