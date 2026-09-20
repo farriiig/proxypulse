@@ -4,8 +4,6 @@
 
 ProxyPulse collects public proxy configurations, normalizes and semantically deduplicates them, performs bounded **TCP reachability and latency pre-checks**, tracks reliability across runs, scores nodes, generates curated subscriptions, and publishes a live GitHub Pages dashboard — without requiring an always-on VPS or database.
 
-[![Tests](https://github.com/farriiig/proxypulse-mvp/actions/workflows/tests.yml/badge.svg)](https://github.com/farriiig/proxypulse-mvp/actions/workflows/tests.yml)
-[![ProxyPulse Scan](https://github.com/farriiig/proxypulse-mvp/actions/workflows/scan-and-pages.yml/badge.svg)](https://github.com/farriiig/proxypulse-mvp/actions/workflows/scan-and-pages.yml)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## ⚠️ Validation level
