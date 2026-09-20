@@ -1,0 +1,10 @@
+# ProxyPulse sources
+# One public subscription/raw URL per line.
+# Blank lines and lines beginning with # are ignored.
+#
+# Starter source from the reference project. Replace or add sources you trust.
+https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/configs/proxy_configs_tested.txt
+
+# Examples:
+# https://t.me/s/your_public_channel
+# https://raw.githubusercontent.com/user/repo/main/subscription.txt

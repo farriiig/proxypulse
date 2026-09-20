@@ -1,0 +1,17 @@
+{
+  "scan_limit": 800,
+  "source_concurrency": 8,
+  "probe_concurrency": 80,
+  "probe_timeout": 4.0,
+  "probe_attempts": 2,
+  "http_timeout": 15.0,
+  "max_source_bytes": 8000000,
+  "history_samples": 24,
+  "stable_min_score": 78.0,
+  "stable_min_uptime": 75.0,
+  "fast_max_latency_ms": 100.0,
+  "gaming_max_latency_ms": 140.0,
+  "top_nodes_export": 500,
+  "user_agent": "ProxyPulse/1.0 (+GitHub Actions)",
+  "state_retention_days": 30
+}
