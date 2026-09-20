@@ -1,0 +1,99 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-09-20T07:04:52Z",
+  "test_level": "TCP reachability / latency pre-check",
+  "source_count": 1,
+  "source_ok": 1,
+  "discovered_nodes": 205,
+  "scanned_nodes": 205,
+  "online_nodes": 147,
+  "offline_nodes": 58,
+  "online_rate": 71.7,
+  "avg_score": 88.7,
+  "avg_gaming_score": 81.8,
+  "avg_latency_ms": 139.5,
+  "reality_nodes": 60,
+  "protocols": {
+    "hysteria2": 74,
+    "ss": 32,
+    "trojan": 6,
+    "vless": 77,
+    "vmess": 16
+  },
+  "statuses": {
+    "NEW": 147,
+    "OFFLINE": 58
+  },
+  "subscriptions": {
+    "all": {
+      "count": 205,
+      "path": "subscriptions/all.txt",
+      "base64_path": "subscriptions/all.base64.txt"
+    },
+    "best100": {
+      "count": 100,
+      "path": "subscriptions/best100.txt",
+      "base64_path": "subscriptions/best100.base64.txt"
+    },
+    "online": {
+      "count": 147,
+      "path": "subscriptions/online.txt",
+      "base64_path": "subscriptions/online.base64.txt"
+    },
+    "stable": {
+      "count": 137,
+      "path": "subscriptions/stable.txt",
+      "base64_path": "subscriptions/stable.base64.txt"
+    },
+    "fast": {
+      "count": 92,
+      "path": "subscriptions/fast.txt",
+      "base64_path": "subscriptions/fast.base64.txt"
+    },
+    "gaming": {
+      "count": 123,
+      "path": "subscriptions/gaming.txt",
+      "base64_path": "subscriptions/gaming.base64.txt"
+    },
+    "reality": {
+      "count": 60,
+      "path": "subscriptions/reality.txt",
+      "base64_path": "subscriptions/reality.base64.txt"
+    },
+    "healthy": {
+      "count": 0,
+      "path": "subscriptions/healthy.txt",
+      "base64_path": "subscriptions/healthy.base64.txt"
+    },
+    "hysteria2": {
+      "count": 17,
+      "path": "subscriptions/hysteria2.txt",
+      "base64_path": "subscriptions/hysteria2.base64.txt"
+    },
+    "ss": {
+      "count": 32,
+      "path": "subscriptions/ss.txt",
+      "base64_path": "subscriptions/ss.base64.txt"
+    },
+    "trojan": {
+      "count": 6,
+      "path": "subscriptions/trojan.txt",
+      "base64_path": "subscriptions/trojan.base64.txt"
+    },
+    "vless": {
+      "count": 76,
+      "path": "subscriptions/vless.txt",
+      "base64_path": "subscriptions/vless.base64.txt"
+    },
+    "vmess": {
+      "count": 16,
+      "path": "subscriptions/vmess.txt",
+      "base64_path": "subscriptions/vmess.base64.txt"
+    }
+  },
+  "settings": {
+    "scan_limit": 800,
+    "probe_attempts": 2,
+    "probe_concurrency": 80
+  }
+}
