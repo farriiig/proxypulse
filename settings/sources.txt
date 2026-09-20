@@ -8,4 +8,3 @@ https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/conf
 # Examples:
 # https://t.me/s/your_public_channel
 # https://raw.githubusercontent.com/user/repo/main/subscription.txt
-https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/xray_secure_loadbalanced_config.json
