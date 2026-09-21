@@ -1,6 +1,8 @@
 const $ = (s) => document.querySelector(s);
 let project = { repository: 'farriiig/proxypulse-mvp', generated_branch: 'generated' };
 let toastTimer;
+let regionNames;
+try{if(typeof Intl.DisplayNames==='function')regionNames=new Intl.DisplayNames([navigator.language||'en'],{type:'region'});}catch{}
 
 async function getJSON(path){
   const sep = path.includes('?') ? '&' : '?';
@@ -38,9 +40,7 @@ function subscriptionActions(path,label='subscription'){
   </div>`;
 }
 
-function bindCopyButtons(container){
-  container.querySelectorAll('[data-copy]').forEach(btn=>btn.addEventListener('click',()=>copyText(btn.dataset.copy)));
-}
+function bindCopyButtons(){/* handled by one delegated listener below */}
 
 function renderSubscriptions(manifest={}){
   const order=['verified','best100','stable','fast','gaming','healthy','reality','online','all','vless','vmess','trojan','ss','hysteria2','tuic'];
@@ -65,12 +65,7 @@ function flagEmoji(code=''){
 
 function countryName(code=''){
   const value=String(code).toUpperCase();
-  try{
-    if(typeof Intl.DisplayNames==='function'){
-      return new Intl.DisplayNames([navigator.language||'en'],{type:'region'}).of(value)||value;
-    }
-  }catch{}
-  return value;
+  try{return regionNames?.of(value)||value;}catch{return value;}
 }
 
 function renderCountries(manifest={}){
@@ -129,6 +124,11 @@ async function load(){
     $('#notice').textContent=`Could not load snapshot: ${err.message}. Run the GitHub workflow once.`;
   }
 }
+
+document.addEventListener('click',(event)=>{
+  const button=event.target.closest('[data-copy]');
+  if(button)copyText(button.dataset.copy||'');
+});
 
 $('#refreshBtn').addEventListener('click',load);
 load();
