@@ -1,590 +1,828 @@
 [
   {
-    "fingerprint": "873e657a0f24c040a734377c8575bded5ebae27c3e6586c96140522b4f4b8f16",
-    "protocol": "ss",
-    "egress_ip": "156.146.38.167",
+    "fingerprint": "bcde655622cae04831ea97a1d3b17dfd9992fb46c24b13ced6d4209cf1d8bd5a",
+    "protocol": "vmess",
+    "egress_ip": "38.110.1.246",
     "country_code": "US",
-    "egress_latency_ms": 4216.94
+    "egress_latency_ms": 339.73
+  },
+  {
+    "fingerprint": "c82416cb91e0ac89ec82dc1925f20f8e66be3d5bcbc9bda0a1a4fb1e20b6ccf3",
+    "protocol": "ss",
+    "egress_ip": "156.146.38.169",
+    "country_code": "US",
+    "egress_latency_ms": 231.45
   },
   {
     "fingerprint": "ec205a8b19f43ebfec0f4f96a5737c6921f09429095943e1d0ff9e5bc0c23e06",
     "protocol": "vmess",
     "egress_ip": "145.239.55.210",
     "country_code": "FR",
-    "egress_latency_ms": 4720.38
+    "egress_latency_ms": 2853.53
   },
   {
-    "fingerprint": "349bfe5c7ad45785a20fc9c839b339269ce0fd7250330435908b84a990fe8b43",
-    "protocol": "vmess",
-    "egress_ip": "149.34.251.250",
+    "fingerprint": "23935109f62670b699afda40151c4de040877ef475ef5564efb2b1c2272e8924",
+    "protocol": "ss",
+    "egress_ip": "2605:6400:10:4a9:ba0d:30d6:58c8:8c71",
     "country_code": "US",
-    "egress_latency_ms": 276.4
+    "egress_latency_ms": 209.86
   },
   {
-    "fingerprint": "fe18459282e08f4fd56bcffb16a41abe2d05502897fd3e1cb85cb5832660f41a",
-    "protocol": "vmess",
-    "egress_ip": "149.34.251.245",
+    "fingerprint": "873e657a0f24c040a734377c8575bded5ebae27c3e6586c96140522b4f4b8f16",
+    "protocol": "ss",
+    "egress_ip": "156.146.38.167",
     "country_code": "US",
-    "egress_latency_ms": 233.62
+    "egress_latency_ms": 284.77
   },
   {
-    "fingerprint": "3838927ff6b5cd5ec64b7d4fd741fd410a75b3a588bb03670720f91e87dd9054",
+    "fingerprint": "e39931ad0a010bbf19068cb30ec3465aa0dc69dbe34b0aa236a6947fcc331694",
     "protocol": "vmess",
-    "egress_ip": "149.34.251.245",
+    "egress_ip": "129.146.77.248",
     "country_code": "US",
-    "egress_latency_ms": 288.46
+    "egress_latency_ms": 414.85
   },
   {
     "fingerprint": "f75b821f375d032bc47f3084ae6bad564f1335a1081bce2f7be8c51858e85203",
     "protocol": "vmess",
     "egress_ip": "149.34.251.245",
     "country_code": "US",
-    "egress_latency_ms": 229.44
+    "egress_latency_ms": 306.54
   },
   {
-    "fingerprint": "6e34d981f05915a23e5a95e5003577632f820603b14633cf1b5c6b2edfa4af8a",
-    "protocol": "vless",
-    "egress_ip": "2604:2dc0:200:26d8::",
+    "fingerprint": "fe18459282e08f4fd56bcffb16a41abe2d05502897fd3e1cb85cb5832660f41a",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.245",
     "country_code": "US",
-    "egress_latency_ms": 314.94
+    "egress_latency_ms": 263.57
+  },
+  {
+    "fingerprint": "3838927ff6b5cd5ec64b7d4fd741fd410a75b3a588bb03670720f91e87dd9054",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.245",
+    "country_code": "US",
+    "egress_latency_ms": 248.79
+  },
+  {
+    "fingerprint": "cb28090be272ecc06fa62c526a77dd7406ae0067323b765e3e704cc1b09268d3",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.250",
+    "country_code": "US",
+    "egress_latency_ms": 256.52
   },
   {
     "fingerprint": "bb5dcc86991cff342ca23da62772dab0dc68e51a664b9ab7f7819e455181377f",
     "protocol": "vless",
     "egress_ip": "2604:2dc0:200:26c5::",
     "country_code": "US",
-    "egress_latency_ms": 346.5
-  },
-  {
-    "fingerprint": "25d6bf6f442a214e888ab1d9c08c4ddfa1642266299b74205a2cca2c3a1a2aff",
-    "protocol": "vless",
-    "egress_ip": "2604:2dc0:200:26d6::",
-    "country_code": "US",
-    "egress_latency_ms": 255.83
-  },
-  {
-    "fingerprint": "66777740858a31efe9a5cd180aa0e29ac3c58cb7f7c60f407b7d4e135051cb48",
-    "protocol": "vless",
-    "egress_ip": "2604:2dc0:200:26c6::",
-    "country_code": "US",
-    "egress_latency_ms": 264.83
-  },
-  {
-    "fingerprint": "91f6f5ad741c9fed1227746e5f74993e81982c20450a76a9f48ab9fc8cb15ce9",
-    "protocol": "vless",
-    "egress_ip": "2604:2dc0:200:26c3::",
-    "country_code": "US",
-    "egress_latency_ms": 252.07
+    "egress_latency_ms": 357.0
   },
   {
     "fingerprint": "51d36fec2d26733930f5d6e6bddf6eaf13142f94f96a1c23719537cbbf36f84a",
     "protocol": "vless",
     "egress_ip": "2604:2dc0:200:26db::",
     "country_code": "US",
-    "egress_latency_ms": 211.07
+    "egress_latency_ms": 353.47
   },
   {
-    "fingerprint": "5407b905c42eed38a3568f7d78be6cc159d4c751d75c2e9c82e7c2511fab4caa",
-    "protocol": "ss",
-    "egress_ip": "108.181.0.177",
-    "country_code": "US",
-    "egress_latency_ms": 267.66
-  },
-  {
-    "fingerprint": "a5137956619925ec797e25483befb9132c320cf4be532e8d4b915ced6c34b531",
+    "fingerprint": "d46d2a91a8c49ec7b685be3cc2d1a7e9404ea5c57ae6591af5e3e882aa961faa",
     "protocol": "vmess",
-    "egress_ip": "149.34.251.245",
+    "egress_ip": "169.197.142.22",
     "country_code": "US",
-    "egress_latency_ms": 159.69
-  },
-  {
-    "fingerprint": "27b5046bf20359654e598212eb5fbdc296f3247bfc5f00340b22bab36ae50a9e",
-    "protocol": "vmess",
-    "egress_ip": "149.34.251.246",
-    "country_code": "US",
-    "egress_latency_ms": 204.21
-  },
-  {
-    "fingerprint": "002253f917e89285c6d62cfbd6bcf8cf0aa4c8153be54b7de2a122fa16bf24b9",
-    "protocol": "vmess",
-    "egress_ip": "149.34.251.246",
-    "country_code": "US",
-    "egress_latency_ms": 204.65
-  },
-  {
-    "fingerprint": "d0203cdffe0be281f1541c461a7f7af882d90bea777f5f85e7a161a43ddb46b3",
-    "protocol": "vmess",
-    "egress_ip": "149.34.251.249",
-    "country_code": "US",
-    "egress_latency_ms": 205.18
-  },
-  {
-    "fingerprint": "8cfc06babf8e0bfbf46c4624e3497352afe7e96a22493d78636d6d62bc45accd",
-    "protocol": "vmess",
-    "egress_ip": "149.34.251.250",
-    "country_code": "US",
-    "egress_latency_ms": 202.11
-  },
-  {
-    "fingerprint": "e157b71a77768fe82514d1f0734a9ada729dd1a53dd135f0518a8a3c2558589f",
-    "protocol": "vmess",
-    "egress_ip": "149.34.251.245",
-    "country_code": "US",
-    "egress_latency_ms": 151.79
-  },
-  {
-    "fingerprint": "02a7b7cecf5d17506a30ed51d62f9885aec8aee7ea50e24a466427a981bcbf4e",
-    "protocol": "vmess",
-    "egress_ip": "149.34.251.246",
-    "country_code": "US",
-    "egress_latency_ms": 159.54
-  },
-  {
-    "fingerprint": "d07ceef46fdfcfa760caf459d3bda2f3928fa318482a524089e955a8e08cd2c5",
-    "protocol": "vmess",
-    "egress_ip": "149.34.251.250",
-    "country_code": "US",
-    "egress_latency_ms": 162.46
-  },
-  {
-    "fingerprint": "1fd23878d77acd2890bdfa5e3ef46e81ed07ad2b01575dd979577456b16933a0",
-    "protocol": "vmess",
-    "egress_ip": "149.34.251.245",
-    "country_code": "US",
-    "egress_latency_ms": 201.49
-  },
-  {
-    "fingerprint": "218e95d7bb275dc9982008903479d46ccb80274a43ceb3f9ce38b387586f97d6",
-    "protocol": "vless",
-    "egress_ip": "2a01:4ff:1f0:910d::1",
-    "country_code": "US",
-    "egress_latency_ms": 564.82
-  },
-  {
-    "fingerprint": "694bbcd4df10d99b3cb0ab02ca50288cd402f04d6dbf7947eb979d8877c111e3",
-    "protocol": "vless",
-    "egress_ip": "2a01:4ff:1f0:910d::1",
-    "country_code": "US",
-    "egress_latency_ms": 242.52
-  },
-  {
-    "fingerprint": "41e2e06b4d989ad9a9f8acd09acdf855f9d1d29c6ac275c4f379aca8c6822e24",
-    "protocol": "vmess",
-    "egress_ip": "67.220.72.237",
-    "country_code": "US",
-    "egress_latency_ms": 266.14
-  },
-  {
-    "fingerprint": "03a6c4fc286378d926302a0fa5f740d53c99da8f9d8ebd70c71d798837094151",
-    "protocol": "ss",
-    "egress_ip": "15.204.247.206",
-    "country_code": "US",
-    "egress_latency_ms": 444.87
-  },
-  {
-    "fingerprint": "ddbbc8198094c0baec82fd34c1731a5072f2444e58622477d8199562a893626d",
-    "protocol": "vmess",
-    "egress_ip": "84.17.41.2",
-    "country_code": "US",
-    "egress_latency_ms": 239.5
-  },
-  {
-    "fingerprint": "af42cdc9722afc7a6b6dc0d1a92887733ae53361f3a9937505303634aaa1e56c",
-    "protocol": "vmess",
-    "egress_ip": "67.220.95.3",
-    "country_code": "US",
-    "egress_latency_ms": 215.55
-  },
-  {
-    "fingerprint": "1752a3b790e9f95d2b862e14fdff9e08bf0fd9266b89c50be9e9c65a508e0170",
-    "protocol": "vmess",
-    "egress_ip": "216.106.183.35",
-    "country_code": "US",
-    "egress_latency_ms": 300.62
-  },
-  {
-    "fingerprint": "cfa225bc266d4a69ef0653b4dc635565b57bde909a7e2e57c9f67e0d2c69a478",
-    "protocol": "ss",
-    "egress_ip": "37.19.198.236",
-    "country_code": "US",
-    "egress_latency_ms": 224.96
+    "egress_latency_ms": 329.37
   },
   {
     "fingerprint": "e92aacee89ab94ded02c2ed8a99dce3ac3ece08ab401a66f1989129a06445477",
     "protocol": "vmess",
     "egress_ip": "216.106.185.141",
     "country_code": "US",
-    "egress_latency_ms": 220.23
+    "egress_latency_ms": 295.17
   },
   {
-    "fingerprint": "5b8712160a66a341c0920d79238a8ae8aa7281d622f2df6fe50b30d1c51fcd0d",
+    "fingerprint": "25d6bf6f442a214e888ab1d9c08c4ddfa1642266299b74205a2cca2c3a1a2aff",
+    "protocol": "vless",
+    "egress_ip": "2604:2dc0:200:26d6::",
+    "country_code": "US",
+    "egress_latency_ms": 341.16
+  },
+  {
+    "fingerprint": "66777740858a31efe9a5cd180aa0e29ac3c58cb7f7c60f407b7d4e135051cb48",
+    "protocol": "vless",
+    "egress_ip": "2604:2dc0:200:26c6::",
+    "country_code": "US",
+    "egress_latency_ms": 364.83
+  },
+  {
+    "fingerprint": "91f6f5ad741c9fed1227746e5f74993e81982c20450a76a9f48ab9fc8cb15ce9",
+    "protocol": "vless",
+    "egress_ip": "2604:2dc0:200:26c3::",
+    "country_code": "US",
+    "egress_latency_ms": 360.34
+  },
+  {
+    "fingerprint": "628c84a908a645f3aae6d830c911f2c54184eca5ba42143eec6dec45b02a41f2",
+    "protocol": "vless",
+    "egress_ip": "2604:2dc0:200:26ce::",
+    "country_code": "US",
+    "egress_latency_ms": 358.17
+  },
+  {
+    "fingerprint": "88de1b1b13b79fd63b44a10169baf37bb0da89404f42ebd209c50b08816e251f",
+    "protocol": "vmess",
+    "egress_ip": "67.220.85.46",
+    "country_code": "US",
+    "egress_latency_ms": 188.17
+  },
+  {
+    "fingerprint": "c8f30415db352c5597e5d07eb4fb9f0ea4aff04e81783cbc0066ec2cf7d52c3a",
     "protocol": "ss",
-    "egress_ip": "158.173.20.208",
-    "country_code": "NL",
-    "egress_latency_ms": 447.86
+    "egress_ip": "51.222.12.127",
+    "country_code": "CA",
+    "egress_latency_ms": 3821.66
+  },
+  {
+    "fingerprint": "a30c51a25aaf6e51122ed2dda11742a3aa2005c676f98242f8435b654f8f1579",
+    "protocol": "ss",
+    "egress_ip": "15.204.246.107",
+    "country_code": "US",
+    "egress_latency_ms": 4500.09
+  },
+  {
+    "fingerprint": "1752a3b790e9f95d2b862e14fdff9e08bf0fd9266b89c50be9e9c65a508e0170",
+    "protocol": "vmess",
+    "egress_ip": "216.106.183.35",
+    "country_code": "US",
+    "egress_latency_ms": 176.6
+  },
+  {
+    "fingerprint": "cfa225bc266d4a69ef0653b4dc635565b57bde909a7e2e57c9f67e0d2c69a478",
+    "protocol": "ss",
+    "egress_ip": "37.19.198.236",
+    "country_code": "US",
+    "egress_latency_ms": 102.71
+  },
+  {
+    "fingerprint": "49a66d0c96894215c9603a162403e0c9b6741dba4218f979ea01be2d4432007c",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.249",
+    "country_code": "US",
+    "egress_latency_ms": 253.07
+  },
+  {
+    "fingerprint": "e37d2acce14fb81ddf1d10d8f05f6240a31585326a12e02ebdc17f64c32805b6",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.246",
+    "country_code": "US",
+    "egress_latency_ms": 250.24
+  },
+  {
+    "fingerprint": "5ec20c922d4e800d1800936e94216717b6e11999b51062ae3af022f7a94e0d30",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.246",
+    "country_code": "US",
+    "egress_latency_ms": 247.55
+  },
+  {
+    "fingerprint": "bb8a48332551e8ad416891c691fdebb490f2aa1db9450804a6d8708a8e7b1d1b",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.245",
+    "country_code": "US",
+    "egress_latency_ms": 251.69
+  },
+  {
+    "fingerprint": "fbc0025d00f04f7c3ba11cacf3eae33ba6b8c2f53d26381f39d7d3c801504b24",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.250",
+    "country_code": "US",
+    "egress_latency_ms": 249.29
+  },
+  {
+    "fingerprint": "56aa74fd2242f1c55433e6be19fdaa74483a40f25da0e792c5f2de92a2ce3331",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.245",
+    "country_code": "US",
+    "egress_latency_ms": 251.85
+  },
+  {
+    "fingerprint": "1318106d4dfe31b728634f034b382484939a7829795ad0ca60d4047d57003dff",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.246",
+    "country_code": "US",
+    "egress_latency_ms": 271.45
+  },
+  {
+    "fingerprint": "5d3a67d4e37ef2d80839da654a5fd7ccdf3139cc4d3dc43cc00e91807cf0d416",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.246",
+    "country_code": "US",
+    "egress_latency_ms": 247.5
+  },
+  {
+    "fingerprint": "ddbbc8198094c0baec82fd34c1731a5072f2444e58622477d8199562a893626d",
+    "protocol": "vmess",
+    "egress_ip": "84.17.41.2",
+    "country_code": "US",
+    "egress_latency_ms": 293.68
+  },
+  {
+    "fingerprint": "6e34d981f05915a23e5a95e5003577632f820603b14633cf1b5c6b2edfa4af8a",
+    "protocol": "vless",
+    "egress_ip": "2604:2dc0:200:26d8::",
+    "country_code": "US",
+    "egress_latency_ms": 356.48
   },
   {
     "fingerprint": "971fcfe0f3df93841aef72f7d572bf4c4d39a79382fa5cd8aedafdfd4a8ac897",
     "protocol": "vless",
     "egress_ip": "51.158.206.103",
     "country_code": "NL",
-    "egress_latency_ms": 560.41
+    "egress_latency_ms": 413.13
+  },
+  {
+    "fingerprint": "5b8712160a66a341c0920d79238a8ae8aa7281d622f2df6fe50b30d1c51fcd0d",
+    "protocol": "ss",
+    "egress_ip": "158.173.20.208",
+    "country_code": "NL",
+    "egress_latency_ms": 328.26
   },
   {
     "fingerprint": "a89987df417502f12c51e09fd73422e695c2dcaff2420a0a77549d64361a7856",
     "protocol": "vless",
     "egress_ip": "51.158.206.12",
     "country_code": "NL",
-    "egress_latency_ms": 576.4
+    "egress_latency_ms": 485.99
   },
   {
-    "fingerprint": "70b582798a82e0f1742882b2fa8ef0fdfabaf3a8fe1c8a8f81ed2242328b3f2c",
+    "fingerprint": "b8704ae58abcd638505d903f99a57a194fe4abbd23318847a5c7dfcc5f5bb7b1",
     "protocol": "ss",
-    "egress_ip": "108.181.58.239",
+    "egress_ip": "193.29.139.236",
     "country_code": "NL",
-    "egress_latency_ms": 592.3
+    "egress_latency_ms": 366.44
   },
   {
-    "fingerprint": "50a2b29db27c0a92a37111588e14ba150d471acf6434369f5932ad0164e19106",
+    "fingerprint": "372d7d78ab701e113ce9341fa9da6c4f81577fd4ca181d1116de4000b892f25b",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.250",
+    "country_code": "US",
+    "egress_latency_ms": 248.58
+  },
+  {
+    "fingerprint": "1fd23878d77acd2890bdfa5e3ef46e81ed07ad2b01575dd979577456b16933a0",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.245",
+    "country_code": "US",
+    "egress_latency_ms": 248.23
+  },
+  {
+    "fingerprint": "2981c9d9537ba4981aa2ef3361376f4e1ed2456b0be4d8a1fb893d22bbdca978",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.250",
+    "country_code": "US",
+    "egress_latency_ms": 244.76
+  },
+  {
+    "fingerprint": "52bcf6bdc4bf34832cceefc0c3eb44598df35142a2a4676e002b21af4e7890c3",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.245",
+    "country_code": "US",
+    "egress_latency_ms": 248.34
+  },
+  {
+    "fingerprint": "349bfe5c7ad45785a20fc9c839b339269ce0fd7250330435908b84a990fe8b43",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.250",
+    "country_code": "US",
+    "egress_latency_ms": 261.68
+  },
+  {
+    "fingerprint": "d07ceef46fdfcfa760caf459d3bda2f3928fa318482a524089e955a8e08cd2c5",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.250",
+    "country_code": "US",
+    "egress_latency_ms": 264.03
+  },
+  {
+    "fingerprint": "27b5046bf20359654e598212eb5fbdc296f3247bfc5f00340b22bab36ae50a9e",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.246",
+    "country_code": "US",
+    "egress_latency_ms": 257.88
+  },
+  {
+    "fingerprint": "d0203cdffe0be281f1541c461a7f7af882d90bea777f5f85e7a161a43ddb46b3",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.249",
+    "country_code": "US",
+    "egress_latency_ms": 248.05
+  },
+  {
+    "fingerprint": "02a7b7cecf5d17506a30ed51d62f9885aec8aee7ea50e24a466427a981bcbf4e",
+    "protocol": "vmess",
+    "egress_ip": "149.34.251.246",
+    "country_code": "US",
+    "egress_latency_ms": 246.24
+  },
+  {
+    "fingerprint": "41e2e06b4d989ad9a9f8acd09acdf855f9d1d29c6ac275c4f379aca8c6822e24",
+    "protocol": "vmess",
+    "egress_ip": "67.220.72.237",
+    "country_code": "US",
+    "egress_latency_ms": 391.49
+  },
+  {
+    "fingerprint": "5de7f764eceef10677e9dd8e4f4ab6e29eda069da9d0356eb49ff644c41ae2f6",
+    "protocol": "vmess",
+    "egress_ip": "151.243.173.119",
+    "country_code": "NL",
+    "egress_latency_ms": 472.32
+  },
+  {
+    "fingerprint": "ac2f5dabd342a4d1d6b7a5b5c0ad08f21e26a4559800a023ba32f065bb76b152",
+    "protocol": "ss",
+    "egress_ip": "158.173.20.171",
+    "country_code": "NL",
+    "egress_latency_ms": 334.29
+  },
+  {
+    "fingerprint": "c6fe6cb2e00a765217484102efeae5c72a32c0015d24089505528ea2db056997",
+    "protocol": "vmess",
+    "egress_ip": "66.163.118.73",
+    "country_code": "ES",
+    "egress_latency_ms": 346.72
+  },
+  {
+    "fingerprint": "fe96fb21b43cd153800dd8fac581c11a485ccc6d32723a416a2ccc9168d7e505",
     "protocol": "vless",
-    "egress_ip": "34.176.98.128",
-    "country_code": "CL",
-    "egress_latency_ms": 868.76
+    "egress_ip": "91.196.32.216",
+    "country_code": "DE",
+    "egress_latency_ms": 741.45
   },
   {
-    "fingerprint": "60c0275ca580963f92daf91494a74e1cb9389662fed3e5cec8277a0b43f25ce4",
+    "fingerprint": "3782d174f2ef356ce16b865aaeb23c7c72590f4a9a6c066a6b60fbbe27537297",
     "protocol": "ss",
-    "egress_ip": "193.29.139.151",
+    "egress_ip": "193.29.139.135",
     "country_code": "NL",
-    "egress_latency_ms": 1128.98
+    "egress_latency_ms": 352.16
   },
   {
-    "fingerprint": "f7ef48f0b24c8b2f32392a216b77463b94f08f8809d5e1728556a6f82994e9e7",
+    "fingerprint": "876d31f4752c507f6f871b87cccbade2807e9159da94871dc15783e4feecb323",
     "protocol": "ss",
-    "egress_ip": "193.29.139.169",
+    "egress_ip": "193.29.139.139",
     "country_code": "NL",
-    "egress_latency_ms": 477.84
+    "egress_latency_ms": 360.12
   },
   {
-    "fingerprint": "361738370908d3b03d2b7a8e73880212bda077ccd81f3062c7acbe9eb8fa2031",
-    "protocol": "vless",
-    "egress_ip": "185.104.194.125",
-    "country_code": "PL",
-    "egress_latency_ms": 635.45
-  },
-  {
-    "fingerprint": "109631baaa4bf25f62dc5909117c6814b3db95fa90b89229657bab525f413889",
+    "fingerprint": "03a6c4fc286378d926302a0fa5f740d53c99da8f9d8ebd70c71d798837094151",
     "protocol": "ss",
-    "egress_ip": "193.29.139.210",
-    "country_code": "NL",
-    "egress_latency_ms": 498.97
+    "egress_ip": "15.204.247.206",
+    "country_code": "US",
+    "egress_latency_ms": 807.89
   },
   {
-    "fingerprint": "bac0c4f644e1bc2a263a3632c65b318eaa37c8bdb0558ee1ad164f10a14e325a",
+    "fingerprint": "5631d07d6430b796963b5128a6e3f66c33f1e4990fbda58a1ee791ac814e629f",
     "protocol": "ss",
-    "egress_ip": "193.29.139.132",
+    "egress_ip": "193.29.139.212",
     "country_code": "NL",
-    "egress_latency_ms": 492.84
+    "egress_latency_ms": 1268.19
+  },
+  {
+    "fingerprint": "82f0a4535d5ec1c202ab916729d89a3845def69bdd1d9679ffdfcf594e81e235",
+    "protocol": "ss",
+    "egress_ip": "193.29.139.212",
+    "country_code": "NL",
+    "egress_latency_ms": 1230.45
   },
   {
     "fingerprint": "d9b3e6e6f84991b069ebca1b645402715460decc7c734451d7f877daa1d105db",
     "protocol": "hysteria2",
     "egress_ip": "159.223.157.129",
     "country_code": "US",
-    "egress_latency_ms": 736.59
-  },
-  {
-    "fingerprint": "642069258b91c49a19d1d22e9797b79128bdf5009da7b0e6524a396cc6eaeb6d",
-    "protocol": "ss",
-    "egress_ip": "57.129.83.103",
-    "country_code": "DE",
-    "egress_latency_ms": 601.33
+    "egress_latency_ms": 132.04
   },
   {
     "fingerprint": "33c8d09a48701ccdbccb6d4b31b00d2672aef689ebc101dd9d596e7b05b2776c",
     "protocol": "ss",
     "egress_ip": "57.129.140.88",
     "country_code": "GB",
-    "egress_latency_ms": 541.91
+    "egress_latency_ms": 375.88
   },
   {
-    "fingerprint": "53571c7feb579a94bfe38c6376fb3488d8e2a67761ef10a3636a2b01eaf54674",
-    "protocol": "vless",
-    "egress_ip": "51.158.206.80",
+    "fingerprint": "70b582798a82e0f1742882b2fa8ef0fdfabaf3a8fe1c8a8f81ed2242328b3f2c",
+    "protocol": "ss",
+    "egress_ip": "108.181.58.239",
     "country_code": "NL",
-    "egress_latency_ms": 566.12
-  },
-  {
-    "fingerprint": "619ff4b5096bd37f36963dfe3ce41eae0539cf5db3333064f39d82784eadff46",
-    "protocol": "vless",
-    "egress_ip": "51.158.206.96",
-    "country_code": "NL",
-    "egress_latency_ms": 718.52
-  },
-  {
-    "fingerprint": "1f9743533e177986271d4ced1912ee81af9962563f83813ac460087e793fc2b7",
-    "protocol": "vless",
-    "egress_ip": "51.158.206.8",
-    "country_code": "NL",
-    "egress_latency_ms": 561.75
+    "egress_latency_ms": 418.29
   },
   {
     "fingerprint": "c0413d10dd88317c890f35cb658a43e74b926857acc30cc7bd436389f31fb156",
     "protocol": "ss",
     "egress_ip": "108.181.58.239",
     "country_code": "NL",
-    "egress_latency_ms": 587.2
+    "egress_latency_ms": 413.26
   },
   {
-    "fingerprint": "3d54815bc777796426c6eca01390bd1fd4fd3e3cbfd3d08bfc3caeacf8ee06c3",
-    "protocol": "hysteria2",
-    "egress_ip": "2.27.249.79",
+    "fingerprint": "53571c7feb579a94bfe38c6376fb3488d8e2a67761ef10a3636a2b01eaf54674",
+    "protocol": "vless",
+    "egress_ip": "51.158.206.80",
     "country_code": "NL",
-    "egress_latency_ms": 1046.93
+    "egress_latency_ms": 416.41
   },
   {
     "fingerprint": "8fd208971d754d459a0fbb60f33f91b2394e308a87ba5456304beb6f7977454f",
     "protocol": "ss",
     "egress_ip": "91.134.92.132",
     "country_code": "FR",
-    "egress_latency_ms": 607.92
+    "egress_latency_ms": 420.06
+  },
+  {
+    "fingerprint": "3d54815bc777796426c6eca01390bd1fd4fd3e3cbfd3d08bfc3caeacf8ee06c3",
+    "protocol": "hysteria2",
+    "egress_ip": "2.27.249.79",
+    "country_code": "NL",
+    "egress_latency_ms": 757.56
+  },
+  {
+    "fingerprint": "619ff4b5096bd37f36963dfe3ce41eae0539cf5db3333064f39d82784eadff46",
+    "protocol": "vless",
+    "egress_ip": "51.158.206.96",
+    "country_code": "NL",
+    "egress_latency_ms": 432.96
   },
   {
     "fingerprint": "b2f81efd211faa5fcd4622c4384e2d1330f0162043b6b2963acecb838de4e366",
     "protocol": "ss",
     "egress_ip": "185.226.172.8",
     "country_code": "DE",
-    "egress_latency_ms": 522.17
+    "egress_latency_ms": 447.16
   },
   {
-    "fingerprint": "6842dd94fe553de75847e9fae726f94cbc2a29afbfd83d16e5ffbb137cbdf577",
+    "fingerprint": "30c5ed5b4123b7edffff2cc1f51efe4f64db7a026a4de1e9144c695d541301b9",
     "protocol": "ss",
-    "egress_ip": "193.29.139.147",
+    "egress_ip": "193.29.139.225",
     "country_code": "NL",
-    "egress_latency_ms": 508.66
+    "egress_latency_ms": 671.74
   },
   {
     "fingerprint": "64fbd1ca935f9ffce78c81cb82f1753cc1ecef4d46bc56cbc72fa77d0aac47c4",
     "protocol": "ss",
     "egress_ip": "57.131.48.45",
     "country_code": "IT",
-    "egress_latency_ms": 600.47
-  },
-  {
-    "fingerprint": "7ad939185c738cca5b7ded1ce7699cfb2b4624f91df3b1257c3995cb6ea383dd",
-    "protocol": "ss",
-    "egress_ip": "193.29.139.168",
-    "country_code": "NL",
-    "egress_latency_ms": 474.78
-  },
-  {
-    "fingerprint": "d62c3b65c73f035258e284e9b4a0bceb1e01a71d6079a975fe0c5c383a9548d3",
-    "protocol": "ss",
-    "egress_ip": "193.29.139.171",
-    "country_code": "NL",
-    "egress_latency_ms": 487.61
-  },
-  {
-    "fingerprint": "81f34c7f4d5f600f19fd4b3850b380b3a84802c4bb2a327eeab0bcbf977dad63",
-    "protocol": "hysteria2",
-    "egress_ip": "45.192.12.93",
-    "country_code": "PL",
-    "egress_latency_ms": 675.43
+    "egress_latency_ms": 448.72
   },
   {
     "fingerprint": "481d59b4aa39bb611f93f6fccf8e1791d48506471d26b368a59acee122cd8a55",
     "protocol": "ss",
     "egress_ip": "193.29.139.188",
     "country_code": "NL",
-    "egress_latency_ms": 507.99
+    "egress_latency_ms": 353.47
   },
   {
-    "fingerprint": "c00aab951132d7fef7676703afcc6db016e1bf14b9db3c2955b3e7bba6f75d11",
-    "protocol": "vless",
-    "egress_ip": "152.53.1.40",
-    "country_code": "AT",
-    "egress_latency_ms": 670.4
+    "fingerprint": "c00e755c904bae8f2b7a6b523cbcb42acb55c21192f44401818d04c93bcbd734",
+    "protocol": "ss",
+    "egress_ip": "193.29.139.131",
+    "country_code": "NL",
+    "egress_latency_ms": 354.96
   },
   {
-    "fingerprint": "5458ac9ffcb155d807c3e34dbf729947a3db32f5066329b4e4b0591aeca9da46",
-    "protocol": "vless",
-    "egress_ip": "2.59.253.251",
-    "country_code": "PL",
-    "egress_latency_ms": 694.37
+    "fingerprint": "f7ef48f0b24c8b2f32392a216b77463b94f08f8809d5e1728556a6f82994e9e7",
+    "protocol": "ss",
+    "egress_ip": "193.29.139.169",
+    "country_code": "NL",
+    "egress_latency_ms": 366.12
+  },
+  {
+    "fingerprint": "bac0c4f644e1bc2a263a3632c65b318eaa37c8bdb0558ee1ad164f10a14e325a",
+    "protocol": "ss",
+    "egress_ip": "193.29.139.132",
+    "country_code": "NL",
+    "egress_latency_ms": 352.41
   },
   {
     "fingerprint": "a1ff235c2d880f7e4d821c465de99dc76825d5c30438948b93e066515145856c",
     "protocol": "ss",
     "egress_ip": "193.29.139.221",
     "country_code": "NL",
-    "egress_latency_ms": 507.48
+    "egress_latency_ms": 376.85
+  },
+  {
+    "fingerprint": "17f1d832b65c3a1a87f18d9aab9206afdde7789d293c558e86ee55e4a7efbf97",
+    "protocol": "ss",
+    "egress_ip": "193.29.139.234",
+    "country_code": "NL",
+    "egress_latency_ms": 372.35
+  },
+  {
+    "fingerprint": "d62c3b65c73f035258e284e9b4a0bceb1e01a71d6079a975fe0c5c383a9548d3",
+    "protocol": "ss",
+    "egress_ip": "193.29.139.171",
+    "country_code": "NL",
+    "egress_latency_ms": 362.46
+  },
+  {
+    "fingerprint": "c228fd911a85c725a509a7d0ebee7ba9325e7900a42f3376db78f213820fbd0a",
+    "protocol": "ss",
+    "egress_ip": "193.29.139.204",
+    "country_code": "NL",
+    "egress_latency_ms": 369.72
+  },
+  {
+    "fingerprint": "6842dd94fe553de75847e9fae726f94cbc2a29afbfd83d16e5ffbb137cbdf577",
+    "protocol": "ss",
+    "egress_ip": "193.29.139.147",
+    "country_code": "NL",
+    "egress_latency_ms": 371.35
+  },
+  {
+    "fingerprint": "1f9743533e177986271d4ced1912ee81af9962563f83813ac460087e793fc2b7",
+    "protocol": "vless",
+    "egress_ip": "51.158.206.8",
+    "country_code": "NL",
+    "egress_latency_ms": 450.69
+  },
+  {
+    "fingerprint": "81f34c7f4d5f600f19fd4b3850b380b3a84802c4bb2a327eeab0bcbf977dad63",
+    "protocol": "hysteria2",
+    "egress_ip": "45.192.12.93",
+    "country_code": "PL",
+    "egress_latency_ms": 511.11
+  },
+  {
+    "fingerprint": "7ad939185c738cca5b7ded1ce7699cfb2b4624f91df3b1257c3995cb6ea383dd",
+    "protocol": "ss",
+    "egress_ip": "193.29.139.168",
+    "country_code": "NL",
+    "egress_latency_ms": 374.97
+  },
+  {
+    "fingerprint": "722b7e6c2f1ff99b5c6bd1a0f6ea5acc8e59bd7d0d2c44db332d37a705a95ccc",
+    "protocol": "ss",
+    "egress_ip": "193.29.139.139",
+    "country_code": "NL",
+    "egress_latency_ms": 361.23
+  },
+  {
+    "fingerprint": "a8d72122a79c500fdfbae664959b30c51fa0b70aafc140417838eb28e8a46726",
+    "protocol": "ss",
+    "egress_ip": "193.29.139.193",
+    "country_code": "NL",
+    "egress_latency_ms": 368.68
+  },
+  {
+    "fingerprint": "109631baaa4bf25f62dc5909117c6814b3db95fa90b89229657bab525f413889",
+    "protocol": "ss",
+    "egress_ip": "193.29.139.210",
+    "country_code": "NL",
+    "egress_latency_ms": 365.9
+  },
+  {
+    "fingerprint": "361738370908d3b03d2b7a8e73880212bda077ccd81f3062c7acbe9eb8fa2031",
+    "protocol": "vless",
+    "egress_ip": "185.104.194.125",
+    "country_code": "PL",
+    "egress_latency_ms": 516.87
+  },
+  {
+    "fingerprint": "642069258b91c49a19d1d22e9797b79128bdf5009da7b0e6524a396cc6eaeb6d",
+    "protocol": "ss",
+    "egress_ip": "57.129.83.103",
+    "country_code": "DE",
+    "egress_latency_ms": 594.98
   },
   {
     "fingerprint": "7a88c5fef07edc056788b26eb8e14f2163804c0ad48695caa9705bf9a830ca22",
     "protocol": "vless",
     "egress_ip": "2a05:d01c:4da:8c00:4b69:fdcc:efdf:b90f",
     "country_code": "GB",
-    "egress_latency_ms": 653.22
+    "egress_latency_ms": 494.36
   },
   {
-    "fingerprint": "d6c4b65bcce30201be032d3b2a696cba70b3adb20f9d56a7896a328af02d3899",
-    "protocol": "hysteria2",
-    "egress_ip": "62.210.124.146",
-    "country_code": "FR",
-    "egress_latency_ms": 584.36
-  },
-  {
-    "fingerprint": "49dbf8b2698dd31681928d9a00e46fdde3ce6c465d06823565ad6aede7ba859c",
+    "fingerprint": "5458ac9ffcb155d807c3e34dbf729947a3db32f5066329b4e4b0591aeca9da46",
     "protocol": "vless",
-    "egress_ip": "2a01:4f9:c011:a0e6::1",
-    "country_code": "FI",
-    "egress_latency_ms": 1018.53
+    "egress_ip": "2.59.253.251",
+    "country_code": "PL",
+    "egress_latency_ms": 582.92
+  },
+  {
+    "fingerprint": "16ffb79473b9a1760e8199597f78c28e9dac1de47af1e71ee00c036ce363c933",
+    "protocol": "vless",
+    "egress_ip": "152.53.1.40",
+    "country_code": "AT",
+    "egress_latency_ms": 578.01
+  },
+  {
+    "fingerprint": "4d148d91d2274c069651a0f825d1dd21ab5a24466c86351d1f96787f670d5e2c",
+    "protocol": "hysteria2",
+    "egress_ip": "2a12:3200:1002:6::1",
+    "country_code": "RO",
+    "egress_latency_ms": 2196.15
+  },
+  {
+    "fingerprint": "e2cfc41395e09a70f24ce72b78677a42c2e06c069cd12e0462c3a954bad97c0f",
+    "protocol": "vless",
+    "egress_ip": "2a12:6fc2:8000::1e1",
+    "country_code": "RO",
+    "egress_latency_ms": 586.06
   },
   {
     "fingerprint": "d211b2f137e937da65db7493e10ea2c521211c5074ef45ffcbee591770d01510",
     "protocol": "vless",
     "egress_ip": "150.241.73.153",
     "country_code": "DE",
-    "egress_latency_ms": 4146.72
+    "egress_latency_ms": 783.89
   },
   {
-    "fingerprint": "ad040c54da9b14286467571dbedaba644180e76bd50ae30e1c7527d90943f08a",
-    "protocol": "vmess",
-    "egress_ip": "149.88.23.207",
-    "country_code": "SG",
-    "egress_latency_ms": 621.45
-  },
-  {
-    "fingerprint": "c93859646aac23fd69a441f6c324a2dd8857abe9c9fdd5a3cdd70505b5fa45f8",
-    "protocol": "ss",
-    "egress_ip": "4.168.224.153",
-    "country_code": "ZA",
-    "egress_latency_ms": 843.53
-  },
-  {
-    "fingerprint": "1a6b14e11daaf6cc8ab66cc989c90bcdf1c572d1adbb31892cd4802d1fb3436d",
-    "protocol": "ss",
-    "egress_ip": "103.160.63.199",
-    "country_code": "ID",
-    "egress_latency_ms": 3421.89
-  },
-  {
-    "fingerprint": "e6671c3a48a76282c71acb46d337ff4c4eb7fb0dbc81937ca1c0fa17e8d36609",
-    "protocol": "vmess",
-    "egress_ip": "149.88.23.207",
-    "country_code": "SG",
-    "egress_latency_ms": 633.21
-  },
-  {
-    "fingerprint": "02917c55c025ba7f5415297b6391b8776e4730cc8f402868404c7aff854da56c",
+    "fingerprint": "d6c4b65bcce30201be032d3b2a696cba70b3adb20f9d56a7896a328af02d3899",
     "protocol": "hysteria2",
-    "egress_ip": "64.188.98.171",
-    "country_code": "DE",
-    "egress_latency_ms": 871.89
-  },
-  {
-    "fingerprint": "1e8126852e2885701a94ecc40b67c5d36d9431267495e9b8551b64e422c7ecd4",
-    "protocol": "hysteria2",
-    "egress_ip": "45.192.12.93",
-    "country_code": "PL",
-    "egress_latency_ms": 715.47
-  },
-  {
-    "fingerprint": "eba1a0ba86745135f77f1657d4de2c388155bfa1eb6686d8312e0f359f7d3db9",
-    "protocol": "vmess",
-    "egress_ip": "149.88.23.207",
-    "country_code": "SG",
-    "egress_latency_ms": 643.58
-  },
-  {
-    "fingerprint": "2cb4b1ca79dc04205cf8cdc2e1cd3a58986265ca66a4d40e068124b55a7d6129",
-    "protocol": "vless",
-    "egress_ip": "149.202.58.99",
+    "egress_ip": "62.210.124.146",
     "country_code": "FR",
-    "egress_latency_ms": 2134.88
-  },
-  {
-    "fingerprint": "061c29e39b4b92c0016718372eb38c54d35fb6018c84c581e390f621ccae8667",
-    "protocol": "hysteria2",
-    "egress_ip": "31.56.187.12",
-    "country_code": "EE",
-    "egress_latency_ms": 738.47
-  },
-  {
-    "fingerprint": "5404e786210d1241c8f8f02a3c4bc72a6c3b790272ef9427c2a8c3c766fbf66e",
-    "protocol": "vless",
-    "egress_ip": "31.76.80.230",
-    "country_code": "FI",
-    "egress_latency_ms": 2607.35
-  },
-  {
-    "fingerprint": "f35415089ff8831e922fa3291e60612170e520f65bc7248df32c6a01ce148ffc",
-    "protocol": "vless",
-    "egress_ip": "45.12.75.242",
-    "country_code": "RU",
-    "egress_latency_ms": 2562.73
-  },
-  {
-    "fingerprint": "a9549f7526610b315d30a781c5b9314b124ad21b71d3d175d5979b4a8fb8f538",
-    "protocol": "hysteria2",
-    "egress_ip": "31.56.187.12",
-    "country_code": "EE",
-    "egress_latency_ms": 740.44
-  },
-  {
-    "fingerprint": "1597ed5fdb8777ec37c5a1278f665058439853723954064ce44915707694094b",
-    "protocol": "ss",
-    "egress_ip": "141.164.45.187",
-    "country_code": "KR",
-    "egress_latency_ms": 6851.59
+    "egress_latency_ms": 468.34
   },
   {
     "fingerprint": "d994aa15c8c4130ecdbcef17ada9e1a137bb163873f87a78a7c78b19f144a905",
     "protocol": "ss",
-    "egress_ip": "2001:41d0:801:1000::5e1",
+    "egress_ip": "198.244.142.16",
     "country_code": "GB",
-    "egress_latency_ms": 2160.99
+    "egress_latency_ms": 420.38
   },
   {
-    "fingerprint": "bbbb2a65ca098f024a4bc7b799130c266245281696268fa42e961a4f5ee54f7f",
-    "protocol": "hysteria2",
-    "egress_ip": "64.188.98.171",
-    "country_code": "DE",
-    "egress_latency_ms": 1952.18
+    "fingerprint": "d975f1af4b0def6216281a12f8babc6adefd28fcd839e92e5e194bab50c496d3",
+    "protocol": "vmess",
+    "egress_ip": "168.138.43.75",
+    "country_code": "JP",
+    "egress_latency_ms": 718.21
   },
   {
-    "fingerprint": "a1ca26d31ea3b11c4026533809327df35b135f3b7485df91836f03e97c6a0ce3",
-    "protocol": "hysteria2",
-    "egress_ip": "31.56.187.12",
-    "country_code": "EE",
-    "egress_latency_ms": 891.74
+    "fingerprint": "fab67ae4935b4fd638a86a4ab55bdc3dbd5f653016e155269013a65da889c146",
+    "protocol": "vmess",
+    "egress_ip": "186.190.211.67",
+    "country_code": "GB",
+    "egress_latency_ms": 570.1
+  },
+  {
+    "fingerprint": "6a2ce2b9f2715ebdb59622b3c24852ff17c2bb0ec231ac6d98d70e5452aaa5dd",
+    "protocol": "vmess",
+    "egress_ip": "38.107.234.57",
+    "country_code": "KZ",
+    "egress_latency_ms": 873.34
+  },
+  {
+    "fingerprint": "92852a90a55b2596e575712faecb87bf6827f7cc0cbc46e57e51a0b15247ad8e",
+    "protocol": "ss",
+    "egress_ip": "193.29.139.184",
+    "country_code": "NL",
+    "egress_latency_ms": 364.18
   },
   {
     "fingerprint": "c5a7ec9606725a7990bcbdc431c1406fe3a3aabbd5c37262e4a0fb5086bfd240",
     "protocol": "ss",
     "egress_ip": "193.29.139.152",
     "country_code": "NL",
-    "egress_latency_ms": 483.26
+    "egress_latency_ms": 362.97
+  },
+  {
+    "fingerprint": "cb27bf44d32e27c9ce44bd0cd2b9932d6001771073c24c55f17ae18541a37f78",
+    "protocol": "hysteria2",
+    "egress_ip": "144.31.49.138",
+    "country_code": "RU",
+    "egress_latency_ms": 2968.34
+  },
+  {
+    "fingerprint": "02917c55c025ba7f5415297b6391b8776e4730cc8f402868404c7aff854da56c",
+    "protocol": "hysteria2",
+    "egress_ip": "64.188.98.252",
+    "country_code": "DE",
+    "egress_latency_ms": 471.94
+  },
+  {
+    "fingerprint": "bbbb2a65ca098f024a4bc7b799130c266245281696268fa42e961a4f5ee54f7f",
+    "protocol": "hysteria2",
+    "egress_ip": "64.188.98.171",
+    "country_code": "DE",
+    "egress_latency_ms": 477.55
+  },
+  {
+    "fingerprint": "f4917cd4674e9466a4c27624b7b25630dd732583f7c5dfad5114dad36f79974a",
+    "protocol": "vmess",
+    "egress_ip": "89.223.95.77",
+    "country_code": "HK",
+    "egress_latency_ms": 2097.11
+  },
+  {
+    "fingerprint": "c28289f9e090c9f9a6ba13ddb97d1c6465f55a8c471ecc13f71d7a9689790996",
+    "protocol": "vless",
+    "egress_ip": "136.148.71.152",
+    "country_code": "DE",
+    "egress_latency_ms": 598.41
+  },
+  {
+    "fingerprint": "598dea622050c5c4925fc507d6a45e1b4d70ea6b2286efda579f69722bbb9516",
+    "protocol": "vmess",
+    "egress_ip": "168.110.60.104",
+    "country_code": "JP",
+    "egress_latency_ms": 557.13
+  },
+  {
+    "fingerprint": "c93859646aac23fd69a441f6c324a2dd8857abe9c9fdd5a3cdd70505b5fa45f8",
+    "protocol": "ss",
+    "egress_ip": "4.221.224.246",
+    "country_code": "ZA",
+    "egress_latency_ms": 744.11
+  },
+  {
+    "fingerprint": "0ce21a5c2a025581395f785b753d03c0873dfcba3db01beb8cff0b697a74572f",
+    "protocol": "ss",
+    "egress_ip": "2407:3640:2310:1036::1",
+    "country_code": "SG",
+    "egress_latency_ms": 838.44
+  },
+  {
+    "fingerprint": "f35415089ff8831e922fa3291e60612170e520f65bc7248df32c6a01ce148ffc",
+    "protocol": "vless",
+    "egress_ip": "45.12.75.242",
+    "country_code": "RU",
+    "egress_latency_ms": 1164.74
+  },
+  {
+    "fingerprint": "d41398d1ba114399454cceddfd4d4a0e501188f78b5d24419801a05ce766fb8f",
+    "protocol": "vmess",
+    "egress_ip": "168.110.60.104",
+    "country_code": "JP",
+    "egress_latency_ms": 614.13
+  },
+  {
+    "fingerprint": "061c29e39b4b92c0016718372eb38c54d35fb6018c84c581e390f621ccae8667",
+    "protocol": "hysteria2",
+    "egress_ip": "31.56.187.12",
+    "country_code": "EE",
+    "egress_latency_ms": 549.21
   },
   {
     "fingerprint": "e8106278c35b35acd0bb5c0d37ec2fa0a0a5c583a4624795527d0a9859498cb3",
     "protocol": "hysteria2",
     "egress_ip": "64.188.98.171",
     "country_code": "DE",
-    "egress_latency_ms": 1852.25
+    "egress_latency_ms": 689.89
+  },
+  {
+    "fingerprint": "1e8126852e2885701a94ecc40b67c5d36d9431267495e9b8551b64e422c7ecd4",
+    "protocol": "hysteria2",
+    "egress_ip": "45.192.12.93",
+    "country_code": "PL",
+    "egress_latency_ms": 690.54
+  },
+  {
+    "fingerprint": "148a4d974ae07a521815857727a0ce99a59b979a468e8298cfc1341d0d30ec64",
+    "protocol": "vmess",
+    "egress_ip": "47.76.44.32",
+    "country_code": "HK",
+    "egress_latency_ms": 1439.6
+  },
+  {
+    "fingerprint": "a9549f7526610b315d30a781c5b9314b124ad21b71d3d175d5979b4a8fb8f538",
+    "protocol": "hysteria2",
+    "egress_ip": "31.56.187.12",
+    "country_code": "EE",
+    "egress_latency_ms": 672.99
+  },
+  {
+    "fingerprint": "5404e786210d1241c8f8f02a3c4bc72a6c3b790272ef9427c2a8c3c766fbf66e",
+    "protocol": "vless",
+    "egress_ip": "31.76.80.230",
+    "country_code": "FI",
+    "egress_latency_ms": 1015.02
+  },
+  {
+    "fingerprint": "418c61245d124ef622630cd8a2a9ff50fa7e94e953add9ac5b1a64f441e00086",
+    "protocol": "vmess",
+    "egress_ip": "47.76.44.32",
+    "country_code": "HK",
+    "egress_latency_ms": 1577.94
+  },
+  {
+    "fingerprint": "1a6b14e11daaf6cc8ab66cc989c90bcdf1c572d1adbb31892cd4802d1fb3436d",
+    "protocol": "ss",
+    "egress_ip": "103.160.63.199",
+    "country_code": "ID",
+    "egress_latency_ms": 6175.4
   },
   {
     "fingerprint": "3d679c12cfe5319014069214ed8c9373eec796526dd9fad636b82ea69bbb99a7",
     "protocol": "hysteria2",
     "egress_ip": "45.192.12.93",
     "country_code": "PL",
-    "egress_latency_ms": 981.59
+    "egress_latency_ms": 855.94
   },
   {
-    "fingerprint": "1d95c7631ca4fb91be36232ffd1ead1827f329cdab8b2efde49544f287325d1b",
+    "fingerprint": "a1ca26d31ea3b11c4026533809327df35b135f3b7485df91836f03e97c6a0ce3",
+    "protocol": "hysteria2",
+    "egress_ip": "31.56.187.12",
+    "country_code": "EE",
+    "egress_latency_ms": 726.78
+  },
+  {
+    "fingerprint": "888f1dd12577252f536d61490fa26638347ad16a4b6eaf63e939f05eb6da474d",
     "protocol": "hysteria2",
     "egress_ip": "45.192.12.93",
     "country_code": "PL",
-    "egress_latency_ms": 1277.33
+    "egress_latency_ms": 856.91
   }
 ]
