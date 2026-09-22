@@ -38,20 +38,21 @@ h1{font-size:48px;line-height:1;margin:5px 0 8px;letter-spacing:-2px}h2{font-siz
 .guide-panel::before{content:"";position:absolute;inset:-1px;background:linear-gradient(90deg,rgba(103,232,249,.18),transparent 28%,transparent 72%,rgba(74,222,128,.12));pointer-events:none;opacity:.7}
 .guide-layout{position:relative;display:grid;grid-template-columns:minmax(380px,.95fr) minmax(0,1.15fr);gap:22px;align-items:stretch}
 .guide-copy,.guide-downloads{position:relative;z-index:1}
-.guide-copy{display:grid;gap:12px;padding-left:6px;order:2;text-align:right;justify-items:end}
-.guide-kicker{display:inline-flex;justify-content:flex-start;width:max-content;max-width:100%;padding:6px 10px;border:1px solid #254964;border-radius:999px;background:#0a1825;color:#8fdcff;font-size:11px;font-weight:800;letter-spacing:.2px}
-.guide-copy h2{margin:0;font-size:28px;line-height:1.35;color:#f5fbff}
-.guide-lead{font-size:15px;line-height:2;color:#d6e5f4}
+.guide-copy{display:grid;gap:12px;padding-left:6px;order:2;text-align:right;justify-items:stretch}
+.guide-kicker{display:inline-flex;justify-content:center;justify-self:center;width:max-content;max-width:100%;padding:6px 10px;border:1px solid #254964;border-radius:999px;background:#0a1825;color:#8fdcff;font-size:11px;font-weight:800;letter-spacing:.2px;text-align:center}
+.guide-copy h2{margin:0;font-size:28px;line-height:1.35;color:#f5fbff;text-align:center}
+.guide-lead{font-size:15px;line-height:2;color:#d6e5f4;text-align:center}
 .guide-steps{margin:0;padding:0;list-style:none;display:grid;gap:10px;counter-reset:guide-step}
 .guide-steps li{display:grid;grid-template-columns:32px 1fr;gap:10px;align-items:flex-start;color:#d8e5f3;line-height:1.9}
 .guide-steps li::before{counter-increment:guide-step;content:counter(guide-step);display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:999px;border:1px solid #345a7c;background:#0f2235;color:#a8ddff;font-size:12px;font-weight:800;box-shadow:inset 0 1px 0 rgba(255,255,255,.03)}
-.guide-note{margin:0;color:#8fa8bf;font-size:12px;line-height:1.9}
-.guide-downloads{border:1px solid #213548;border-radius:16px;background:linear-gradient(180deg,rgba(10,20,31,.9),rgba(8,17,26,.96));padding:18px;order:1}
+.guide-note{margin:0;color:#8fa8bf;font-size:12px;line-height:1.9;text-align:right}
+.guide-downloads{border:1px solid #213548;border-radius:16px;background:linear-gradient(180deg,rgba(10,20,31,.9),rgba(8,17,26,.96));padding:18px;order:1;text-align:right}
 .guide-downloads-head{margin-bottom:14px;font-size:24px;font-weight:800;color:#f5fbff}
 .guide-download-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .download-card{display:flex;align-items:center;gap:12px;padding:14px 14px;border-radius:14px;border:1px solid #284157;background:linear-gradient(180deg,#102030,#0c1a28);text-decoration:none;color:#edf6ff;min-width:0;transition:background-color .16s ease,border-color .16s ease,transform .16s ease,box-shadow .16s ease}
 .download-icon{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;flex:0 0 42px;border-radius:12px;border:1px solid #31506d;background:#14283d;font-size:19px;box-shadow:inset 0 1px 0 rgba(255,255,255,.04)}
-.download-copy{display:grid;min-width:0;gap:3px;flex:1}
+.icon-svg{display:block;width:20px;height:20px}.apple-icon{width:18px;height:18px}.android-icon{width:20px;height:20px}
+.download-copy{display:grid;min-width:0;gap:3px;flex:1;text-align:right}
 .download-copy strong{font-size:14px;line-height:1.55;color:#f3f8ff;font-weight:780}
 .download-copy small{color:#7e95ac;font-size:11px;letter-spacing:.25px}
 .download-arrow{font-size:18px;color:#9dd7ff;flex:0 0 auto}
