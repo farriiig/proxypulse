@@ -1,33 +1,33 @@
 {
   "version": "1.1.0",
-  "generated_at": "2026-09-24T17:17:59Z",
+  "generated_at": "2026-09-24T21:35:39Z",
   "test_level": "TCP pre-check + bounded end-to-end egress validation",
   "egress_test_level": "sing-box tunnel + Cloudflare final IP/country check",
   "source_count": 1,
   "source_ok": 1,
   "discovered_nodes": 185,
   "scanned_nodes": 185,
-  "online_nodes": 131,
-  "offline_nodes": 54,
-  "online_rate": 70.8,
-  "avg_score": 86.3,
-  "avg_gaming_score": 79.3,
-  "avg_latency_ms": 126.9,
-  "reality_nodes": 56,
+  "online_nodes": 129,
+  "offline_nodes": 56,
+  "online_rate": 69.7,
+  "avg_score": 84.7,
+  "avg_gaming_score": 77.0,
+  "avg_latency_ms": 139.0,
+  "reality_nodes": 49,
   "protocols": {
-    "hysteria2": 76,
-    "ss": 40,
-    "vless": 57,
-    "vmess": 12
+    "hysteria2": 78,
+    "ss": 48,
+    "vless": 50,
+    "vmess": 9
   },
   "statuses": {
-    "DEGRADING": 5,
-    "HEALTHY": 92,
-    "NEW": 8,
-    "OFFLINE": 54,
-    "RECOVERED": 2,
-    "STABLE": 18,
-    "WEAK": 6
+    "DEGRADING": 3,
+    "HEALTHY": 69,
+    "NEW": 22,
+    "OFFLINE": 56,
+    "RECOVERED": 1,
+    "STABLE": 22,
+    "WEAK": 12
   },
   "subscriptions": {
     "all": {
@@ -41,37 +41,37 @@
       "base64_path": "subscriptions/best100.base64.txt"
     },
     "verified": {
-      "count": 79,
+      "count": 80,
       "path": "subscriptions/verified.txt",
       "base64_path": "subscriptions/verified.base64.txt"
     },
     "online": {
-      "count": 131,
+      "count": 129,
       "path": "subscriptions/online.txt",
       "base64_path": "subscriptions/online.base64.txt"
     },
     "stable": {
-      "count": 112,
+      "count": 104,
       "path": "subscriptions/stable.txt",
       "base64_path": "subscriptions/stable.base64.txt"
     },
     "fast": {
-      "count": 79,
+      "count": 51,
       "path": "subscriptions/fast.txt",
       "base64_path": "subscriptions/fast.base64.txt"
     },
     "gaming": {
-      "count": 99,
+      "count": 91,
       "path": "subscriptions/gaming.txt",
       "base64_path": "subscriptions/gaming.base64.txt"
     },
     "reality": {
-      "count": 56,
+      "count": 49,
       "path": "subscriptions/reality.txt",
       "base64_path": "subscriptions/reality.base64.txt"
     },
     "healthy": {
-      "count": 94,
+      "count": 70,
       "path": "subscriptions/healthy.txt",
       "base64_path": "subscriptions/healthy.base64.txt"
     },
@@ -81,36 +81,36 @@
       "base64_path": "subscriptions/hysteria2.base64.txt"
     },
     "ss": {
-      "count": 40,
+      "count": 48,
       "path": "subscriptions/ss.txt",
       "base64_path": "subscriptions/ss.base64.txt"
     },
     "vless": {
-      "count": 57,
+      "count": 50,
       "path": "subscriptions/vless.txt",
       "base64_path": "subscriptions/vless.base64.txt"
     },
     "vmess": {
-      "count": 12,
+      "count": 9,
       "path": "subscriptions/vmess.txt",
       "base64_path": "subscriptions/vmess.base64.txt"
     }
   },
   "country_subscriptions": {
     "nl": {
-      "count": 32,
+      "count": 36,
       "path": "subscriptions/countries/nl.txt",
       "base64_path": "subscriptions/countries/nl.base64.txt",
       "code": "NL"
     },
     "us": {
-      "count": 20,
+      "count": 15,
       "path": "subscriptions/countries/us.txt",
       "base64_path": "subscriptions/countries/us.base64.txt",
       "code": "US"
     },
     "de": {
-      "count": 7,
+      "count": 6,
       "path": "subscriptions/countries/de.txt",
       "base64_path": "subscriptions/countries/de.base64.txt",
       "code": "DE"
@@ -127,29 +127,47 @@
       "base64_path": "subscriptions/countries/gb.base64.txt",
       "code": "GB"
     },
-    "es": {
-      "count": 2,
-      "path": "subscriptions/countries/es.txt",
-      "base64_path": "subscriptions/countries/es.base64.txt",
-      "code": "ES"
-    },
-    "fr": {
-      "count": 2,
-      "path": "subscriptions/countries/fr.txt",
-      "base64_path": "subscriptions/countries/fr.base64.txt",
-      "code": "FR"
-    },
-    "ru": {
-      "count": 2,
-      "path": "subscriptions/countries/ru.txt",
-      "base64_path": "subscriptions/countries/ru.base64.txt",
-      "code": "RU"
-    },
     "sg": {
-      "count": 2,
+      "count": 3,
       "path": "subscriptions/countries/sg.txt",
       "base64_path": "subscriptions/countries/sg.base64.txt",
       "code": "SG"
+    },
+    "kr": {
+      "count": 2,
+      "path": "subscriptions/countries/kr.txt",
+      "base64_path": "subscriptions/countries/kr.base64.txt",
+      "code": "KR"
+    },
+    "ae": {
+      "count": 1,
+      "path": "subscriptions/countries/ae.txt",
+      "base64_path": "subscriptions/countries/ae.base64.txt",
+      "code": "AE"
+    },
+    "ca": {
+      "count": 1,
+      "path": "subscriptions/countries/ca.txt",
+      "base64_path": "subscriptions/countries/ca.base64.txt",
+      "code": "CA"
+    },
+    "cz": {
+      "count": 1,
+      "path": "subscriptions/countries/cz.txt",
+      "base64_path": "subscriptions/countries/cz.base64.txt",
+      "code": "CZ"
+    },
+    "ee": {
+      "count": 1,
+      "path": "subscriptions/countries/ee.txt",
+      "base64_path": "subscriptions/countries/ee.base64.txt",
+      "code": "EE"
+    },
+    "fr": {
+      "count": 1,
+      "path": "subscriptions/countries/fr.txt",
+      "base64_path": "subscriptions/countries/fr.base64.txt",
+      "code": "FR"
     },
     "hk": {
       "count": 1,
@@ -157,23 +175,29 @@
       "base64_path": "subscriptions/countries/hk.base64.txt",
       "code": "HK"
     },
-    "it": {
+    "id": {
       "count": 1,
-      "path": "subscriptions/countries/it.txt",
-      "base64_path": "subscriptions/countries/it.base64.txt",
-      "code": "IT"
+      "path": "subscriptions/countries/id.txt",
+      "base64_path": "subscriptions/countries/id.base64.txt",
+      "code": "ID"
     },
-    "jp": {
+    "ro": {
       "count": 1,
-      "path": "subscriptions/countries/jp.txt",
-      "base64_path": "subscriptions/countries/jp.base64.txt",
-      "code": "JP"
+      "path": "subscriptions/countries/ro.txt",
+      "base64_path": "subscriptions/countries/ro.base64.txt",
+      "code": "RO"
+    },
+    "tw": {
+      "count": 1,
+      "path": "subscriptions/countries/tw.txt",
+      "base64_path": "subscriptions/countries/tw.base64.txt",
+      "code": "TW"
     }
   },
-  "egress_tested_nodes": 131,
-  "egress_verified_nodes": 79,
-  "egress_geolocated_nodes": 79,
-  "egress_country_count": 12,
+  "egress_tested_nodes": 129,
+  "egress_verified_nodes": 80,
+  "egress_geolocated_nodes": 80,
+  "egress_country_count": 16,
   "egress_runtime_available": true,
   "settings": {
     "scan_limit": 800,
