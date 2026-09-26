@@ -1,43 +1,43 @@
 {
   "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/configs/proxy_configs_tested.txt": {
-    "total_fetches": 39,
-    "successful_fetches": 39,
+    "total_fetches": 40,
+    "successful_fetches": 40,
     "reliability": 100.0,
-    "reputation": 99.7
+    "reputation": 99.4
   },
   "https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/v2ray-base64.txt": {
-    "total_fetches": 2,
-    "successful_fetches": 2,
+    "total_fetches": 3,
+    "successful_fetches": 3,
     "reliability": 100.0,
-    "reputation": 97.1
+    "reputation": 97.3
   },
   "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/best.txt": {
-    "total_fetches": 2,
-    "successful_fetches": 2,
+    "total_fetches": 3,
+    "successful_fetches": 3,
     "reliability": 100.0,
-    "reputation": 98.7
+    "reputation": 99.5
   },
   "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt": {
-    "total_fetches": 2,
-    "successful_fetches": 2,
+    "total_fetches": 3,
+    "successful_fetches": 3,
+    "reliability": 100.0,
+    "reputation": 99.5
+  },
+  "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt": {
+    "total_fetches": 3,
+    "successful_fetches": 3,
+    "reliability": 100.0,
+    "reputation": 98.5
+  },
+  "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/config.txt": {
+    "total_fetches": 3,
+    "successful_fetches": 3,
     "reliability": 100.0,
     "reputation": 99.7
   },
-  "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt": {
-    "total_fetches": 2,
-    "successful_fetches": 2,
-    "reliability": 100.0,
-    "reputation": 97.4
-  },
-  "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/config.txt": {
-    "total_fetches": 2,
-    "successful_fetches": 2,
-    "reliability": 100.0,
-    "reputation": 99.3
-  },
   "https://raw.githubusercontent.com/barry-far/V2ray-config/main/All_Configs_Sub.txt": {
-    "total_fetches": 2,
-    "successful_fetches": 2,
+    "total_fetches": 3,
+    "successful_fetches": 3,
     "reliability": 100.0,
     "reputation": 94.2
   }
