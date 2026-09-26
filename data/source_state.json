@@ -1,44 +1,44 @@
 {
   "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/configs/proxy_configs_tested.txt": {
-    "total_fetches": 40,
-    "successful_fetches": 40,
+    "total_fetches": 41,
+    "successful_fetches": 41,
     "reliability": 100.0,
-    "reputation": 99.4
+    "reputation": 99.5
   },
   "https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/v2ray-base64.txt": {
-    "total_fetches": 3,
-    "successful_fetches": 3,
+    "total_fetches": 4,
+    "successful_fetches": 4,
     "reliability": 100.0,
-    "reputation": 97.3
+    "reputation": 97.9
   },
   "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/best.txt": {
-    "total_fetches": 3,
-    "successful_fetches": 3,
+    "total_fetches": 4,
+    "successful_fetches": 4,
     "reliability": 100.0,
     "reputation": 99.5
   },
   "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt": {
-    "total_fetches": 3,
-    "successful_fetches": 3,
+    "total_fetches": 4,
+    "successful_fetches": 4,
     "reliability": 100.0,
     "reputation": 99.5
   },
   "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt": {
-    "total_fetches": 3,
-    "successful_fetches": 3,
+    "total_fetches": 4,
+    "successful_fetches": 4,
     "reliability": 100.0,
-    "reputation": 98.5
+    "reputation": 98.6
   },
   "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/config.txt": {
-    "total_fetches": 3,
-    "successful_fetches": 3,
+    "total_fetches": 4,
+    "successful_fetches": 4,
     "reliability": 100.0,
-    "reputation": 99.7
+    "reputation": 99.2
   },
   "https://raw.githubusercontent.com/barry-far/V2ray-config/main/All_Configs_Sub.txt": {
-    "total_fetches": 3,
-    "successful_fetches": 3,
+    "total_fetches": 4,
+    "successful_fetches": 4,
     "reliability": 100.0,
-    "reputation": 94.2
+    "reputation": 94.1
   }
 }
