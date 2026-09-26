@@ -21,7 +21,7 @@ A reachable TCP port alone still does **not** prove that VLESS, VMess, Trojan, S
 settings/sources.txt
         │
         ▼
-GitHub Actions · every 3 hours
+GitHub Actions · every hour
         │
         ├─ Fetch public sources concurrently
         ├─ Decode + parse supported proxy formats
@@ -59,7 +59,7 @@ The source code stays on **`main`** while generated state and subscription snaps
 - 🏆 General node score and approximate **TCP Gaming Score**
 - 🛡️ Static Reality/TLS URI hygiene checks
 - 📊 Internal source reliability/reputation scoring
-- 🔄 Automated scans every 3 hours with GitHub Actions
+- 🔄 Automated scans every hour with GitHub Actions
 - 🌍 Static GitHub Pages dashboard with no backend server
 - 📱 Responsive mobile-friendly interface
 - 📋 Plain-text + Base64 subscription outputs

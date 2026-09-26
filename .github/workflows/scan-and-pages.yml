@@ -18,7 +18,7 @@ on:
         required: false
         default: "200"
   schedule:
-    - cron: "17 */3 * * *"
+    - cron: "17 * * * *"
 
 permissions:
   contents: write
@@ -154,7 +154,7 @@ jobs:
           echo "## ProxyPulse" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "- Dashboard: ${{ steps.deployment.outputs.page_url }}" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Schedule: every 3 hours" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Schedule: every hour" >> "$GITHUB_STEP_SUMMARY"
           echo "- Scan limit: ${{ inputs.scan_limit || '800' }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Egress validation limit: ${{ inputs.egress_test_limit || '200' }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- End-to-end runtime: sing-box 1.14.1 + Cloudflare trace" >> "$GITHUB_STEP_SUMMARY"

@@ -2,9 +2,26 @@
 # One public subscription/raw URL per line.
 # Blank lines and lines beginning with # are ignored.
 #
-# Starter source from the reference project. Replace or add sources you trust.
+# ProxyPulse re-tests, semantically deduplicates and reputation-scores these
+# feeds. Upstream availability and quality can change over time.
+
+# Existing tested aggregate
 https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/configs/proxy_configs_tested.txt
 
-# Examples:
-# https://t.me/s/your_public_channel
-# https://raw.githubusercontent.com/user/repo/main/subscription.txt
+# HTTP-over-proxy verified, refreshed hourly
+https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/v2ray-base64.txt
+
+# Measurement-based curated bundle
+https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/best.txt
+
+# Frequently refreshed quality-selected configs
+https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt
+
+# Large multi-protocol aggregate, refreshed frequently
+https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt
+
+# Independent raw aggregate from Telegram + GitHub sources
+https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/config.txt
+
+# Long-running V2Ray aggregate
+https://raw.githubusercontent.com/barry-far/V2ray-config/main/All_Configs_Sub.txt
