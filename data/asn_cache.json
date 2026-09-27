@@ -719,5 +719,215 @@
     "isp": "BrainStorm Network, Inc",
     "country_code": "DE",
     "fetched_at": "2026-09-27T13:08:21Z"
+  },
+  "2.26.125.147": {
+    "asn": 198550,
+    "org": "NODE HOST LIMITED",
+    "isp": "NODE HOST LIMITED",
+    "country_code": "DE",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "52.195.219.189": {
+    "asn": 16509,
+    "org": "Amazon Data Services Japan",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "JP",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "150.241.72.85": {
+    "asn": 207957,
+    "org": "SERV.HOST GROUP LTD",
+    "isp": "SERV.HOST GROUP LTD",
+    "country_code": "AT",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "107.181.151.241": {
+    "asn": 57043,
+    "org": "GLOBALIT DOO",
+    "isp": "HOSTKEY B.V.",
+    "country_code": "FI",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "193.29.139.168": {
+    "asn": 47172,
+    "org": "Greenhost BV",
+    "isp": "Greenhost BV",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "193.29.139.212": {
+    "asn": 47172,
+    "org": "Greenhost BV",
+    "isp": "Greenhost BV",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "193.29.139.223": {
+    "asn": 47172,
+    "org": "Greenhost BV",
+    "isp": "Greenhost BV",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "193.29.139.152": {
+    "asn": 47172,
+    "org": "Greenhost BV",
+    "isp": "Greenhost BV",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "193.29.139.169": {
+    "asn": 47172,
+    "org": "Greenhost BV",
+    "isp": "Greenhost BV",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "45.82.67.34": {
+    "asn": 49981,
+    "org": "WorldStream B.V.",
+    "isp": "WorldStream B.V.",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "173.234.25.90": {
+    "asn": 63018,
+    "org": "Dedicated.com",
+    "isp": "Dedicated.com",
+    "country_code": "US",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "149.102.132.184": {
+    "asn": 51167,
+    "org": "Contabo GmbH",
+    "isp": "Contabo GmbH",
+    "country_code": "GB",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "15.204.233.41": {
+    "asn": 16276,
+    "org": "OVH US LLC",
+    "isp": "OVH SAS",
+    "country_code": "US",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "51.222.136.236": {
+    "asn": 16276,
+    "org": "OVH Hosting, Inc.",
+    "isp": "OVH SAS",
+    "country_code": "CA",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "2.58.81.221": {
+    "asn": 51167,
+    "org": "Contabo GmbH",
+    "isp": "Contabo GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "15.204.247.206": {
+    "asn": 16276,
+    "org": "OVH US LLC",
+    "isp": "OVH SAS",
+    "country_code": "US",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "143.110.161.156": {
+    "asn": 14061,
+    "org": "DigitalOcean, LLC",
+    "isp": "DigitalOcean, LLC",
+    "country_code": "GB",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "146.190.236.129": {
+    "asn": 14061,
+    "org": "DigitalOcean, LLC",
+    "isp": "DigitalOcean, LLC",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "146.59.116.19": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "PL",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "45.192.12.93": {
+    "asn": 197574,
+    "org": "ExpressHost LTD",
+    "isp": "ExpressHost Ltd",
+    "country_code": "PL",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "64.188.98.171": {
+    "asn": 207957,
+    "org": "SERV.HOST GROUP LTD",
+    "isp": "SERV.HOST GROUP LTD",
+    "country_code": "DE",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "64.188.98.158": {
+    "asn": 207957,
+    "org": "SERV.HOST GROUP LTD",
+    "isp": "SERV.HOST GROUP LTD",
+    "country_code": "DE",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "5.253.189.215": {
+    "asn": 216475,
+    "org": "NKtelecom INC",
+    "isp": "NKtelecom INC",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "67.220.80.252": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "62.84.101.114": {
+    "asn": 216071,
+    "org": "Amsterdam, Netherlands",
+    "isp": "SERVERS TECH FZCO",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "67.220.80.135": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "94.141.161.242": {
+    "asn": 215590,
+    "org": "Frankfurt, Germany",
+    "isp": "DpkgSoft International Limited",
+    "country_code": "DE",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "77.239.99.29": {
+    "asn": 216127,
+    "org": "Nuxt.cloud Hosting Provider",
+    "isp": "INTERNATIONAL HOSTING COMPANY LIMITED",
+    "country_code": "DE",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "2a0b:4140:1184::2": {
+    "asn": 210644,
+    "org": "AEZA GROUP LLC",
+    "isp": "AEZA GROUP LLC",
+    "country_code": "GB",
+    "fetched_at": "2026-09-27T17:49:14Z"
+  },
+  "64.181.247.243": {
+    "asn": 31898,
+    "org": "Oracle Corporation",
+    "isp": "Oracle Corporation",
+    "country_code": "US",
+    "fetched_at": "2026-09-27T17:49:14Z"
   }
 }
