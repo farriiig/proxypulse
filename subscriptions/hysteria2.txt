@@ -1,0 +1,1 @@
+hy2://RN_3f80eeb4bbd0f13f@192.255.128.123:443?insecure=1&sni=www.bing.com#hysteria2-1529329421

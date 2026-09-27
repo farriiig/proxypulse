@@ -40,5 +40,54 @@
     "isp": "Uscloud Inc",
     "country_code": "US",
     "fetched_at": "2026-09-27T11:58:20Z"
+  },
+  "91.149.239.206": {
+    "asn": 26383,
+    "org": "Baxet Group Inc.",
+    "isp": "Baxet Group Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-09-27T12:14:44Z"
+  },
+  "57.128.179.254": {
+    "asn": 16276,
+    "org": "OVH Ltd",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-09-27T12:14:44Z"
+  },
+  "51.15.130.70": {
+    "asn": 12876,
+    "org": "ONLINE SAS NL",
+    "isp": "Scaleway SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-09-27T12:14:44Z"
+  },
+  "205.186.76.242": {
+    "asn": 30058,
+    "org": "Private Customer",
+    "isp": "FDCservers.net",
+    "country_code": "US",
+    "fetched_at": "2026-09-27T12:14:44Z"
+  },
+  "178.128.86.3": {
+    "asn": 14061,
+    "org": "DigitalOcean, LLC",
+    "isp": "DigitalOcean, LLC",
+    "country_code": "SG",
+    "fetched_at": "2026-09-27T12:14:44Z"
+  },
+  "143.198.31.221": {
+    "asn": 14061,
+    "org": "DigitalOcean, LLC",
+    "isp": "DigitalOcean, LLC",
+    "country_code": "US",
+    "fetched_at": "2026-09-27T12:14:44Z"
+  },
+  "129.146.49.224": {
+    "asn": 31898,
+    "org": "Oracle Corporation",
+    "isp": "Oracle Corporation",
+    "country_code": "US",
+    "fetched_at": "2026-09-27T12:14:44Z"
   }
 }
