@@ -125,14 +125,17 @@ function renderCountries(manifest={}){
     const name=countryName(code);
     const favorite=favorites.has(key.toLowerCase());
     return `<div class="endpoint country-endpoint ${favorite?'country-favorite':''}">
-      <div class="endpoint-main country-main">
-        <div class="country-title">
+      <div class="country-main">
+        <div class="country-title-row">
           <button class="favorite-button" type="button" data-favorite-country="${esc(key)}" aria-pressed="${favorite?'true':'false'}" title="${favorite?'Remove from favorites':'Add to favorites'}">${favorite?'★':'☆'}</button>
-          <span class="country-flag" aria-hidden="true">${flagEmoji(code)}</span><strong>${esc(name)}</strong><span class="country-code">${esc(code)}</span>
+          <span class="country-flag" aria-hidden="true">${flagEmoji(code)}</span>
+          <div class="country-title-copy">
+            <div class="country-title"><strong>${esc(name)}</strong><span class="country-code">${esc(code)}</span></div>
+            <span class="country-count">${Number(item.count||0)} end-to-end verified nodes</span>
+          </div>
         </div>
-        <span>${Number(item.count||0)} end-to-end verified nodes</span>
       </div>
-      ${subscriptionActions(normalized,`${name} country subscription`)}
+      <div class="country-actions-wrap">${subscriptionActions(normalized,`${name} country subscription`)}</div>
     </div>`;
   }).join('') : '<div class="empty">No country subscriptions yet. They appear only after a config passes the end-to-end tunnel and final-IP check.</div>';
 }
