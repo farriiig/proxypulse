@@ -89,5 +89,215 @@
     "isp": "Oracle Corporation",
     "country_code": "US",
     "fetched_at": "2026-09-27T12:14:44Z"
+  },
+  "2a01:ecc0:400:6fe::2": {
+    "asn": 207957,
+    "org": "SERV.HOST GROUP LTD",
+    "isp": "SERV.HOST GROUP LTD",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "2a01:4ff:2f0:384c::1": {
+    "asn": 215859,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "SG",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "146.70.102.82": {
+    "asn": 9009,
+    "org": "M247 Europe",
+    "isp": "M247 Europe SRL",
+    "country_code": "AE",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "192.142.12.170": {
+    "asn": 198077,
+    "org": "L.L.C.-FZ",
+    "isp": "Need, L.L.C.-FZ",
+    "country_code": "DE",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "2a05:d01c:4da:8c00:4b69:fdcc:efdf:b90f": {
+    "asn": 16509,
+    "org": "Amazon Data Services Ireland Ltd",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "GB",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "130.49.112.2": {
+    "asn": 35830,
+    "org": "FINE GROUP SERVERS SOLUTIONS LLC",
+    "isp": "Fast Servers Pty Ltd",
+    "country_code": "TR",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "150.241.101.17": {
+    "asn": 207957,
+    "org": "SERV.HOST GROUP LTD",
+    "isp": "SERV.HOST GROUP LTD",
+    "country_code": "EE",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "2604:2dc0:200:26c3::": {
+    "asn": 16276,
+    "org": "OVH US LLC",
+    "isp": "OVH SAS",
+    "country_code": "US",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "2604:2dc0:200:26c5::": {
+    "asn": 16276,
+    "org": "OVH US LLC",
+    "isp": "OVH SAS",
+    "country_code": "US",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "2604:2dc0:200:26c6::": {
+    "asn": 16276,
+    "org": "OVH US LLC",
+    "isp": "OVH SAS",
+    "country_code": "US",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "2604:2dc0:200:26d6::": {
+    "asn": 16276,
+    "org": "OVH US LLC",
+    "isp": "OVH SAS",
+    "country_code": "US",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "2604:2dc0:200:26d8::": {
+    "asn": 16276,
+    "org": "OVH US LLC",
+    "isp": "OVH SAS",
+    "country_code": "US",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "2604:2dc0:200:26db::": {
+    "asn": 16276,
+    "org": "OVH US LLC",
+    "isp": "OVH SAS",
+    "country_code": "US",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "51.158.206.103": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "51.158.206.12": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "51.158.206.25": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "51.158.206.80": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "51.158.206.8": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "51.158.206.96": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "2a01:4ff:1f0:95ac::1": {
+    "asn": 212317,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "US",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "45.12.75.242": {
+    "asn": 198610,
+    "org": "TOO Beget",
+    "isp": "Beget LLC",
+    "country_code": "RU",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "87.239.249.137": {
+    "asn": 57043,
+    "org": "GLOBALIT DOO",
+    "isp": "HOSTKEY B.V.",
+    "country_code": "FI",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "2602:fa59:5:273::1": {
+    "asn": 14956,
+    "org": "RouterHosting LLC",
+    "isp": "RouterHosting LLC",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "152.70.58.201": {
+    "asn": 31898,
+    "org": "Oracle Corporation",
+    "isp": "Oracle Corporation",
+    "country_code": "NL",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "137.74.16.237": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "185.104.194.125": {
+    "asn": 59711,
+    "org": "HZ Hosting Ltd",
+    "isp": "HZ Hosting Ltd",
+    "country_code": "PL",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "149.202.58.99": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "217.217.254.126": {
+    "asn": 141995,
+    "org": "Contabo GmbH",
+    "isp": "Contabo Asia Private Limited",
+    "country_code": "SG",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "2a13:7e40:2:401d::1": {
+    "asn": 198178,
+    "org": "365.partners INC",
+    "isp": "365.partners INC",
+    "country_code": "AM",
+    "fetched_at": "2026-09-27T12:19:33Z"
+  },
+  "209.46.102.22": {
+    "asn": 62240,
+    "org": "Clouvider Limited",
+    "isp": "Clouvider Limited",
+    "country_code": "DE",
+    "fetched_at": "2026-09-27T12:19:33Z"
   }
 }
