@@ -1,5 +1,4 @@
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:80?eh=Sec-WebSocket-Protocol&encryption=none&host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=/&security=none&type=ws#EPODONIOS
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.53.55:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&security=none&type=ws#vless-1155247983
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@188.114.97.6:8880?host=zb1zi.s3nx.dyz.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560&security=none&sni=zb1zi.s3nx.dyz.hh.vavava.kdns.fr&type=ws#vless-1239296214
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:8080?eh=Sec-WebSocket-Protocol&encryption=none&host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F&security=none&type=ws#EPODONIOS
 trojan://MiTiVPN@199.232.78.160:443?security=tls&alpn=http/1.1&insecure=0&host=mitivpn---us--s---mitivpn-1.global.ssl.fastly.net&fp=firefox&type=ws&allowInsecure=0&sni=ssl.fastly.com#🇺🇸
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.48.32:2082?fp=chrome&host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&security=false&type=ws#vless-1260158035
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:8080?eh=Sec-WebSocket-Protocol&encryption=none&host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F&security=none&type=ws#EPODONIOS
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:8080?fp=chrome&host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F&security=none&type=ws#vless-966465698
