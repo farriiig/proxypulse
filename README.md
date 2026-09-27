@@ -69,6 +69,7 @@ The source code stays on **`main`** while generated state and subscription snaps
 - ⭐ Browser-local favorite countries with no account/backend
 - 📈 Lightweight rolling history charts for online, latency, verified nodes and countries
 - 🟢 Freshness indicator (`Fresh`, `Delayed`, `Stale`) based on the latest run
+- 🇮🇷 Compact Iran internet/connectivity snapshot sourced from **Covered.ir** on each hourly run
 - 🚀 One-click subscription import buttons for **Incy** and **Happ**
 - 🧹 Clean user-facing dashboard focused on metrics, subscriptions, protocol mix and health
 - ✅ Automated test workflow
@@ -92,6 +93,7 @@ The dashboard shows the latest generated snapshot, including:
 - rolling hourly history charts
 - snapshot freshness status
 - favorite country pinning stored locally in the browser
+- compact Iran connectivity summary (overall state, domestic/international health and active incidents)
 
 The dashboard intentionally does **not** expose the internal source list or individual Top Nodes table in the user-facing UI.
 
@@ -100,6 +102,13 @@ Live dashboard:
 ```text
 https://farriiig.github.io/proxypulse-mvp/
 ```
+
+
+### 🇮🇷 Iran connectivity snapshot
+
+The dashboard includes a compact Iran internet-status section sourced from **Covered.ir**. ProxyPulse fetches the public Covered dashboard once per workflow run and stores a small static snapshot containing the overall state, monitored domestic/international route health, active incident count and Covered's last-measured time.
+
+This is an informational summary of the routes Covered monitors; it does **not** claim to represent every ISP, city, user or network in Iran. If the source cannot be fetched or parsed, ProxyPulse keeps publishing normally and shows the status snapshot as unavailable instead of failing the scan.
 
 ## 📡 Generated subscriptions
 

@@ -14,6 +14,7 @@ from pathlib import Path
 from .analyzer import analyze_config
 from .collector import fetch_sources
 from .egress import find_curl_binary, find_singbox_binary, validate_egress_many
+from .iran_status import fetch_iran_internet_status
 from .parser import ParsedNode, parse_uri
 from .probe import ProbeResult, probe_many
 from .scoring import calculate_score, gaming_score, mean_absolute_delta
@@ -388,7 +389,10 @@ async def run() -> dict:
     old_source_state: dict = load_json(SOURCE_STATE_FILE, {})
     old_dashboard_history: list[dict] = load_json(DASHBOARD_HISTORY_FILE, [])
 
-    fetch_results = await fetch_sources(sources, settings)
+    fetch_results, iran_internet = await asyncio.gather(
+        fetch_sources(sources, settings),
+        fetch_iran_internet_status(),
+    )
     parsed_by_fp: dict[str, ParsedNode] = {}
     node_sources: dict[str, list[str]] = defaultdict(list)
     source_reports: list[dict] = []
@@ -509,7 +513,7 @@ async def run() -> dict:
     egress_geolocated = sum(1 for result in egress_results.values() if result.validated and result.country_code)
 
     stats = {
-        "version": "1.2.0",
+        "version": "1.2.2",
         "generated_at": generated_at,
         "test_level": "TCP pre-check + bounded end-to-end egress validation",
         "egress_test_level": "sing-box tunnel + Cloudflare final IP/country check",
@@ -578,6 +582,7 @@ async def run() -> dict:
     write_json(PUBLISH_DIR / "data" / "sources.json", source_reports)
     write_json(PUBLISH_DIR / "data" / "egress.json", egress_snapshot)
     write_json(PUBLISH_DIR / "data" / "history.json", dashboard_history)
+    write_json(PUBLISH_DIR / "data" / "iran_internet.json", iran_internet)
 
     # Dashboard data.
     write_json(SITE_DIR / "data" / "stats.json", stats)
@@ -585,6 +590,7 @@ async def run() -> dict:
     write_json(SITE_DIR / "data" / "sources.json", source_reports)
     write_json(SITE_DIR / "data" / "egress.json", egress_snapshot)
     write_json(SITE_DIR / "data" / "history.json", dashboard_history)
+    write_json(SITE_DIR / "data" / "iran_internet.json", iran_internet)
     write_json(SITE_DIR / "data" / "project.json", {
         "repository": os.getenv("GITHUB_REPOSITORY", "farriiig/proxypulse-mvp"),
         "generated_at": generated_at,

@@ -42,6 +42,37 @@ function updateFreshness(iso){
   badge.textContent=`${label} · ${relativeAge(iso)}`;
 }
 
+
+function iranStatusLabel(status='unknown'){
+  return ({healthy:'سالم',degraded:'افت کیفیت',incident:'اختلال',down:'قطع',unknown:'نامشخص'})[String(status).toLowerCase()]||'نامشخص';
+}
+function clampPercent(value){
+  const n=Number(value);return Number.isFinite(n)?Math.max(0,Math.min(100,n)):null;
+}
+function renderIranInternet(data={}){
+  const root=$('#iran-internet');
+  if(!root)return;
+  const available=Boolean(data&&data.available);
+  root.classList.toggle('iran-status-unavailable',!available);
+  const state=available?String(data.status||'unknown').toLowerCase():'unknown';
+  const dot=$('#iranOverallDot');
+  dot.className=`iran-state-dot state-${['healthy','degraded','incident','down'].includes(state)?state:'unknown'}`;
+  $('#iranOverall').textContent=available?iranStatusLabel(state):'داده در دسترس نیست';
+  $('#iranOverallHint').textContent=available?'خلاصه وضعیت مسیرهای پایش‌شده':'لینک Covered.ir برای بررسی مستقیم در دسترس است';
+
+  const domestic=clampPercent(data?.domestic_healthy_percent);
+  const international=clampPercent(data?.international_healthy_percent);
+  $('#iranDomesticPercent').textContent=domestic===null?'—':`${domestic}% سالم`;
+  $('#iranInternationalPercent').textContent=international===null?'—':`${international}% سالم`;
+  $('#iranDomesticBar').style.width=`${domestic??0}%`;
+  $('#iranInternationalBar').style.width=`${international??0}%`;
+  $('#iranDomesticRoutes').textContent=Number.isFinite(Number(data?.domestic_routes))?`${Number(data.domestic_routes)} مسیر پایش‌شده`:'— مسیر پایش‌شده';
+  $('#iranInternationalRoutes').textContent=Number.isFinite(Number(data?.international_routes))?`${Number(data.international_routes)} مسیر پایش‌شده`:'— مسیر پایش‌شده';
+  $('#iranIncidents').textContent=Number.isFinite(Number(data?.active_incidents))?String(Number(data.active_incidents)):'—';
+  $('#iranMeasured').textContent=data?.last_measured_irst?`آخرین اندازه‌گیری Covered: ${data.last_measured_irst} IRST`:'آخرین اندازه‌گیری: —';
+  $('#iranSnapshotAge').textContent=data?.fetched_at?`Snapshot دریافت‌شده ${relativeAge(data.fetched_at)}`:'Snapshot در این اجرا دریافت نشد';
+}
+
 function renderProtocols(protocols={}){
   const entries = Object.entries(protocols).sort((a,b)=>b[1]-a[1]);
   const max = Math.max(1,...entries.map(x=>x[1]));
@@ -187,8 +218,11 @@ function closeQr(){
 async function load(){
   setNotice('loading','Loading the latest snapshot…');
   try{
-    const [stats,proj,history]=await Promise.all([
-      getJSON('./data/stats.json'),getJSON('./data/project.json'),getJSONOptional('./data/history.json',[])
+    const [stats,proj,history,iranInternet]=await Promise.all([
+      getJSON('./data/stats.json'),
+      getJSON('./data/project.json'),
+      getJSONOptional('./data/history.json',[]),
+      getJSONOptional('./data/iran_internet.json',{available:false,status:'unknown'})
     ]);
     latestStats=stats;
     project=proj||project;
@@ -203,6 +237,7 @@ async function load(){
     updateFreshness(stats.generated_at);
     renderSubscriptions(stats.subscriptions||{});
     renderCountries(stats.country_subscriptions||{});
+    renderIranInternet(iranInternet);
     renderHistory(history);
     renderProtocols(stats.protocols||{});
     renderHealth(stats.statuses||{});

@@ -20,6 +20,7 @@
       <p class="hero-sub">Collect · Fingerprint · Probe · Verify · Geo · Publish</p>
     </div>
     <div class="header-actions">
+      <a class="btn iran-jump" href="#iran-internet">Iran Internet ↓</a>
       <a id="repoLink" class="btn secondary" target="_blank" rel="noreferrer">Repository ↗</a>
       <a id="actionsLink" class="btn secondary" target="_blank" rel="noreferrer">Actions ↗</a>
       <button id="refreshBtn" class="btn">Refresh</button>
@@ -102,6 +103,48 @@
       <div id="egressSummary" class="panel-meta">—</div>
     </div>
     <div id="countries" class="endpoint-grid"></div>
+  </section>
+
+  <section id="iran-internet" class="panel iran-status-panel" aria-labelledby="iranStatusTitle">
+    <div class="iran-status-head" dir="rtl">
+      <div>
+        <div class="iran-status-kicker">IRAN CONNECTIVITY SNAPSHOT</div>
+        <h2 id="iranStatusTitle">وضعیت اینترنت ایران</h2>
+        <p>خلاصه‌ای از سلامت مسیرهای داخلی و بین‌الملل؛ بروزرسانی ساعتی همراه با اجرای ProxyPulse.</p>
+      </div>
+      <a class="iran-source-link" href="https://covered.ir/fa" target="_blank" rel="noreferrer">جزئیات در Covered.ir ↗</a>
+    </div>
+
+    <div id="iranStatusBody" class="iran-status-body" dir="rtl">
+      <article class="iran-status-card iran-overall-card">
+        <span class="iran-card-label">وضعیت کلی</span>
+        <div class="iran-overall-line"><span id="iranOverallDot" class="iran-state-dot state-unknown"></span><strong id="iranOverall">در حال دریافت…</strong></div>
+        <small id="iranOverallHint">Snapshot from Covered.ir</small>
+      </article>
+
+      <article class="iran-status-card">
+        <div class="iran-card-top"><span class="iran-card-label">مسیرهای داخلی</span><strong id="iranDomesticPercent">—</strong></div>
+        <div class="iran-health-track"><i id="iranDomesticBar" style="width:0%"></i></div>
+        <small id="iranDomesticRoutes">— مسیر پایش‌شده</small>
+      </article>
+
+      <article class="iran-status-card">
+        <div class="iran-card-top"><span class="iran-card-label">مسیرهای بین‌الملل</span><strong id="iranInternationalPercent">—</strong></div>
+        <div class="iran-health-track"><i id="iranInternationalBar" style="width:0%"></i></div>
+        <small id="iranInternationalRoutes">— مسیر پایش‌شده</small>
+      </article>
+
+      <article class="iran-status-card">
+        <span class="iran-card-label">اختلال فعال</span>
+        <strong id="iranIncidents" class="iran-big-value">—</strong>
+        <small id="iranMeasured">آخرین اندازه‌گیری: —</small>
+      </article>
+    </div>
+
+    <div class="iran-status-foot" dir="rtl">
+      <span id="iranSnapshotAge">داده در حال بارگذاری است…</span>
+      <span>منبع: Covered.ir · این شاخص فقط مسیرهای تحت پایش Covered را نمایش می‌دهد و نماینده تجربه تمام کاربران ایران نیست.</span>
+    </div>
   </section>
 
   <section class="panel history-panel">
