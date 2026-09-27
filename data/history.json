@@ -12,5 +12,12 @@
     "avg_latency_ms": 37.0,
     "verified": 8,
     "countries": 3
+  },
+  {
+    "at": "2026-09-27T11:35:10Z",
+    "online": 714,
+    "avg_latency_ms": 43.5,
+    "verified": 9,
+    "countries": 5
   }
 ]
