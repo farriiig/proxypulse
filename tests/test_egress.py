@@ -45,3 +45,11 @@ def test_build_tuic_outbound():
     assert outbound["password"] == "secret"
     assert outbound["congestion_control"] == "bbr"
     assert outbound["tls"]["server_name"] == "example.com"
+
+from app.egress import classify_egress_failure
+
+
+def test_classify_egress_failure_reasons():
+    assert classify_egress_failure('egress request timed out') == 'EGRESS_TIMEOUT'
+    assert classify_egress_failure('Reality config is missing public key') == 'CONFIG_UNSUPPORTED'
+    assert classify_egress_failure('TLS handshake failed') == 'TLS_HANDSHAKE'

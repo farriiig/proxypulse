@@ -53,6 +53,9 @@ class Settings:
     egress_timeout: float
     egress_startup_timeout: float
     egress_trace_url: str
+    asn_enrichment_limit: int
+    asn_max_per_subscription: int
+    country_max_per_subscription: int
     user_agent: str
 
 
@@ -80,5 +83,8 @@ def get_settings() -> Settings:
         egress_timeout=max(3.0, _env_float("EGRESS_TIMEOUT", float(cfg.get("egress_timeout", 10.0)))),
         egress_startup_timeout=max(0.5, _env_float("EGRESS_STARTUP_TIMEOUT", float(cfg.get("egress_startup_timeout", 2.5)))),
         egress_trace_url=str(cfg.get("egress_trace_url", "https://www.cloudflare.com/cdn-cgi/trace")),
-        user_agent=str(cfg.get("user_agent", "ProxyPulse/1.2 (+GitHub Actions)")),
+        asn_enrichment_limit=max(0, min(40, _env_int("ASN_ENRICHMENT_LIMIT", int(cfg.get("asn_enrichment_limit", 30))))),
+        asn_max_per_subscription=max(1, min(100, _env_int("ASN_MAX_PER_SUBSCRIPTION", int(cfg.get("asn_max_per_subscription", 20))))),
+        country_max_per_subscription=max(1, min(100, _env_int("COUNTRY_MAX_PER_SUBSCRIPTION", int(cfg.get("country_max_per_subscription", 30))))),
+        user_agent=str(cfg.get("user_agent", "ProxyPulse/1.3 (+GitHub Actions)")),
     )

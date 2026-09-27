@@ -91,7 +91,7 @@ async def fetch_iran_internet_status(timeout: float = 12.0) -> dict:
             timeout=timeout,
             follow_redirects=True,
             headers={
-                "User-Agent": "ProxyPulse/1.2 (+GitHub Actions; Iran connectivity snapshot)",
+                "User-Agent": "ProxyPulse/1.3 (+GitHub Actions; Iran connectivity snapshot)",
                 "Accept": "text/html,application/xhtml+xml",
             },
         ) as client:

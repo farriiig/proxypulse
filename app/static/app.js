@@ -4,6 +4,8 @@ let toastTimer;
 let regionNames;
 let latestStats = null;
 let currentCountryManifest = {};
+let currentProfileManifest = {};
+let activeProfile = 'balanced';
 const FAVORITES_KEY = 'proxypulse-country-favorites-v1';
 try{if(typeof Intl.DisplayNames==='function')regionNames=new Intl.DisplayNames([navigator.language||'en'],{type:'region'});}catch{}
 
@@ -73,6 +75,44 @@ function renderIranInternet(data={}){
   $('#iranSnapshotAge').textContent=data?.fetched_at?`Snapshot دریافت‌شده ${relativeAge(data.fetched_at)}`:'Snapshot در این اجرا دریافت نشد';
 }
 
+
+const PROFILE_META={
+  balanced:{label:'Balanced',icon:'⚖',desc:'Best overall mix of verified status, survival, score and latency.'},
+  speed:{label:'Speed',icon:'⚡',desc:'Prioritizes the lowest current TCP latency, then score and verified status.'},
+  gaming:{label:'Gaming',icon:'🎮',desc:'Prioritizes Gaming Score, low latency and low rolling jitter.'},
+  streaming:{label:'Streaming',icon:'▶',desc:'Prioritizes verified tunnels, survival, uptime and stable jitter.'},
+  stability:{label:'Stability',icon:'🛡',desc:'Prioritizes configs that keep surviving across repeated hourly scans.'},
+};
+
+function renderSmartProfiles(manifest={}){
+  currentProfileManifest=manifest||{};
+  const root=$('#profileButtons');
+  root.innerHTML=Object.entries(PROFILE_META).map(([key,meta])=>`<button type="button" class="profile-button ${key===activeProfile?'active':''}" data-profile="${key}" role="tab" aria-selected="${key===activeProfile?'true':'false'}"><span>${meta.icon}</span><strong>${meta.label}</strong></button>`).join('');
+  renderActiveProfile();
+}
+function renderActiveProfile(){
+  const meta=PROFILE_META[activeProfile]||PROFILE_META.balanced;
+  const item=currentProfileManifest[`profile-${activeProfile}`]||{};
+  const root=$('#profileResult');
+  if(!item.path){root.innerHTML='<div class="empty">Profile output is not available in this snapshot yet.</div>';return;}
+  root.innerHTML=`<div class="profile-result-copy"><span class="profile-result-icon">${meta.icon}</span><div><strong>${esc(meta.label)} profile</strong><p>${esc(meta.desc)}</p><small>${Number(item.count||0)} configs · ASN/country diversity guard · refreshed hourly</small></div></div>${subscriptionActions(item,`${meta.label} smart profile`)}`;
+}
+
+function renderConnectionIntelligence(stats={}){
+  const tested=Number(stats.egress_tested_nodes||0),verified=Number(stats.egress_verified_nodes||0);
+  $('#tunnelSuccess').textContent=`${Number(stats.egress_success_rate||0).toFixed(1)}%`;
+  $('#tunnelSuccessMeta').textContent=`${verified}/${tested} end-to-end verified`;
+  $('#survivalScore').textContent=`${Number(stats.median_survival_score||0).toFixed(1)}`;
+  $('#asnDiversity').textContent=String(Number(stats.asn_diversity_count||0));
+  $('#asnDiversityMeta').textContent=`${Number(stats.asn_enriched_nodes||0)} verified nodes enriched`;
+  $('#rotationCount').textContent=String(Number(stats.subscriptions?.rotating?.count||0));
+  const reasons=Object.entries(stats.egress_failure_reasons||{});
+  const total=reasons.reduce((sum,[,count])=>sum+Number(count||0),0);
+  $('#failureTotal').textContent=total?`${total} failed checks`:'No failed checks';
+  const labels={CONFIG_UNSUPPORTED:'Config unsupported',TUNNEL_START_FAILED:'Tunnel start',EGRESS_TIMEOUT:'Timeout',TLS_HANDSHAKE:'TLS / handshake',AUTH_FAILED:'Authentication',DNS_FAILED:'DNS',INVALID_EGRESS_RESPONSE:'Invalid egress response',RUNTIME_MISSING:'Runtime missing',REQUEST_FAILED:'Request failed',OTHER:'Other',UNKNOWN:'Unknown'};
+  $('#failureReasons').innerHTML=reasons.length?reasons.map(([key,count])=>`<div class="failure-chip"><span>${esc(labels[key]||key.replaceAll('_',' '))}</span><strong>${Number(count||0)}</strong></div>`).join(''):'<div class="failure-ok">✓ No tunnel failures recorded in this run</div>';
+}
+
 function renderProtocols(protocols={}){
   const entries = Object.entries(protocols).sort((a,b)=>b[1]-a[1]);
   const max = Math.max(1,...entries.map(x=>x[1]));
@@ -117,8 +157,8 @@ function renderRecommended(item){
 
 function renderSubscriptions(manifest={}){
   renderRecommended(manifest.recommended);
-  const order=['verified','best100','stable','fast','gaming','healthy','reality','online','all','vless','vmess','trojan','ss','hysteria2','tuic'];
-  const names=[...order.filter(n=>manifest[n]),...Object.keys(manifest).filter(n=>n!=='recommended'&&!order.includes(n))];
+  const order=['rotating','verified','best100','stable','fast','gaming','healthy','reality','online','all','vless','vmess','trojan','ss','hysteria2','tuic'];
+  const names=[...order.filter(n=>manifest[n]),...Object.keys(manifest).filter(n=>n!=='recommended'&&!n.startsWith('profile-')&&!order.includes(n))];
   const root=$('#subscriptions');
   root.innerHTML = names.length ? names.map(name=>{
     const item=manifest[name]||{};
@@ -162,7 +202,7 @@ function renderCountries(manifest={}){
           <span class="country-flag" aria-hidden="true">${flagEmoji(code)}</span>
           <div class="country-title-copy">
             <div class="country-title"><strong>${esc(name)}</strong><span class="country-code">${esc(code)}</span></div>
-            <span class="country-count">${Number(item.count||0)} end-to-end verified nodes</span>
+            <span class="country-count">${Number(item.count||0)} end-to-end verified nodes${Number(item.asn_count||0)?` · ${Number(item.asn_count)} ASNs`:''}</span>
           </div>
         </div>
       </div>
@@ -190,6 +230,8 @@ function renderHistory(history=[]){
     ['online','Online nodes',v=>`${Math.round(v)}`],
     ['avg_latency_ms','Avg latency',v=>`${Math.round(v)} ms`],
     ['verified','Verified',v=>`${Math.round(v)}`],
+    ['tunnel_success_rate','Tunnel success',v=>`${Number(v).toFixed(1)}%`],
+    ['survival_score','Survival score',v=>`${Number(v).toFixed(1)}`],
     ['countries','Countries',v=>`${Math.round(v)}`],
   ];
   root.innerHTML=defs.map(([field,label,format])=>{
@@ -235,8 +277,10 @@ async function load(){
     $('#reality').textContent=stats.reality_nodes??0;
     $('#lastUpdate').textContent=fmtTime(stats.generated_at);
     updateFreshness(stats.generated_at);
+    renderSmartProfiles(stats.subscriptions||{});
     renderSubscriptions(stats.subscriptions||{});
     renderCountries(stats.country_subscriptions||{});
+    renderConnectionIntelligence(stats);
     renderIranInternet(iranInternet);
     renderHistory(history);
     renderProtocols(stats.protocols||{});
@@ -262,6 +306,8 @@ async function load(){
 document.addEventListener('click',(event)=>{
   const copy=event.target.closest('[data-copy]');
   if(copy){copyText(copy.dataset.copy||'');return;}
+  const profile=event.target.closest('[data-profile]');
+  if(profile){activeProfile=String(profile.dataset.profile||'balanced');renderSmartProfiles(currentProfileManifest);return;}
   const favorite=event.target.closest('[data-favorite-country]');
   if(favorite){
     const key=String(favorite.dataset.favoriteCountry||'').toLowerCase();

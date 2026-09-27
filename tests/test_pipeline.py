@@ -44,3 +44,25 @@ def test_subscription_cap_never_exceeds_100():
 def test_subscription_setting_is_hard_clamped(monkeypatch):
     monkeypatch.setenv("SUBSCRIPTION_MAX_NODES", "500")
     assert get_settings().subscription_max_nodes == 100
+
+from app.pipeline import _diverse_select, update_history
+from app.probe import ProbeResult
+
+
+def test_diversity_guard_caps_known_asn_and_country():
+    nodes=[]
+    for i in range(12):
+        nodes.append({'fingerprint':str(i),'asn':64500 if i<8 else 64501,'country_code':'US' if i<10 else 'NL'})
+    selected=_diverse_select(nodes,10,max_per_asn=3,max_per_country=5)
+    assert len([n for n in selected if n.get('asn')==64500]) <= 3
+    assert len([n for n in selected if n.get('asn')==64501]) <= 3
+    assert len([n for n in selected if n.get('country_code')=='US']) <= 5
+
+
+def test_survival_score_increases_with_repeated_successes():
+    settings=get_settings()
+    previous={}
+    for i in range(6):
+        previous=update_history(previous=previous,probe=ProbeResult(True,40.0,100.0,[40.0]),generated_at=f'2026-09-27T0{i}:00:00Z',settings=settings,config_quality=90.0)
+    assert previous['survival_streak'] == 6
+    assert previous['survival_score'] > 70

@@ -78,7 +78,8 @@ jobs:
             git show origin/generated:data/state.json > .runtime/state.json 2>/dev/null || true
             git show origin/generated:data/source_state.json > .runtime/source_state.json 2>/dev/null || true
             git show origin/generated:data/history.json > .runtime/dashboard_history.json 2>/dev/null || true
-            echo "Previous history restored."
+            git show origin/generated:data/asn_cache.json > .runtime/asn_cache.json 2>/dev/null || true
+            echo "Previous history and ASN cache restored."
           else
             echo "No generated branch yet; starting with fresh history."
           fi
@@ -101,6 +102,12 @@ jobs:
           test -f build/site/data/egress.json
           test -f build/site/data/history.json
           test -f build/site/subscriptions/recommended.txt
+          test -f build/site/subscriptions/rotating.txt
+          test -f build/site/subscriptions/profile-balanced.txt
+          test -f build/site/subscriptions/profile-speed.txt
+          test -f build/site/subscriptions/profile-gaming.txt
+          test -f build/site/subscriptions/profile-streaming.txt
+          test -f build/site/subscriptions/profile-stability.txt
           echo "Site artifact verified."
 
       - name: Configure GitHub Pages
@@ -162,4 +169,6 @@ jobs:
           echo "- Egress validation limit: ${{ inputs.egress_test_limit || '200' }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- End-to-end runtime: sing-box 1.14.1 + Cloudflare trace" >> "$GITHUB_STEP_SUMMARY"
           echo "- Subscription hard cap: 100 nodes per output" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Smart profiles + rotating subscription: enabled" >> "$GITHUB_STEP_SUMMARY"
+          echo "- ASN diversity enrichment: bounded + cached" >> "$GITHUB_STEP_SUMMARY"
           echo "- Persistent snapshot branch: generated" >> "$GITHUB_STEP_SUMMARY"

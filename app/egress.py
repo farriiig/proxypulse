@@ -26,10 +26,42 @@ class EgressResult:
     country_code: str | None = None
     elapsed_ms: float | None = None
     error: str | None = None
+    failure_reason: str | None = None
 
 
 class UnsupportedEgressConfig(ValueError):
     pass
+
+
+def classify_egress_failure(error: str | None) -> str:
+    text = str(error or '').lower()
+    if not text:
+        return 'UNKNOWN'
+    if 'unsupported protocol' in text or 'missing public key' in text or 'missing password' in text or 'missing uuid' in text or text.startswith('config:'):
+        return 'CONFIG_UNSUPPORTED'
+    if 'did not start' in text or 'sing-box exited' in text:
+        if 'tls' in text or 'certificate' in text or 'handshake' in text:
+            return 'TLS_HANDSHAKE'
+        if 'auth' in text or 'password' in text or 'permission' in text:
+            return 'AUTH_FAILED'
+        if 'dns' in text or 'resolve' in text or 'no such host' in text:
+            return 'DNS_FAILED'
+        return 'TUNNEL_START_FAILED'
+    if 'timed out' in text or 'timeout' in text:
+        return 'EGRESS_TIMEOUT'
+    if 'tls' in text or 'certificate' in text or 'ssl' in text or 'handshake' in text:
+        return 'TLS_HANDSHAKE'
+    if 'auth' in text or 'unauthorized' in text or 'password' in text or 'permission denied' in text:
+        return 'AUTH_FAILED'
+    if 'could not resolve' in text or 'dns' in text or 'name resolution' in text:
+        return 'DNS_FAILED'
+    if 'valid final ip' in text:
+        return 'INVALID_EGRESS_RESPONSE'
+    if 'runtime missing' in text or 'no such file' in text:
+        return 'RUNTIME_MISSING'
+    if 'curl exited' in text or 'failed to connect' in text or 'connection reset' in text or 'connection refused' in text:
+        return 'REQUEST_FAILED'
+    return 'OTHER'
 
 
 def find_singbox_binary() -> str | None:
@@ -475,12 +507,15 @@ async def validate_egress_many(
 
     async def run(item_id: int, node: ParsedNode):
         async with semaphore:
-            return item_id, await validate_egress(
+            result = await validate_egress(
                 node,
                 settings,
                 singbox_binary=singbox_binary,
                 curl_binary=curl_binary,
             )
+            if not result.validated and not result.failure_reason:
+                result.failure_reason = classify_egress_failure(result.error)
+            return item_id, result
 
     pairs = await asyncio.gather(*(run(*item) for item in items))
     return dict(pairs)

@@ -12,6 +12,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from .analyzer import analyze_config
+from .asn_enrich import enrich_asn_many
 from .collector import fetch_sources
 from .egress import find_curl_binary, find_singbox_binary, validate_egress_many
 from .iran_status import fetch_iran_internet_status
@@ -29,6 +30,7 @@ SOURCES_FILE = SETTINGS_DIR / "sources.txt"
 STATE_FILE = RUNTIME_DIR / "state.json"
 SOURCE_STATE_FILE = RUNTIME_DIR / "source_state.json"
 DASHBOARD_HISTORY_FILE = RUNTIME_DIR / "dashboard_history.json"
+ASN_CACHE_FILE = RUNTIME_DIR / "asn_cache.json"
 
 
 def now_iso() -> str:
@@ -155,6 +157,15 @@ def update_history(*, previous: dict, probe: ProbeResult, generated_at: str, set
         recent_success_rate=recent_rate,
     )
     consecutive_failures = 0 if probe.reachable else int(previous.get("consecutive_failures", 0)) + 1
+    survival_streak = 0
+    for sample in reversed(recent):
+        if sample.get("reachable"):
+            survival_streak += 1
+        else:
+            break
+    streak_component = min(survival_streak, 12) / 12 * 100
+    history_confidence = min(len(recent), 12) / 12 * 100
+    survival_score = round(0.55 * recent_rate + 0.25 * streak_component + 0.20 * history_confidence, 1)
     return {
         "first_seen_at": previous.get("first_seen_at") or generated_at,
         "last_seen_at": generated_at,
@@ -169,6 +180,8 @@ def update_history(*, previous: dict, probe: ProbeResult, generated_at: str, set
         "reachable": probe.reachable,
         "attempt_success_rate": probe.attempt_success_rate,
         "consecutive_failures": consecutive_failures,
+        "survival_streak": survival_streak,
+        "survival_score": survival_score,
         "recent": recent,
     }
 
@@ -191,6 +204,8 @@ def safe_node(parsed: ParsedNode, sources: list[str], probe: ProbeResult, histor
         "uptime": history["uptime"],
         "recent_success_rate": history["recent_success_rate"],
         "run_count": history["run_count"],
+        "survival_streak": history.get("survival_streak", 0),
+        "survival_score": history.get("survival_score", 0.0),
         "status": status,
         "config_quality": analysis["config_quality"],
         "config_risk": analysis["config_risk"],
@@ -201,6 +216,10 @@ def safe_node(parsed: ParsedNode, sources: list[str], probe: ProbeResult, histor
         "country_code": None,
         "egress_latency_ms": None,
         "egress_error": None,
+        "egress_failure_reason": None,
+        "asn": None,
+        "asn_org": None,
+        "isp": None,
         "raw_uri": parsed.raw_uri,
     }
 
@@ -242,10 +261,71 @@ def _recommended_nodes(nodes: list[dict]) -> list[dict]:
         pool,
         key=lambda n: (
             not bool(n.get("egress_validated")),
+            -float(n.get("survival_score") or 0),
             -float(n.get("score") or 0),
             -float(n.get("uptime") or 0),
             float(n.get("jitter_ms")) if n.get("jitter_ms") is not None else 10**9,
             float(n.get("latency_ms")) if n.get("latency_ms") is not None else 10**9,
+        ),
+    )
+
+
+def _diverse_select(
+    members: list[dict],
+    limit: int,
+    *,
+    max_per_asn: int | None = None,
+    max_per_country: int | None = None,
+) -> list[dict]:
+    """Select high-ranked nodes while avoiding concentration in one ASN/country."""
+    limit = max(1, min(100, int(limit)))
+    selected: list[dict] = []
+    asn_counts: Counter = Counter()
+    country_counts: Counter = Counter()
+    for node in members:
+        asn = node.get("asn")
+        country = str(node.get("country_code") or "").upper() or None
+        asn_key = f"AS{asn}" if asn else None
+        blocked = False
+        if asn_key and max_per_asn and asn_counts[asn_key] >= max_per_asn:
+            blocked = True
+        if country and max_per_country and country_counts[country] >= max_per_country:
+            blocked = True
+        if blocked:
+            continue
+        selected.append(node)
+        if asn_key:
+            asn_counts[asn_key] += 1
+        if country:
+            country_counts[country] += 1
+        if len(selected) >= limit:
+            return selected
+
+    return selected
+
+
+def _profile_nodes(nodes: list[dict], profile: str) -> list[dict]:
+    online = [n for n in nodes if n.get("reachable") and n.get("status") != "OFFLINE"]
+    if profile == "speed":
+        return sorted(online, key=lambda n: (not n.get("egress_validated"), float(n.get("latency_ms") or 10**9), -float(n.get("score") or 0)))
+    if profile == "gaming":
+        return sorted(online, key=lambda n: (not n.get("egress_validated"), -float(n.get("gaming_score") or 0), float(n.get("latency_ms") or 10**9), float(n.get("jitter_ms") or 10**9)))
+    if profile == "streaming":
+        return sorted(online, key=lambda n: (not n.get("egress_validated"), -float(n.get("survival_score") or 0), -float(n.get("uptime") or 0), float(n.get("jitter_ms") or 10**9)))
+    if profile == "stability":
+        return sorted(online, key=lambda n: (-float(n.get("survival_score") or 0), -float(n.get("uptime") or 0), -float(n.get("score") or 0), float(n.get("latency_ms") or 10**9)))
+    return _recommended_nodes(nodes)
+
+
+def _rotating_nodes(nodes: list[dict]) -> list[dict]:
+    return sorted(
+        [n for n in nodes if n.get("reachable") and n.get("status") not in {"OFFLINE", "WEAK"}],
+        key=lambda n: (
+            not n.get("egress_validated"),
+            -float(n.get("survival_score") or 0),
+            -float(n.get("recent_success_rate") or 0),
+            -float(n.get("score") or 0),
+            float(n.get("latency_ms") or 10**9),
         ),
     )
 
@@ -316,8 +396,20 @@ def _publish_subscription(relative_path: str, members: list[dict], max_nodes: in
 
 def generate_subscriptions(nodes: list[dict], settings: Settings) -> dict[str, dict]:
     online = [n for n in nodes if n["reachable"]]
+    diverse = lambda members: _diverse_select(
+        members,
+        settings.subscription_max_nodes,
+        max_per_asn=settings.asn_max_per_subscription,
+        max_per_country=settings.country_max_per_subscription,
+    )
     groups: dict[str, list[dict]] = {
-        "recommended": _recommended_nodes(nodes),
+        "recommended": diverse(_recommended_nodes(nodes)),
+        "rotating": diverse(_rotating_nodes(nodes)),
+        "profile-balanced": diverse(_profile_nodes(nodes, "balanced")),
+        "profile-speed": diverse(_profile_nodes(nodes, "speed")),
+        "profile-gaming": diverse(_profile_nodes(nodes, "gaming")),
+        "profile-streaming": diverse(_profile_nodes(nodes, "streaming")),
+        "profile-stability": diverse(_profile_nodes(nodes, "stability")),
         "all": _sort_nodes(nodes),
         "best100": _sort_nodes(online),
         "verified": _sort_nodes([n for n in online if n.get("egress_validated")]),
@@ -352,12 +444,20 @@ def generate_country_subscriptions(nodes: list[dict], settings: Settings) -> dic
     manifest: dict[str, dict] = {}
     for code, members in sorted(groups.items(), key=lambda item: (-len(item[1]), item[0])):
         key = code.lower()
+        ranked = _sort_nodes(members)
+        diverse_members = _diverse_select(
+            ranked,
+            settings.subscription_max_nodes,
+            max_per_asn=settings.asn_max_per_subscription,
+            max_per_country=None,
+        )
         item = _publish_subscription(
             f"subscriptions/countries/{key}.txt",
-            _sort_nodes(members),
+            diverse_members,
             settings.subscription_max_nodes,
         )
         item["code"] = code
+        item["asn_count"] = len({n.get("asn") for n in diverse_members if n.get("asn")})
         manifest[key] = item
     return manifest
 
@@ -388,6 +488,7 @@ async def run() -> dict:
     old_state: dict = load_json(STATE_FILE, {})
     old_source_state: dict = load_json(SOURCE_STATE_FILE, {})
     old_dashboard_history: list[dict] = load_json(DASHBOARD_HISTORY_FILE, [])
+    old_asn_cache: dict = load_json(ASN_CACHE_FILE, {})
 
     fetch_results, iran_internet = await asyncio.gather(
         fetch_sources(sources, settings),
@@ -494,6 +595,23 @@ async def run() -> dict:
         node["country_code"] = result.country_code
         node["egress_latency_ms"] = result.elapsed_ms
         node["egress_error"] = result.error
+        node["egress_failure_reason"] = result.failure_reason
+
+    validated_ips = [str(n.get("egress_ip")) for n in nodes if n.get("egress_validated") and n.get("egress_ip")]
+    asn_map, asn_cache = await enrich_asn_many(
+        validated_ips,
+        old_asn_cache,
+        limit=settings.asn_enrichment_limit,
+    )
+    for node in nodes:
+        info = asn_map.get(str(node.get("egress_ip") or ""))
+        if not info:
+            continue
+        node["asn"] = info.get("asn")
+        node["asn_org"] = info.get("org")
+        node["isp"] = info.get("isp")
+        if not node.get("country_code") and info.get("country_code"):
+            node["country_code"] = info.get("country_code")
 
     nodes = _sort_nodes(nodes)
     next_state = prune_state(next_state, generated_at, settings.state_retention_days)
@@ -510,10 +628,17 @@ async def run() -> dict:
 
     egress_tested = len(egress_results)
     egress_verified = sum(1 for result in egress_results.values() if result.validated)
-    egress_geolocated = sum(1 for result in egress_results.values() if result.validated and result.country_code)
+    egress_geolocated = sum(1 for n in nodes if n.get("egress_validated") and n.get("country_code"))
+    egress_success_rate = round(egress_verified / egress_tested * 100, 1) if egress_tested else 0.0
+    failure_reasons = Counter(
+        (result.failure_reason or "UNKNOWN") for result in egress_results.values() if not result.validated
+    )
+    survival_values = sorted(float(n.get("survival_score") or 0) for n in online_nodes)
+    median_survival = round(survival_values[len(survival_values)//2], 1) if survival_values else 0.0
+    unique_asns = len({n.get("asn") for n in nodes if n.get("asn")})
 
     stats = {
-        "version": "1.2.2",
+        "version": "1.3.0",
         "generated_at": generated_at,
         "test_level": "TCP pre-check + bounded end-to-end egress validation",
         "egress_test_level": "sing-box tunnel + Cloudflare final IP/country check",
@@ -535,6 +660,11 @@ async def run() -> dict:
         "egress_tested_nodes": egress_tested,
         "egress_verified_nodes": egress_verified,
         "egress_geolocated_nodes": egress_geolocated,
+        "egress_success_rate": egress_success_rate,
+        "egress_failure_reasons": dict(sorted(failure_reasons.items(), key=lambda x: (-x[1], x[0]))),
+        "median_survival_score": median_survival,
+        "asn_diversity_count": unique_asns,
+        "asn_enriched_nodes": sum(1 for n in nodes if n.get("asn")),
         "egress_country_count": len(country_manifest),
         "egress_runtime_available": bool(singbox_binary and curl_binary),
         "settings": {
@@ -544,6 +674,9 @@ async def run() -> dict:
             "egress_test_limit": settings.egress_test_limit,
             "egress_concurrency": settings.egress_concurrency,
             "subscription_max_nodes": settings.subscription_max_nodes,
+            "asn_enrichment_limit": settings.asn_enrichment_limit,
+            "asn_max_per_subscription": settings.asn_max_per_subscription,
+            "country_max_per_subscription": settings.country_max_per_subscription,
         },
     }
 
@@ -553,6 +686,8 @@ async def run() -> dict:
         "online": len(online_nodes),
         "avg_latency_ms": avg_latency,
         "verified": egress_verified,
+        "tunnel_success_rate": egress_success_rate,
+        "survival_score": median_survival,
         "countries": len(country_manifest),
     })
     dashboard_history = dashboard_history[-settings.dashboard_history_samples:]
@@ -569,6 +704,11 @@ async def run() -> dict:
             "egress_ip": n.get("egress_ip"),
             "country_code": n.get("country_code"),
             "egress_latency_ms": n.get("egress_latency_ms"),
+            "asn": n.get("asn"),
+            "asn_org": n.get("asn_org"),
+            "isp": n.get("isp"),
+            "survival_score": n.get("survival_score"),
+            "survival_streak": n.get("survival_streak"),
         }
         for n in nodes
         if n.get("egress_validated")
@@ -583,6 +723,7 @@ async def run() -> dict:
     write_json(PUBLISH_DIR / "data" / "egress.json", egress_snapshot)
     write_json(PUBLISH_DIR / "data" / "history.json", dashboard_history)
     write_json(PUBLISH_DIR / "data" / "iran_internet.json", iran_internet)
+    write_json(PUBLISH_DIR / "data" / "asn_cache.json", asn_cache)
 
     # Dashboard data.
     write_json(SITE_DIR / "data" / "stats.json", stats)

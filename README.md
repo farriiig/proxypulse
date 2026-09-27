@@ -64,6 +64,11 @@ The source code stays on **`main`** while generated state and subscription snaps
 - 📱 Responsive mobile-friendly interface
 - 📋 Plain-text + Base64 subscription outputs
 - ⭐ Smart `recommended` subscription using verification, score, uptime, jitter and latency
+- 🧠 Smart Profile Builder for Balanced, Speed, Gaming, Streaming and Stability goals
+- 🔄 Auto-rotating subscription that replaces weak configs on every hourly run
+- ❤️‍🔥 Survival Score + consecutive survival streak derived from rolling hourly reachability
+- 🛰️ Cached ASN/ISP enrichment with diversity guards for smart/country outputs
+- ✅ Tunnel success rate and categorized end-to-end failure reasons
 - 🔒 Hard **100-node maximum per published subscription** to keep client apps lightweight
 - 📷 Pre-generated QR code for each subscription
 - ⭐ Browser-local favorite countries with no account/backend
@@ -90,7 +95,9 @@ The dashboard shows the latest generated snapshot, including:
 - end-to-end test / geolocation counts
 - protocol distribution
 - current health-state distribution
-- rolling hourly history charts
+- rolling hourly history charts, including tunnel success and Survival Score
+- Smart Profile Builder + rotating subscription
+- tunnel failure-reason summary and ASN diversity metrics
 - snapshot freshness status
 - favorite country pinning stored locally in the browser
 - compact Iran connectivity summary (overall state, domestic/international health and active incidents)
@@ -116,7 +123,13 @@ Each successful run publishes both normal text and Base64 variants. **Every cons
 
 | Subscription | Purpose |
 |---|---|
-| `recommended` | Smart current selection prioritizing end-to-end verification, score, uptime, jitter and latency |
+| `recommended` | Smart current selection prioritizing verification, Survival Score, score, uptime, jitter and latency |
+| `rotating` | Auto-refreshed healthy pool; weak configs are replaced on every run and ASN/country concentration is limited |
+| `profile-balanced` | Balanced smart profile |
+| `profile-speed` | Lowest-latency-oriented smart profile |
+| `profile-gaming` | Gaming Score + low latency/jitter profile |
+| `profile-streaming` | Verified, high-survival, stable-jitter profile |
+| `profile-stability` | Highest Survival Score / uptime profile |
 | `verified` | Nodes that passed the actual end-to-end tunnel/final-IP check |
 | `best100` | Top 100 currently reachable nodes by score |
 | `stable` | Reachable nodes meeting score + historical uptime thresholds |
@@ -290,9 +303,14 @@ Default values:
   "egress_trace_url": "https://www.cloudflare.com/cdn-cgi/trace",
   "subscription_max_nodes": 100,
   "dashboard_history_samples": 168,
-  "user_agent": "ProxyPulse/1.2 (+GitHub Actions)"
+  "asn_enrichment_limit": 30,
+  "asn_max_per_subscription": 20,
+  "country_max_per_subscription": 30,
+  "user_agent": "ProxyPulse/1.3 (+GitHub Actions)"
 }
 ```
+
+`ASN_ENRICHMENT_LIMIT` is bounded to at most 40 new lookups per run (30 by default). ASN results are cached on the `generated` branch for 30 days, so the hourly workflow normally reuses existing enrichment instead of querying the same egress IP again. The smart outputs apply configurable per-ASN and per-country concentration caps.
 
 `SCAN_LIMIT` and `EGRESS_TEST_LIMIT` can also be overridden manually from the **Run workflow** form. `subscription_max_nodes` is defensively clamped to a maximum of **100** by the application, so a misconfigured environment variable cannot publish a larger client subscription. The default egress limit is intentionally smaller than the TCP scan limit because end-to-end validation launches a real proxy client and performs an outbound request for each tested config.
 
@@ -318,6 +336,11 @@ Only currently reachable nodes receive a non-zero general score:
 ```
 
 The Gaming Score is a ranking aid based on TCP measurements. It does **not** measure UDP game traffic, packet loss through the tunnel, routing quality to a specific game server, or protocol authentication success.
+
+### Survival Score
+
+Survival Score is a rolling reachability metric that combines recent success rate with the current consecutive-success streak. It is designed to prefer configs that stay alive across repeated hourly scans rather than nodes that look good in only one snapshot. It is a TCP/reachability survival signal, not a guarantee of future end-to-end availability.
+
 
 ## 🩺 Health states
 

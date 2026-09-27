@@ -20,6 +20,7 @@
       <p class="hero-sub">Collect · Fingerprint · Probe · Verify · Geo · Publish</p>
     </div>
     <div class="header-actions">
+      <a class="btn smart-jump" href="#smart-profiles">Smart Profiles ↓</a>
       <a class="btn iran-jump" href="#iran-internet">Iran Internet ↓</a>
       <a id="repoLink" class="btn secondary" target="_blank" rel="noreferrer">Repository ↗</a>
       <a id="actionsLink" class="btn secondary" target="_blank" rel="noreferrer">Actions ↗</a>
@@ -79,6 +80,19 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section id="smart-profiles" class="panel smart-profile-panel" aria-labelledby="smartProfilesTitle">
+    <div class="panel-head">
+      <div>
+        <div class="section-kicker">SMART PROFILE BUILDER</div>
+        <h2 id="smartProfilesTitle">Pick the connection style you want</h2>
+        <p>ProxyPulse prepares a diverse subscription for your goal. Every profile is refreshed hourly and hard-capped at 100 configs.</p>
+      </div>
+      <div class="profile-badges"><span>ASN-aware</span><span>Auto-rotation</span><span>≤100 nodes</span></div>
+    </div>
+    <div id="profileButtons" class="profile-buttons" role="tablist" aria-label="Smart profiles"></div>
+    <div id="profileResult" class="profile-result"></div>
   </section>
 
   <section class="panel">
@@ -144,6 +158,27 @@
     <div class="iran-status-foot" dir="rtl">
       <span id="iranSnapshotAge">داده در حال بارگذاری است…</span>
       <span>منبع: Covered.ir · این شاخص فقط مسیرهای تحت پایش Covered را نمایش می‌دهد و نماینده تجربه تمام کاربران ایران نیست.</span>
+    </div>
+  </section>
+
+  <section class="panel intelligence-panel" aria-labelledby="intelligenceTitle">
+    <div class="panel-head">
+      <div>
+        <div class="section-kicker">CONNECTION INTELLIGENCE</div>
+        <h2 id="intelligenceTitle">Tunnel quality & survival</h2>
+        <p>End-to-end success, rolling survival and ASN diversity from the latest scan.</p>
+      </div>
+      <div class="panel-meta">failure reasons are grouped automatically</div>
+    </div>
+    <div class="intelligence-grid">
+      <article class="intel-card"><span>Tunnel success</span><strong id="tunnelSuccess">—</strong><small id="tunnelSuccessMeta">—</small></article>
+      <article class="intel-card"><span>Median survival</span><strong id="survivalScore">—</strong><small>rolling reachability score</small></article>
+      <article class="intel-card"><span>ASN diversity</span><strong id="asnDiversity">—</strong><small id="asnDiversityMeta">enriched egress networks</small></article>
+      <article class="intel-card"><span>Rotation pool</span><strong id="rotationCount">—</strong><small>auto-replaced healthy configs</small></article>
+    </div>
+    <div class="failure-block">
+      <div class="failure-head"><strong>Why tunnel checks failed</strong><span id="failureTotal">—</span></div>
+      <div id="failureReasons" class="failure-reasons"></div>
     </div>
   </section>
 
