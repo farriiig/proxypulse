@@ -1,1 +1,1 @@
-vless://e5cc16a6-ea42-46b2-82ae-ad2157e1641b@172.64.150.28:2082?path=%2Ffp&security=none&encryption=none&host=hhlfy.twiladaphne.ndjp.net&type=ws#EPODONIOS
+vless://a7b8b48e-1000-46f5-a974-f6606d94f3b4@104.24.152.211:8880?path=/pyip=ProxyIP.SG.CMLiussss.net&security=&encryption=none&host=misty-hill-4b94.146-c18.workers.dev&type=ws#EPODONIOS
