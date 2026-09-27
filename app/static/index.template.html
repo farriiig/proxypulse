@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -14,67 +14,69 @@
 <div class="bg-grid"></div>
 <div class="shell">
   <header class="hero">
-    <div>
-      <div class="eyebrow"><span class="live-dot"></span> PROXY INTELLIGENCE · GITHUB EDITION</div>
+    <div class="brand-block">
+      <div class="eyebrow"><span class="live-dot"></span><span data-i18n="eyebrow">هوشمندی پروکسی · نسخه GitHub</span></div>
       <h1>ProxyPulse</h1>
-      <p class="hero-sub">Collect · Fingerprint · Probe · Verify · Geo · Publish</p>
+      <p class="hero-sub" data-i18n="heroSub">جمع‌آوری · اثرانگشت · تست · اعتبارسنجی · موقعیت · انتشار</p>
     </div>
     <div class="header-actions">
-      <a class="btn smart-jump" href="#smart-profiles">Smart Profiles ↓</a>
-      <a class="btn iran-jump" href="#iran-internet">Iran Internet ↓</a>
-      <a id="repoLink" class="btn secondary" target="_blank" rel="noreferrer">Repository ↗</a>
-      <a id="actionsLink" class="btn secondary" target="_blank" rel="noreferrer">Actions ↗</a>
-      <button id="refreshBtn" class="btn">Refresh</button>
+      <div class="language-switch" role="group" data-i18n-aria="languageSelector" aria-label="انتخاب زبان">
+        <button type="button" class="language-option active" data-lang="fa" aria-pressed="true">فارسی</button>
+        <button type="button" class="language-option" data-lang="en" aria-pressed="false">English</button>
+      </div>
+      <a class="btn smart-jump" href="#smart-profiles" data-i18n="smartProfilesJump">پروفایل هوشمند ↓</a>
+      <a class="btn iran-jump" href="#iran-internet" data-i18n="iranInternetJump">اینترنت ایران ↓</a>
+      <a id="repoLink" class="btn secondary" target="_blank" rel="noreferrer" data-i18n="repository">مخزن ↗</a>
+      <a id="actionsLink" class="btn secondary" target="_blank" rel="noreferrer" data-i18n="actions">اکشن‌ها ↗</a>
+      <button id="refreshBtn" class="btn" data-i18n="refresh">بروزرسانی</button>
     </div>
   </header>
 
-  <div id="notice" class="notice loading"><span id="noticeText">Loading the latest snapshot…</span><span id="freshnessBadge" class="freshness freshness-loading">Checking…</span></div>
+  <div id="notice" class="notice loading"><span id="noticeText" data-i18n="loadingSnapshot">در حال دریافت آخرین وضعیت…</span><span id="freshnessBadge" class="freshness freshness-loading" data-i18n="checking">در حال بررسی…</span></div>
 
   <section class="cards metrics">
-    <article class="card metric-card"><span>Discovered</span><strong id="discovered">—</strong><small>semantic unique</small></article>
-    <article class="card metric-card"><span>Scanned</span><strong id="scanned">—</strong><small>current run</small></article>
-    <article class="card metric-card"><span>Online</span><strong id="online">—</strong><small id="onlineRate">—</small></article>
-    <article class="card metric-card"><span>Avg Latency</span><strong id="latency">—</strong><small>TCP median</small></article>
-    <article class="card metric-card"><span>Avg Score</span><strong id="avgScore">—</strong><small>history + latency + stability</small></article>
-    <article class="card metric-card"><span>Reality</span><strong id="reality">—</strong><small>online nodes</small></article>
+    <article class="card metric-card"><span data-i18n="metricDiscovered">شناسایی‌شده</span><strong id="discovered">—</strong><small data-i18n="metricSemanticUnique">یکتای معنایی</small></article>
+    <article class="card metric-card"><span data-i18n="metricScanned">اسکن‌شده</span><strong id="scanned">—</strong><small data-i18n="metricCurrentRun">اجرای فعلی</small></article>
+    <article class="card metric-card"><span data-i18n="metricOnline">آنلاین</span><strong id="online">—</strong><small id="onlineRate">—</small></article>
+    <article class="card metric-card"><span data-i18n="metricAvgLatency">میانگین تأخیر</span><strong id="latency">—</strong><small data-i18n="metricTcpMedian">میانه TCP</small></article>
+    <article class="card metric-card"><span data-i18n="metricAvgScore">میانگین امتیاز</span><strong id="avgScore">—</strong><small data-i18n="metricScoreHint">تاریخچه + تأخیر + پایداری</small></article>
+    <article class="card metric-card"><span>Reality</span><strong id="reality">—</strong><small data-i18n="metricOnlineNodes">نودهای آنلاین</small></article>
   </section>
-
-
 
   <section class="panel guide-panel" aria-labelledby="guideTitle">
     <div class="guide-layout">
-      <div class="guide-copy" dir="rtl">
-        <div class="guide-kicker">راهنمای سریع استفاده</div>
-        <h2 id="guideTitle">شروع سریع با اشتراک‌ها و اپ‌ها</h2>
-        <p class="guide-lead">ProxyPulse یک پلتفرم GitHub-native برای جمع‌آوری، پالایش، تست و انتشار کانفیگ‌های عمومی است. این سیستم کانفیگ‌ها را بررسی می‌کند، نتایج را بر اساس وضعیت و کشور دسته‌بندی می‌کند و اشتراک‌های آماده استفاده را برای کاربران منتشر می‌کند.</p>
+      <div class="guide-copy">
+        <div class="guide-kicker" data-i18n="guideKicker">راهنمای سریع استفاده</div>
+        <h2 id="guideTitle" data-i18n="guideTitle">شروع سریع با اشتراک‌ها و اپ‌ها</h2>
+        <p class="guide-lead" data-i18n="guideLead">ProxyPulse یک پلتفرم GitHub-native برای جمع‌آوری، پالایش، تست و انتشار کانفیگ‌های عمومی است. نتایج بر اساس کیفیت، وضعیت و کشور دسته‌بندی می‌شوند و اشتراک‌های آماده استفاده در اختیار کاربر قرار می‌گیرند.</p>
         <ol class="guide-steps">
-          <li><span>اشتراک مناسب خود را از بخش <strong>Subscriptions</strong> یا <strong>Verified Countries</strong> انتخاب کنید.</span></li>
-          <li><span>برای افزودن مستقیم، روی دکمه‌های <strong>Incy</strong> یا <strong>Happ</strong> بزنید.</span></li>
-          <li><span>اگر اپ را نصب ندارید، از دکمه‌های دانلود همین بخش استفاده کنید.</span></li>
+          <li><span data-i18n-html="guideStep1">اشتراک مناسب خود را از بخش <strong>اشتراک‌ها</strong> یا <strong>کشورهای تأییدشده</strong> انتخاب کنید.</span></li>
+          <li><span data-i18n-html="guideStep2">برای افزودن مستقیم، روی دکمه‌های <strong>Incy</strong> یا <strong>Happ</strong> بزنید.</span></li>
+          <li><span data-i18n="guideStep3">اگر اپ را نصب ندارید، از دکمه‌های دانلود همین بخش استفاده کنید.</span></li>
         </ol>
-        <p class="guide-note">نکته: عملکرد افزودن مستقیم فقط زمانی کار می‌کند که اپ مربوطه روی دستگاه شما نصب شده باشد.</p>
+        <p class="guide-note" data-i18n="guideNote">نکته: افزودن مستقیم فقط زمانی کار می‌کند که اپ مربوطه روی دستگاه شما نصب باشد.</p>
       </div>
-      <div class="guide-downloads" dir="rtl" aria-label="لینک دانلود اپ‌ها">
-        <div class="guide-downloads-head">دانلود اپ‌ها</div>
+      <div class="guide-downloads" data-i18n-aria="downloadAppsAria" aria-label="لینک دانلود اپ‌ها">
+        <div class="guide-downloads-head" data-i18n="downloadApps">دانلود اپ‌ها</div>
         <div class="guide-download-grid">
           <a class="download-card" href="https://apps.apple.com/ru/app/incy/id6756943388" target="_blank" rel="noreferrer">
             <span class="download-icon" aria-hidden="true"><svg class="icon-svg apple-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M15.41 12.9c.02 2.04 1.79 2.72 1.81 2.73-.02.05-.29.99-.94 1.95-.56.83-1.16 1.66-2.07 1.67-.89.02-1.18-.53-2.21-.53-1.03 0-1.35.51-2.19.55-.88.03-1.55-.89-2.11-1.71-1.14-1.66-2.01-4.68-.85-6.72.57-1.02 1.64-1.66 2.77-1.68.87-.02 1.69.58 2.21.58.52 0 1.49-.72 2.5-.62.43.02 1.62.18 2.39 1.29-.06.04-1.43.83-1.41 2.49Zm-1.69-5.42c.47-.57.79-1.38.72-2.18-.69.03-1.51.46-2.01 1.01-.44.5-.82 1.33-.72 2.11.76.06 1.54-.39 2.01-.94Z"/></svg></span>
-            <span class="download-copy"><strong>دانلود Incy برای iOS</strong><small>App Store</small></span>
+            <span class="download-copy"><strong data-i18n="downloadIncyIos">دانلود Incy برای iOS</strong><small>App Store</small></span>
             <span class="download-arrow" aria-hidden="true">↗</span>
           </a>
           <a class="download-card" href="https://play.google.com/store/apps/details?id=llc.itdev.incy" target="_blank" rel="noreferrer">
             <span class="download-icon" aria-hidden="true"><svg class="icon-svg android-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.43 8.98h9.14c.79 0 1.43.64 1.43 1.43v6.77c0 .79-.64 1.43-1.43 1.43h-.72V21a.71.71 0 1 1-1.42 0v-2.39h-1.67V21a.71.71 0 1 1-1.42 0v-2.39H9.57V21a.71.71 0 1 1-1.42 0v-2.39h-.72c-.79 0-1.43-.64-1.43-1.43v-6.77c0-.79.64-1.43 1.43-1.43Zm2.09-2.56 1.03 1.78h2.9l1.03-1.78a.43.43 0 0 1 .74.43l-.79 1.37c1.77.4 3.1 1.77 3.49 3.48H6.1c.39-1.71 1.72-3.08 3.49-3.48L8.8 6.85a.43.43 0 0 1 .72-.43Zm1.16 3.4a.6.6 0 1 0 0-1.2.6.6 0 0 0 0 1.2Zm2.64 0a.6.6 0 1 0 0-1.2.6.6 0 0 0 0 1.2Z"/></svg></span>
-            <span class="download-copy"><strong>دانلود Incy برای Android</strong><small>Google Play</small></span>
+            <span class="download-copy"><strong data-i18n="downloadIncyAndroid">دانلود Incy برای Android</strong><small>Google Play</small></span>
             <span class="download-arrow" aria-hidden="true">↗</span>
           </a>
           <a class="download-card" href="https://apps.apple.com/us/app/happ-proxy-utility/id6504287215" target="_blank" rel="noreferrer">
             <span class="download-icon" aria-hidden="true"><svg class="icon-svg apple-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M15.41 12.9c.02 2.04 1.79 2.72 1.81 2.73-.02.05-.29.99-.94 1.95-.56.83-1.16 1.66-2.07 1.67-.89.02-1.18-.53-2.21-.53-1.03 0-1.35.51-2.19.55-.88.03-1.55-.89-2.11-1.71-1.14-1.66-2.01-4.68-.85-6.72.57-1.02 1.64-1.66 2.77-1.68.87-.02 1.69.58 2.21.58.52 0 1.49-.72 2.5-.62.43.02 1.62.18 2.39 1.29-.06.04-1.43.83-1.41 2.49Zm-1.69-5.42c.47-.57.79-1.38.72-2.18-.69.03-1.51.46-2.01 1.01-.44.5-.82 1.33-.72 2.11.76.06 1.54-.39 2.01-.94Z"/></svg></span>
-            <span class="download-copy"><strong>دانلود Happ برای iOS</strong><small>App Store</small></span>
+            <span class="download-copy"><strong data-i18n="downloadHappIos">دانلود Happ برای iOS</strong><small>App Store</small></span>
             <span class="download-arrow" aria-hidden="true">↗</span>
           </a>
           <a class="download-card" href="https://play.google.com/store/apps/details?id=com.happproxy" target="_blank" rel="noreferrer">
             <span class="download-icon" aria-hidden="true"><svg class="icon-svg android-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.43 8.98h9.14c.79 0 1.43.64 1.43 1.43v6.77c0 .79-.64 1.43-1.43 1.43h-.72V21a.71.71 0 1 1-1.42 0v-2.39h-1.67V21a.71.71 0 1 1-1.42 0v-2.39H9.57V21a.71.71 0 1 1-1.42 0v-2.39h-.72c-.79 0-1.43-.64-1.43-1.43v-6.77c0-.79.64-1.43 1.43-1.43Zm2.09-2.56 1.03 1.78h2.9l1.03-1.78a.43.43 0 0 1 .74.43l-.79 1.37c1.77.4 3.1 1.77 3.49 3.48H6.1c.39-1.71 1.72-3.08 3.49-3.48L8.8 6.85a.43.43 0 0 1 .72-.43Zm1.16 3.4a.6.6 0 1 0 0-1.2.6.6 0 0 0 0 1.2Zm2.64 0a.6.6 0 1 0 0-1.2.6.6 0 0 0 0 1.2Z"/></svg></span>
-            <span class="download-copy"><strong>دانلود Happ برای Android</strong><small>Google Play</small></span>
+            <span class="download-copy"><strong data-i18n="downloadHappAndroid">دانلود Happ برای Android</strong><small>Google Play</small></span>
             <span class="download-arrow" aria-hidden="true">↗</span>
           </a>
         </div>
@@ -85,21 +87,21 @@
   <section id="smart-profiles" class="panel smart-profile-panel" aria-labelledby="smartProfilesTitle">
     <div class="panel-head">
       <div>
-        <div class="section-kicker">SMART PROFILE BUILDER</div>
-        <h2 id="smartProfilesTitle">Pick the connection style you want</h2>
-        <p>ProxyPulse prepares a diverse subscription for your goal. Every profile is refreshed hourly and hard-capped at 100 configs.</p>
+        <div class="section-kicker" data-i18n="smartKicker">سازنده پروفایل هوشمند</div>
+        <h2 id="smartProfilesTitle" data-i18n="smartTitle">نوع اتصال مناسب خود را انتخاب کنید</h2>
+        <p data-i18n="smartDesc">ProxyPulse متناسب با هدف شما یک اشتراک متنوع می‌سازد. همه پروفایل‌ها هر ساعت تازه می‌شوند و حداکثر ۱۰۰ کانفیگ دارند.</p>
       </div>
-      <div class="profile-badges"><span>ASN-aware</span><span>Auto-rotation</span><span>≤100 nodes</span></div>
+      <div class="profile-badges"><span data-i18n="asnAware">آگاه از ASN</span><span data-i18n="autoRotation">چرخش خودکار</span><span data-i18n="maxNodes">حداکثر ۱۰۰ نود</span></div>
     </div>
-    <div id="profileButtons" class="profile-buttons" role="tablist" aria-label="Smart profiles"></div>
+    <div id="profileButtons" class="profile-buttons" role="tablist" data-i18n-aria="smartProfilesAria" aria-label="پروفایل‌های هوشمند"></div>
     <div id="profileResult" class="profile-result"></div>
   </section>
 
   <section class="panel">
     <div class="panel-head">
       <div>
-        <h2>Subscriptions</h2>
-        <p>Curated static endpoints generated by the latest workflow run.</p>
+        <h2 data-i18n="subscriptionsTitle">اشتراک‌ها</h2>
+        <p data-i18n="subscriptionsDesc">خروجی‌های پالایش‌شده‌ای که در آخرین اجرای Workflow ساخته شده‌اند.</p>
       </div>
       <div class="panel-meta"><span id="lastUpdate">—</span></div>
     </div>
@@ -107,12 +109,11 @@
     <div id="subscriptions" class="endpoint-grid"></div>
   </section>
 
-
   <section class="panel">
     <div class="panel-head">
       <div>
-        <h2>Verified Countries</h2>
-        <p>Country subscriptions contain only configs that passed an end-to-end sing-box tunnel check and returned a final egress IP.</p>
+        <h2 data-i18n="countriesTitle">کشورهای تأییدشده</h2>
+        <p data-i18n="countriesDesc">این اشتراک‌ها فقط شامل کانفیگ‌هایی هستند که تست انتها‌به‌انتهای sing-box را پاس کرده و IP خروجی نهایی دریافت کرده‌اند.</p>
       </div>
       <div id="egressSummary" class="panel-meta">—</div>
     </div>
@@ -120,64 +121,59 @@
   </section>
 
   <section id="iran-internet" class="panel iran-status-panel" aria-labelledby="iranStatusTitle">
-    <div class="iran-status-head" dir="rtl">
+    <div class="iran-status-head">
       <div>
-        <div class="iran-status-kicker">IRAN CONNECTIVITY SNAPSHOT</div>
-        <h2 id="iranStatusTitle">وضعیت اینترنت ایران</h2>
-        <p>خلاصه‌ای از سلامت مسیرهای داخلی و بین‌الملل؛ بروزرسانی ساعتی همراه با اجرای ProxyPulse.</p>
+        <div class="iran-status-kicker" data-i18n="iranKicker">نمای لحظه‌ای اتصال ایران</div>
+        <h2 id="iranStatusTitle" data-i18n="iranTitle">وضعیت اینترنت ایران</h2>
+        <p data-i18n="iranDesc">خلاصه‌ای از سلامت مسیرهای داخلی و بین‌الملل؛ بروزرسانی ساعتی همراه با اجرای ProxyPulse.</p>
       </div>
-      <a class="iran-source-link" href="https://covered.ir/fa" target="_blank" rel="noreferrer">جزئیات در Covered.ir ↗</a>
+      <a id="iranSourceLink" class="iran-source-link" href="https://covered.ir/fa" target="_blank" rel="noreferrer" data-i18n="iranDetails">جزئیات در Covered.ir ↗</a>
     </div>
-
-    <div id="iranStatusBody" class="iran-status-body" dir="rtl">
+    <div id="iranStatusBody" class="iran-status-body">
       <article class="iran-status-card iran-overall-card">
-        <span class="iran-card-label">وضعیت کلی</span>
-        <div class="iran-overall-line"><span id="iranOverallDot" class="iran-state-dot state-unknown"></span><strong id="iranOverall">در حال دریافت…</strong></div>
-        <small id="iranOverallHint">Snapshot from Covered.ir</small>
+        <span class="iran-card-label" data-i18n="iranOverallLabel">وضعیت کلی</span>
+        <div class="iran-overall-line"><span id="iranOverallDot" class="iran-state-dot state-unknown"></span><strong id="iranOverall" data-i18n="loadingShort">در حال دریافت…</strong></div>
+        <small id="iranOverallHint">—</small>
       </article>
-
       <article class="iran-status-card">
-        <div class="iran-card-top"><span class="iran-card-label">مسیرهای داخلی</span><strong id="iranDomesticPercent">—</strong></div>
+        <div class="iran-card-top"><span class="iran-card-label" data-i18n="iranDomestic">مسیرهای داخلی</span><strong id="iranDomesticPercent">—</strong></div>
         <div class="iran-health-track"><i id="iranDomesticBar" style="width:0%"></i></div>
-        <small id="iranDomesticRoutes">— مسیر پایش‌شده</small>
+        <small id="iranDomesticRoutes">—</small>
       </article>
-
       <article class="iran-status-card">
-        <div class="iran-card-top"><span class="iran-card-label">مسیرهای بین‌الملل</span><strong id="iranInternationalPercent">—</strong></div>
+        <div class="iran-card-top"><span class="iran-card-label" data-i18n="iranInternational">مسیرهای بین‌الملل</span><strong id="iranInternationalPercent">—</strong></div>
         <div class="iran-health-track"><i id="iranInternationalBar" style="width:0%"></i></div>
-        <small id="iranInternationalRoutes">— مسیر پایش‌شده</small>
+        <small id="iranInternationalRoutes">—</small>
       </article>
-
       <article class="iran-status-card">
-        <span class="iran-card-label">اختلال فعال</span>
+        <span class="iran-card-label" data-i18n="iranIncidentsLabel">اختلال فعال</span>
         <strong id="iranIncidents" class="iran-big-value">—</strong>
-        <small id="iranMeasured">آخرین اندازه‌گیری: —</small>
+        <small id="iranMeasured">—</small>
       </article>
     </div>
-
-    <div class="iran-status-foot" dir="rtl">
-      <span id="iranSnapshotAge">داده در حال بارگذاری است…</span>
-      <span>منبع: Covered.ir · این شاخص فقط مسیرهای تحت پایش Covered را نمایش می‌دهد و نماینده تجربه تمام کاربران ایران نیست.</span>
+    <div class="iran-status-foot">
+      <span id="iranSnapshotAge" data-i18n="iranLoading">داده در حال بارگذاری است…</span>
+      <span data-i18n="iranDisclaimer">منبع: Covered.ir · این شاخص فقط مسیرهای تحت پایش Covered را نمایش می‌دهد و نماینده تجربه تمام کاربران ایران نیست.</span>
     </div>
   </section>
 
   <section class="panel intelligence-panel" aria-labelledby="intelligenceTitle">
     <div class="panel-head">
       <div>
-        <div class="section-kicker">CONNECTION INTELLIGENCE</div>
-        <h2 id="intelligenceTitle">Tunnel quality & survival</h2>
-        <p>End-to-end success, rolling survival and ASN diversity from the latest scan.</p>
+        <div class="section-kicker" data-i18n="intelKicker">هوشمندی اتصال</div>
+        <h2 id="intelligenceTitle" data-i18n="intelTitle">کیفیت تونل و ماندگاری</h2>
+        <p data-i18n="intelDesc">موفقیت انتها‌به‌انتها، ماندگاری دوره‌ای و تنوع ASN در آخرین اسکن.</p>
       </div>
-      <div class="panel-meta">failure reasons are grouped automatically</div>
+      <div class="panel-meta" data-i18n="failureGrouped">علت خطاها به‌صورت خودکار گروه‌بندی می‌شوند</div>
     </div>
     <div class="intelligence-grid">
-      <article class="intel-card"><span>Tunnel success</span><strong id="tunnelSuccess">—</strong><small id="tunnelSuccessMeta">—</small></article>
-      <article class="intel-card"><span>Median survival</span><strong id="survivalScore">—</strong><small>rolling reachability score</small></article>
-      <article class="intel-card"><span>ASN diversity</span><strong id="asnDiversity">—</strong><small id="asnDiversityMeta">enriched egress networks</small></article>
-      <article class="intel-card"><span>Rotation pool</span><strong id="rotationCount">—</strong><small>auto-replaced healthy configs</small></article>
+      <article class="intel-card"><span data-i18n="tunnelSuccess">موفقیت تونل</span><strong id="tunnelSuccess">—</strong><small id="tunnelSuccessMeta">—</small></article>
+      <article class="intel-card"><span data-i18n="medianSurvival">میانه ماندگاری</span><strong id="survivalScore">—</strong><small data-i18n="rollingReachability">امتیاز دسترسی دوره‌ای</small></article>
+      <article class="intel-card"><span data-i18n="asnDiversity">تنوع ASN</span><strong id="asnDiversity">—</strong><small id="asnDiversityMeta">—</small></article>
+      <article class="intel-card"><span data-i18n="rotationPool">مخزن چرخشی</span><strong id="rotationCount">—</strong><small data-i18n="rotationPoolHint">کانفیگ‌های سالم با جایگزینی خودکار</small></article>
     </div>
     <div class="failure-block">
-      <div class="failure-head"><strong>Why tunnel checks failed</strong><span id="failureTotal">—</span></div>
+      <div class="failure-head"><strong data-i18n="whyFailed">چرا تست‌های تونل ناموفق شدند؟</strong><span id="failureTotal">—</span></div>
       <div id="failureReasons" class="failure-reasons"></div>
     </div>
   </section>
@@ -185,44 +181,43 @@
   <section class="panel history-panel">
     <div class="panel-head">
       <div>
-        <h2>Recent History</h2>
-        <p>Rolling hourly view from the generated branch. Lightweight SVG charts, no chart library.</p>
+        <h2 data-i18n="historyTitle">تاریخچه اخیر</h2>
+        <p data-i18n="historyDesc">نمای ساعتی از شاخه generated با نمودارهای سبک SVG و بدون کتابخانه اضافه.</p>
       </div>
-      <div class="panel-meta">last 24 runs</div>
+      <div class="panel-meta" data-i18n="last24Runs">۲۴ اجرای اخیر</div>
     </div>
     <div id="historyGrid" class="history-grid"></div>
   </section>
 
   <section class="grid-2">
     <section class="panel">
-      <div class="panel-head"><div><h2>Protocol Mix</h2><p>Distribution across the tested candidate pool.</p></div></div>
+      <div class="panel-head"><div><h2 data-i18n="protocolMix">ترکیب پروتکل‌ها</h2><p data-i18n="protocolMixDesc">توزیع پروتکل‌ها در مجموعه کاندیداهای تست‌شده.</p></div></div>
       <div id="protocols" class="bars"></div>
     </section>
-
     <section class="panel">
-      <div class="panel-head"><div><h2>Health</h2><p>Current state derived from recent runs.</p></div></div>
+      <div class="panel-head"><div><h2 data-i18n="healthTitle">سلامت</h2><p data-i18n="healthDesc">وضعیت فعلی بر اساس اجراهای اخیر.</p></div></div>
       <div id="health" class="health-grid"></div>
     </section>
   </section>
 
   <section class="panel compact-panel">
     <div class="legend-grid">
-      <div><span class="legend-title">Validation level</span><strong>TCP + bounded egress</strong><small>Reachable nodes are pre-checked; selected nodes are then tunnel-tested for final IP/country.</small></div>
-      <div><span class="legend-title">Automation</span><strong>Every hour</strong><small>GitHub Actions + Pages, no always-on server.</small></div>
-      <div><span class="legend-title">Persistent history</span><strong>generated branch</strong><small>Main branch stays clean and conflict-resistant.</small></div>
+      <div><span class="legend-title" data-i18n="validationLevel">سطح اعتبارسنجی</span><strong data-i18n="validationValue">TCP + خروجی محدود</strong><small data-i18n="validationHint">نودها ابتدا از نظر TCP بررسی می‌شوند و سپس بخشی از آن‌ها برای IP و کشور خروجی تست تونل می‌شوند.</small></div>
+      <div><span class="legend-title" data-i18n="automation">اتوماسیون</span><strong data-i18n="everyHour">هر ساعت</strong><small data-i18n="automationHint">GitHub Actions + Pages، بدون نیاز به سرور همیشه‌روشن.</small></div>
+      <div><span class="legend-title" data-i18n="persistentHistory">تاریخچه پایدار</span><strong>generated branch</strong><small data-i18n="historyHint">شاخه main تمیز می‌ماند و با بروزرسانی‌های خودکار تداخل ندارد.</small></div>
     </div>
   </section>
 
-  <footer>© 2026 farriiig. ProxyPulse is released under the MIT License.</footer>
+  <footer data-i18n="footer">© 2026 farriiig. ProxyPulse تحت مجوز MIT منتشر شده است.</footer>
 </div>
 <div id="qrModal" class="qr-modal" aria-hidden="true">
   <div class="qr-backdrop" data-close-qr></div>
   <div class="qr-dialog" role="dialog" aria-modal="true" aria-labelledby="qrTitle">
-    <button class="qr-close" type="button" data-close-qr aria-label="Close QR">×</button>
-    <span class="qr-kicker">SCAN WITH YOUR PHONE</span>
-    <h2 id="qrTitle">Subscription QR</h2>
-    <div class="qr-frame"><img id="qrImage" alt="Subscription QR code"></div>
-    <p id="qrHint">Scan this code to open the subscription URL on another device.</p>
+    <button class="qr-close" type="button" data-close-qr data-i18n-aria="closeQr" aria-label="بستن QR">×</button>
+    <span class="qr-kicker" data-i18n="scanPhone">با گوشی اسکن کنید</span>
+    <h2 id="qrTitle" data-i18n="subscriptionQr">QR اشتراک</h2>
+    <div class="qr-frame"><img id="qrImage" data-i18n-alt="subscriptionQrAlt" alt="کد QR اشتراک"></div>
+    <p id="qrHint" data-i18n="qrHint">این کد را اسکن کنید تا لینک اشتراک روی دستگاه دیگری باز شود.</p>
   </div>
 </div>
 <div id="toast" class="toast" role="status"></div>

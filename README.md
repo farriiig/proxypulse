@@ -62,6 +62,7 @@ The source code stays on **`main`** while generated state and subscription snaps
 - 🔄 Automated scans every hour with GitHub Actions
 - 🌍 Static GitHub Pages dashboard with no backend server
 - 📱 Responsive mobile-friendly interface
+- 🌐 Bilingual **Persian / English** dashboard with Persian as the default language and persistent browser preference
 - 📋 Plain-text + Base64 subscription outputs
 - ⭐ Smart `recommended` subscription using verification, score, uptime, jitter and latency
 - 🧠 Smart Profile Builder for Balanced, Speed, Gaming, Streaming and Stability goals
@@ -81,6 +82,8 @@ The source code stays on **`main`** while generated state and subscription snaps
 - 📄 MIT licensed
 
 ## 🖥️ Dashboard
+
+The public dashboard includes a **فارسی / English** language switcher in the header. Persian is the default on first visit; the selected language is saved locally in the browser and the complete layout switches between RTL and LTR without a page reload.
 
 The dashboard shows the latest generated snapshot, including:
 

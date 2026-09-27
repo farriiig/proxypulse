@@ -100,3 +100,26 @@ h1{font-size:48px;line-height:1;margin:5px 0 8px;letter-spacing:-2px}h2{font-siz
 @media(max-width:760px){.smart-profile-panel{scroll-margin-top:10px}.profile-badges{justify-content:flex-start}.profile-buttons{grid-template-columns:repeat(2,minmax(0,1fr))}.profile-result-copy{align-items:flex-start}.profile-result .endpoint-actions{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px}.profile-result .endpoint-actions a,.profile-result .endpoint-actions button{width:100%;min-width:0;padding-inline:7px}.intelligence-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.profile-buttons{grid-template-columns:1fr 1fr}.profile-result .endpoint-actions{grid-template-columns:repeat(3,minmax(0,1fr))}.intelligence-grid{grid-template-columns:1fr 1fr}.history-grid{grid-template-columns:1fr}.failure-head{align-items:flex-start;flex-direction:column}}
 @media(max-width:380px){.profile-buttons{grid-template-columns:1fr}.profile-result .endpoint-actions{grid-template-columns:repeat(2,minmax(0,1fr))}.intelligence-grid{grid-template-columns:1fr}}
+
+/* v1.4 bilingual Persian / English experience */
+html{direction:ltr}html[dir="rtl"]{direction:rtl}body{text-align:start}
+.language-switch{direction:ltr;display:inline-flex;align-items:center;gap:3px;padding:3px;border:1px solid #2a4056;border-radius:11px;background:#09131e;flex:0 0 auto}
+.language-option{appearance:none;border:0;background:transparent;color:#7f94aa;border-radius:8px;padding:8px 11px;font:inherit;font-size:11px;font-weight:800;cursor:pointer;transition:background-color .16s ease,color .16s ease,box-shadow .16s ease}
+.language-option.active{background:#17304a;color:#eef8ff;box-shadow:inset 0 0 0 1px rgba(103,232,249,.12)}
+@media(hover:hover) and (pointer:fine){.language-option:not(.active):hover{background:#0f1e2d;color:#c6d7e8}}
+.brand-block,.panel-head>div,.metric-card,.endpoint-main,.country-title-copy,.history-card,.intel-card,.recommended-copy,.profile-result-copy>div{text-align:start}
+.guide-copy{order:initial;grid-column:1;text-align:start;padding-inline-start:6px;padding-left:0}.guide-downloads{order:initial;grid-column:2;text-align:start}.download-copy{text-align:start}
+.guide-lead{text-align:center}.guide-note{text-align:start}.guide-steps{text-align:start}.guide-steps li{grid-template-columns:32px minmax(0,1fr)}
+.endpoint-actions{direction:ltr}.country-endpoint .endpoint-actions,.profile-result .endpoint-actions,.recommended-card .endpoint-actions{direction:ltr}
+.iran-status-kicker{direction:inherit;text-align:start}.iran-status-head,.iran-status-body,.iran-status-foot{text-align:start}
+.profile-badges{justify-content:flex-end}.failure-reasons{justify-content:flex-start}
+.smart-jump::before,.iran-jump::before{margin-right:0;margin-inline-end:6px}
+html[dir="rtl"] .eyebrow{letter-spacing:.6px}html[dir="rtl"] .section-kicker,html[dir="rtl"] .iran-status-kicker{letter-spacing:.3px}
+html[dir="rtl"] .metric-card span,html[dir="rtl"] .legend-title,html[dir="rtl"] .intel-card span,html[dir="rtl"] .history-card-head span{text-transform:none;letter-spacing:.15px}
+html[dir="rtl"] .country-title strong{text-align:right}html[dir="ltr"] .country-title strong{text-align:left}
+html[dir="rtl"] .qr-close{right:auto;left:12px}html[dir="ltr"] .qr-close{right:12px;left:auto}
+html[dir="rtl"] .toast{right:auto;left:22px}html[dir="ltr"] .toast{right:22px;left:auto}
+@media(max-width:980px){.guide-copy,.guide-downloads{grid-column:auto}.guide-copy{order:1}.guide-downloads{order:2}}
+@media(max-width:760px){.language-switch{align-self:stretch;justify-content:center}.language-option{flex:1}.profile-badges{justify-content:flex-start}}
+@media(max-width:430px){.header-actions{display:grid;grid-template-columns:1fr 1fr}.header-actions .language-switch{grid-column:1/-1;width:100%}.header-actions .btn{width:100%;min-width:0}.toast{left:14px!important;right:14px!important;bottom:14px;text-align:center}}
+@media(prefers-reduced-motion:reduce){.language-option{transition:none!important}}
