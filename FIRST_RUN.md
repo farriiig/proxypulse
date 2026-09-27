@@ -6,6 +6,7 @@
 4. Wait for **Deploy GitHub Pages** to turn green.
 5. Open `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/`.
 6. Add or remove proxy sources only in `settings/sources.txt`.
+7. Consumer subscriptions are hard-capped at **100 configs**. Country favorites are stored in the browser, and QR codes/history are generated automatically by the hourly workflow.
 
 If **Publish generated snapshot branch** cannot push, enable:
 

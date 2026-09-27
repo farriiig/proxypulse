@@ -46,6 +46,8 @@ class Settings:
     fast_max_latency_ms: float
     gaming_max_latency_ms: float
     top_nodes_export: int
+    subscription_max_nodes: int
+    dashboard_history_samples: int
     egress_test_limit: int
     egress_concurrency: int
     egress_timeout: float
@@ -71,10 +73,12 @@ def get_settings() -> Settings:
         fast_max_latency_ms=float(cfg.get("fast_max_latency_ms", 100.0)),
         gaming_max_latency_ms=float(cfg.get("gaming_max_latency_ms", 140.0)),
         top_nodes_export=max(50, int(cfg.get("top_nodes_export", 500))),
+        subscription_max_nodes=max(1, min(100, _env_int("SUBSCRIPTION_MAX_NODES", int(cfg.get("subscription_max_nodes", 100))))),
+        dashboard_history_samples=max(24, min(720, _env_int("DASHBOARD_HISTORY_SAMPLES", int(cfg.get("dashboard_history_samples", 168))))),
         egress_test_limit=max(0, _env_int("EGRESS_TEST_LIMIT", int(cfg.get("egress_test_limit", 200)))),
         egress_concurrency=max(1, _env_int("EGRESS_CONCURRENCY", int(cfg.get("egress_concurrency", 8)))),
         egress_timeout=max(3.0, _env_float("EGRESS_TIMEOUT", float(cfg.get("egress_timeout", 10.0)))),
         egress_startup_timeout=max(0.5, _env_float("EGRESS_STARTUP_TIMEOUT", float(cfg.get("egress_startup_timeout", 2.5)))),
         egress_trace_url=str(cfg.get("egress_trace_url", "https://www.cloudflare.com/cdn-cgi/trace")),
-        user_agent=str(cfg.get("user_agent", "ProxyPulse/1.1 (+GitHub Actions)")),
+        user_agent=str(cfg.get("user_agent", "ProxyPulse/1.2 (+GitHub Actions)")),
     )

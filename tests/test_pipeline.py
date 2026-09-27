@@ -1,5 +1,6 @@
-from app.pipeline import classify_status, read_sources, select_candidates, source_reputation
+from app.pipeline import classify_status, limit_subscription_nodes, read_sources, select_candidates, source_reputation
 from app.parser import parse_uri
+from app.settings import get_settings
 
 
 def test_classify_offline():
@@ -32,3 +33,14 @@ def test_candidate_selection_respects_limit():
         parsed[n.fingerprint] = n
     selected = select_candidates(parsed, {}, 7, "bucket")
     assert len(selected) == 7
+
+
+def test_subscription_cap_never_exceeds_100():
+    nodes = [{"raw_uri": f"vless://{i}"} for i in range(150)]
+    assert len(limit_subscription_nodes(nodes, 500)) == 100
+    assert len(limit_subscription_nodes(nodes, 80)) == 80
+
+
+def test_subscription_setting_is_hard_clamped(monkeypatch):
+    monkeypatch.setenv("SUBSCRIPTION_MAX_NODES", "500")
+    assert get_settings().subscription_max_nodes == 100

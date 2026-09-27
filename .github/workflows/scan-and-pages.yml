@@ -77,6 +77,7 @@ jobs:
           if git fetch origin generated --depth=1; then
             git show origin/generated:data/state.json > .runtime/state.json 2>/dev/null || true
             git show origin/generated:data/source_state.json > .runtime/source_state.json 2>/dev/null || true
+            git show origin/generated:data/history.json > .runtime/dashboard_history.json 2>/dev/null || true
             echo "Previous history restored."
           else
             echo "No generated branch yet; starting with fresh history."
@@ -98,6 +99,8 @@ jobs:
           test -f build/site/data/stats.json
           test -f build/site/subscriptions/online.txt
           test -f build/site/data/egress.json
+          test -f build/site/data/history.json
+          test -f build/site/subscriptions/recommended.txt
           echo "Site artifact verified."
 
       - name: Configure GitHub Pages
@@ -158,4 +161,5 @@ jobs:
           echo "- Scan limit: ${{ inputs.scan_limit || '800' }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Egress validation limit: ${{ inputs.egress_test_limit || '200' }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- End-to-end runtime: sing-box 1.14.1 + Cloudflare trace" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Subscription hard cap: 100 nodes per output" >> "$GITHUB_STEP_SUMMARY"
           echo "- Persistent snapshot branch: generated" >> "$GITHUB_STEP_SUMMARY"

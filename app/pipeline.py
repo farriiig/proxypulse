@@ -3,6 +3,7 @@ from __future__ import annotations
 import asyncio
 import base64
 import hashlib
+import io
 import json
 import os
 import shutil
@@ -26,6 +27,7 @@ PUBLISH_DIR = BUILD_DIR / "publish"
 SOURCES_FILE = SETTINGS_DIR / "sources.txt"
 STATE_FILE = RUNTIME_DIR / "state.json"
 SOURCE_STATE_FILE = RUNTIME_DIR / "source_state.json"
+DASHBOARD_HISTORY_FILE = RUNTIME_DIR / "dashboard_history.json"
 
 
 def now_iso() -> str:
@@ -231,7 +233,60 @@ def _sort_nodes(nodes: list[dict], key: str = "score") -> list[dict]:
     )
 
 
-def _publish_subscription(relative_path: str, members: list[dict]) -> dict:
+def _recommended_nodes(nodes: list[dict]) -> list[dict]:
+    online = [n for n in nodes if n.get("reachable")]
+    preferred = [n for n in online if n.get("status") not in {"WEAK", "DEGRADING", "OFFLINE"}]
+    pool = preferred or online
+    return sorted(
+        pool,
+        key=lambda n: (
+            not bool(n.get("egress_validated")),
+            -float(n.get("score") or 0),
+            -float(n.get("uptime") or 0),
+            float(n.get("jitter_ms")) if n.get("jitter_ms") is not None else 10**9,
+            float(n.get("latency_ms")) if n.get("latency_ms") is not None else 10**9,
+        ),
+    )
+
+
+def limit_subscription_nodes(members: list[dict], max_nodes: int) -> list[dict]:
+    """Apply the hard consumer-facing subscription cap (never above 100)."""
+    safe_limit = max(1, min(100, int(max_nodes)))
+    return list(members[:safe_limit])
+
+
+def _pages_base_url() -> str:
+    repository = os.getenv("GITHUB_REPOSITORY", "farriiig/proxypulse-mvp")
+    owner, _, repo = repository.partition("/")
+    if owner and repo:
+        return f"https://{owner}.github.io/{repo}/"
+    return "https://farriiig.github.io/proxypulse-mvp/"
+
+
+def _write_qr_svg(relative_path: Path, target_url: str) -> str | None:
+    try:
+        import qrcode
+        from qrcode.image.svg import SvgPathImage
+    except ImportError:
+        return None
+
+    qr_relative = relative_path.parent / "qr" / f"{relative_path.stem}.svg"
+    try:
+        image = qrcode.make(target_url, image_factory=SvgPathImage, box_size=8, border=2)
+        buffer = io.BytesIO()
+        image.save(buffer)
+        data = buffer.getvalue()
+        for root in (PUBLISH_DIR, SITE_DIR):
+            target = root / qr_relative
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(data)
+        return qr_relative.as_posix()
+    except Exception:
+        return None
+
+
+def _publish_subscription(relative_path: str, members: list[dict], max_nodes: int) -> dict:
+    members = limit_subscription_nodes(members, max_nodes)
     lines = [n["raw_uri"] for n in members]
     relative = Path(relative_path)
     pub_path = PUBLISH_DIR / relative
@@ -247,18 +302,23 @@ def _publish_subscription(relative_path: str, members: list[dict]) -> dict:
     site_b64.parent.mkdir(parents=True, exist_ok=True)
     pub_b64.write_text(encoded + ("\n" if encoded else ""), encoding="utf-8")
     site_b64.write_text(encoded + ("\n" if encoded else ""), encoding="utf-8")
+
+    public_url = _pages_base_url() + relative.as_posix()
+    qr_path = _write_qr_svg(relative, public_url)
     return {
         "count": len(lines),
         "path": relative.as_posix(),
         "base64_path": base64_relative.as_posix(),
+        "qr_path": qr_path,
     }
 
 
 def generate_subscriptions(nodes: list[dict], settings: Settings) -> dict[str, dict]:
     online = [n for n in nodes if n["reachable"]]
     groups: dict[str, list[dict]] = {
+        "recommended": _recommended_nodes(nodes),
         "all": _sort_nodes(nodes),
-        "best100": _sort_nodes(online)[:100],
+        "best100": _sort_nodes(online),
         "verified": _sort_nodes([n for n in online if n.get("egress_validated")]),
         "online": _sort_nodes(online),
         "stable": _sort_nodes([n for n in online if n["score"] >= settings.stable_min_score and n["uptime"] >= settings.stable_min_uptime]),
@@ -272,11 +332,15 @@ def generate_subscriptions(nodes: list[dict], settings: Settings) -> dict[str, d
 
     manifest: dict[str, dict] = {}
     for name, members in groups.items():
-        manifest[name] = _publish_subscription(f"subscriptions/{name}.txt", members)
+        manifest[name] = _publish_subscription(
+            f"subscriptions/{name}.txt",
+            members,
+            settings.subscription_max_nodes,
+        )
     return manifest
 
 
-def generate_country_subscriptions(nodes: list[dict]) -> dict[str, dict]:
+def generate_country_subscriptions(nodes: list[dict], settings: Settings) -> dict[str, dict]:
     groups: dict[str, list[dict]] = defaultdict(list)
     for node in nodes:
         code = str(node.get("country_code") or "").upper()
@@ -287,11 +351,14 @@ def generate_country_subscriptions(nodes: list[dict]) -> dict[str, dict]:
     manifest: dict[str, dict] = {}
     for code, members in sorted(groups.items(), key=lambda item: (-len(item[1]), item[0])):
         key = code.lower()
-        item = _publish_subscription(f"subscriptions/countries/{key}.txt", _sort_nodes(members))
+        item = _publish_subscription(
+            f"subscriptions/countries/{key}.txt",
+            _sort_nodes(members),
+            settings.subscription_max_nodes,
+        )
         item["code"] = code
         manifest[key] = item
     return manifest
-
 
 def build_site() -> None:
     static = BASE_DIR / "app" / "static"
@@ -319,6 +386,7 @@ async def run() -> dict:
     sources = read_sources()
     old_state: dict = load_json(STATE_FILE, {})
     old_source_state: dict = load_json(SOURCE_STATE_FILE, {})
+    old_dashboard_history: list[dict] = load_json(DASHBOARD_HISTORY_FILE, [])
 
     fetch_results = await fetch_sources(sources, settings)
     parsed_by_fp: dict[str, ParsedNode] = {}
@@ -426,7 +494,7 @@ async def run() -> dict:
     nodes = _sort_nodes(nodes)
     next_state = prune_state(next_state, generated_at, settings.state_retention_days)
     manifest = generate_subscriptions(nodes, settings)
-    country_manifest = generate_country_subscriptions(nodes)
+    country_manifest = generate_country_subscriptions(nodes, settings)
 
     protocol_counts = Counter(n["protocol"] for n in nodes)
     status_counts = Counter(n["status"] for n in nodes)
@@ -441,7 +509,7 @@ async def run() -> dict:
     egress_geolocated = sum(1 for result in egress_results.values() if result.validated and result.country_code)
 
     stats = {
-        "version": "1.1.0",
+        "version": "1.2.0",
         "generated_at": generated_at,
         "test_level": "TCP pre-check + bounded end-to-end egress validation",
         "egress_test_level": "sing-box tunnel + Cloudflare final IP/country check",
@@ -471,8 +539,19 @@ async def run() -> dict:
             "probe_concurrency": settings.probe_concurrency,
             "egress_test_limit": settings.egress_test_limit,
             "egress_concurrency": settings.egress_concurrency,
+            "subscription_max_nodes": settings.subscription_max_nodes,
         },
     }
+
+    dashboard_history = [x for x in old_dashboard_history if isinstance(x, dict)]
+    dashboard_history.append({
+        "at": generated_at,
+        "online": len(online_nodes),
+        "avg_latency_ms": avg_latency,
+        "verified": egress_verified,
+        "countries": len(country_manifest),
+    })
+    dashboard_history = dashboard_history[-settings.dashboard_history_samples:]
 
     source_state = {
         r["url"]: {k: r[k] for k in ("total_fetches", "successful_fetches", "reliability", "reputation")}
@@ -498,12 +577,14 @@ async def run() -> dict:
     write_json(PUBLISH_DIR / "data" / "nodes.json", nodes[: settings.top_nodes_export])
     write_json(PUBLISH_DIR / "data" / "sources.json", source_reports)
     write_json(PUBLISH_DIR / "data" / "egress.json", egress_snapshot)
+    write_json(PUBLISH_DIR / "data" / "history.json", dashboard_history)
 
     # Dashboard data.
     write_json(SITE_DIR / "data" / "stats.json", stats)
     write_json(SITE_DIR / "data" / "nodes.json", nodes[: settings.top_nodes_export])
     write_json(SITE_DIR / "data" / "sources.json", source_reports)
     write_json(SITE_DIR / "data" / "egress.json", egress_snapshot)
+    write_json(SITE_DIR / "data" / "history.json", dashboard_history)
     write_json(SITE_DIR / "data" / "project.json", {
         "repository": os.getenv("GITHUB_REPOSITORY", "farriiig/proxypulse-mvp"),
         "generated_at": generated_at,

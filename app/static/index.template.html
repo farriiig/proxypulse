@@ -26,7 +26,7 @@
     </div>
   </header>
 
-  <div id="notice" class="notice loading">Loading the latest snapshot…</div>
+  <div id="notice" class="notice loading"><span id="noticeText">Loading the latest snapshot…</span><span id="freshnessBadge" class="freshness freshness-loading">Checking…</span></div>
 
   <section class="cards metrics">
     <article class="card metric-card"><span>Discovered</span><strong id="discovered">—</strong><small>semantic unique</small></article>
@@ -88,6 +88,7 @@
       </div>
       <div class="panel-meta"><span id="lastUpdate">—</span></div>
     </div>
+    <div id="recommended" class="recommended-slot"></div>
     <div id="subscriptions" class="endpoint-grid"></div>
   </section>
 
@@ -101,6 +102,17 @@
       <div id="egressSummary" class="panel-meta">—</div>
     </div>
     <div id="countries" class="endpoint-grid"></div>
+  </section>
+
+  <section class="panel history-panel">
+    <div class="panel-head">
+      <div>
+        <h2>Recent History</h2>
+        <p>Rolling hourly view from the generated branch. Lightweight SVG charts, no chart library.</p>
+      </div>
+      <div class="panel-meta">last 24 runs</div>
+    </div>
+    <div id="historyGrid" class="history-grid"></div>
   </section>
 
   <section class="grid-2">
@@ -124,6 +136,16 @@
   </section>
 
   <footer>© 2026 farriiig. ProxyPulse is released under the MIT License.</footer>
+</div>
+<div id="qrModal" class="qr-modal" aria-hidden="true">
+  <div class="qr-backdrop" data-close-qr></div>
+  <div class="qr-dialog" role="dialog" aria-modal="true" aria-labelledby="qrTitle">
+    <button class="qr-close" type="button" data-close-qr aria-label="Close QR">×</button>
+    <span class="qr-kicker">SCAN WITH YOUR PHONE</span>
+    <h2 id="qrTitle">Subscription QR</h2>
+    <div class="qr-frame"><img id="qrImage" alt="Subscription QR code"></div>
+    <p id="qrHint">Scan this code to open the subscription URL on another device.</p>
+  </div>
 </div>
 <div id="toast" class="toast" role="status"></div>
 <script>

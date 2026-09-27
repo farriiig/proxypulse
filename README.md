@@ -63,6 +63,12 @@ The source code stays on **`main`** while generated state and subscription snaps
 - 🌍 Static GitHub Pages dashboard with no backend server
 - 📱 Responsive mobile-friendly interface
 - 📋 Plain-text + Base64 subscription outputs
+- ⭐ Smart `recommended` subscription using verification, score, uptime, jitter and latency
+- 🔒 Hard **100-node maximum per published subscription** to keep client apps lightweight
+- 📷 Pre-generated QR code for each subscription
+- ⭐ Browser-local favorite countries with no account/backend
+- 📈 Lightweight rolling history charts for online, latency, verified nodes and countries
+- 🟢 Freshness indicator (`Fresh`, `Delayed`, `Stale`) based on the latest run
 - 🚀 One-click subscription import buttons for **Incy** and **Happ**
 - 🧹 Clean user-facing dashboard focused on metrics, subscriptions, protocol mix and health
 - ✅ Automated test workflow
@@ -83,6 +89,9 @@ The dashboard shows the latest generated snapshot, including:
 - end-to-end test / geolocation counts
 - protocol distribution
 - current health-state distribution
+- rolling hourly history charts
+- snapshot freshness status
+- favorite country pinning stored locally in the browser
 
 The dashboard intentionally does **not** expose the internal source list or individual Top Nodes table in the user-facing UI.
 
@@ -94,10 +103,11 @@ https://farriiig.github.io/proxypulse-mvp/
 
 ## 📡 Generated subscriptions
 
-Each successful run publishes both normal text and Base64 variants.
+Each successful run publishes both normal text and Base64 variants. **Every consumer-facing subscription is hard-capped at 100 configs**, even if more healthy candidates are available.
 
 | Subscription | Purpose |
 |---|---|
+| `recommended` | Smart current selection prioritizing end-to-end verification, score, uptime, jitter and latency |
 | `verified` | Nodes that passed the actual end-to-end tunnel/final-IP check |
 | `best100` | Top 100 currently reachable nodes by score |
 | `stable` | Reachable nodes meeting score + historical uptime thresholds |
@@ -113,6 +123,7 @@ Each successful run publishes both normal text and Base64 variants.
 Examples:
 
 ```text
+https://farriiig.github.io/proxypulse-mvp/subscriptions/recommended.txt
 https://farriiig.github.io/proxypulse-mvp/subscriptions/verified.txt
 https://farriiig.github.io/proxypulse-mvp/subscriptions/best100.txt
 https://farriiig.github.io/proxypulse-mvp/subscriptions/stable.txt
@@ -135,6 +146,7 @@ Each subscription card on the dashboard includes:
 
 - **Incy** — opens the subscription URL through the Incy custom URI scheme
 - **Happ** — opens the subscription URL through the Happ custom URI scheme
+- **QR** — opens a locally generated QR code for moving the subscription to another device
 - **Copy** — copies the public subscription URL
 - **Open** — opens the raw subscription in the browser
 
@@ -152,7 +164,7 @@ subscriptions/countries/nl.txt
 subscriptions/countries/us.txt
 ```
 
-The dashboard exposes these under **Verified Countries**, and every country card includes **Incy**, **Happ**, **Copy**, and **Open** actions.
+The dashboard exposes these under **Verified Countries**. Every country card includes **Favorite**, **Incy**, **Happ**, **QR**, **Copy**, and **Open** actions. Favorites are stored only in the browser via `localStorage`.
 
 Country grouping is based on the observed final egress IP of the successful tunnel request — **not** on the hostname, source URL, or the proxy server's DNS name.
 
@@ -267,11 +279,13 @@ Default values:
   "egress_timeout": 10.0,
   "egress_startup_timeout": 2.5,
   "egress_trace_url": "https://www.cloudflare.com/cdn-cgi/trace",
-  "user_agent": "ProxyPulse/1.1 (+GitHub Actions)"
+  "subscription_max_nodes": 100,
+  "dashboard_history_samples": 168,
+  "user_agent": "ProxyPulse/1.2 (+GitHub Actions)"
 }
 ```
 
-`SCAN_LIMIT` and `EGRESS_TEST_LIMIT` can also be overridden manually from the **Run workflow** form. The default egress limit is intentionally smaller than the TCP scan limit because end-to-end validation launches a real proxy client and performs an outbound request for each tested config.
+`SCAN_LIMIT` and `EGRESS_TEST_LIMIT` can also be overridden manually from the **Run workflow** form. `subscription_max_nodes` is defensively clamped to a maximum of **100** by the application, so a misconfigured environment variable cannot publish a larger client subscription. The default egress limit is intentionally smaller than the TCP scan limit because end-to-end validation launches a real proxy client and performs an outbound request for each tested config.
 
 ## 🧮 Scoring
 
