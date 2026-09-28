@@ -1860,5 +1860,61 @@
     "isp": "OVH SAS",
     "country_code": "GB",
     "fetched_at": "2026-09-28T09:16:38Z"
+  },
+  "192.142.12.248": {
+    "asn": 198077,
+    "org": "L.L.C.-FZ",
+    "isp": "Need, L.L.C.-FZ",
+    "country_code": "DE",
+    "fetched_at": "2026-09-28T09:27:34Z"
+  },
+  "95.181.162.221": {
+    "asn": 210644,
+    "org": "AEZA GROUP LLC",
+    "isp": "AEZA GROUP LLC",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T09:27:34Z"
+  },
+  "103.65.231.245": {
+    "asn": 207728,
+    "org": "EUROHOSTER Ltd.",
+    "isp": "EUROHOSTER Ltd.",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T09:27:34Z"
+  },
+  "195.133.38.112": {
+    "asn": 216475,
+    "org": "Reliable Communications s.r.o.",
+    "isp": "NKtelecom INC",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T09:27:34Z"
+  },
+  "67.220.80.180": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T09:27:34Z"
+  },
+  "2a0b:4140:106c::2": {
+    "asn": 210644,
+    "org": "AEZA GROUP LLC",
+    "isp": "AEZA GROUP LLC",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T09:27:34Z"
+  },
+  "213.1.145.4": {
+    "asn": 2856,
+    "org": "British Telecommunications Limited",
+    "isp": "British Telecommunications Limited",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T09:27:34Z"
+  },
+  "143.20.165.184": {
+    "asn": 212238,
+    "org": "Private Customer",
+    "isp": "Datacamp Limited",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T09:27:34Z"
   }
 }
