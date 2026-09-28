@@ -87,3 +87,15 @@ def test_compact_primary_actions_are_touch_sized():
     assert '.compact-recommended-actions .endpoint-actions a' in CSS
     assert 'min-height:38px' in CSS
     assert 'min-height:42px' in CSS
+
+
+def test_mobile_compact_recommended_is_rtl_right_aligned():
+    assert 'html[dir="rtl"] .compact-recommended-copy' in CSS
+    assert 'text-align:right!important' in CSS
+    assert 'justify-items:end!important' in CSS
+
+
+def test_mobile_compact_actions_use_non_overlapping_grid():
+    assert 'grid-template-columns:repeat(3,minmax(0,1fr))!important' in CSS
+    assert 'width:100%!important' in CSS
+    assert 'min-width:0!important' in CSS
