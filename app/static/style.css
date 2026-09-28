@@ -343,3 +343,23 @@ html[data-view="compact"] #smart-profiles + .compact-secondary-grid{margin-top:0
 @media(max-width:560px){.compact-recommended-actions .endpoint-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;gap:7px}.compact-recommended-actions .endpoint-actions a,.compact-recommended-actions .endpoint-actions button,.profile-result .endpoint-actions a,.profile-result .endpoint-actions button{min-height:42px;width:100%;min-width:0;padding:10px 9px;font-size:12px}.app-download-popover{width:auto}.app-download-popover-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:380px){.app-download-popover-grid{grid-template-columns:1fr}.compact-recommended-actions .endpoint-actions{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(prefers-reduced-motion:reduce){.compact-app-notice{transition:none!important}.app-download-popover.show{animation:none!important}}
+
+
+/* v1.5.6 compact desktop placement + favicon-ready polish */
+.compact-recommended{display:grid;grid-template-columns:minmax(240px,.85fr) minmax(290px,340px) minmax(220px,.9fr);align-items:end;gap:20px 22px}
+.compact-recommended-copy{min-width:0;align-self:end}
+.compact-recommended-actions{min-width:0;align-self:end}
+.compact-recommended-actions .endpoint-actions{justify-content:flex-start}
+#appDownloadToggle{align-self:center;justify-self:center;width:min(100%,340px);max-width:340px}
+html[dir="rtl"] .compact-recommended{grid-template-areas:"actions notice copy"}
+html[dir="rtl"] .compact-recommended-actions{grid-area:actions;justify-self:start}
+html[dir="rtl"] #appDownloadToggle{grid-area:notice}
+html[dir="rtl"] .compact-recommended-copy{grid-area:copy;justify-self:end;text-align:right}
+html[dir="ltr"] .compact-recommended{grid-template-areas:"copy notice actions"}
+html[dir="ltr"] .compact-recommended-copy{grid-area:copy;justify-self:start;text-align:left}
+html[dir="ltr"] #appDownloadToggle{grid-area:notice}
+html[dir="ltr"] .compact-recommended-actions{grid-area:actions;justify-self:end}
+.compact-app-notice{min-height:70px;padding:12px 14px;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.12), inset 0 1px 0 rgba(255,255,255,.03)}
+.compact-app-notice-copy strong{font-size:13px}.compact-app-notice-copy small{font-size:10px}
+@media(max-width:1140px){.compact-recommended{grid-template-columns:1fr;grid-template-areas:"copy" "notice" "actions";align-items:flex-start}.compact-recommended-copy,.compact-recommended-actions,#appDownloadToggle{justify-self:stretch}.compact-recommended-actions .endpoint-actions{justify-content:flex-start}}
+@media(max-width:560px){#appDownloadToggle{max-width:none}}

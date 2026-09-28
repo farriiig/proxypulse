@@ -469,6 +469,9 @@ def build_site() -> None:
     html = template.replace("/*__INLINE_CSS__*/", css).replace("/*__INLINE_JS__*/", js)
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     (SITE_DIR / "index.html").write_text(html, encoding="utf-8")
+    favicon = static / "favicon.svg"
+    if favicon.exists():
+        shutil.copy2(favicon, SITE_DIR / "favicon.svg")
     (SITE_DIR / ".nojekyll").write_text("", encoding="utf-8")
 
 
