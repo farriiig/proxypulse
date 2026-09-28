@@ -145,11 +145,23 @@ function setLanguage(lang,{persist=true,rerender=true}={}){
   if(rerender){if(latestStats)renderDashboard(latestStats,latestHistory,latestIranInternet);else if(lastLoadError)setNotice('bad',t('loadError',{error:lastLoadError}));else setNotice('loading',t('loadingSnapshot'));}
 }
 
+function positionSmartProfile(){
+  const panel=$('#smart-profiles');
+  const home=$('#smartProfileHome');
+  const compactGrid=$('.compact-secondary-grid');
+  if(!panel||!home||!compactGrid)return;
+  if(currentView==='compact'){
+    compactGrid.parentNode.insertBefore(panel,compactGrid);
+  }else{
+    home.parentNode.insertBefore(panel,home.nextSibling);
+  }
+}
 function setView(view,{persist=true,rerender=true}={}){
   currentView=view==='advanced'?'advanced':'compact';
   if(persist){try{localStorage.setItem(VIEW_KEY,currentView);}catch{}}
   document.documentElement.dataset.view=currentView;
   $$('[data-view]').forEach(btn=>{const active=btn.dataset.view===currentView;btn.classList.toggle('active',active);btn.setAttribute('aria-pressed',active?'true':'false');});
+  positionSmartProfile();
   if(rerender&&latestStats)renderDashboard(latestStats,latestHistory,latestIranInternet);
 }
 function themeNameKey(theme){return ({ocean:'themeOcean',aurora:'themeAurora',violet:'themeViolet',sunset:'themeSunset',ruby:'themeRuby'})[theme]||'themeOcean';}

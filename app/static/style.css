@@ -317,3 +317,8 @@ body{background-color:var(--theme-bg)!important;color:var(--theme-text)!importan
 .endpoint-actions a:hover,.endpoint-actions button:hover,.compact-action-set a:hover,.compact-action-set button:hover{background:var(--theme-control-hover)!important;border-color:rgba(var(--accent-rgb),.42)!important}
 button:disabled,[aria-disabled="true"]{opacity:.45;cursor:not-allowed!important;filter:saturate(.3)}
 @media(prefers-reduced-motion:reduce){html,body,.card,.panel,.notice,.endpoint,.history-card,.intel-card,.failure-block,.health-item,.compact-kpis article,.compact-country-item,.compact-trend-item,.profile-result,.download-card,.language-switch,.view-switch,.theme-toggle,.theme-menu,.btn,.profile-button,.iran-status-card,.compact-pulse-card,.recommended-card{transition:none!important}}
+
+/* v1.5.4 compact hierarchy: Smart Profile directly follows the summary card. */
+html[data-view="compact"] #smart-profiles{margin-top:0}
+html[data-view="compact"] .compact-pulse-card + #smart-profiles{margin-top:0}
+html[data-view="compact"] #smart-profiles + .compact-secondary-grid{margin-top:0}

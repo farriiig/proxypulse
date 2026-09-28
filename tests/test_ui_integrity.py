@@ -59,3 +59,16 @@ def test_view_click_selector_does_not_capture_html_ancestor():
 
 def test_theme_toggle_has_direct_click_listener():
     assert "$('#themeToggle').addEventListener('click'" in JS
+
+
+def test_compact_summary_has_no_redundant_quick_action_buttons():
+    assert 'class="compact-quick-actions"' not in HTML
+    assert 'data-switch-advanced' not in HTML
+
+
+def test_smart_profile_is_repositioned_before_compact_secondary_content():
+    assert 'id="smartProfileHome"' in HTML
+    assert 'function positionSmartProfile()' in JS
+    assert "compactGrid.parentNode.insertBefore(panel,compactGrid)" in JS
+    assert "home.parentNode.insertBefore(panel,home.nextSibling)" in JS
+    assert "positionSmartProfile();" in JS
