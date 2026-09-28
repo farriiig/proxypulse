@@ -345,17 +345,60 @@ html[data-view="compact"] #smart-profiles + .compact-secondary-grid{margin-top:0
 @media(prefers-reduced-motion:reduce){.compact-app-notice{transition:none!important}.app-download-popover.show{animation:none!important}}
 
 
-/* v1.5.8 canonical compact recommendation layout — no layered overrides */
+/* v1.5.9 canonical compact footer row — 3 independent zones */
 .compact-recommended{
+  position:relative;
+  z-index:1;
   display:grid;
-  grid-template-columns:minmax(0,1.8fr) minmax(210px,.65fr);
-  grid-template-areas:"tools copy";
+  grid-template-columns:minmax(360px,1fr) minmax(290px,340px) minmax(220px,.58fr);
+  grid-template-areas:"actions notice copy";
   align-items:center;
-  gap:22px;
+  column-gap:24px;
   margin-top:20px;
   padding-top:18px;
   border-top:1px solid var(--theme-line);
   direction:ltr;
+}
+.compact-recommended-actions{
+  grid-area:actions;
+  min-width:0;
+  width:100%;
+  justify-self:start;
+}
+.compact-recommended-actions .endpoint-actions{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  flex-wrap:nowrap;
+  gap:8px;
+  width:100%;
+  direction:ltr;
+}
+.compact-recommended-actions .endpoint-actions>a,
+.compact-recommended-actions .endpoint-actions>button,
+.profile-result .endpoint-actions>a,
+.profile-result .endpoint-actions>button{
+  min-height:38px;
+  min-width:0;
+  padding:9px 12px;
+  font-size:12px;
+  line-height:1;
+  white-space:nowrap;
+}
+#appDownloadToggle{
+  grid-area:notice;
+  justify-self:center;
+  align-self:center;
+  width:100%;
+  min-width:0;
+  max-width:340px;
+}
+.compact-app-notice{
+  min-height:70px;
+  padding:12px 14px;
+  border-radius:14px;
+  direction:rtl;
+  box-shadow:0 10px 30px rgba(0,0,0,.12),inset 0 1px 0 rgba(255,255,255,.03);
 }
 .compact-recommended-copy{
   grid-area:copy;
@@ -364,116 +407,71 @@ html[data-view="compact"] #smart-profiles + .compact-secondary-grid{margin-top:0
   gap:4px;
   align-content:center;
   justify-items:end;
+  justify-self:end;
   text-align:right;
   direction:rtl;
+  padding-inline:2px;
 }
 .compact-recommended-copy>span{font-size:11px;color:var(--accent);font-weight:900;letter-spacing:.2px}
 .compact-recommended-copy>strong{font-size:20px;line-height:1.45}
 .compact-recommended-copy>small{font-size:11.5px;line-height:1.6;color:var(--theme-muted)}
-.compact-recommended-tools{
-  grid-area:tools;
-  min-width:0;
-  display:grid;
-  grid-template-columns:minmax(260px,340px) minmax(0,1fr);
-  align-items:center;
-  justify-content:start;
-  gap:16px;
-  direction:ltr;
-}
-.compact-recommended-actions{min-width:0;width:100%}
-.compact-recommended-actions .endpoint-actions{
-  display:flex;
-  width:100%;
-  gap:8px;
-  flex-wrap:wrap;
-  justify-content:flex-start;
-  align-items:center;
-  direction:ltr;
-}
-.compact-recommended-actions .endpoint-actions>a,
-.compact-recommended-actions .endpoint-actions>button,
-.profile-result .endpoint-actions>a,
-.profile-result .endpoint-actions>button{
-  min-height:38px;
-  padding:9px 12px;
-  font-size:12px;
-}
-.compact-app-notice{
-  width:100%;
-  min-width:0;
-  max-width:none;
-  min-height:70px;
-  padding:12px 14px;
-  border-radius:14px;
-  direction:rtl;
-  box-shadow:0 10px 30px rgba(0,0,0,.12),inset 0 1px 0 rgba(255,255,255,.03);
-}
 html[dir="ltr"] .compact-recommended{
-  grid-template-areas:"copy tools";
+  grid-template-areas:"copy notice actions";
 }
 html[dir="ltr"] .compact-recommended-copy{
   justify-items:start;
+  justify-self:start;
   text-align:left;
   direction:ltr;
 }
 html[dir="ltr"] .compact-app-notice{direction:ltr}
+html[dir="ltr"] .compact-recommended-actions{justify-self:end}
 
-@media(max-width:980px){
+/* Tablet/mobile: explicit vertical order, no inherited desktop areas. */
+@media(max-width:1100px){
   .compact-recommended{
-    display:flex!important;
-    flex-direction:column!important;
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    grid-template-areas:"copy" "notice" "actions"!important;
+    row-gap:13px!important;
+    column-gap:0!important;
     align-items:stretch!important;
-    gap:14px!important;
     direction:rtl!important;
   }
   .compact-recommended-copy{
-    order:1!important;
+    grid-area:copy!important;
     width:100%!important;
-    align-self:stretch!important;
+    justify-self:stretch!important;
     justify-items:end!important;
     text-align:right!important;
     direction:rtl!important;
-    padding-inline:2px;
-  }
-  .compact-recommended-tools{
-    order:2!important;
-    width:100%!important;
-    display:flex!important;
-    flex-direction:column!important;
-    align-items:stretch!important;
-    gap:12px!important;
-    direction:rtl!important;
   }
   #appDownloadToggle{
-    order:1!important;
+    grid-area:notice!important;
     width:100%!important;
-    min-width:0!important;
     max-width:none!important;
-    align-self:stretch!important;
+    justify-self:stretch!important;
+    min-width:0!important;
   }
   .compact-recommended-actions{
-    order:2!important;
+    grid-area:actions!important;
     width:100%!important;
+    justify-self:stretch!important;
     min-width:0!important;
-    align-self:stretch!important;
   }
   .compact-recommended-actions .endpoint-actions{
     display:grid!important;
-    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+    grid-template-columns:repeat(5,minmax(0,1fr))!important;
     width:100%!important;
     gap:7px!important;
-    direction:ltr!important;
   }
   .compact-recommended-actions .endpoint-actions>a,
   .compact-recommended-actions .endpoint-actions>button{
     width:100%!important;
     min-width:0!important;
-    max-width:none!important;
     min-height:42px!important;
-    margin:0!important;
-    padding:9px 6px!important;
-    font-size:11.5px!important;
-    white-space:nowrap!important;
+    padding:9px 5px!important;
+    font-size:11px!important;
     overflow:hidden!important;
     text-overflow:ellipsis!important;
   }
@@ -483,7 +481,9 @@ html[dir="ltr"] .compact-app-notice{direction:ltr}
     text-align:left!important;
     direction:ltr!important;
   }
-  html[dir="ltr"] .compact-recommended-tools{direction:ltr!important}
+}
+@media(max-width:560px){
+  .compact-recommended-actions .endpoint-actions{grid-template-columns:repeat(3,minmax(0,1fr))!important}
 }
 @media(max-width:380px){
   .compact-recommended-actions .endpoint-actions{grid-template-columns:repeat(2,minmax(0,1fr))!important}

@@ -101,8 +101,11 @@ def test_mobile_compact_actions_use_non_overlapping_grid():
     assert 'min-width:0!important' in CSS
 
 
-def test_compact_recommended_uses_single_canonical_tools_wrapper():
-    assert 'class="compact-recommended-tools"' in HTML
-    assert 'v1.5.8 canonical compact recommendation layout' in CSS
-    assert 'v1.5.6 compact desktop placement' not in CSS
-    assert 'v1.5.7 mobile compact footer hard-fix' not in CSS
+def test_compact_recommended_uses_three_independent_zones():
+    assert 'class="compact-recommended-tools"' not in HTML
+    assert 'id="compactRecommendedActions"' in HTML
+    assert 'id="appDownloadToggle"' in HTML
+    assert 'id="compactRecommendedCopy"' in HTML
+    assert 'v1.5.9 canonical compact footer row' in CSS
+    assert 'grid-template-areas:"actions notice copy"' in CSS
+    assert 'v1.5.8 canonical compact recommendation layout' not in CSS
