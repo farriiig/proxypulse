@@ -1692,5 +1692,54 @@
     "isp": "OVH SAS",
     "country_code": "GB",
     "fetched_at": "2026-09-28T07:03:16Z"
+  },
+  "141.133.121.251": {
+    "asn": 202656,
+    "org": "IT Hostline Ltd",
+    "isp": "Ivanov Vitaliy Sergeevich",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T07:07:59Z"
+  },
+  "45.67.136.15": {
+    "asn": 213535,
+    "org": "YottaSrc",
+    "isp": "YottaSrc",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T07:07:59Z"
+  },
+  "80.76.34.50": {
+    "asn": 200740,
+    "org": "FIRST SERVER, SOCIEDAD LIMITADA",
+    "isp": "FIRST SERVER LIMITED",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T07:07:59Z"
+  },
+  "147.90.89.114": {
+    "asn": 209829,
+    "org": "Private Customer",
+    "isp": "Greenhost BV",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T07:07:59Z"
+  },
+  "57.128.177.198": {
+    "asn": 16276,
+    "org": "OVH Ltd",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T07:07:59Z"
+  },
+  "194.147.88.45": {
+    "asn": 214238,
+    "org": "IT Hostline Ltd",
+    "isp": "HOST TELECOM LTD",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T07:07:59Z"
+  },
+  "51.241.150.159": {
+    "asn": 63150,
+    "org": "BAGE CLOUD LLC",
+    "isp": "BAGE CLOUD LLC",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T07:07:59Z"
   }
 }
