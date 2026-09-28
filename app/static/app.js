@@ -25,12 +25,12 @@ const I18N={
     eyebrow:'هوشمندی پروکسی · نسخه GitHub', heroSub:'جمع‌آوری · اثرانگشت · تست · اعتبارسنجی · موقعیت · انتشار',
     languageSelector:'انتخاب زبان', viewSelector:'نوع نمایش', viewCompact:'خلاصه', viewAdvanced:'پیشرفته', themeSelector:'انتخاب پوسته', themeLabel:'پوسته', themeOcean:'اقیانوسی', themeAurora:'شفق', themeViolet:'بنفش', themeSunset:'غروب', themeRuby:'یاقوتی', smartProfilesJump:'پروفایل هوشمند ↓', iranInternetJump:'اینترنت ایران ↓', repository:'مخزن ↗', actions:'اکشن‌ها ↗', refresh:'بروزرسانی',
     loadingSnapshot:'در حال دریافت آخرین وضعیت…', checking:'در حال بررسی…', loadingShort:'در حال دریافت…',
-    compactPulseKicker:'نمای سریع شبکه', compactPulseTitle:'وضعیت کلی ProxyPulse', compactPulseHint:'خلاصه‌ای از کیفیت، سلامت تونل و تازگی داده‌ها برای تصمیم سریع.', compactVerified:'تأییدشده', compactOnline:'آنلاین', compactLatency:'تأخیر', compactUpdated:'بروزرسانی', compactChooseProfile:'انتخاب پروفایل', compactIranStatus:'وضعیت ایران', compactMoreDetails:'جزئیات بیشتر', compactCountriesTitle:'کشورهای منتخب', compactCountriesDesc:'بهترین کشورها و علاقه‌مندی‌های شما در یک نگاه.', compactTrendTitle:'روند ۲۴ ساعت اخیر', compactTrendDesc:'آنلاین و موفقیت تونل، بدون جزئیات اضافه.', compactQualityExcellent:'عالی', compactQualityGood:'خوب', compactQualityFair:'متوسط', compactQualityPoor:'ضعیف', compactRecommendedMeta:'{count} کانفیگ پیشنهادی', compactNoCountries:'هنوز کشور تأییدشده‌ای در دسترس نیست.', compactOnlineTrend:'آنلاین', compactTunnelTrend:'موفقیت تونل', compactViewAll:'نمای پیشرفته',
+    compactPulseKicker:'خلاصه وضعیت شبکه', compactPulseTitle:'وضعیت کلی شبکه', compactPulseHint:'خلاصه‌ای روشن از کیفیت اتصال، تأیید تونل و تازگی داده‌ها؛ برای یک تصمیم سریع.', compactVerified:'تونل تأییدشده', compactOnline:'آنلاین', compactLatency:'تأخیر', compactUpdated:'آخرین بروزرسانی', compactChooseProfile:'انتخاب پروفایل هوشمند', compactIranStatus:'وضعیت ایران', compactMoreDetails:'مشاهده جزئیات کامل', compactCountriesTitle:'کشورهای منتخب', compactCountriesDesc:'کشورهای تأییدشده و علاقه‌مندی‌های شما، در یک نگاه.', compactTrendTitle:'روند ۲۴ ساعت اخیر', compactTrendDesc:'روند نودهای آنلاین و موفقیت تست تونل در ۲۴ ساعت اخیر.', compactQualityExcellent:'عالی', compactQualityGood:'خوب', compactQualityFair:'متوسط', compactQualityPoor:'ضعیف', compactRecommendedMeta:'{count} کانفیگ پیشنهادی', compactNoCountries:'هنوز کشور تأییدشده‌ای در دسترس نیست.', compactOnlineTrend:'آنلاین', compactTunnelTrend:'موفقیت تونل', compactViewAll:'نمای پیشرفته',
     metricDiscovered:'شناسایی‌شده', metricSemanticUnique:'یکتای معنایی', metricScanned:'اسکن‌شده', metricCurrentRun:'اجرای فعلی', metricOnline:'آنلاین', metricAvgLatency:'میانگین تأخیر', metricTcpMedian:'میانه TCP', metricAvgScore:'میانگین امتیاز', metricScoreHint:'تاریخچه + تأخیر + پایداری', metricOnlineNodes:'نودهای آنلاین',
     guideKicker:'راهنمای سریع استفاده', guideTitle:'شروع سریع با اشتراک‌ها و اپ‌ها', guideLead:'ProxyPulse یک پلتفرم GitHub-native برای جمع‌آوری، پالایش، تست و انتشار کانفیگ‌های عمومی است. نتایج بر اساس کیفیت، وضعیت و کشور دسته‌بندی می‌شوند و اشتراک‌های آماده استفاده در اختیار کاربر قرار می‌گیرند.',
     guideStep1:'اشتراک مناسب خود را از بخش <strong>اشتراک‌ها</strong> یا <strong>کشورهای تأییدشده</strong> انتخاب کنید.', guideStep2:'برای افزودن مستقیم، روی دکمه‌های <strong>Incy</strong> یا <strong>Happ</strong> بزنید.', guideStep3:'اگر اپ را نصب ندارید، از دکمه‌های دانلود همین بخش استفاده کنید.', guideNote:'نکته: افزودن مستقیم فقط زمانی کار می‌کند که اپ مربوطه روی دستگاه شما نصب باشد.',
     downloadAppsAria:'لینک دانلود اپ‌ها', downloadApps:'دانلود اپ‌ها', downloadIncyIos:'دانلود Incy برای iOS', downloadIncyAndroid:'دانلود Incy برای Android', downloadHappIos:'دانلود Happ برای iOS', downloadHappAndroid:'دانلود Happ برای Android',
-    smartKicker:'سازنده پروفایل هوشمند', smartTitle:'نوع اتصال مناسب خود را انتخاب کنید', smartDesc:'ProxyPulse متناسب با هدف شما یک اشتراک متنوع می‌سازد. همه پروفایل‌ها هر ساعت تازه می‌شوند و حداکثر ۱۰۰ کانفیگ دارند.', asnAware:'آگاه از ASN', autoRotation:'چرخش خودکار', maxNodes:'حداکثر ۱۰۰ نود', smartProfilesAria:'پروفایل‌های هوشمند',
+    smartKicker:'سازنده پروفایل هوشمند', smartTitle:'نوع اتصال مناسب خودتان را انتخاب کنید', smartDesc:'ProxyPulse بر اساس هدف شما یک اشتراک متنوع و تازه می‌سازد؛ پروفایل‌ها هر ساعت بروزرسانی می‌شوند و هر خروجی حداکثر ۱۰۰ کانفیگ دارد.', asnAware:'آگاه از ASN', autoRotation:'چرخش خودکار', maxNodes:'حداکثر ۱۰۰ نود', smartProfilesAria:'پروفایل‌های هوشمند',
     subscriptionsTitle:'اشتراک‌ها', subscriptionsDesc:'خروجی‌های پالایش‌شده‌ای که در آخرین اجرای Workflow ساخته شده‌اند.', countriesTitle:'کشورهای تأییدشده', countriesDesc:'این اشتراک‌ها فقط شامل کانفیگ‌هایی هستند که تست انتها‌به‌انتهای sing-box را پاس کرده و IP خروجی نهایی دریافت کرده‌اند.',
     iranKicker:'نمای لحظه‌ای اتصال ایران', iranTitle:'وضعیت اینترنت ایران', iranDesc:'خلاصه‌ای از سلامت مسیرهای داخلی و بین‌الملل؛ بروزرسانی ساعتی همراه با اجرای ProxyPulse.', iranDetails:'جزئیات در Covered.ir ↗', iranOverallLabel:'وضعیت کلی', iranDomestic:'مسیرهای داخلی', iranInternational:'مسیرهای بین‌الملل', iranIncidentsLabel:'اختلال فعال', iranLoading:'داده در حال بارگذاری است…', iranDisclaimer:'منبع: Covered.ir · این شاخص فقط مسیرهای تحت پایش Covered را نمایش می‌دهد و نماینده تجربه تمام کاربران ایران نیست.',
     intelKicker:'هوشمندی اتصال', intelTitle:'کیفیت تونل و ماندگاری', intelDesc:'موفقیت انتها‌به‌انتها، ماندگاری دوره‌ای و تنوع ASN در آخرین اسکن.', failureGrouped:'علت خطاها به‌صورت خودکار گروه‌بندی می‌شوند', tunnelSuccess:'موفقیت تونل', medianSurvival:'میانه ماندگاری', rollingReachability:'امتیاز دسترسی دوره‌ای', asnDiversity:'تنوع ASN', rotationPool:'مخزن چرخشی', rotationPoolHint:'کانفیگ‌های سالم با جایگزینی خودکار', whyFailed:'چرا تست‌های تونل ناموفق شدند؟',
@@ -111,7 +111,8 @@ function applyStaticTranslations(){
   const iranLink=$('#iranSourceLink');if(iranLink)iranLink.href=currentLang==='fa'?'https://covered.ir/fa':'https://covered.ir/en';
   $$('[data-lang]').forEach(btn=>{const active=btn.dataset.lang===currentLang;btn.classList.toggle('active',active);btn.setAttribute('aria-pressed',active?'true':'false');});
   $$('[data-view]').forEach(btn=>{const active=btn.dataset.view===currentView;btn.classList.toggle('active',active);btn.setAttribute('aria-pressed',active?'true':'false');});
-  $$('[data-theme-choice]').forEach(btn=>{const active=btn.dataset.themeChoice===currentTheme;btn.classList.toggle('active',active);});
+  $$('[data-theme-choice]').forEach(btn=>{const active=btn.dataset.themeChoice===currentTheme;btn.classList.toggle('active',active);btn.setAttribute('aria-checked',active?'true':'false');});
+  updateThemeControl();
 }
 function setLanguage(lang,{persist=true,rerender=true}={}){
   currentLang=lang==='en'?'en':'fa';
@@ -129,12 +130,20 @@ function setView(view,{persist=true,rerender=true}={}){
   $$('[data-view]').forEach(btn=>{const active=btn.dataset.view===currentView;btn.classList.toggle('active',active);btn.setAttribute('aria-pressed',active?'true':'false');});
   if(rerender&&latestStats)renderDashboard(latestStats,latestHistory,latestIranInternet);
 }
+function themeNameKey(theme){return ({ocean:'themeOcean',aurora:'themeAurora',violet:'themeViolet',sunset:'themeSunset',ruby:'themeRuby'})[theme]||'themeOcean';}
+function updateThemeControl(){
+  const label=$('#themeCurrentLabel');if(label)label.textContent=`${t('themeLabel')} · ${t(themeNameKey(currentTheme))}`;
+  const toggle=$('#themeToggle');if(toggle){toggle.dataset.theme=currentTheme;toggle.setAttribute('title',`${t('themeLabel')}: ${t(themeNameKey(currentTheme))}`);}
+}
 function setTheme(theme,{persist=true}={}){
   currentTheme=THEMES.includes(theme)?theme:'ocean';
   if(persist){try{localStorage.setItem(THEME_KEY,currentTheme);}catch{}}
-  document.documentElement.dataset.theme=currentTheme;
-  $$('[data-theme-choice]').forEach(btn=>btn.classList.toggle('active',btn.dataset.themeChoice===currentTheme));
-  const toggle=$('#themeToggle');if(toggle)toggle.dataset.theme=currentTheme;
+  const root=document.documentElement;
+  root.setAttribute('data-theme',currentTheme);
+  document.body?.setAttribute('data-theme',currentTheme);
+  $$('[data-theme-choice]').forEach(btn=>{const active=btn.dataset.themeChoice===currentTheme;btn.classList.toggle('active',active);btn.setAttribute('aria-checked',active?'true':'false');});
+  updateThemeControl();
+  requestAnimationFrame(()=>{const meta=document.querySelector('meta[name="theme-color"]');if(meta){const color=getComputedStyle(root).getPropertyValue('--theme-bg').trim();if(color)meta.setAttribute('content',color);}});
 }
 function toggleThemeMenu(force){
   const menu=$('#themeMenu'),toggle=$('#themeToggle');if(!menu||!toggle)return;
