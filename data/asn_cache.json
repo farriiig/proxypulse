@@ -1608,5 +1608,61 @@
     "isp": "Scaleway SAS",
     "country_code": "FR",
     "fetched_at": "2026-09-28T06:35:30Z"
+  },
+  "4.168.236.110": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "ZA",
+    "fetched_at": "2026-09-28T06:49:02Z"
+  },
+  "2604:a880:400:d1:0:4:8807:7001": {
+    "asn": 14061,
+    "org": "DigitalOcean, LLC",
+    "isp": "DigitalOcean, LLC",
+    "country_code": "US",
+    "fetched_at": "2026-09-28T06:49:02Z"
+  },
+  "213.142.147.133": {
+    "asn": 58061,
+    "org": "NetAssets Services - FZCO",
+    "isp": "Scalaxy B.V.",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T06:49:02Z"
+  },
+  "158.173.195.227": {
+    "asn": 152460,
+    "org": "Private Customer",
+    "isp": "Greenhost BV",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T06:49:02Z"
+  },
+  "57.128.183.90": {
+    "asn": 16276,
+    "org": "OVH Ltd",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T06:49:02Z"
+  },
+  "89.34.167.181": {
+    "asn": 56478,
+    "org": "Hyperoptic Ltd",
+    "isp": "Hyperoptic Ltd",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T06:49:02Z"
+  },
+  "57.128.181.14": {
+    "asn": 16276,
+    "org": "OVH Ltd",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T06:49:03Z"
+  },
+  "51.159.178.70": {
+    "asn": 12876,
+    "org": "Scaleway SAS",
+    "isp": "Scaleway SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-09-28T06:49:02Z"
   }
 }
