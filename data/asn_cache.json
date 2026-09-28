@@ -1489,5 +1489,61 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-09-28T06:05:29Z"
+  },
+  "104.28.155.193": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "DE",
+    "fetched_at": "2026-09-28T06:22:31Z"
+  },
+  "5.129.209.192": {
+    "asn": 210976,
+    "org": "JSC TIMEWEB",
+    "isp": "Timeweb, LLP",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T06:22:31Z"
+  },
+  "5.129.238.238": {
+    "asn": 210976,
+    "org": "TimeWeb Ltd.",
+    "isp": "Timeweb, LLP",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T06:22:31Z"
+  },
+  "195.96.129.36": {
+    "asn": 57043,
+    "org": "Xantho UAB",
+    "isp": "HOSTKEY B.V.",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T06:22:31Z"
+  },
+  "77.238.244.233": {
+    "asn": 216071,
+    "org": "SERVERS TECH FZCO",
+    "isp": "SERVERS TECH FZCO",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T06:22:31Z"
+  },
+  "51.6.54.142": {
+    "asn": 6871,
+    "org": "PlusNet plc.",
+    "isp": "British Telecommunications Limited",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T06:22:31Z"
+  },
+  "57.128.183.133": {
+    "asn": 16276,
+    "org": "OVH Ltd",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T06:22:31Z"
+  },
+  "216.106.185.141": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-09-28T06:22:31Z"
   }
 }
