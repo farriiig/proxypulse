@@ -1741,5 +1741,61 @@
     "isp": "BAGE CLOUD LLC",
     "country_code": "GB",
     "fetched_at": "2026-09-28T07:07:59Z"
+  },
+  "192.142.12.222": {
+    "asn": 198077,
+    "org": "L.L.C.-FZ",
+    "isp": "Need, L.L.C.-FZ",
+    "country_code": "DE",
+    "fetched_at": "2026-09-28T08:34:30Z"
+  },
+  "66.248.207.162": {
+    "asn": 57043,
+    "org": "HOSTKEY B.V.",
+    "isp": "HOSTKEY B.V.",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T08:34:30Z"
+  },
+  "186.190.213.209": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T08:34:30Z"
+  },
+  "158.173.195.208": {
+    "asn": 152460,
+    "org": "Private Customer",
+    "isp": "Greenhost BV",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T08:34:30Z"
+  },
+  "186.190.213.188": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T08:34:30Z"
+  },
+  "109.169.76.23": {
+    "asn": 20860,
+    "org": "Iomart Managed Services Limited",
+    "isp": "IOMART CLOUD SERVICES LIMITED",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T08:34:30Z"
+  },
+  "57.128.178.63": {
+    "asn": 16276,
+    "org": "OVH Ltd",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T08:34:30Z"
+  },
+  "91.149.238.31": {
+    "asn": 26383,
+    "org": "Baxet Group Inc.",
+    "isp": "Baxet Group Inc.",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T08:34:30Z"
   }
 }
