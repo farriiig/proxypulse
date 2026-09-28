@@ -12,14 +12,20 @@ let activeProfile = 'balanced';
 let lastLoadError = '';
 const FAVORITES_KEY = 'proxypulse-country-favorites-v1';
 const LANG_KEY = 'proxypulse-language-v1';
+const VIEW_KEY = 'proxypulse-view-v1';
+const THEME_KEY = 'proxypulse-theme-v1';
+const THEMES = ['ocean','aurora','violet','sunset','ruby'];
 let currentLang = (()=>{try{const v=localStorage.getItem(LANG_KEY);return v==='en'||v==='fa'?v:'fa';}catch{return 'fa';}})();
+let currentView = (()=>{try{return localStorage.getItem(VIEW_KEY)==='advanced'?'advanced':'compact';}catch{return 'compact';}})();
+let currentTheme = (()=>{try{const v=localStorage.getItem(THEME_KEY);return THEMES.includes(v)?v:'ocean';}catch{return 'ocean';}})();
 
 const I18N={
   fa:{
     pageTitle:'ProxyPulse · هوشمندی پروکسی', pageDescription:'ProxyPulse — پایش، تست، امتیازدهی و انتشار هوشمند اشتراک‌های پروکسی روی GitHub.',
     eyebrow:'هوشمندی پروکسی · نسخه GitHub', heroSub:'جمع‌آوری · اثرانگشت · تست · اعتبارسنجی · موقعیت · انتشار',
-    languageSelector:'انتخاب زبان', smartProfilesJump:'پروفایل هوشمند ↓', iranInternetJump:'اینترنت ایران ↓', repository:'مخزن ↗', actions:'اکشن‌ها ↗', refresh:'بروزرسانی',
+    languageSelector:'انتخاب زبان', viewSelector:'نوع نمایش', viewCompact:'خلاصه', viewAdvanced:'پیشرفته', themeSelector:'انتخاب پوسته', themeLabel:'پوسته', themeOcean:'اقیانوسی', themeAurora:'شفق', themeViolet:'بنفش', themeSunset:'غروب', themeRuby:'یاقوتی', smartProfilesJump:'پروفایل هوشمند ↓', iranInternetJump:'اینترنت ایران ↓', repository:'مخزن ↗', actions:'اکشن‌ها ↗', refresh:'بروزرسانی',
     loadingSnapshot:'در حال دریافت آخرین وضعیت…', checking:'در حال بررسی…', loadingShort:'در حال دریافت…',
+    compactPulseKicker:'نمای سریع شبکه', compactPulseTitle:'وضعیت کلی ProxyPulse', compactPulseHint:'خلاصه‌ای از کیفیت، سلامت تونل و تازگی داده‌ها برای تصمیم سریع.', compactVerified:'تأییدشده', compactOnline:'آنلاین', compactLatency:'تأخیر', compactUpdated:'بروزرسانی', compactChooseProfile:'انتخاب پروفایل', compactIranStatus:'وضعیت ایران', compactMoreDetails:'جزئیات بیشتر', compactCountriesTitle:'کشورهای منتخب', compactCountriesDesc:'بهترین کشورها و علاقه‌مندی‌های شما در یک نگاه.', compactTrendTitle:'روند ۲۴ ساعت اخیر', compactTrendDesc:'آنلاین و موفقیت تونل، بدون جزئیات اضافه.', compactQualityExcellent:'عالی', compactQualityGood:'خوب', compactQualityFair:'متوسط', compactQualityPoor:'ضعیف', compactRecommendedMeta:'{count} کانفیگ پیشنهادی', compactNoCountries:'هنوز کشور تأییدشده‌ای در دسترس نیست.', compactOnlineTrend:'آنلاین', compactTunnelTrend:'موفقیت تونل', compactViewAll:'نمای پیشرفته',
     metricDiscovered:'شناسایی‌شده', metricSemanticUnique:'یکتای معنایی', metricScanned:'اسکن‌شده', metricCurrentRun:'اجرای فعلی', metricOnline:'آنلاین', metricAvgLatency:'میانگین تأخیر', metricTcpMedian:'میانه TCP', metricAvgScore:'میانگین امتیاز', metricScoreHint:'تاریخچه + تأخیر + پایداری', metricOnlineNodes:'نودهای آنلاین',
     guideKicker:'راهنمای سریع استفاده', guideTitle:'شروع سریع با اشتراک‌ها و اپ‌ها', guideLead:'ProxyPulse یک پلتفرم GitHub-native برای جمع‌آوری، پالایش، تست و انتشار کانفیگ‌های عمومی است. نتایج بر اساس کیفیت، وضعیت و کشور دسته‌بندی می‌شوند و اشتراک‌های آماده استفاده در اختیار کاربر قرار می‌گیرند.',
     guideStep1:'اشتراک مناسب خود را از بخش <strong>اشتراک‌ها</strong> یا <strong>کشورهای تأییدشده</strong> انتخاب کنید.', guideStep2:'برای افزودن مستقیم، روی دکمه‌های <strong>Incy</strong> یا <strong>Happ</strong> بزنید.', guideStep3:'اگر اپ را نصب ندارید، از دکمه‌های دانلود همین بخش استفاده کنید.', guideNote:'نکته: افزودن مستقیم فقط زمانی کار می‌کند که اپ مربوطه روی دستگاه شما نصب باشد.',
@@ -52,8 +58,9 @@ const I18N={
   },
   en:{
     pageTitle:'ProxyPulse · Proxy Intelligence', pageDescription:'ProxyPulse — GitHub-native proxy aggregation, TCP + end-to-end egress checks, country grouping, scoring and subscription publishing.',
-    eyebrow:'PROXY INTELLIGENCE · GITHUB EDITION', heroSub:'Collect · Fingerprint · Probe · Verify · Geo · Publish', languageSelector:'Language selector', smartProfilesJump:'Smart Profiles ↓', iranInternetJump:'Iran Internet ↓', repository:'Repository ↗', actions:'Actions ↗', refresh:'Refresh',
+    eyebrow:'PROXY INTELLIGENCE · GITHUB EDITION', heroSub:'Collect · Fingerprint · Probe · Verify · Geo · Publish', languageSelector:'Language selector', viewSelector:'View mode', viewCompact:'Compact', viewAdvanced:'Advanced', themeSelector:'Theme selector', themeLabel:'Theme', themeOcean:'Ocean', themeAurora:'Aurora', themeViolet:'Violet', themeSunset:'Sunset', themeRuby:'Ruby', smartProfilesJump:'Smart Profiles ↓', iranInternetJump:'Iran Internet ↓', repository:'Repository ↗', actions:'Actions ↗', refresh:'Refresh',
     loadingSnapshot:'Loading the latest snapshot…', checking:'Checking…', loadingShort:'Loading…',
+    compactPulseKicker:'NETWORK QUICK VIEW', compactPulseTitle:'ProxyPulse at a glance', compactPulseHint:'A concise view of quality, tunnel health and freshness for faster decisions.', compactVerified:'Verified', compactOnline:'Online', compactLatency:'Latency', compactUpdated:'Updated', compactChooseProfile:'Choose profile', compactIranStatus:'Iran status', compactMoreDetails:'More details', compactCountriesTitle:'Selected Countries', compactCountriesDesc:'Top countries and your favorites at a glance.', compactTrendTitle:'Last 24 hours', compactTrendDesc:'Online availability and tunnel success without extra detail.', compactQualityExcellent:'Excellent', compactQualityGood:'Good', compactQualityFair:'Fair', compactQualityPoor:'Poor', compactRecommendedMeta:'{count} recommended configs', compactNoCountries:'No verified country is available yet.', compactOnlineTrend:'Online', compactTunnelTrend:'Tunnel success', compactViewAll:'Advanced view',
     metricDiscovered:'Discovered', metricSemanticUnique:'semantic unique', metricScanned:'Scanned', metricCurrentRun:'current run', metricOnline:'Online', metricAvgLatency:'Avg Latency', metricTcpMedian:'TCP median', metricAvgScore:'Avg Score', metricScoreHint:'history + latency + stability', metricOnlineNodes:'online nodes',
     guideKicker:'Quick start guide', guideTitle:'Get started with subscriptions and apps', guideLead:'ProxyPulse is a GitHub-native platform for collecting, filtering, testing and publishing public proxy configurations. Results are grouped by quality, status and country, then published as ready-to-use subscriptions.',
     guideStep1:'Choose a suitable subscription from <strong>Subscriptions</strong> or <strong>Verified Countries</strong>.', guideStep2:'For direct import, tap <strong>Incy</strong> or <strong>Happ</strong>.', guideStep3:'If the app is not installed, use the download buttons in this section.', guideNote:'Note: direct import works only when the corresponding app is installed on your device.',
@@ -103,6 +110,8 @@ function applyStaticTranslations(){
   const meta=document.querySelector('meta[name="description"]');if(meta)meta.setAttribute('content',t('pageDescription'));
   const iranLink=$('#iranSourceLink');if(iranLink)iranLink.href=currentLang==='fa'?'https://covered.ir/fa':'https://covered.ir/en';
   $$('[data-lang]').forEach(btn=>{const active=btn.dataset.lang===currentLang;btn.classList.toggle('active',active);btn.setAttribute('aria-pressed',active?'true':'false');});
+  $$('[data-view]').forEach(btn=>{const active=btn.dataset.view===currentView;btn.classList.toggle('active',active);btn.setAttribute('aria-pressed',active?'true':'false');});
+  $$('[data-theme-choice]').forEach(btn=>{const active=btn.dataset.themeChoice===currentTheme;btn.classList.toggle('active',active);});
 }
 function setLanguage(lang,{persist=true,rerender=true}={}){
   currentLang=lang==='en'?'en':'fa';
@@ -111,6 +120,26 @@ function setLanguage(lang,{persist=true,rerender=true}={}){
   document.documentElement.dir=currentLang==='fa'?'rtl':'ltr';
   resetRegionNames();applyStaticTranslations();
   if(rerender){if(latestStats)renderDashboard(latestStats,latestHistory,latestIranInternet);else if(lastLoadError)setNotice('bad',t('loadError',{error:lastLoadError}));else setNotice('loading',t('loadingSnapshot'));}
+}
+
+function setView(view,{persist=true,rerender=true}={}){
+  currentView=view==='advanced'?'advanced':'compact';
+  if(persist){try{localStorage.setItem(VIEW_KEY,currentView);}catch{}}
+  document.documentElement.dataset.view=currentView;
+  $$('[data-view]').forEach(btn=>{const active=btn.dataset.view===currentView;btn.classList.toggle('active',active);btn.setAttribute('aria-pressed',active?'true':'false');});
+  if(rerender&&latestStats)renderDashboard(latestStats,latestHistory,latestIranInternet);
+}
+function setTheme(theme,{persist=true}={}){
+  currentTheme=THEMES.includes(theme)?theme:'ocean';
+  if(persist){try{localStorage.setItem(THEME_KEY,currentTheme);}catch{}}
+  document.documentElement.dataset.theme=currentTheme;
+  $$('[data-theme-choice]').forEach(btn=>btn.classList.toggle('active',btn.dataset.themeChoice===currentTheme));
+  const toggle=$('#themeToggle');if(toggle)toggle.dataset.theme=currentTheme;
+}
+function toggleThemeMenu(force){
+  const menu=$('#themeMenu'),toggle=$('#themeToggle');if(!menu||!toggle)return;
+  const open=typeof force==='boolean'?force:!menu.classList.contains('show');
+  menu.classList.toggle('show',open);menu.setAttribute('aria-hidden',open?'false':'true');toggle.setAttribute('aria-expanded',open?'true':'false');
 }
 
 async function getJSON(path){
@@ -210,6 +239,32 @@ function renderCountries(manifest={}){
   root.innerHTML=entries.length?entries.map(([key,item])=>{const code=String(item.code||key).toUpperCase(),normalized={...item,path:item.path||`subscriptions/countries/${key}.txt`},name=countryName(code),favorite=favorites.has(key.toLowerCase()),asn=Number(item.asn_count||0);return `<div class="endpoint country-endpoint ${favorite?'country-favorite':''}"><div class="country-main"><div class="country-title-row"><button class="favorite-button" type="button" data-favorite-country="${esc(key)}" aria-pressed="${favorite?'true':'false'}" title="${esc(favorite?t('favRemove'):t('favAdd'))}">${favorite?'★':'☆'}</button><span class="country-flag" aria-hidden="true">${flagEmoji(code)}</span><div class="country-title-copy"><div class="country-title"><strong>${esc(name)}</strong><span class="country-code">${esc(code)}</span></div><span class="country-count">${esc(t('verifiedNodes',{count:num(item.count||0,{maximumFractionDigits:0})}))}${asn?` · ${esc(t('asnCount',{count:num(asn,{maximumFractionDigits:0})}))}`:''}</span></div></div></div><div class="country-actions-wrap">${subscriptionActions(normalized,t('countrySubscription',{name}))}</div></div>`;}).join(''):`<div class="empty">${esc(t('noCountries'))}</div>`;
 }
 
+
+function compactQuality(stats={}){
+  const score=Number(stats.avg_score||0),online=Number(stats.online_rate||0),tested=Math.max(0,Number(stats.egress_tested_nodes||0)),verified=Math.max(0,Number(stats.egress_verified_nodes||0));
+  const tunnel=tested?Math.min(100,(verified/tested)*100):Math.min(100,online);
+  return Math.round(Math.max(0,Math.min(100,score*.45+tunnel*.35+online*.20)));
+}
+function compactQualityLabel(score){return score>=85?t('compactQualityExcellent'):score>=70?t('compactQualityGood'):score>=50?t('compactQualityFair'):t('compactQualityPoor');}
+function compactActionSet(item={},label='subscription'){
+  const path=item.path||'',url=new URL(path,window.location.href).href,incyUrl=`incy://import/${url}`,happUrl=`happ://add/${url}`;
+  return `<div class="compact-action-set"><a href="${esc(incyUrl)}">Incy</a><a href="${esc(happUrl)}">Happ</a><button type="button" data-copy="${esc(url)}">${esc(t('copy'))}</button></div>`;
+}
+function renderCompactCountries(manifest={}){
+  const root=$('#compactCountries');if(!root)return;const favorites=loadFavorites();
+  const entries=Object.entries(manifest).sort((a,b)=>{const af=favorites.has(a[0].toLowerCase())?1:0,bf=favorites.has(b[0].toLowerCase())?1:0;return bf-af||Number(b[1]?.count||0)-Number(a[1]?.count||0)||a[0].localeCompare(b[0]);}).slice(0,4);
+  root.innerHTML=entries.length?entries.map(([key,item])=>{const code=String(item.code||key).toUpperCase(),name=countryName(code),normalized={...item,path:item.path||`subscriptions/countries/${key}.txt`};return `<article class="compact-country-item"><div class="compact-country-copy"><span class="country-flag">${flagEmoji(code)}</span><div><strong>${esc(name)}</strong><small>${esc(t('verifiedNodes',{count:num(item.count||0,{maximumFractionDigits:0})}))}</small></div></div>${compactActionSet(normalized,t('countrySubscription',{name}))}</article>`;}).join(''):`<div class="empty">${esc(t('compactNoCountries'))}</div>`;
+}
+function miniSpark(values=[]){const nums=values.map(Number).filter(Number.isFinite);if(!nums.length)return `<div class="compact-spark-empty">—</div>`;const w=220,h=54,p=4,min=Math.min(...nums),max=Math.max(...nums),span=Math.max(1,max-min),points=nums.map((v,i)=>`${(p+(i/Math.max(1,nums.length-1))*(w-p*2)).toFixed(1)},${(h-p-((v-min)/span)*(h-p*2)).toFixed(1)}`).join(' ');return `<svg class="compact-spark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none"><polyline points="${points}"/></svg>`;}
+function renderCompactTrend(history=[]){const root=$('#compactTrend');if(!root)return;const recent=(Array.isArray(history)?history:[]).slice(-24),defs=[['online','compactOnlineTrend',v=>num(Math.round(v),{maximumFractionDigits:0})],['tunnel_success_rate','compactTunnelTrend',v=>`${percent(v,1)}%`]];root.innerHTML=defs.map(([field,key,fmt])=>{const vals=recent.map(x=>Number(x?.[field])).filter(Number.isFinite),current=vals.length?vals[vals.length-1]:0;return `<article class="compact-trend-item"><div><span>${esc(t(key))}</span><strong>${fmt(current)}</strong></div>${miniSpark(vals)}</article>`;}).join('');}
+function renderCompactDashboard(stats={},history=[]){
+  const quality=compactQuality(stats),tested=Number(stats.egress_tested_nodes||0),verified=Number(stats.egress_verified_nodes||0);
+  $('#compactQualityScore').textContent=num(quality,{maximumFractionDigits:0});$('#compactQualityLabel').textContent=compactQualityLabel(quality);$('#compactQualityLabel').dataset.level=quality>=85?'excellent':quality>=70?'good':quality>=50?'fair':'poor';
+  $('#compactVerified').textContent=tested?`${num(verified,{maximumFractionDigits:0})}/${num(tested,{maximumFractionDigits:0})}`:num(verified,{maximumFractionDigits:0});$('#compactOnline').textContent=num(stats.online_nodes||0,{maximumFractionDigits:0});$('#compactLatency').textContent=stats.avg_latency_ms?`${num(Math.round(stats.avg_latency_ms),{maximumFractionDigits:0})} ms`:'—';$('#compactUpdated').textContent=relativeAge(stats.generated_at);
+  const item=stats.subscriptions?.recommended;const root=$('#compactRecommended');if(item){const normalized={...item,path:item.path||'subscriptions/recommended.txt'};root.innerHTML=`<div class="compact-recommended-copy"><span>${esc(t('recommendedKicker'))}</span><strong>${esc(t('recommended'))}</strong><small>${esc(t('compactRecommendedMeta',{count:num(item.count||0,{maximumFractionDigits:0})}))}</small></div>${subscriptionActions(normalized,t('recommendedSubscription'))}`;}else root.innerHTML='';
+  renderCompactCountries(stats.country_subscriptions||{});renderCompactTrend(history);
+}
+
 function sparkline(values=[]){const nums=values.map(Number).filter(Number.isFinite);if(!nums.length)return `<div class="spark-empty">${esc(t('noHistory'))}</div>`;const width=320,height=76,pad=5,min=Math.min(...nums),max=Math.max(...nums),span=Math.max(1,max-min),points=nums.map((v,i)=>{const x=nums.length===1?width/2:pad+(i/(nums.length-1))*(width-pad*2),y=height-pad-((v-min)/span)*(height-pad*2);return `${x.toFixed(1)},${y.toFixed(1)}`;}).join(' ');return `<svg class="sparkline" viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" aria-hidden="true"><polyline points="${points}" /></svg>`;}
 function renderHistory(history=[]){const root=$('#historyGrid'),recent=(Array.isArray(history)?history:[]).slice(-24),defs=[['online','historyOnline',v=>num(Math.round(v),{maximumFractionDigits:0})],['avg_latency_ms','historyLatency',v=>`${num(Math.round(v),{maximumFractionDigits:0})} ms`],['verified','historyVerified',v=>num(Math.round(v),{maximumFractionDigits:0})],['tunnel_success_rate','historyTunnel',v=>`${percent(v,1)}%`],['survival_score','historySurvival',v=>num(v,{minimumFractionDigits:1,maximumFractionDigits:1})],['countries','historyCountries',v=>num(Math.round(v),{maximumFractionDigits:0})]];root.innerHTML=defs.map(([field,labelKey,format])=>{const values=recent.map(x=>Number(x?.[field])).filter(Number.isFinite),current=values.length?values[values.length-1]:0;return `<article class="history-card"><div class="history-card-head"><span>${esc(t(labelKey))}</span><strong>${format(current)}</strong></div>${sparkline(values)}<small>${esc(t('hourlySamples',{count:num(values.length,{maximumFractionDigits:0})}))}</small></article>`;}).join('');}
 
@@ -218,14 +273,24 @@ function closeQr(){const modal=$('#qrModal');modal.classList.remove('show');moda
 function testLevelLabel(value=''){const s=String(value||'');if(currentLang==='en')return s||t('testLevelDefault');if(/end-to-end|egress/i.test(s))return t('testLevelFull');return t('testLevelDefault');}
 function renderDashboard(stats,history,iranInternet){
   $('#discovered').textContent=num(stats.discovered_nodes??0,{maximumFractionDigits:0});$('#scanned').textContent=num(stats.scanned_nodes??0,{maximumFractionDigits:0});$('#online').textContent=num(stats.online_nodes??0,{maximumFractionDigits:0});$('#onlineRate').textContent=t('onlineRate',{percent:percent(stats.online_rate||0,1)});$('#latency').textContent=stats.avg_latency_ms?`${num(Math.round(stats.avg_latency_ms),{maximumFractionDigits:0})} ms`:'—';$('#avgScore').textContent=num(stats.avg_score||0,{minimumFractionDigits:1,maximumFractionDigits:1});$('#reality').textContent=num(stats.reality_nodes??0,{maximumFractionDigits:0});$('#lastUpdate').textContent=fmtTime(stats.generated_at);updateFreshness(stats.generated_at);
-  renderSmartProfiles(stats.subscriptions||{});renderSubscriptions(stats.subscriptions||{});renderCountries(stats.country_subscriptions||{});renderConnectionIntelligence(stats);renderIranInternet(iranInternet);renderHistory(history);renderProtocols(stats.protocols||{});renderHealth(stats.statuses||{});
-  const tested=Number(stats.egress_tested_nodes||0),verified=Number(stats.egress_verified_nodes||0),geolocated=Number(stats.egress_geolocated_nodes||0),countries=Number(stats.egress_country_count||0);$('#egressSummary').textContent=stats.egress_runtime_available?t('egressSummary',{verified:num(verified,{maximumFractionDigits:0}),tested:num(tested,{maximumFractionDigits:0}),geo:num(geolocated,{maximumFractionDigits:0}),countries:num(countries,{maximumFractionDigits:0})}):t('egressUnavailable');
+  renderSmartProfiles(stats.subscriptions||{});renderIranInternet(iranInternet);
+  if(currentView==='compact'){
+    renderCompactDashboard(stats,history);
+  }else{
+    renderSubscriptions(stats.subscriptions||{});renderCountries(stats.country_subscriptions||{});renderConnectionIntelligence(stats);renderHistory(history);renderProtocols(stats.protocols||{});renderHealth(stats.statuses||{});
+    const tested=Number(stats.egress_tested_nodes||0),verified=Number(stats.egress_verified_nodes||0),geolocated=Number(stats.egress_geolocated_nodes||0),countries=Number(stats.egress_country_count||0);$('#egressSummary').textContent=stats.egress_runtime_available?t('egressSummary',{verified:num(verified,{maximumFractionDigits:0}),tested:num(tested,{maximumFractionDigits:0}),geo:num(geolocated,{maximumFractionDigits:0}),countries:num(countries,{maximumFractionDigits:0})}):t('egressUnavailable');
+  }
   const repo=`https://github.com/${project.repository}`;$('#repoLink').href=repo;$('#actionsLink').href=`${repo}/actions`;setNotice('ok',t('liveSnapshot',{level:testLevelLabel(stats.test_level)}));
 }
 async function load(){setNotice('loading',t('loadingSnapshot'));lastLoadError='';try{const [stats,proj,history,iranInternet]=await Promise.all([getJSON('./data/stats.json'),getJSON('./data/project.json'),getJSONOptional('./data/history.json',[]),getJSONOptional('./data/iran_internet.json',{available:false,status:'unknown'})]);latestStats=stats;latestHistory=history;latestIranInternet=iranInternet;project=proj||project;renderDashboard(stats,history,iranInternet);}catch(err){lastLoadError=err.message;setNotice('bad',t('loadError',{error:err.message}));updateFreshness(null);}}
 
 document.addEventListener('click',(event)=>{
   const lang=event.target.closest('[data-lang]');if(lang){setLanguage(lang.dataset.lang);return;}
+  const view=event.target.closest('[data-view]');if(view){setView(view.dataset.view);return;}
+  if(event.target.closest('[data-switch-advanced]')){setView('advanced');window.scrollTo({top:0,behavior:'smooth'});return;}
+  const theme=event.target.closest('[data-theme-choice]');if(theme){setTheme(theme.dataset.themeChoice);toggleThemeMenu(false);return;}
+  if(event.target.closest('#themeToggle')){toggleThemeMenu();return;}
+  if(!event.target.closest('.theme-control'))toggleThemeMenu(false);
   const copy=event.target.closest('[data-copy]');if(copy){copyText(copy.dataset.copy||'');return;}
   const profile=event.target.closest('[data-profile]');if(profile){activeProfile=String(profile.dataset.profile||'balanced');renderSmartProfiles(currentProfileManifest);return;}
   const favorite=event.target.closest('[data-favorite-country]');if(favorite){const key=String(favorite.dataset.favoriteCountry||'').toLowerCase(),favorites=loadFavorites();if(favorites.has(key)){favorites.delete(key);showToast(t('favRemoved'));}else{favorites.add(key);showToast(t('favAdded'));}saveFavorites(favorites);renderCountries(currentCountryManifest);return;}
@@ -235,5 +300,7 @@ document.addEventListener('click',(event)=>{
 document.addEventListener('keydown',(event)=>{if(event.key==='Escape')closeQr();});
 $('#refreshBtn').addEventListener('click',load);
 setInterval(()=>{if(latestStats)updateFreshness(latestStats.generated_at);},60000);
+setTheme(currentTheme,{persist:false});
+setView(currentView,{persist:false,rerender:false});
 setLanguage(currentLang,{persist:false,rerender:false});
 load();

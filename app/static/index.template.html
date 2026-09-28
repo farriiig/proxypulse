@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fa" dir="rtl">
+<html lang="fa" dir="rtl" data-view="compact" data-theme="ocean">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -20,9 +20,25 @@
       <p class="hero-sub" data-i18n="heroSub">جمع‌آوری · اثرانگشت · تست · اعتبارسنجی · موقعیت · انتشار</p>
     </div>
     <div class="header-actions">
-      <div class="language-switch" role="group" data-i18n-aria="languageSelector" aria-label="انتخاب زبان">
-        <button type="button" class="language-option active" data-lang="fa" aria-pressed="true">فارسی</button>
-        <button type="button" class="language-option" data-lang="en" aria-pressed="false">English</button>
+      <div class="experience-controls">
+        <div class="language-switch" role="group" data-i18n-aria="languageSelector" aria-label="انتخاب زبان">
+          <button type="button" class="language-option active" data-lang="fa" aria-pressed="true">فارسی</button>
+          <button type="button" class="language-option" data-lang="en" aria-pressed="false">English</button>
+        </div>
+        <div class="view-switch" role="group" data-i18n-aria="viewSelector" aria-label="نوع نمایش">
+          <button type="button" class="view-option active" data-view="compact" aria-pressed="true" data-i18n="viewCompact">خلاصه</button>
+          <button type="button" class="view-option" data-view="advanced" aria-pressed="false" data-i18n="viewAdvanced">پیشرفته</button>
+        </div>
+        <div class="theme-control">
+          <button id="themeToggle" type="button" class="theme-toggle" aria-expanded="false" data-i18n-aria="themeSelector" aria-label="انتخاب پوسته"><span class="theme-current-dot"></span><span data-i18n="themeLabel">پوسته</span><span aria-hidden="true">▾</span></button>
+          <div id="themeMenu" class="theme-menu" role="menu" aria-hidden="true">
+            <button type="button" class="theme-choice active" data-theme-choice="ocean"><span class="theme-swatch swatch-ocean"></span><span data-i18n="themeOcean">اقیانوسی</span></button>
+            <button type="button" class="theme-choice" data-theme-choice="aurora"><span class="theme-swatch swatch-aurora"></span><span data-i18n="themeAurora">شفق</span></button>
+            <button type="button" class="theme-choice" data-theme-choice="violet"><span class="theme-swatch swatch-violet"></span><span data-i18n="themeViolet">بنفش</span></button>
+            <button type="button" class="theme-choice" data-theme-choice="sunset"><span class="theme-swatch swatch-sunset"></span><span data-i18n="themeSunset">غروب</span></button>
+            <button type="button" class="theme-choice" data-theme-choice="ruby"><span class="theme-swatch swatch-ruby"></span><span data-i18n="themeRuby">یاقوتی</span></button>
+          </div>
+        </div>
       </div>
       <a class="btn smart-jump" href="#smart-profiles" data-i18n="smartProfilesJump">پروفایل هوشمند ↓</a>
       <a class="btn iran-jump" href="#iran-internet" data-i18n="iranInternetJump">اینترنت ایران ↓</a>
@@ -34,7 +50,42 @@
 
   <div id="notice" class="notice loading"><span id="noticeText" data-i18n="loadingSnapshot">در حال دریافت آخرین وضعیت…</span><span id="freshnessBadge" class="freshness freshness-loading" data-i18n="checking">در حال بررسی…</span></div>
 
-  <section class="cards metrics">
+  <section id="compact-dashboard" class="compact-only compact-dashboard" aria-labelledby="compactPulseTitle">
+    <section class="panel compact-pulse-card">
+      <div class="compact-pulse-main">
+        <div class="compact-pulse-copy">
+          <div class="section-kicker" data-i18n="compactPulseKicker">نمای سریع شبکه</div>
+          <h2 id="compactPulseTitle" data-i18n="compactPulseTitle">وضعیت کلی ProxyPulse</h2>
+          <div class="compact-quality-row"><strong id="compactQualityScore">—</strong><span>/100</span><span id="compactQualityLabel" class="compact-quality-label">—</span></div>
+          <p id="compactPulseHint" data-i18n="compactPulseHint">خلاصه‌ای از کیفیت، سلامت تونل و تازگی داده‌ها برای تصمیم سریع.</p>
+        </div>
+        <div class="compact-kpis">
+          <article><span data-i18n="compactVerified">تأییدشده</span><strong id="compactVerified">—</strong></article>
+          <article><span data-i18n="compactOnline">آنلاین</span><strong id="compactOnline">—</strong></article>
+          <article><span data-i18n="compactLatency">تأخیر</span><strong id="compactLatency">—</strong></article>
+          <article><span data-i18n="compactUpdated">بروزرسانی</span><strong id="compactUpdated">—</strong></article>
+        </div>
+      </div>
+      <div id="compactRecommended" class="compact-recommended"></div>
+      <div class="compact-quick-actions">
+        <a class="btn small smart-jump" href="#smart-profiles" data-i18n="compactChooseProfile">انتخاب پروفایل</a>
+        <a class="btn small iran-jump" href="#iran-internet" data-i18n="compactIranStatus">وضعیت ایران</a>
+        <button type="button" class="btn small secondary" data-switch-advanced data-i18n="compactMoreDetails">جزئیات بیشتر</button>
+      </div>
+    </section>
+    <div class="compact-secondary-grid">
+      <section class="panel compact-country-panel">
+        <div class="panel-head"><div><h2 data-i18n="compactCountriesTitle">کشورهای منتخب</h2><p data-i18n="compactCountriesDesc">بهترین کشورها و علاقه‌مندی‌های شما در یک نگاه.</p></div></div>
+        <div id="compactCountries" class="compact-country-list"></div>
+      </section>
+      <section class="panel compact-trend-panel">
+        <div class="panel-head"><div><h2 data-i18n="compactTrendTitle">روند ۲۴ ساعت اخیر</h2><p data-i18n="compactTrendDesc">آنلاین و موفقیت تونل، بدون جزئیات اضافه.</p></div></div>
+        <div id="compactTrend" class="compact-trend-grid"></div>
+      </section>
+    </div>
+  </section>
+
+  <section class="cards metrics advanced-only">
     <article class="card metric-card"><span data-i18n="metricDiscovered">شناسایی‌شده</span><strong id="discovered">—</strong><small data-i18n="metricSemanticUnique">یکتای معنایی</small></article>
     <article class="card metric-card"><span data-i18n="metricScanned">اسکن‌شده</span><strong id="scanned">—</strong><small data-i18n="metricCurrentRun">اجرای فعلی</small></article>
     <article class="card metric-card"><span data-i18n="metricOnline">آنلاین</span><strong id="online">—</strong><small id="onlineRate">—</small></article>
@@ -43,7 +94,7 @@
     <article class="card metric-card"><span>Reality</span><strong id="reality">—</strong><small data-i18n="metricOnlineNodes">نودهای آنلاین</small></article>
   </section>
 
-  <section class="panel guide-panel" aria-labelledby="guideTitle">
+  <section class="panel guide-panel advanced-only" aria-labelledby="guideTitle">
     <div class="guide-layout">
       <div class="guide-copy">
         <div class="guide-kicker" data-i18n="guideKicker">راهنمای سریع استفاده</div>
@@ -97,7 +148,7 @@
     <div id="profileResult" class="profile-result"></div>
   </section>
 
-  <section class="panel">
+  <section class="panel advanced-only">
     <div class="panel-head">
       <div>
         <h2 data-i18n="subscriptionsTitle">اشتراک‌ها</h2>
@@ -109,7 +160,7 @@
     <div id="subscriptions" class="endpoint-grid"></div>
   </section>
 
-  <section class="panel">
+  <section class="panel advanced-only">
     <div class="panel-head">
       <div>
         <h2 data-i18n="countriesTitle">کشورهای تأییدشده</h2>
@@ -157,7 +208,7 @@
     </div>
   </section>
 
-  <section class="panel intelligence-panel" aria-labelledby="intelligenceTitle">
+  <section class="panel intelligence-panel advanced-only" aria-labelledby="intelligenceTitle">
     <div class="panel-head">
       <div>
         <div class="section-kicker" data-i18n="intelKicker">هوشمندی اتصال</div>
@@ -178,7 +229,7 @@
     </div>
   </section>
 
-  <section class="panel history-panel">
+  <section class="panel history-panel advanced-only">
     <div class="panel-head">
       <div>
         <h2 data-i18n="historyTitle">تاریخچه اخیر</h2>
@@ -189,7 +240,7 @@
     <div id="historyGrid" class="history-grid"></div>
   </section>
 
-  <section class="grid-2">
+  <section class="grid-2 advanced-only">
     <section class="panel">
       <div class="panel-head"><div><h2 data-i18n="protocolMix">ترکیب پروتکل‌ها</h2><p data-i18n="protocolMixDesc">توزیع پروتکل‌ها در مجموعه کاندیداهای تست‌شده.</p></div></div>
       <div id="protocols" class="bars"></div>
@@ -200,7 +251,7 @@
     </section>
   </section>
 
-  <section class="panel compact-panel">
+  <section class="panel compact-panel advanced-only">
     <div class="legend-grid">
       <div><span class="legend-title" data-i18n="validationLevel">سطح اعتبارسنجی</span><strong data-i18n="validationValue">TCP + خروجی محدود</strong><small data-i18n="validationHint">نودها ابتدا از نظر TCP بررسی می‌شوند و سپس بخشی از آن‌ها برای IP و کشور خروجی تست تونل می‌شوند.</small></div>
       <div><span class="legend-title" data-i18n="automation">اتوماسیون</span><strong data-i18n="everyHour">هر ساعت</strong><small data-i18n="automationHint">GitHub Actions + Pages، بدون نیاز به سرور همیشه‌روشن.</small></div>

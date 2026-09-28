@@ -63,6 +63,8 @@ The source code stays on **`main`** while generated state and subscription snaps
 - 🌍 Static GitHub Pages dashboard with no backend server
 - 📱 Responsive mobile-friendly interface
 - 🌐 Bilingual **Persian / English** dashboard with Persian as the default language and persistent browser preference
+- 🧭 Dual dashboard modes: **Compact** (default) for quick decisions and **Advanced** for full diagnostics
+- 🎨 Persistent color themes: **Ocean, Aurora, Violet, Sunset and Ruby**
 - 📋 Plain-text + Base64 subscription outputs
 - ⭐ Smart `recommended` subscription using verification, score, uptime, jitter and latency
 - 🧠 Smart Profile Builder for Balanced, Speed, Gaming, Streaming and Stability goals
@@ -84,6 +86,8 @@ The source code stays on **`main`** while generated state and subscription snaps
 ## 🖥️ Dashboard
 
 The public dashboard includes a **فارسی / English** language switcher in the header. Persian is the default on first visit; the selected language is saved locally in the browser and the complete layout switches between RTL and LTR without a page reload.
+
+The default view is **Compact**, which focuses on network quality, recommended configs, selected countries, a lightweight 24-hour trend, Smart Profiles and Iran Internet Status. Users can switch to **Advanced** for the complete metrics, subscription catalog, country list, tunnel intelligence, failure analytics, history, protocol mix and health details. View mode and theme are saved locally in the browser.
 
 The dashboard shows the latest generated snapshot, including:
 
