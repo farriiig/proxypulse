@@ -1972,5 +1972,40 @@
     "isp": "Iomart Managed Services Limited",
     "country_code": "GB",
     "fetched_at": "2026-09-28T09:35:31Z"
+  },
+  "2.56.212.172": {
+    "asn": 202448,
+    "org": "MVPS LTD",
+    "isp": "MVPS LTD",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T09:43:50Z"
+  },
+  "195.133.66.132": {
+    "asn": 210976,
+    "org": "Timeweb, LLP",
+    "isp": "Timeweb, LLP",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T09:43:50Z"
+  },
+  "79.72.91.32": {
+    "asn": 31898,
+    "org": "Oracle Svenska AB",
+    "isp": "Oracle Corporation",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T09:43:50Z"
+  },
+  "138.249.138.5": {
+    "asn": 63023,
+    "org": "Costel Savulescu",
+    "isp": "GTHost",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T09:43:50Z"
+  },
+  "57.128.181.125": {
+    "asn": 16276,
+    "org": "OVH Ltd",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T09:43:50Z"
   }
 }
