@@ -291,3 +291,29 @@ html[dir="rtl"] .compact-recommended-copy{text-align:right}
 html[dir="rtl"] .theme-toggle{direction:rtl}
 html[dir="rtl"] .theme-choice{direction:rtl;text-align:right;justify-content:flex-start}
 html[dir="rtl"] .theme-menu{direction:rtl}
+
+
+/* v1.5.2 hard theme guarantee & interactive-state polish */
+html,body,.card,.panel,.notice,.endpoint,.history-card,.intel-card,.failure-block,.health-item,.compact-kpis article,.compact-country-item,.compact-trend-item,.profile-result,.download-card,.language-switch,.view-switch,.theme-toggle,.theme-menu,.btn,.profile-button,.iran-status-card,.compact-pulse-card,.recommended-card{
+  transition:background-color .18s ease,border-color .18s ease,color .18s ease,box-shadow .18s ease;
+}
+body{background-color:var(--theme-bg)!important;color:var(--theme-text)!important}
+.card,.panel{background-color:var(--theme-surface)!important;border-color:var(--theme-line)!important}
+.notice,.endpoint,.history-card,.intel-card,.failure-block,.health-item,.compact-kpis article,.compact-country-item,.compact-trend-item,.profile-result,.download-card,.iran-status-card{background-color:var(--theme-inner)!important;border-color:var(--theme-line)!important}
+.language-switch,.view-switch,.theme-toggle,.theme-menu,.btn.secondary{background-color:var(--theme-surface-2)!important;border-color:var(--theme-line)!important}
+.btn{background-color:var(--theme-control);border-color:var(--theme-line);color:var(--theme-text)}
+.theme-menu{background-color:var(--theme-surface-2)!important;border-color:var(--theme-line)!important}
+.theme-choice{color:var(--theme-muted)}
+.theme-choice:hover,.theme-choice.active{background-color:var(--theme-control-hover)!important;border-color:rgba(var(--accent-rgb),.42)!important;color:var(--theme-text)!important}
+.theme-toggle{color:var(--theme-text)!important}
+.theme-current-dot{background:linear-gradient(135deg,var(--accent),var(--accent-2))!important;box-shadow:0 0 14px rgba(var(--accent-rgb),.52)!important}
+.compact-pulse-card{background:linear-gradient(115deg,rgba(var(--accent2-rgb),.11),var(--theme-surface) 48%,rgba(var(--accent-rgb),.07))!important;border-color:rgba(var(--accent-rgb),.34)!important}
+.compact-country-item,.compact-trend-item,.compact-kpis article{background:var(--theme-inner)!important}
+.profile-button{background:var(--theme-inner)!important;border-color:var(--theme-line)!important;color:var(--theme-text)}
+.profile-button.active{background:rgba(var(--accent2-rgb),.19)!important;border-color:rgba(var(--accent-rgb),.55)!important}
+.iran-status-panel{background:linear-gradient(135deg,var(--theme-surface),rgba(var(--accent-rgb),.035))!important}
+.recommended-card{background:linear-gradient(110deg,rgba(var(--accent2-rgb),.13),var(--theme-surface) 55%,rgba(var(--accent-rgb),.07))!important;border-color:rgba(var(--accent-rgb),.38)!important}
+.endpoint-actions a,.endpoint-actions button,.compact-action-set a,.compact-action-set button{background:var(--theme-control)!important;border-color:var(--theme-line)!important;color:var(--theme-text)!important}
+.endpoint-actions a:hover,.endpoint-actions button:hover,.compact-action-set a:hover,.compact-action-set button:hover{background:var(--theme-control-hover)!important;border-color:rgba(var(--accent-rgb),.42)!important}
+button:disabled,[aria-disabled="true"]{opacity:.45;cursor:not-allowed!important;filter:saturate(.3)}
+@media(prefers-reduced-motion:reduce){html,body,.card,.panel,.notice,.endpoint,.history-card,.intel-card,.failure-block,.health-item,.compact-kpis article,.compact-country-item,.compact-trend-item,.profile-result,.download-card,.language-switch,.view-switch,.theme-toggle,.theme-menu,.btn,.profile-button,.iran-status-card,.compact-pulse-card,.recommended-card{transition:none!important}}
