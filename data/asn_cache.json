@@ -2147,5 +2147,117 @@
     "isp": "Scaleway SAS",
     "country_code": "NL",
     "fetched_at": "2026-09-28T15:36:55Z"
+  },
+  "152.53.193.97": {
+    "asn": 42473,
+    "org": "Netcup KVM MNZ ARM",
+    "isp": "Anexia Cloud Solutions GmbH",
+    "country_code": "US",
+    "fetched_at": "2026-09-28T22:08:10Z"
+  },
+  "31.76.83.246": {
+    "asn": 207957,
+    "org": "SERV.HOST GROUP LTD",
+    "isp": "SERV.HOST GROUP LTD",
+    "country_code": "LT",
+    "fetched_at": "2026-09-28T22:08:10Z"
+  },
+  "172.105.39.124": {
+    "asn": 63949,
+    "org": "Linode",
+    "isp": "Akamai Technologies, Inc.",
+    "country_code": "IN",
+    "fetched_at": "2026-09-28T22:08:10Z"
+  },
+  "141.164.45.187": {
+    "asn": 20473,
+    "org": "The Constant Company, LLC",
+    "isp": "The Constant Company, LLC",
+    "country_code": "KR",
+    "fetched_at": "2026-09-28T22:08:10Z"
+  },
+  "54.37.131.126": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "PL",
+    "fetched_at": "2026-09-28T22:08:10Z"
+  },
+  "47.83.207.148": {
+    "asn": 45102,
+    "org": "Alibaba Cloud LLC",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "HK",
+    "fetched_at": "2026-09-28T22:08:10Z"
+  },
+  "8.218.195.61": {
+    "asn": 45102,
+    "org": "Alibaba Cloud Singapore Private Limited",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "HK",
+    "fetched_at": "2026-09-28T22:08:10Z"
+  },
+  "216.106.183.35": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-09-28T22:08:10Z"
+  },
+  "8.218.184.4": {
+    "asn": 45102,
+    "org": "Alibaba Cloud Singapore Private Limited",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "HK",
+    "fetched_at": "2026-09-28T22:08:10Z"
+  },
+  "47.243.65.243": {
+    "asn": 45102,
+    "org": "Alibaba Cloud - HK",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "HK",
+    "fetched_at": "2026-09-28T22:08:10Z"
+  },
+  "198.57.27.190": {
+    "asn": 62563,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GLOBALTELEHOST Corp.",
+    "country_code": "CA",
+    "fetched_at": "2026-09-28T22:08:10Z"
+  },
+  "158.51.121.123": {
+    "asn": 62563,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GLOBALTELEHOST Corp.",
+    "country_code": "CA",
+    "fetched_at": "2026-09-28T22:08:10Z"
+  },
+  "66.163.115.23": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-09-28T22:08:10Z"
+  },
+  "139.64.166.25": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T22:08:10Z"
+  },
+  "140.238.2.250": {
+    "asn": 31898,
+    "org": "Oracle Public Cloud",
+    "isp": "Oracle Corporation",
+    "country_code": "KR",
+    "fetched_at": "2026-09-28T22:08:10Z"
+  },
+  "167.17.68.89": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-09-28T22:08:10Z"
   }
 }
