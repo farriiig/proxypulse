@@ -1545,5 +1545,68 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-09-28T06:22:31Z"
+  },
+  "104.28.155.197": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "DE",
+    "fetched_at": "2026-09-28T06:35:30Z"
+  },
+  "186.190.213.82": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T06:35:30Z"
+  },
+  "113.30.188.83": {
+    "asn": 41436,
+    "org": "Kamatera Inc",
+    "isp": "Kamatera Inc",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T06:35:30Z"
+  },
+  "109.104.153.94": {
+    "asn": 136258,
+    "org": "oneprovider.com - Amsterdam Infrastructure",
+    "isp": "BrainStorm Network, Inc",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T06:35:30Z"
+  },
+  "209.38.38.145": {
+    "asn": 14061,
+    "org": "DigitalOcean, LLC",
+    "isp": "DigitalOcean, LLC",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T06:35:30Z"
+  },
+  "57.128.182.61": {
+    "asn": 16276,
+    "org": "OVH Ltd",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T06:35:30Z"
+  },
+  "103.13.208.242": {
+    "asn": 210329,
+    "org": "O.M.C. COMPUTERS & COMMUNICATIONS LTD",
+    "isp": "Kamatera Inc",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T06:35:30Z"
+  },
+  "194.37.82.144": {
+    "asn": 210329,
+    "org": "O.M.C. COMPUTERS & COMMUNICATIONS LTD",
+    "isp": "Kamatera Inc",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T06:35:30Z"
+  },
+  "51.159.167.67": {
+    "asn": 12876,
+    "org": "Scaleway SAS",
+    "isp": "Scaleway SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-09-28T06:35:30Z"
   }
 }
