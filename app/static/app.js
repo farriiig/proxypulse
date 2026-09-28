@@ -308,7 +308,7 @@ function compactQuality(stats={}){
 function compactQualityLabel(score){return score>=85?t('compactQualityExcellent'):score>=70?t('compactQualityGood'):score>=50?t('compactQualityFair'):t('compactQualityPoor');}
 function compactActionSet(item={},label='subscription'){
   const path=item.path||'',url=new URL(path,window.location.href).href,incyUrl=`incy://import/${url}`,happUrl=`happ://add/${url}`;
-  return `<div class="compact-action-set"><a href="${esc(incyUrl)}">Incy</a><a href="${esc(happUrl)}">Happ</a><button type="button" data-copy="${esc(url)}">${esc(t('copy'))}</button></div>`;
+  return `<div class="compact-action-set"><a class="app-import app-incy" href="${esc(incyUrl)}" aria-label="Incy">Incy</a><a class="app-import app-happ" href="${esc(happUrl)}" aria-label="Happ">Happ</a><button type="button" data-copy="${esc(url)}">${esc(t('copy'))}</button></div>`;
 }
 function renderCompactCountries(manifest={}){
   const root=$('#compactCountries');if(!root)return;const favorites=loadFavorites();

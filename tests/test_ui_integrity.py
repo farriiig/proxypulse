@@ -134,3 +134,28 @@ def test_bilingual_compact_copy_is_polished():
     assert "compactPulseTitle:'Network status'" in JS
     assert "recommended:'Recommended subscription'" in JS
     assert "smartTitle:'Choose your connection goal'" in JS
+
+
+def test_mobile_theme_menu_stacks_above_more_controls():
+    assert 'v1.6.1 RTL/mobile controls hotfix' in CSS
+    assert '.theme-control{position:relative;z-index:1000!important}' in CSS
+    assert '.theme-menu{z-index:1010!important}' in CSS
+    assert '.more-control{z-index:700!important}' in CSS
+
+
+def test_compact_country_imports_share_primary_action_classes():
+    assert 'class="app-import app-incy"' in JS
+    assert 'class="app-import app-happ"' in JS
+    assert '.compact-action-set .app-import' in CSS
+    assert 'min-height:44px!important' in CSS
+
+
+def test_rtl_recommended_copy_has_full_width_right_alignment():
+    assert 'html[dir="rtl"] .compact-recommended-copy>*' in CSS
+    assert 'text-align:right!important' in CSS
+    assert 'width:100%!important' in CSS
+
+
+def test_mobile_view_switch_is_content_fit_not_fixed_grid():
+    assert '.view-switch{width:max-content!important;min-width:0!important' in CSS
+    assert 'display:flex!important;flex-wrap:wrap!important' in CSS
