@@ -1139,5 +1139,215 @@
     "isp": "OVH SAS",
     "country_code": "PL",
     "fetched_at": "2026-09-27T21:26:55Z"
+  },
+  "192.142.12.201": {
+    "asn": 198077,
+    "org": "L.L.C.-FZ",
+    "isp": "Need, L.L.C.-FZ",
+    "country_code": "DE",
+    "fetched_at": "2026-09-28T00:52:40Z"
+  },
+  "2a0a:4cc0:2000:b55e:5495:1aff:fe33:6b69": {
+    "asn": 214996,
+    "org": "netcup GmbH",
+    "isp": "netcup GmbH",
+    "country_code": "US",
+    "fetched_at": "2026-09-28T00:52:40Z"
+  },
+  "144.31.1.88": {
+    "asn": 215730,
+    "org": "H2NEXUS LTD",
+    "isp": "H2NEXUS CLOUD SERVICES - FZCO",
+    "country_code": "PL",
+    "fetched_at": "2026-09-28T00:52:40Z"
+  },
+  "193.29.139.234": {
+    "asn": 47172,
+    "org": "Greenhost BV",
+    "isp": "Greenhost BV",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T00:52:40Z"
+  },
+  "2001:b011:3802:a2b:cd89:2b6e:8dc4:5fb3": {
+    "asn": 3462,
+    "org": "HiNet Taiwan",
+    "isp": "Chunghwa Telecom Co., Ltd.",
+    "country_code": "TW",
+    "fetched_at": "2026-09-28T00:52:40Z"
+  },
+  "103.160.63.199": {
+    "asn": 140443,
+    "org": "Herza.ID",
+    "isp": "Indonesia Network Information Center",
+    "country_code": "ID",
+    "fetched_at": "2026-09-28T00:52:40Z"
+  },
+  "102.133.160.145": {
+    "asn": 8075,
+    "org": "Microsoft",
+    "isp": "Microsoft Corporation",
+    "country_code": "ZA",
+    "fetched_at": "2026-09-28T00:52:40Z"
+  },
+  "140.82.63.79": {
+    "asn": 20473,
+    "org": "Vultr Holdings, LLC",
+    "isp": "The Constant Company, LLC",
+    "country_code": "US",
+    "fetched_at": "2026-09-28T00:52:40Z"
+  },
+  "158.173.20.171": {
+    "asn": 212238,
+    "org": "VPN Consumer Amsterdam, The Netherlands",
+    "isp": "Datacamp Limited",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T00:52:40Z"
+  },
+  "15.204.246.107": {
+    "asn": 16276,
+    "org": "OVH US LLC",
+    "isp": "OVH SAS",
+    "country_code": "US",
+    "fetched_at": "2026-09-28T00:52:40Z"
+  },
+  "51.79.85.185": {
+    "asn": 16276,
+    "org": "OVH Hosting, Inc.",
+    "isp": "OVH SAS",
+    "country_code": "CA",
+    "fetched_at": "2026-09-28T00:52:40Z"
+  },
+  "15.204.247.124": {
+    "asn": 16276,
+    "org": "OVH US LLC",
+    "isp": "OVH SAS",
+    "country_code": "US",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "2001:bc8:32d7:17b::100": {
+    "asn": 12876,
+    "org": "Scaleway SAS",
+    "isp": "Scaleway SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "64.188.98.254": {
+    "asn": 207957,
+    "org": "SERV.HOST GROUP LTD",
+    "isp": "SERV.HOST GROUP LTD",
+    "country_code": "DE",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "67.220.80.66": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "147.90.229.163": {
+    "asn": 197223,
+    "org": "Private Customer",
+    "isp": "WEDROPCODE LTD",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "147.90.89.7": {
+    "asn": 209829,
+    "org": "Private Customer",
+    "isp": "Greenhost BV",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "2.26.111.58": {
+    "asn": 215590,
+    "org": "Amsterdam, Netherlands",
+    "isp": "DpkgSoft International Limited",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "57.128.179.189": {
+    "asn": 16276,
+    "org": "OVH Ltd",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "57.128.178.122": {
+    "asn": 16276,
+    "org": "OVH Ltd",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "217.154.53.220": {
+    "asn": 8560,
+    "org": "IONOS SE",
+    "isp": "IONOS SE",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "194.147.88.46": {
+    "asn": 214238,
+    "org": "IT Hostline Ltd",
+    "isp": "HOST TELECOM LTD",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "51.159.189.73": {
+    "asn": 12876,
+    "org": "Scaleway SAS",
+    "isp": "Scaleway SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "2001:41d0:801:1000::1274": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "132.145.80.230": {
+    "asn": 31898,
+    "org": "Oracle Public Cloud",
+    "isp": "Oracle Corporation",
+    "country_code": "KR",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "38.110.1.246": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "57.129.132.223": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "66.163.118.73": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "ES",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "66.163.113.176": {
+    "asn": 62563,
+    "org": "GTHost",
+    "isp": "GLOBALTELEHOST Corp.",
+    "country_code": "CA",
+    "fetched_at": "2026-09-28T00:52:41Z"
+  },
+  "156.245.232.239": {
+    "asn": 54801,
+    "org": "Zillion Network Inc.",
+    "isp": "Zillion Network Inc.",
+    "country_code": "HK",
+    "fetched_at": "2026-09-28T00:52:41Z"
   }
 }
