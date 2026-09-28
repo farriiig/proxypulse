@@ -2119,5 +2119,33 @@
     "isp": "BAGE CLOUD LLC",
     "country_code": "GB",
     "fetched_at": "2026-09-28T10:51:32Z"
+  },
+  "89.150.35.129": {
+    "asn": 216154,
+    "org": "CLODO CLOUD SERVICE CO. L.L.C",
+    "isp": "CLODO CLOUD SERVICE CO. L.L.C",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T15:36:55Z"
+  },
+  "31.56.222.241": {
+    "asn": 56971,
+    "org": "CGI GLOBAL LIMITED",
+    "isp": "CGI GLOBAL LIMITED",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T15:36:55Z"
+  },
+  "87.84.155.97": {
+    "asn": 30058,
+    "org": "Private Customer",
+    "isp": "FDCservers.net",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T15:36:55Z"
+  },
+  "51.158.244.35": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T15:36:55Z"
   }
 }
