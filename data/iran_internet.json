@@ -2,13 +2,13 @@
   "available": true,
   "status": "incident",
   "domestic_routes": 31,
-  "domestic_healthy_percent": 94,
+  "domestic_healthy_percent": 74,
   "international_routes": 54,
-  "international_healthy_percent": 83,
+  "international_healthy_percent": 72,
   "active_incidents": 0,
-  "last_measured_irst": "12:00",
+  "last_measured_irst": "12:47",
   "source": "Covered.ir",
   "source_url": "https://covered.ir/en",
   "scope_note": "Covered.ir reflects only the locations and routes it monitors, not every user's experience in Iran.",
-  "fetched_at": "2026-09-28T08:33:50Z"
+  "fetched_at": "2026-09-28T09:16:04Z"
 }

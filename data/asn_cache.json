@@ -1797,5 +1797,68 @@
     "isp": "Baxet Group Inc.",
     "country_code": "GB",
     "fetched_at": "2026-09-28T08:34:30Z"
+  },
+  "2a01:4f9:c013:6f00::1": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "FI",
+    "fetched_at": "2026-09-28T09:16:38Z"
+  },
+  "18.143.191.201": {
+    "asn": 16509,
+    "org": "Amazon Data Services Singapore",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "SG",
+    "fetched_at": "2026-09-28T09:16:38Z"
+  },
+  "185.156.172.196": {
+    "asn": 9009,
+    "org": "M247 LTD Amsterdam Infrastructure",
+    "isp": "M247 Europe SRL",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T09:16:38Z"
+  },
+  "147.90.89.29": {
+    "asn": 209829,
+    "org": "Private Customer",
+    "isp": "Greenhost BV",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T09:16:38Z"
+  },
+  "84.245.19.170": {
+    "asn": 57043,
+    "org": "Legaco Networks B.V.",
+    "isp": "HOSTKEY B.V.",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T09:16:38Z"
+  },
+  "178.62.237.109": {
+    "asn": 14061,
+    "org": "DigitalOcean Amsterdam",
+    "isp": "DigitalOcean, LLC",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T09:16:38Z"
+  },
+  "84.8.145.58": {
+    "asn": 31898,
+    "org": "Oracle Svenska AB",
+    "isp": "Oracle Corporation",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T09:16:38Z"
+  },
+  "57.128.179.45": {
+    "asn": 16276,
+    "org": "OVH Ltd",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T09:16:38Z"
+  },
+  "57.128.178.196": {
+    "asn": 16276,
+    "org": "OVH Ltd",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T09:16:38Z"
   }
 }
