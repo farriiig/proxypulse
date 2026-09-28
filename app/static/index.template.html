@@ -42,13 +42,23 @@
           </div>
         </div>
       </div>
-      <a class="btn smart-jump" href="#smart-profiles" data-i18n="smartProfilesJump">پروفایل هوشمند ↓</a>
-      <a class="btn iran-jump" href="#iran-internet" data-i18n="iranInternetJump">اینترنت ایران ↓</a>
-      <a id="repoLink" class="btn secondary" rel="noreferrer" data-i18n="repository">مخزن ↗</a>
-      <a id="actionsLink" class="btn secondary" rel="noreferrer" data-i18n="actions">اکشن‌ها ↗</a>
-      <button id="refreshBtn" class="btn" data-i18n="refresh">بروزرسانی</button>
+      <div class="utility-controls">
+        <button id="refreshBtn" class="btn primary-action" data-i18n="refresh">به‌روزرسانی</button>
+        <div class="more-control">
+          <button id="moreToggle" type="button" class="btn secondary more-toggle" aria-expanded="false" aria-controls="moreMenu" data-i18n="more">بیشتر</button>
+          <div id="moreMenu" class="more-menu" role="menu" aria-hidden="true" data-i18n-aria="moreMenu" aria-label="منوی بیشتر">
+            <a id="repoLink" class="more-menu-item" rel="noreferrer" data-i18n="repository">مخزن ↗</a>
+            <a id="actionsLink" class="more-menu-item" rel="noreferrer" data-i18n="actions">اکشن‌ها ↗</a>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
+
+  <nav class="section-nav" data-i18n-aria="sectionNavigation" aria-label="دسترسی سریع">
+    <a class="section-nav-link smart-jump" href="#smart-profiles" data-i18n="smartProfilesJump">پروفایل هوشمند ↓</a>
+    <a class="section-nav-link iran-jump" href="#iran-internet" data-i18n="iranInternetJump">اینترنت ایران ↓</a>
+  </nav>
 
   <div id="notice" class="notice loading"><span id="noticeText" data-i18n="loadingSnapshot">در حال دریافت آخرین وضعیت…</span><span id="freshnessBadge" class="freshness freshness-loading" data-i18n="checking">در حال بررسی…</span></div>
 

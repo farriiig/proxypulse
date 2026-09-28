@@ -10,7 +10,7 @@ CSS = (BASE / "app/static/style.css").read_text(encoding="utf-8")
 def test_every_static_button_has_a_supported_action_marker():
     tags = re.findall(r"<button\b[^>]*>", HTML, flags=re.I)
     allowed = (
-        'id="refreshBtn"', 'id="themeToggle"', 'data-lang=', 'data-view=',
+        'id="refreshBtn"', 'id="themeToggle"', 'id="moreToggle"', 'data-lang=', 'data-view=',
         'data-theme-choice=', 'data-switch-advanced', 'data-close-qr', 'id="appDownloadToggle"', 'data-close-app-downloads',
     )
     unsupported = [tag for tag in tags if not any(marker in tag for marker in allowed)]
@@ -42,7 +42,7 @@ def test_theme_switcher_has_all_palettes_and_runtime_application():
 
 def test_expected_ui_actions_are_wired():
     required = [
-        "[data-lang]", "[data-view]", "[data-theme-choice]", "#themeToggle",
+        "[data-lang]", "[data-view]", "[data-theme-choice]", "#themeToggle", "#moreToggle",
         "[data-switch-advanced]", "[data-copy]", "[data-profile]",
         "[data-favorite-country]", "[data-qr]", "[data-close-qr]", "#appDownloadToggle", "[data-close-app-downloads]",
         "refreshBtn",
@@ -109,3 +109,28 @@ def test_compact_recommended_uses_three_independent_zones():
     assert 'v1.5.9 canonical compact footer row' in CSS
     assert 'grid-template-areas:"actions notice copy"' in CSS
     assert 'v1.5.8 canonical compact recommendation layout' not in CSS
+
+
+def test_header_utility_menu_is_wired_and_contains_real_links():
+    assert 'id="moreToggle"' in HTML
+    assert 'id="moreMenu"' in HTML
+    assert 'function toggleMoreMenu' in JS
+    assert "$('#moreToggle').addEventListener('click'" in JS
+    assert 'id="repoLink"' in HTML and 'id="actionsLink"' in HTML
+
+
+def test_stable_ui_polish_has_accessible_focus_and_touch_targets():
+    assert 'v1.6.0 Stable UI polish' in CSS
+    assert ':focus-visible' in CSS
+    assert 'min-height:44px' in CSS
+    assert '--radius-control:10px' in CSS
+    assert '--space-4:16px' in CSS
+
+
+def test_bilingual_compact_copy_is_polished():
+    assert "compactPulseTitle:'وضعیت شبکه'" in JS
+    assert "recommended:'اشتراک پیشنهادی'" in JS
+    assert "smartTitle:'هدف اتصال‌تان را انتخاب کنید'" in JS
+    assert "compactPulseTitle:'Network status'" in JS
+    assert "recommended:'Recommended subscription'" in JS
+    assert "smartTitle:'Choose your connection goal'" in JS

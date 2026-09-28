@@ -8,7 +8,7 @@ ProxyPulse collects public proxy configurations, normalizes and semantically ded
 
 ## ⚠️ Validation level
 
-ProxyPulse v1.1 uses a **two-stage validation model**:
+ProxyPulse uses a **two-stage validation model**:
 
 1. Every selected candidate receives a bounded **TCP reachability / latency pre-check**.
 2. Up to the configured `egress_test_limit` of TCP-reachable candidates are then started through **sing-box** and used for an actual outbound request. The returned **final egress IP and country code** are captured from Cloudflare trace data.
@@ -65,6 +65,7 @@ The source code stays on **`main`** while generated state and subscription snaps
 - 🌐 Bilingual **Persian / English** dashboard with Persian as the default language and persistent browser preference
 - 🧭 Dual dashboard modes: **Compact** (default) for quick decisions and **Advanced** for full diagnostics
 - 🎨 Persistent color themes: **Ocean, Aurora, Violet, Sunset and Ruby**
+- ✨ Refined Compact/Advanced UI hierarchy with grouped utilities, consistent touch targets and keyboard focus states
 - 📋 Plain-text + Base64 subscription outputs
 - ⭐ Smart `recommended` subscription using verification, score, uptime, jitter and latency
 - 🧠 Smart Profile Builder for Balanced, Speed, Gaming, Streaming and Stability goals
