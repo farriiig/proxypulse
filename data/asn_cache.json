@@ -2007,5 +2007,68 @@
     "isp": "OVH SAS",
     "country_code": "GB",
     "fetched_at": "2026-09-28T09:43:50Z"
+  },
+  "89.125.130.94": {
+    "asn": 57043,
+    "org": "Snowd Security OU",
+    "isp": "HOSTKEY B.V.",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T10:01:37Z"
+  },
+  "67.220.80.6": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T10:01:37Z"
+  },
+  "194.246.82.213": {
+    "asn": 216071,
+    "org": "Amsterdam, Netherlands",
+    "isp": "SERVERS TECH FZCO",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T10:01:37Z"
+  },
+  "217.177.11.243": {
+    "asn": 16003,
+    "org": "www.fornex.com, Fornex Hosting S.L.",
+    "isp": "Fornex Hosting S.L.",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T10:01:37Z"
+  },
+  "186.190.213.113": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T10:01:37Z"
+  },
+  "34.39.62.53": {
+    "asn": 396982,
+    "org": "Google LLC",
+    "isp": "Google LLC",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T10:01:37Z"
+  },
+  "194.147.88.43": {
+    "asn": 214238,
+    "org": "IT Hostline Ltd",
+    "isp": "HOST TELECOM LTD",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T10:01:37Z"
+  },
+  "57.128.176.87": {
+    "asn": 16276,
+    "org": "OVH Ltd",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T10:01:37Z"
+  },
+  "57.128.182.27": {
+    "asn": 16276,
+    "org": "OVH Ltd",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T10:01:37Z"
   }
 }
