@@ -42,8 +42,8 @@
       </div>
       <a class="btn smart-jump" href="#smart-profiles" data-i18n="smartProfilesJump">پروفایل هوشمند ↓</a>
       <a class="btn iran-jump" href="#iran-internet" data-i18n="iranInternetJump">اینترنت ایران ↓</a>
-      <a id="repoLink" class="btn secondary" target="_blank" rel="noreferrer" data-i18n="repository">مخزن ↗</a>
-      <a id="actionsLink" class="btn secondary" target="_blank" rel="noreferrer" data-i18n="actions">اکشن‌ها ↗</a>
+      <a id="repoLink" class="btn secondary" rel="noreferrer" data-i18n="repository">مخزن ↗</a>
+      <a id="actionsLink" class="btn secondary" rel="noreferrer" data-i18n="actions">اکشن‌ها ↗</a>
       <button id="refreshBtn" class="btn" data-i18n="refresh">بروزرسانی</button>
     </div>
   </header>
@@ -66,7 +66,18 @@
           <article><span data-i18n="compactUpdated">بروزرسانی</span><strong id="compactUpdated">—</strong></article>
         </div>
       </div>
-      <div id="compactRecommended" class="compact-recommended"></div>
+      <div class="compact-recommended">
+        <div id="compactRecommendedCopy" class="compact-recommended-copy"></div>
+        <button id="appDownloadToggle" class="compact-app-notice" type="button" aria-expanded="false" aria-controls="appDownloadPopover">
+          <span class="compact-app-notice-icon" aria-hidden="true">⇩</span>
+          <span class="compact-app-notice-copy">
+            <strong data-i18n="compactDownloadAppsTitle">اپ را نصب ندارید؟</strong>
+            <small data-i18n="compactDownloadAppsHint">دانلود Incy و Happ برای iOS و Android</small>
+          </span>
+          <span class="compact-app-notice-caret" aria-hidden="true">⌄</span>
+        </button>
+        <div id="compactRecommendedActions" class="compact-recommended-actions"></div>
+      </div>
     </section>
     <div class="compact-secondary-grid">
       <section class="panel compact-country-panel">
@@ -105,22 +116,22 @@
       <div class="guide-downloads" data-i18n-aria="downloadAppsAria" aria-label="لینک دانلود اپ‌ها">
         <div class="guide-downloads-head" data-i18n="downloadApps">دانلود اپ‌ها</div>
         <div class="guide-download-grid">
-          <a class="download-card" href="https://apps.apple.com/ru/app/incy/id6756943388" target="_blank" rel="noreferrer">
+          <a class="download-card" href="https://apps.apple.com/ru/app/incy/id6756943388" rel="noreferrer">
             <span class="download-icon" aria-hidden="true"><svg class="icon-svg apple-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M15.41 12.9c.02 2.04 1.79 2.72 1.81 2.73-.02.05-.29.99-.94 1.95-.56.83-1.16 1.66-2.07 1.67-.89.02-1.18-.53-2.21-.53-1.03 0-1.35.51-2.19.55-.88.03-1.55-.89-2.11-1.71-1.14-1.66-2.01-4.68-.85-6.72.57-1.02 1.64-1.66 2.77-1.68.87-.02 1.69.58 2.21.58.52 0 1.49-.72 2.5-.62.43.02 1.62.18 2.39 1.29-.06.04-1.43.83-1.41 2.49Zm-1.69-5.42c.47-.57.79-1.38.72-2.18-.69.03-1.51.46-2.01 1.01-.44.5-.82 1.33-.72 2.11.76.06 1.54-.39 2.01-.94Z"/></svg></span>
             <span class="download-copy"><strong data-i18n="downloadIncyIos">دانلود Incy برای iOS</strong><small>App Store</small></span>
             <span class="download-arrow" aria-hidden="true">↗</span>
           </a>
-          <a class="download-card" href="https://play.google.com/store/apps/details?id=llc.itdev.incy" target="_blank" rel="noreferrer">
+          <a class="download-card" href="https://play.google.com/store/apps/details?id=llc.itdev.incy" rel="noreferrer">
             <span class="download-icon" aria-hidden="true"><svg class="icon-svg android-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.43 8.98h9.14c.79 0 1.43.64 1.43 1.43v6.77c0 .79-.64 1.43-1.43 1.43h-.72V21a.71.71 0 1 1-1.42 0v-2.39h-1.67V21a.71.71 0 1 1-1.42 0v-2.39H9.57V21a.71.71 0 1 1-1.42 0v-2.39h-.72c-.79 0-1.43-.64-1.43-1.43v-6.77c0-.79.64-1.43 1.43-1.43Zm2.09-2.56 1.03 1.78h2.9l1.03-1.78a.43.43 0 0 1 .74.43l-.79 1.37c1.77.4 3.1 1.77 3.49 3.48H6.1c.39-1.71 1.72-3.08 3.49-3.48L8.8 6.85a.43.43 0 0 1 .72-.43Zm1.16 3.4a.6.6 0 1 0 0-1.2.6.6 0 0 0 0 1.2Zm2.64 0a.6.6 0 1 0 0-1.2.6.6 0 0 0 0 1.2Z"/></svg></span>
             <span class="download-copy"><strong data-i18n="downloadIncyAndroid">دانلود Incy برای Android</strong><small>Google Play</small></span>
             <span class="download-arrow" aria-hidden="true">↗</span>
           </a>
-          <a class="download-card" href="https://apps.apple.com/us/app/happ-proxy-utility/id6504287215" target="_blank" rel="noreferrer">
+          <a class="download-card" href="https://apps.apple.com/us/app/happ-proxy-utility/id6504287215" rel="noreferrer">
             <span class="download-icon" aria-hidden="true"><svg class="icon-svg apple-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M15.41 12.9c.02 2.04 1.79 2.72 1.81 2.73-.02.05-.29.99-.94 1.95-.56.83-1.16 1.66-2.07 1.67-.89.02-1.18-.53-2.21-.53-1.03 0-1.35.51-2.19.55-.88.03-1.55-.89-2.11-1.71-1.14-1.66-2.01-4.68-.85-6.72.57-1.02 1.64-1.66 2.77-1.68.87-.02 1.69.58 2.21.58.52 0 1.49-.72 2.5-.62.43.02 1.62.18 2.39 1.29-.06.04-1.43.83-1.41 2.49Zm-1.69-5.42c.47-.57.79-1.38.72-2.18-.69.03-1.51.46-2.01 1.01-.44.5-.82 1.33-.72 2.11.76.06 1.54-.39 2.01-.94Z"/></svg></span>
             <span class="download-copy"><strong data-i18n="downloadHappIos">دانلود Happ برای iOS</strong><small>App Store</small></span>
             <span class="download-arrow" aria-hidden="true">↗</span>
           </a>
-          <a class="download-card" href="https://play.google.com/store/apps/details?id=com.happproxy" target="_blank" rel="noreferrer">
+          <a class="download-card" href="https://play.google.com/store/apps/details?id=com.happproxy" rel="noreferrer">
             <span class="download-icon" aria-hidden="true"><svg class="icon-svg android-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.43 8.98h9.14c.79 0 1.43.64 1.43 1.43v6.77c0 .79-.64 1.43-1.43 1.43h-.72V21a.71.71 0 1 1-1.42 0v-2.39h-1.67V21a.71.71 0 1 1-1.42 0v-2.39H9.57V21a.71.71 0 1 1-1.42 0v-2.39h-.72c-.79 0-1.43-.64-1.43-1.43v-6.77c0-.79.64-1.43 1.43-1.43Zm2.09-2.56 1.03 1.78h2.9l1.03-1.78a.43.43 0 0 1 .74.43l-.79 1.37c1.77.4 3.1 1.77 3.49 3.48H6.1c.39-1.71 1.72-3.08 3.49-3.48L8.8 6.85a.43.43 0 0 1 .72-.43Zm1.16 3.4a.6.6 0 1 0 0-1.2.6.6 0 0 0 0 1.2Zm2.64 0a.6.6 0 1 0 0-1.2.6.6 0 0 0 0 1.2Z"/></svg></span>
             <span class="download-copy"><strong data-i18n="downloadHappAndroid">دانلود Happ برای Android</strong><small>Google Play</small></span>
             <span class="download-arrow" aria-hidden="true">↗</span>
@@ -175,7 +186,7 @@
         <h2 id="iranStatusTitle" data-i18n="iranTitle">وضعیت اینترنت ایران</h2>
         <p data-i18n="iranDesc">خلاصه‌ای از سلامت مسیرهای داخلی و بین‌الملل؛ بروزرسانی ساعتی همراه با اجرای ProxyPulse.</p>
       </div>
-      <a id="iranSourceLink" class="iran-source-link" href="https://covered.ir/fa" target="_blank" rel="noreferrer" data-i18n="iranDetails">جزئیات در Covered.ir ↗</a>
+      <a id="iranSourceLink" class="iran-source-link" href="https://covered.ir/fa" rel="noreferrer" data-i18n="iranDetails">جزئیات در Covered.ir ↗</a>
     </div>
     <div id="iranStatusBody" class="iran-status-body">
       <article class="iran-status-card iran-overall-card">
@@ -257,6 +268,30 @@
   </section>
 
   <footer data-i18n="footer">© 2026 farriiig. ProxyPulse تحت مجوز MIT منتشر شده است.</footer>
+</div>
+<div id="appDownloadPopover" class="app-download-popover" aria-hidden="true" role="dialog" aria-modal="false" aria-labelledby="appDownloadTitle">
+  <div class="app-download-popover-head">
+    <div>
+      <span class="app-download-kicker" data-i18n="downloadApps">دانلود اپ‌ها</span>
+      <strong id="appDownloadTitle" data-i18n="appDownloadPopupTitle">اپ موردنظرتان را انتخاب کنید</strong>
+    </div>
+    <button type="button" class="app-download-close" data-close-app-downloads data-i18n-aria="closeAppDownloads" aria-label="بستن پنجره دانلود">×</button>
+  </div>
+  <div class="app-download-popover-grid">
+    <a class="app-download-option" href="https://apps.apple.com/ru/app/incy/id6756943388" rel="noreferrer">
+      <span class="app-download-platform">iOS</span><strong>Incy</strong><small>App Store</small>
+    </a>
+    <a class="app-download-option" href="https://play.google.com/store/apps/details?id=llc.itdev.incy" rel="noreferrer">
+      <span class="app-download-platform">Android</span><strong>Incy</strong><small>Google Play</small>
+    </a>
+    <a class="app-download-option" href="https://apps.apple.com/us/app/happ-proxy-utility/id6504287215" rel="noreferrer">
+      <span class="app-download-platform">iOS</span><strong>Happ</strong><small>App Store</small>
+    </a>
+    <a class="app-download-option" href="https://play.google.com/store/apps/details?id=com.happproxy" rel="noreferrer">
+      <span class="app-download-platform">Android</span><strong>Happ</strong><small>Google Play</small>
+    </a>
+  </div>
+  <p class="app-download-popover-note" data-i18n="appDownloadPopupNote">لینک در همین صفحه باز می‌شود و تب جدیدی ساخته نمی‌شود.</p>
 </div>
 <div id="qrModal" class="qr-modal" aria-hidden="true">
   <div class="qr-backdrop" data-close-qr></div>

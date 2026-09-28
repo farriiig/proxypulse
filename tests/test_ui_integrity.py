@@ -11,7 +11,7 @@ def test_every_static_button_has_a_supported_action_marker():
     tags = re.findall(r"<button\b[^>]*>", HTML, flags=re.I)
     allowed = (
         'id="refreshBtn"', 'id="themeToggle"', 'data-lang=', 'data-view=',
-        'data-theme-choice=', 'data-switch-advanced', 'data-close-qr',
+        'data-theme-choice=', 'data-switch-advanced', 'data-close-qr', 'id="appDownloadToggle"', 'data-close-app-downloads',
     )
     unsupported = [tag for tag in tags if not any(marker in tag for marker in allowed)]
     assert unsupported == []
@@ -44,7 +44,7 @@ def test_expected_ui_actions_are_wired():
     required = [
         "[data-lang]", "[data-view]", "[data-theme-choice]", "#themeToggle",
         "[data-switch-advanced]", "[data-copy]", "[data-profile]",
-        "[data-favorite-country]", "[data-qr]", "[data-close-qr]",
+        "[data-favorite-country]", "[data-qr]", "[data-close-qr]", "#appDownloadToggle", "[data-close-app-downloads]",
         "refreshBtn",
     ]
     for token in required:
@@ -72,3 +72,18 @@ def test_smart_profile_is_repositioned_before_compact_secondary_content():
     assert "compactGrid.parentNode.insertBefore(panel,compactGrid)" in JS
     assert "home.parentNode.insertBefore(panel,home.nextSibling)" in JS
     assert "positionSmartProfile();" in JS
+
+
+def test_compact_app_download_popover_is_in_page_and_same_tab():
+    assert 'id="appDownloadToggle"' in HTML
+    assert 'id="appDownloadPopover"' in HTML
+    block = HTML.split('id="appDownloadPopover"', 1)[1].split('id="qrModal"', 1)[0]
+    assert 'target="_blank"' not in block
+    assert 'toggleAppDownloads' in JS
+    assert 'closeAppDownloads' in JS
+
+
+def test_compact_primary_actions_are_touch_sized():
+    assert '.compact-recommended-actions .endpoint-actions a' in CSS
+    assert 'min-height:38px' in CSS
+    assert 'min-height:42px' in CSS

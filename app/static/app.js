@@ -51,7 +51,7 @@ const I18N={
     metricDiscovered:'شناسایی‌شده', metricSemanticUnique:'یکتای معنایی', metricScanned:'اسکن‌شده', metricCurrentRun:'اجرای فعلی', metricOnline:'آنلاین', metricAvgLatency:'میانگین تأخیر', metricTcpMedian:'میانه TCP', metricAvgScore:'میانگین امتیاز', metricScoreHint:'تاریخچه + تأخیر + پایداری', metricOnlineNodes:'نودهای آنلاین',
     guideKicker:'راهنمای سریع استفاده', guideTitle:'شروع سریع با اشتراک‌ها و اپ‌ها', guideLead:'ProxyPulse یک پلتفرم GitHub-native برای جمع‌آوری، پالایش، تست و انتشار کانفیگ‌های عمومی است. نتایج بر اساس کیفیت، وضعیت و کشور دسته‌بندی می‌شوند و اشتراک‌های آماده استفاده در اختیار کاربر قرار می‌گیرند.',
     guideStep1:'اشتراک مناسب خود را از بخش <strong>اشتراک‌ها</strong> یا <strong>کشورهای تأییدشده</strong> انتخاب کنید.', guideStep2:'برای افزودن مستقیم، روی دکمه‌های <strong>Incy</strong> یا <strong>Happ</strong> بزنید.', guideStep3:'اگر اپ را نصب ندارید، از دکمه‌های دانلود همین بخش استفاده کنید.', guideNote:'نکته: افزودن مستقیم فقط زمانی کار می‌کند که اپ مربوطه روی دستگاه شما نصب باشد.',
-    downloadAppsAria:'لینک دانلود اپ‌ها', downloadApps:'دانلود اپ‌ها', downloadIncyIos:'دانلود Incy برای iOS', downloadIncyAndroid:'دانلود Incy برای Android', downloadHappIos:'دانلود Happ برای iOS', downloadHappAndroid:'دانلود Happ برای Android',
+    downloadAppsAria:'لینک دانلود اپ‌ها', downloadApps:'دانلود اپ‌ها', downloadIncyIos:'دانلود Incy برای iOS', downloadIncyAndroid:'دانلود Incy برای Android', downloadHappIos:'دانلود Happ برای iOS', downloadHappAndroid:'دانلود Happ برای Android', compactDownloadAppsTitle:'اپ را نصب ندارید؟', compactDownloadAppsHint:'دانلود Incy و Happ برای iOS و Android', appDownloadPopupTitle:'اپ موردنظرتان را انتخاب کنید', appDownloadPopupNote:'لینک در همین صفحه باز می‌شود و تب جدیدی ساخته نمی‌شود.', closeAppDownloads:'بستن پنجره دانلود',
     smartKicker:'سازنده پروفایل هوشمند', smartTitle:'نوع اتصال مناسب خودتان را انتخاب کنید', smartDesc:'ProxyPulse بر اساس هدف شما یک اشتراک متنوع و تازه می‌سازد؛ پروفایل‌ها هر ساعت بروزرسانی می‌شوند و هر خروجی حداکثر ۱۰۰ کانفیگ دارد.', asnAware:'آگاه از ASN', autoRotation:'چرخش خودکار', maxNodes:'حداکثر ۱۰۰ نود', smartProfilesAria:'پروفایل‌های هوشمند',
     subscriptionsTitle:'اشتراک‌ها', subscriptionsDesc:'خروجی‌های پالایش‌شده‌ای که در آخرین اجرای Workflow ساخته شده‌اند.', countriesTitle:'کشورهای تأییدشده', countriesDesc:'این اشتراک‌ها فقط شامل کانفیگ‌هایی هستند که تست انتها‌به‌انتهای sing-box را پاس کرده و IP خروجی نهایی دریافت کرده‌اند.',
     iranKicker:'نمای لحظه‌ای اتصال ایران', iranTitle:'وضعیت اینترنت ایران', iranDesc:'خلاصه‌ای از سلامت مسیرهای داخلی و بین‌الملل؛ بروزرسانی ساعتی همراه با اجرای ProxyPulse.', iranDetails:'جزئیات در Covered.ir ↗', iranOverallLabel:'وضعیت کلی', iranDomestic:'مسیرهای داخلی', iranInternational:'مسیرهای بین‌الملل', iranIncidentsLabel:'اختلال فعال', iranLoading:'داده در حال بارگذاری است…', iranDisclaimer:'منبع: Covered.ir · این شاخص فقط مسیرهای تحت پایش Covered را نمایش می‌دهد و نماینده تجربه تمام کاربران ایران نیست.',
@@ -86,7 +86,7 @@ const I18N={
     metricDiscovered:'Discovered', metricSemanticUnique:'semantic unique', metricScanned:'Scanned', metricCurrentRun:'current run', metricOnline:'Online', metricAvgLatency:'Avg Latency', metricTcpMedian:'TCP median', metricAvgScore:'Avg Score', metricScoreHint:'history + latency + stability', metricOnlineNodes:'online nodes',
     guideKicker:'Quick start guide', guideTitle:'Get started with subscriptions and apps', guideLead:'ProxyPulse is a GitHub-native platform for collecting, filtering, testing and publishing public proxy configurations. Results are grouped by quality, status and country, then published as ready-to-use subscriptions.',
     guideStep1:'Choose a suitable subscription from <strong>Subscriptions</strong> or <strong>Verified Countries</strong>.', guideStep2:'For direct import, tap <strong>Incy</strong> or <strong>Happ</strong>.', guideStep3:'If the app is not installed, use the download buttons in this section.', guideNote:'Note: direct import works only when the corresponding app is installed on your device.',
-    downloadAppsAria:'App download links', downloadApps:'Download apps', downloadIncyIos:'Download Incy for iOS', downloadIncyAndroid:'Download Incy for Android', downloadHappIos:'Download Happ for iOS', downloadHappAndroid:'Download Happ for Android',
+    downloadAppsAria:'App download links', downloadApps:'Download apps', downloadIncyIos:'Download Incy for iOS', downloadIncyAndroid:'Download Incy for Android', downloadHappIos:'Download Happ for iOS', downloadHappAndroid:'Download Happ for Android', compactDownloadAppsTitle:'Need the apps?', compactDownloadAppsHint:'Download Incy or Happ for iOS and Android', appDownloadPopupTitle:'Choose an app to download', appDownloadPopupNote:'The store link opens in this tab; no new tab is created.', closeAppDownloads:'Close app downloads',
     smartKicker:'SMART PROFILE BUILDER', smartTitle:'Pick the connection style you want', smartDesc:'ProxyPulse prepares a diverse subscription for your goal. Every profile is refreshed hourly and hard-capped at 100 configs.', asnAware:'ASN-aware', autoRotation:'Auto-rotation', maxNodes:'≤100 nodes', smartProfilesAria:'Smart profiles',
     subscriptionsTitle:'Subscriptions', subscriptionsDesc:'Curated static endpoints generated by the latest workflow run.', countriesTitle:'Verified Countries', countriesDesc:'Country subscriptions contain only configs that passed an end-to-end sing-box tunnel check and returned a final egress IP.',
     iranKicker:'IRAN CONNECTIVITY SNAPSHOT', iranTitle:'Iran Internet Status', iranDesc:'A compact view of domestic and international route health, refreshed with the hourly ProxyPulse run.', iranDetails:'Details on Covered.ir ↗', iranOverallLabel:'Overall status', iranDomestic:'Domestic routes', iranInternational:'International routes', iranIncidentsLabel:'Active incidents', iranLoading:'Loading connectivity data…', iranDisclaimer:'Source: Covered.ir · These indicators cover routes monitored by Covered and do not represent every user or operator in Iran.',
@@ -315,12 +315,28 @@ function renderCompactDashboard(stats={},history=[]){
   const quality=compactQuality(stats),tested=Number(stats.egress_tested_nodes||0),verified=Number(stats.egress_verified_nodes||0);
   $('#compactQualityScore').textContent=num(quality,{maximumFractionDigits:0});$('#compactQualityLabel').textContent=compactQualityLabel(quality);$('#compactQualityLabel').dataset.level=quality>=85?'excellent':quality>=70?'good':quality>=50?'fair':'poor';
   $('#compactVerified').textContent=tested?`${num(verified,{maximumFractionDigits:0})}/${num(tested,{maximumFractionDigits:0})}`:num(verified,{maximumFractionDigits:0});$('#compactOnline').textContent=num(stats.online_nodes||0,{maximumFractionDigits:0});$('#compactLatency').textContent=stats.avg_latency_ms?`${num(Math.round(stats.avg_latency_ms),{maximumFractionDigits:0})} ms`:'—';$('#compactUpdated').textContent=relativeAge(stats.generated_at);
-  const item=stats.subscriptions?.recommended;const root=$('#compactRecommended');if(item){const normalized={...item,path:item.path||'subscriptions/recommended.txt'};root.innerHTML=`<div class="compact-recommended-copy"><span>${esc(t('recommendedKicker'))}</span><strong>${esc(t('recommended'))}</strong><small>${esc(t('compactRecommendedMeta',{count:num(item.count||0,{maximumFractionDigits:0})}))}</small></div>${subscriptionActions(normalized,t('recommendedSubscription'))}`;}else root.innerHTML='';
+  const item=stats.subscriptions?.recommended;const copyRoot=$('#compactRecommendedCopy'),actionsRoot=$('#compactRecommendedActions');if(item){const normalized={...item,path:item.path||'subscriptions/recommended.txt'};copyRoot.innerHTML=`<span>${esc(t('recommendedKicker'))}</span><strong>${esc(t('recommended'))}</strong><small>${esc(t('compactRecommendedMeta',{count:num(item.count||0,{maximumFractionDigits:0})}))}</small>`;actionsRoot.innerHTML=subscriptionActions(normalized,t('recommendedSubscription'));}else{copyRoot.innerHTML='';actionsRoot.innerHTML='';}
   renderCompactCountries(stats.country_subscriptions||{});renderCompactTrend(history);
 }
 
 function sparkline(values=[]){const nums=values.map(Number).filter(Number.isFinite);if(!nums.length)return `<div class="spark-empty">${esc(t('noHistory'))}</div>`;const width=320,height=76,pad=5,min=Math.min(...nums),max=Math.max(...nums),span=Math.max(1,max-min),points=nums.map((v,i)=>{const x=nums.length===1?width/2:pad+(i/(nums.length-1))*(width-pad*2),y=height-pad-((v-min)/span)*(height-pad*2);return `${x.toFixed(1)},${y.toFixed(1)}`;}).join(' ');return `<svg class="sparkline" viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" aria-hidden="true"><polyline points="${points}" /></svg>`;}
 function renderHistory(history=[]){const root=$('#historyGrid'),recent=(Array.isArray(history)?history:[]).slice(-24),defs=[['online','historyOnline',v=>num(Math.round(v),{maximumFractionDigits:0})],['avg_latency_ms','historyLatency',v=>`${num(Math.round(v),{maximumFractionDigits:0})} ms`],['verified','historyVerified',v=>num(Math.round(v),{maximumFractionDigits:0})],['tunnel_success_rate','historyTunnel',v=>`${percent(v,1)}%`],['survival_score','historySurvival',v=>num(v,{minimumFractionDigits:1,maximumFractionDigits:1})],['countries','historyCountries',v=>num(Math.round(v),{maximumFractionDigits:0})]];root.innerHTML=defs.map(([field,labelKey,format])=>{const values=recent.map(x=>Number(x?.[field])).filter(Number.isFinite),current=values.length?values[values.length-1]:0;return `<article class="history-card"><div class="history-card-head"><span>${esc(t(labelKey))}</span><strong>${format(current)}</strong></div>${sparkline(values)}<small>${esc(t('hourlySamples',{count:num(values.length,{maximumFractionDigits:0})}))}</small></article>`;}).join('');}
+
+function positionAppDownloadPopover(){
+  const pop=$('#appDownloadPopover'),toggle=$('#appDownloadToggle');if(!pop||!toggle||!pop.classList.contains('show'))return;
+  const pad=12,viewportW=window.innerWidth,viewportH=window.innerHeight;
+  pop.style.left='';pop.style.right='';pop.style.top='';pop.style.bottom='';
+  if(viewportW<=640){pop.style.left=`${pad}px`;pop.style.right=`${pad}px`;pop.style.bottom='16px';return;}
+  const rect=toggle.getBoundingClientRect();
+  const width=Math.min(370,viewportW-pad*2);pop.style.width=`${width}px`;
+  const popRect=pop.getBoundingClientRect();
+  let left=rect.left+(rect.width-width)/2;left=Math.max(pad,Math.min(left,viewportW-width-pad));
+  let top=rect.bottom+10;if(top+popRect.height>viewportH-pad)top=Math.max(pad,rect.top-popRect.height-10);
+  pop.style.left=`${Math.round(left)}px`;pop.style.top=`${Math.round(top)}px`;
+}
+function openAppDownloads(){const pop=$('#appDownloadPopover'),toggle=$('#appDownloadToggle');if(!pop||!toggle)return;pop.classList.add('show');pop.setAttribute('aria-hidden','false');toggle.setAttribute('aria-expanded','true');requestAnimationFrame(positionAppDownloadPopover);}
+function closeAppDownloads(){const pop=$('#appDownloadPopover'),toggle=$('#appDownloadToggle');if(!pop||!toggle)return;pop.classList.remove('show');pop.setAttribute('aria-hidden','true');toggle.setAttribute('aria-expanded','false');pop.style.left='';pop.style.right='';pop.style.top='';pop.style.bottom='';pop.style.width='';}
+function toggleAppDownloads(){const pop=$('#appDownloadPopover');if(pop?.classList.contains('show'))closeAppDownloads();else openAppDownloads();}
 
 function openQr(path,title){const modal=$('#qrModal');$('#qrTitle').textContent=title||t('subscriptionQr');$('#qrImage').src=new URL(path,window.location.href).href;modal.classList.add('show');modal.setAttribute('aria-hidden','false');document.body.classList.add('modal-open');}
 function closeQr(){const modal=$('#qrModal');modal.classList.remove('show');modal.setAttribute('aria-hidden','true');$('#qrImage').removeAttribute('src');document.body.classList.remove('modal-open');}
@@ -345,8 +361,8 @@ function initStaticActions(){
 }
 function auditInteractiveControls(){
   const supportedButton=(button)=>Boolean(
-    button.id==='refreshBtn'||button.id==='themeToggle'||
-    button.matches('[data-lang],[data-view],[data-theme-choice],[data-switch-advanced],[data-close-qr],[data-copy],[data-profile],[data-favorite-country],[data-qr]')
+    button.id==='refreshBtn'||button.id==='themeToggle'||button.id==='appDownloadToggle'||
+    button.matches('[data-lang],[data-view],[data-theme-choice],[data-switch-advanced],[data-close-qr],[data-close-app-downloads],[data-copy],[data-profile],[data-favorite-country],[data-qr]')
   );
   const deadButtons=$$('button').filter(button=>!supportedButton(button));
   const deadLinks=$$('a').filter(link=>!link.getAttribute('href'));
@@ -365,13 +381,17 @@ document.addEventListener('click',(event)=>{
   if(event.target.closest('[data-switch-advanced]')){setView('advanced');window.scrollTo({top:0,behavior:'smooth'});return;}
   const theme=event.target.closest('[data-theme-choice]');if(theme){setTheme(theme.dataset.themeChoice);toggleThemeMenu(false);return;}
   if(!event.target.closest('.theme-control'))toggleThemeMenu(false);
+  if(event.target.closest('#appDownloadToggle')){toggleAppDownloads();return;}
+  if(event.target.closest('[data-close-app-downloads]')){closeAppDownloads();return;}
+  if(!event.target.closest('#appDownloadPopover'))closeAppDownloads();
   const copy=event.target.closest('[data-copy]');if(copy){copyText(copy.dataset.copy||'');return;}
   const profile=event.target.closest('[data-profile]');if(profile){activeProfile=String(profile.dataset.profile||'balanced');renderSmartProfiles(currentProfileManifest);return;}
   const favorite=event.target.closest('[data-favorite-country]');if(favorite){const key=String(favorite.dataset.favoriteCountry||'').toLowerCase(),favorites=loadFavorites();if(favorites.has(key)){favorites.delete(key);showToast(t('favRemoved'));}else{favorites.add(key);showToast(t('favAdded'));}saveFavorites(favorites);renderCountries(currentCountryManifest);return;}
   const qr=event.target.closest('[data-qr]');if(qr){openQr(qr.dataset.qr,qr.dataset.qrTitle||t('subscriptionQr'));return;}
   if(event.target.closest('[data-close-qr]'))closeQr();
 });
-document.addEventListener('keydown',(event)=>{if(event.key==='Escape'){closeQr();toggleThemeMenu(false);}});
+document.addEventListener('keydown',(event)=>{if(event.key==='Escape'){closeQr();closeAppDownloads();toggleThemeMenu(false);}});
+window.addEventListener('resize',()=>{if($('#appDownloadPopover')?.classList.contains('show'))positionAppDownloadPopover();});
 $('#refreshBtn').addEventListener('click',load);
 $('#themeToggle').addEventListener('click',(event)=>{event.stopPropagation();toggleThemeMenu();});
 setInterval(()=>{if(latestStats)updateFreshness(latestStats.generated_at);},60000);
