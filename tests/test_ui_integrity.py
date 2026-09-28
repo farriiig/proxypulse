@@ -99,3 +99,10 @@ def test_mobile_compact_actions_use_non_overlapping_grid():
     assert 'grid-template-columns:repeat(3,minmax(0,1fr))!important' in CSS
     assert 'width:100%!important' in CSS
     assert 'min-width:0!important' in CSS
+
+
+def test_compact_recommended_uses_single_canonical_tools_wrapper():
+    assert 'class="compact-recommended-tools"' in HTML
+    assert 'v1.5.8 canonical compact recommendation layout' in CSS
+    assert 'v1.5.6 compact desktop placement' not in CSS
+    assert 'v1.5.7 mobile compact footer hard-fix' not in CSS
