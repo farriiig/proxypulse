@@ -2070,5 +2070,54 @@
     "isp": "OVH SAS",
     "country_code": "GB",
     "fetched_at": "2026-09-28T10:01:37Z"
+  },
+  "192.142.12.231": {
+    "asn": 198077,
+    "org": "L.L.C.-FZ",
+    "isp": "Need, L.L.C.-FZ",
+    "country_code": "DE",
+    "fetched_at": "2026-09-28T10:51:32Z"
+  },
+  "91.132.59.16": {
+    "asn": 216154,
+    "org": "CLODO CLOUD SERVICE CO. L.L.C",
+    "isp": "CLODO CLOUD SERVICE CO. L.L.C",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T10:51:32Z"
+  },
+  "89.124.86.85": {
+    "asn": 216071,
+    "org": "SERVERS TECH FZCO",
+    "isp": "SERVERS TECH FZCO",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T10:51:32Z"
+  },
+  "37.220.84.132": {
+    "asn": 210976,
+    "org": "Timeweb, LLP",
+    "isp": "Timeweb, LLP",
+    "country_code": "NL",
+    "fetched_at": "2026-09-28T10:51:32Z"
+  },
+  "193.163.201.161": {
+    "asn": 212552,
+    "org": "Deployish Limited",
+    "isp": "BitCommand LLC",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T10:51:32Z"
+  },
+  "35.176.187.206": {
+    "asn": 16509,
+    "org": "Amazon Data Services UK",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T10:51:32Z"
+  },
+  "51.241.130.35": {
+    "asn": 63150,
+    "org": "BAGE CLOUD LLC",
+    "isp": "BAGE CLOUD LLC",
+    "country_code": "GB",
+    "fetched_at": "2026-09-28T10:51:32Z"
   }
 }
