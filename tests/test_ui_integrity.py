@@ -49,3 +49,13 @@ def test_expected_ui_actions_are_wired():
     ]
     for token in required:
         assert token in JS
+
+
+def test_view_click_selector_does_not_capture_html_ancestor():
+    # html itself owns data-view; using closest('[data-view]') swallows nearly every delegated click.
+    assert "closest('[data-view]')" not in JS
+    assert "closest('.view-option[data-view]')" in JS
+
+
+def test_theme_toggle_has_direct_click_listener():
+    assert "$('#themeToggle').addEventListener('click'" in JS
