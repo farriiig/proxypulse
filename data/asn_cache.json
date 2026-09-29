@@ -2259,5 +2259,138 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-09-28T22:08:10Z"
+  },
+  "64.188.126.56": {
+    "asn": 213877,
+    "org": "Amsterdam, Netherlands",
+    "isp": "U1 DIGITAL SERVICES LTD",
+    "country_code": "NL",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "150.241.73.153": {
+    "asn": 207957,
+    "org": "SERV.HOST GROUP LTD",
+    "isp": "SERV.HOST GROUP LTD",
+    "country_code": "IT",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "144.31.242.183": {
+    "asn": 207957,
+    "org": "SERV.HOST GROUP LTD",
+    "isp": "SERV.HOST GROUP LTD",
+    "country_code": "DK",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "144.31.217.4": {
+    "asn": 207957,
+    "org": "SERV.HOST GROUP LTD",
+    "isp": "SERV.HOST GROUP LTD",
+    "country_code": "NO",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "104.28.159.16": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "DE",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "193.29.139.251": {
+    "asn": 47172,
+    "org": "Greenhost BV",
+    "isp": "Greenhost BV",
+    "country_code": "NL",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "173.244.56.6": {
+    "asn": 137409,
+    "org": "LogicWeb Inc.",
+    "isp": "GSL Networks Pty LTD",
+    "country_code": "US",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "51.79.64.198": {
+    "asn": 16276,
+    "org": "OVH Hosting, Inc.",
+    "isp": "OVH SAS",
+    "country_code": "CA",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "211.174.113.172": {
+    "asn": 4766,
+    "org": "BITNET",
+    "isp": "Korea Telecom",
+    "country_code": "KR",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "150.241.123.99": {
+    "asn": 215590,
+    "org": "Frankfurt, Germany",
+    "isp": "DpkgSoft International Limited",
+    "country_code": "DE",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "213.165.55.207": {
+    "asn": 213887,
+    "org": "WAIcore Ltd",
+    "isp": "WAIcore Ltd",
+    "country_code": "DE",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "66.42.108.104": {
+    "asn": 20473,
+    "org": "The Constant Company, LLC",
+    "isp": "The Constant Company, LLC",
+    "country_code": "US",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "107.173.15.138": {
+    "asn": 36352,
+    "org": "RackNerd LLC",
+    "isp": "HostPapa",
+    "country_code": "US",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "179.255.185.127": {
+    "asn": 214238,
+    "org": "IT Hostline Ltd",
+    "isp": "HOST TELECOM LTD",
+    "country_code": "US",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "205.186.76.141": {
+    "asn": 30058,
+    "org": "Private Customer",
+    "isp": "FDCservers.net",
+    "country_code": "US",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "94.156.232.238": {
+    "asn": 215730,
+    "org": "H2.NEXUS Frankfurt Network",
+    "isp": "H2NEXUS CLOUD SERVICES - FZCO",
+    "country_code": "DE",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "47.76.44.32": {
+    "asn": 45102,
+    "org": "Alibaba Cloud - HK",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "HK",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "194.99.79.26": {
+    "asn": 199524,
+    "org": "G-Core Labs S.A.",
+    "isp": "G-Core Labs S.A.",
+    "country_code": "HK",
+    "fetched_at": "2026-09-29T02:03:55Z"
+  },
+  "193.108.117.54": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "DE",
+    "fetched_at": "2026-09-29T02:03:55Z"
   }
 }
