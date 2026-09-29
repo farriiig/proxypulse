@@ -2532,5 +2532,117 @@
     "isp": "DigitalOcean, LLC",
     "country_code": "DE",
     "fetched_at": "2026-09-29T15:59:15Z"
+  },
+  "192.142.12.198": {
+    "asn": 198077,
+    "org": "L.L.C.-FZ",
+    "isp": "Need, L.L.C.-FZ",
+    "country_code": "DE",
+    "fetched_at": "2026-09-29T20:54:18Z"
+  },
+  "51.158.206.20": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-09-29T20:54:18Z"
+  },
+  "185.195.57.169": {
+    "asn": 62240,
+    "org": "New Jersey Network",
+    "isp": "Clouvider Limited",
+    "country_code": "US",
+    "fetched_at": "2026-09-29T20:54:18Z"
+  },
+  "162.120.69.88": {
+    "asn": 62240,
+    "org": "Clouvider Limited",
+    "isp": "Clouvider Limited",
+    "country_code": "US",
+    "fetched_at": "2026-09-29T20:54:18Z"
+  },
+  "185.195.57.174": {
+    "asn": 62240,
+    "org": "New Jersey Network",
+    "isp": "Clouvider Limited",
+    "country_code": "US",
+    "fetched_at": "2026-09-29T20:54:18Z"
+  },
+  "2a14:7c0:1742:505d::1": {
+    "asn": 51396,
+    "org": "Pfcloud UG haftungsbeschrankt",
+    "isp": "Pfcloud UG haftungsbeschrankt",
+    "country_code": "NL",
+    "fetched_at": "2026-09-29T20:54:18Z"
+  },
+  "173.244.56.9": {
+    "asn": 137409,
+    "org": "LogicWeb Inc.",
+    "isp": "GSL Networks Pty LTD",
+    "country_code": "US",
+    "fetched_at": "2026-09-29T20:54:18Z"
+  },
+  "45.207.207.25": {
+    "asn": 402506,
+    "org": "Vapeline Technology",
+    "isp": "Zenixcloud Inc",
+    "country_code": "US",
+    "fetched_at": "2026-09-29T20:54:18Z"
+  },
+  "205.185.126.59": {
+    "asn": 53667,
+    "org": "FranTech Solutions",
+    "isp": "FranTech Solutions",
+    "country_code": "US",
+    "fetched_at": "2026-09-29T20:54:18Z"
+  },
+  "43.153.105.7": {
+    "asn": 132203,
+    "org": "6 COLLYER QUAY",
+    "isp": "Shenzhen Tencent Computer Systems Company Limited",
+    "country_code": "US",
+    "fetched_at": "2026-09-29T20:54:18Z"
+  },
+  "178.63.88.12": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-09-29T20:54:18Z"
+  },
+  "191.222.247.114": {
+    "asn": 30058,
+    "org": "Private Customer",
+    "isp": "FDCservers.net",
+    "country_code": "US",
+    "fetched_at": "2026-09-29T20:54:18Z"
+  },
+  "85.121.124.8": {
+    "asn": 9009,
+    "org": "Urban Network Solutions SRL",
+    "isp": "M247 Europe SRL",
+    "country_code": "DE",
+    "fetched_at": "2026-09-29T20:54:18Z"
+  },
+  "64.49.28.77": {
+    "asn": 54286,
+    "org": "TAIPEI101 NETWORK LLC",
+    "isp": "TAIPEI101 NETWORK LLC",
+    "country_code": "US",
+    "fetched_at": "2026-09-29T20:54:18Z"
+  },
+  "194.31.223.51": {
+    "asn": 215439,
+    "org": "play2go.cloud - Cheap and reliable hosting",
+    "isp": "PLAY2GO INTERNATIONAL LIMITED",
+    "country_code": "DE",
+    "fetched_at": "2026-09-29T20:54:18Z"
+  },
+  "151.243.173.119": {
+    "asn": 57043,
+    "org": "HOSTKEY B.V.",
+    "isp": "HOSTKEY B.V.",
+    "country_code": "NL",
+    "fetched_at": "2026-09-29T20:54:18Z"
   }
 }
