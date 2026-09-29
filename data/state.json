@@ -738,13 +738,13 @@
   },
   "e1877b502f3bdd17ca64efc4d25b5ccf3083b7ca37bebaa19033d774241ce86d": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 46,
-    "success_runs": 46,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 47,
+    "success_runs": 47,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 198.89,
-    "jitter_ms": 25.04,
+    "latency_ms": 208.24,
+    "jitter_ms": 25.29,
     "score": 83.0,
     "gaming_score": 72.5,
     "reachable": true,
@@ -753,11 +753,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-22T17:02:13Z",
-        "reachable": true,
-        "latency_ms": 182.81
-      },
       {
         "at": "2026-09-23T04:52:12Z",
         "reachable": true,
@@ -872,6 +867,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 198.89
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 208.24
       }
     ],
     "status": "STABLE"
@@ -1088,13 +1088,13 @@
   },
   "7a88c5fef07edc056788b26eb8e14f2163804c0ad48695caa9705bf9a830ca22": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 138.61,
-    "jitter_ms": 27.97,
+    "latency_ms": 121.49,
+    "jitter_ms": 27.88,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -1103,11 +1103,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 131.62
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -1222,6 +1217,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 138.61
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 121.49
       }
     ],
     "status": "HEALTHY"
@@ -1261,13 +1261,13 @@
   },
   "91f6f5ad741c9fed1227746e5f74993e81982c20450a76a9f48ab9fc8cb15ce9": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 67,
-    "success_runs": 67,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 68,
+    "success_runs": 68,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 53.58,
-    "jitter_ms": 25.11,
+    "latency_ms": 50.2,
+    "jitter_ms": 24.22,
     "score": 92.5,
     "gaming_score": 87.5,
     "reachable": true,
@@ -1276,11 +1276,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 30.5
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -1395,19 +1390,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 53.58
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 50.2
       }
     ],
     "status": "HEALTHY"
   },
   "bb5dcc86991cff342ca23da62772dab0dc68e51a664b9ab7f7819e455181377f": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 56,
-    "success_runs": 56,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 57,
+    "success_runs": 57,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 51.86,
-    "jitter_ms": 24.29,
+    "latency_ms": 51.68,
+    "jitter_ms": 23.31,
     "score": 92.5,
     "gaming_score": 87.5,
     "reachable": true,
@@ -1416,11 +1416,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 30.28
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -1535,19 +1530,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 51.86
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 51.68
       }
     ],
     "status": "HEALTHY"
   },
   "66777740858a31efe9a5cd180aa0e29ac3c58cb7f7c60f407b7d4e135051cb48": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 67,
-    "success_runs": 67,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 68,
+    "success_runs": 68,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 53.38,
-    "jitter_ms": 24.57,
+    "latency_ms": 51.68,
+    "jitter_ms": 23.85,
     "score": 92.5,
     "gaming_score": 87.5,
     "reachable": true,
@@ -1556,11 +1556,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 30.59
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -1675,19 +1670,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 53.38
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 51.68
       }
     ],
     "status": "HEALTHY"
   },
   "628c84a908a645f3aae6d830c911f2c54184eca5ba42143eec6dec45b02a41f2": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 56,
-    "success_runs": 56,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 57,
+    "success_runs": 57,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 51.32,
-    "jitter_ms": 31.31,
+    "latency_ms": 51.62,
+    "jitter_ms": 30.33,
     "score": 92.5,
     "gaming_score": 87.5,
     "reachable": true,
@@ -1696,11 +1696,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-25T21:39:53Z",
-        "reachable": true,
-        "latency_ms": 52.92
-      },
       {
         "at": "2026-09-26T05:07:48Z",
         "reachable": true,
@@ -1815,19 +1810,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 51.32
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 51.62
       }
     ],
     "status": "HEALTHY"
   },
   "25d6bf6f442a214e888ab1d9c08c4ddfa1642266299b74205a2cca2c3a1a2aff": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 67,
-    "success_runs": 67,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 68,
+    "success_runs": 68,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 49.51,
-    "jitter_ms": 24.0,
+    "latency_ms": 50.42,
+    "jitter_ms": 23.01,
     "score": 92.5,
     "gaming_score": 87.5,
     "reachable": true,
@@ -1836,11 +1836,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 30.73
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -1955,6 +1950,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 49.51
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 50.42
       }
     ],
     "status": "HEALTHY"
@@ -2239,13 +2239,13 @@
   },
   "971fcfe0f3df93841aef72f7d572bf4c4d39a79382fa5cd8aedafdfd4a8ac897": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 63,
-    "success_runs": 63,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 64,
+    "success_runs": 64,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 112.55,
-    "jitter_ms": 26.52,
+    "latency_ms": 104.42,
+    "jitter_ms": 25.77,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -2254,11 +2254,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 140.7
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -2373,19 +2368,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 112.55
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 104.42
       }
     ],
     "status": "HEALTHY"
   },
   "a89987df417502f12c51e09fd73422e695c2dcaff2420a0a77549d64361a7856": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 65,
-    "success_runs": 65,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 66,
+    "success_runs": 66,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 117.97,
-    "jitter_ms": 26.82,
+    "latency_ms": 100.12,
+    "jitter_ms": 26.71,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -2394,11 +2394,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 130.38
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -2513,19 +2508,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 117.97
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 100.12
       }
     ],
     "status": "HEALTHY"
   },
   "b346ee71db977bf3407911a6e0b663542e68c340d61e8be672dea75ad2004684": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 128.58,
-    "jitter_ms": 26.01,
+    "latency_ms": 115.63,
+    "jitter_ms": 25.88,
     "score": 86.9,
     "gaming_score": 79.0,
     "reachable": true,
@@ -2534,11 +2534,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 131.28
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -2653,19 +2648,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 128.58
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 115.63
       }
     ],
     "status": "HEALTHY"
   },
   "07c1e86483eef7c761b6d9d975ba9a61e11e18c4c96ee4d861ab6ff58563aa8c": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 114.44,
-    "jitter_ms": 26.74,
+    "latency_ms": 105.07,
+    "jitter_ms": 26.13,
     "score": 86.9,
     "gaming_score": 79.0,
     "reachable": true,
@@ -2674,11 +2674,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 138.55
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -2793,19 +2788,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 114.44
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 105.07
       }
     ],
     "status": "HEALTHY"
   },
   "671c0bc1d6d2098a52b83e17277df69a2e909d750991ee638178ed25f27a2725": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 122.44,
-    "jitter_ms": 28.6,
+    "latency_ms": 101.02,
+    "jitter_ms": 28.28,
     "score": 86.9,
     "gaming_score": 79.0,
     "reachable": true,
@@ -2814,11 +2814,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 144.79
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -2933,6 +2928,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 122.44
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 101.02
       }
     ],
     "status": "HEALTHY"
@@ -3052,13 +3052,13 @@
   },
   "0776f42e5a7b170fdfc92e4b672f050a9ff23d1f58ab5bfc777c4177112fe7c0": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 128.03,
-    "jitter_ms": 28.58,
+    "latency_ms": 104.6,
+    "jitter_ms": 28.84,
     "score": 86.9,
     "gaming_score": 79.0,
     "reachable": true,
@@ -3067,11 +3067,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 132.26
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -3186,19 +3181,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 128.03
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 104.6
       }
     ],
     "status": "HEALTHY"
   },
   "3c8baa64cb917075f8edd7990f916050fc8fc62ec2c946acf343a409513e803d": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 110.59,
-    "jitter_ms": 24.43,
+    "latency_ms": 100.4,
+    "jitter_ms": 24.22,
     "score": 86.9,
     "gaming_score": 79.0,
     "reachable": true,
@@ -3207,11 +3207,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 130.2
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -3326,6 +3321,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 110.59
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 100.4
       }
     ],
     "status": "HEALTHY"
@@ -3472,12 +3472,12 @@
   },
   "7d2b26cf831b5417279e3b2fd20237aaa5dc90c62effbb363edcfbce9e487309": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 63,
-    "success_runs": 63,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 64,
+    "success_runs": 64,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 111.11,
+    "latency_ms": 102.77,
     "jitter_ms": 26.83,
     "score": 86.9,
     "gaming_score": 79.0,
@@ -3487,11 +3487,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-26T18:38:27Z",
-        "reachable": true,
-        "latency_ms": 143.37
-      },
       {
         "at": "2026-09-27T12:18:53Z",
         "reachable": true,
@@ -3606,32 +3601,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 111.11
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 102.77
       }
     ],
     "status": "HEALTHY"
   },
   "0e501295c5a8fd7896c10869aae426ee8c17bfbca7ca5794d8034c4c44382632": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 61,
-    "success_runs": 61,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 62,
+    "success_runs": 62,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 107.91,
-    "jitter_ms": 26.31,
-    "score": 86.9,
-    "gaming_score": 79.0,
+    "latency_ms": 97.76,
+    "jitter_ms": 25.33,
+    "score": 89.9,
+    "gaming_score": 84.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 148.79
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -3746,32 +3741,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 107.91
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 97.76
       }
     ],
     "status": "HEALTHY"
   },
   "1f9743533e177986271d4ced1912ee81af9962563f83813ac460087e793fc2b7": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 58,
-    "success_runs": 58,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 59,
+    "success_runs": 59,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 115.89,
-    "jitter_ms": 27.99,
-    "score": 87.4,
-    "gaming_score": 79.0,
+    "latency_ms": 99.12,
+    "jitter_ms": 27.76,
+    "score": 90.4,
+    "gaming_score": 84.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-25T17:18:14Z",
-        "reachable": true,
-        "latency_ms": 133.02
-      },
       {
         "at": "2026-09-25T21:39:53Z",
         "reachable": true,
@@ -3886,32 +3881,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 115.89
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 99.12
       }
     ],
     "status": "HEALTHY"
   },
   "d5f161ad234375b35425f5d6d2fa606f1fa54d950dafabfe83109429a53c5f37": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 114.56,
-    "jitter_ms": 24.93,
-    "score": 86.9,
-    "gaming_score": 79.0,
+    "latency_ms": 99.27,
+    "jitter_ms": 24.96,
+    "score": 89.9,
+    "gaming_score": 84.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 130.46
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -4026,19 +4021,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 114.56
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 99.27
       }
     ],
     "status": "HEALTHY"
   },
   "619ff4b5096bd37f36963dfe3ce41eae0539cf5db3333064f39d82784eadff46": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 118.25,
-    "jitter_ms": 27.36,
+    "latency_ms": 102.81,
+    "jitter_ms": 27.14,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -4047,11 +4047,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 132.26
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -4166,19 +4161,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 118.25
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 102.81
       }
     ],
     "status": "HEALTHY"
   },
   "673a78bccd02c9c06fad9e283be7ea00ab93ecf7c91927a199f7f6755a4e4b6c": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 133.52,
-    "jitter_ms": 26.48,
+    "latency_ms": 109.32,
+    "jitter_ms": 26.59,
     "score": 86.9,
     "gaming_score": 79.0,
     "reachable": true,
@@ -4187,11 +4187,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 131.84
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -4306,32 +4301,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 133.52
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 109.32
       }
     ],
     "status": "HEALTHY"
   },
   "a3f9c6f8cc4a80f22842a6bafe215300252eb4d35bb35121ba7fa6844a47381a": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 155.06,
-    "jitter_ms": 26.69,
-    "score": 83.0,
-    "gaming_score": 72.5,
+    "latency_ms": 106.95,
+    "jitter_ms": 27.69,
+    "score": 86.9,
+    "gaming_score": 79.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 140.32
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -4446,19 +4441,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 155.06
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 106.95
       }
     ],
-    "status": "STABLE"
+    "status": "HEALTHY"
   },
   "d91225578e450eb1a974af96c7d0c0b001581be67dace9e9db6d2503a66531b6": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 117.58,
-    "jitter_ms": 25.02,
+    "latency_ms": 111.76,
+    "jitter_ms": 24.59,
     "score": 86.9,
     "gaming_score": 79.0,
     "reachable": true,
@@ -4467,11 +4467,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 132.23
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -4586,19 +4581,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 117.58
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 111.76
       }
     ],
     "status": "HEALTHY"
   },
   "c5f666e233bf4c59eb9d7b25c5b6395f427fd783baf714f66ab1fae029316ee0": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 124.39,
-    "jitter_ms": 25.56,
+    "latency_ms": 104.05,
+    "jitter_ms": 25.58,
     "score": 86.9,
     "gaming_score": 79.0,
     "reachable": true,
@@ -4607,11 +4607,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 135.12
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -4726,32 +4721,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 124.39
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 104.05
       }
     ],
     "status": "HEALTHY"
   },
   "bd9353bc1e56c427a0ecde0249a1ce8ba9072e1708c8102aa5ccda12f737d66b": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 60,
-    "success_runs": 59,
-    "uptime": 98.3,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 61,
+    "success_runs": 60,
+    "uptime": 98.4,
     "recent_success_rate": 100.0,
-    "latency_ms": 265.62,
-    "jitter_ms": 75.95,
-    "score": 71.7,
-    "gaming_score": 55.0,
+    "latency_ms": 179.76,
+    "jitter_ms": 72.91,
+    "score": 76.3,
+    "gaming_score": 62.5,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 368.91
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -4866,6 +4861,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 265.62
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 179.76
       }
     ],
     "status": "STABLE"
@@ -5212,13 +5212,13 @@
   },
   "dd76450af53497b2bb12b8290cb0e1d45c48da254b26e87d4c84b7345c6b0a6e": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 26,
-    "success_runs": 26,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 27,
+    "success_runs": 27,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 153.06,
-    "jitter_ms": 39.12,
+    "latency_ms": 151.35,
+    "jitter_ms": 39.14,
     "score": 80.5,
     "gaming_score": 67.5,
     "reachable": true,
@@ -5227,11 +5227,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-20T07:17:24Z",
-        "reachable": true,
-        "latency_ms": 127.09
-      },
       {
         "at": "2026-09-21T05:05:33Z",
         "reachable": true,
@@ -5346,19 +5341,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 153.06
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 151.35
       }
     ],
     "status": "STABLE"
   },
   "f35415089ff8831e922fa3291e60612170e520f65bc7248df32c6a01ce148ffc": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 52,
-    "success_runs": 52,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 53,
+    "success_runs": 53,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 226.38,
-    "jitter_ms": 160.02,
+    "latency_ms": 244.06,
+    "jitter_ms": 141.85,
     "score": 73.0,
     "gaming_score": 55.0,
     "reachable": true,
@@ -5367,11 +5367,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-25T21:39:53Z",
-        "reachable": true,
-        "latency_ms": 666.29
-      },
       {
         "at": "2026-09-26T05:07:48Z",
         "reachable": true,
@@ -5486,9 +5481,14 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 226.38
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 244.06
       }
     ],
-    "status": "DEGRADING"
+    "status": "STABLE"
   },
   "d7a6b4ee483a0905334aa8f235def1bb11b5e987b1686bcd8b93391ef3ca94cd": {
     "first_seen_at": "2026-09-20T07:04:52Z",
@@ -7093,26 +7093,21 @@
   },
   "7e30e379613ea01dbd9de2ef88c8f2121ad437aa16f5fe890d16bab3fed2fd39": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 54,
-    "success_runs": 54,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 55,
+    "success_runs": 55,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 111.58,
-    "jitter_ms": 130.82,
-    "score": 80.9,
-    "gaming_score": 69.0,
+    "latency_ms": 163.71,
+    "jitter_ms": 100.49,
+    "score": 77.0,
+    "gaming_score": 62.5,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 256.75
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -7227,6 +7222,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 111.58
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 163.71
       }
     ],
     "status": "STABLE"
@@ -7365,13 +7365,13 @@
   },
   "db79896037bf9f6006cfcf3ed599436c7479c08b20ae73fefb78b013db022e9b": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 44,
-    "success_runs": 44,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 45,
+    "success_runs": 45,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 118.52,
-    "jitter_ms": 65.03,
+    "latency_ms": 102.15,
+    "jitter_ms": 63.66,
     "score": 81.4,
     "gaming_score": 69.0,
     "reachable": true,
@@ -7380,11 +7380,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-26T09:22:56Z",
-        "reachable": true,
-        "latency_ms": 89.53
-      },
       {
         "at": "2026-09-26T14:33:36Z",
         "reachable": true,
@@ -7499,19 +7494,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 118.52
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 102.15
       }
     ],
     "status": "STABLE"
   },
   "419f0ae196dee2eed6c13f92ccfc8f270bce445c7e426387c6459806a6a4df12": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 41,
-    "success_runs": 41,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 42,
+    "success_runs": 42,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 183.97,
-    "jitter_ms": 43.84,
+    "latency_ms": 156.34,
+    "jitter_ms": 42.76,
     "score": 77.0,
     "gaming_score": 67.5,
     "reachable": true,
@@ -7520,11 +7520,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-23T17:11:46Z",
-        "reachable": true,
-        "latency_ms": 188.21
-      },
       {
         "at": "2026-09-25T21:39:53Z",
         "reachable": true,
@@ -7639,14 +7634,19 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 183.97
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 156.34
       }
     ],
     "status": "STABLE"
   },
   "01e287d9f7653667bdf4a0963214ee4e31b745717ddfc68a7fffba25ca1807bc": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -7656,15 +7656,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -7777,6 +7772,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -7785,8 +7785,8 @@
   },
   "0f1690bf2d4f0e35495aadeafdd4d4469058666f806d97c36d2bfbfaf415c440": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -7796,15 +7796,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -7917,6 +7912,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -7925,8 +7925,8 @@
   },
   "9af12243e46e422d699df7e8649c96755dd09e519610e8d29b1b06d49a333259": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -7936,15 +7936,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -8057,6 +8052,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -8065,8 +8065,8 @@
   },
   "d646664c53b89a7efb81e34ee59e6ea59a551d1b3e78f86fc9129d075de4b6d8": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -8076,15 +8076,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -8197,6 +8192,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -8205,8 +8205,8 @@
   },
   "70d110958e9f9a800fe8e721312a58f79491b7088d73cc133e38dfb3a561ecc9": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -8216,15 +8216,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -8337,6 +8332,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -8345,8 +8345,8 @@
   },
   "b51b5153f0c6d3bf55afdc554f2f8766c5ef64eed90dafdefbaa8b2bb3f2a6dd": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -8356,15 +8356,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -8477,6 +8472,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -8485,8 +8485,8 @@
   },
   "2487a04b90d9d6ca75729c009be1dd84762badb49753b9a48eba0142255bf8d2": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -8496,15 +8496,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -8619,32 +8614,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": false,
         "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": false,
+        "latency_ms": null
       }
     ],
     "status": "OFFLINE"
   },
   "ebec11970f1b05c2fd1a6fe535bf09daf3066bc96a4b4cedb41ef1cd173846d8": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
-    "success_runs": 38,
-    "uptime": 61.3,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
+    "success_runs": 39,
+    "uptime": 61.9,
     "recent_success_rate": 100.0,
-    "latency_ms": 310.59,
-    "jitter_ms": 61.47,
-    "score": 52.1,
-    "gaming_score": 55.0,
+    "latency_ms": 323.19,
+    "jitter_ms": 59.19,
+    "score": 55.4,
+    "gaming_score": 60.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 232.54
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -8759,14 +8754,19 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 310.59
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 323.19
       }
     ],
     "status": "WEAK"
   },
   "a4df4f199fd04d866fdd174b65eb067808eaa8317755eb5427cb2adba787a752": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -8776,15 +8776,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -8897,6 +8892,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -8905,8 +8905,8 @@
   },
   "cf8c7a6d97a406ffa81273a71965de6bd80958f2a11da28a29c19f7420341c19": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -8916,15 +8916,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -9037,6 +9032,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -9045,8 +9045,8 @@
   },
   "3f88ff2020d0a64b7d126d36554c65204900a2c39dbd587fd03572abecba616a": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -9056,15 +9056,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -9177,6 +9172,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -9185,8 +9185,8 @@
   },
   "82232088eff54c3bd4a8f288899c5cf88b6dbc2e5bc957cd7236bf365d257920": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -9196,15 +9196,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -9317,6 +9312,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -9325,8 +9325,8 @@
   },
   "b69ddc7bf457fa596e1c6baf5fd6d240843c0ae3b45bac7bf7f2d7a7ad2a5e7c": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -9336,15 +9336,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -9457,6 +9452,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -9465,8 +9465,8 @@
   },
   "6fbd5df7966822d044f59f9fe4b888f206812eb13bb3584f32c3da6d21cbe144": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -9476,15 +9476,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -9597,6 +9592,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -9605,8 +9605,8 @@
   },
   "6afcf955c702744f15de82663855299eec123b9cb6f5691e02e80f96e4394560": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -9616,15 +9616,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -9737,6 +9732,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -9745,8 +9745,8 @@
   },
   "9fc04ae568db92fdba77d22b9661ab3600585c2c50a8451be66d3352269addbc": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -9756,15 +9756,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -9877,6 +9872,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -9885,8 +9885,8 @@
   },
   "506677b4b35a7eca51481872a471543b700b88beed274720a1acff2eb88c7c10": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -9896,15 +9896,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -10017,6 +10012,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -10163,8 +10163,8 @@
   },
   "e6cfc61b64985dc946fa97758ff2c45e0d0871db2061462e46bb980245e13abd": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -10174,15 +10174,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -10295,6 +10290,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -10441,8 +10441,8 @@
   },
   "27de2b35fadf26380934733a021574401f7da94db0954641af2a22947d0db93d": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -10452,15 +10452,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -10573,6 +10568,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -10581,8 +10581,8 @@
   },
   "35dcc120d990d1043548e1271f13587b9e2fdda013f7979a2b9e0bafaad2e5ab": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -10592,15 +10592,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -10713,6 +10708,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -10721,8 +10721,8 @@
   },
   "5c0d3e24c5909513cb4713493bbd7d10502a5916be1f6f83fec000fb9625aef6": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -10732,15 +10732,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -10853,6 +10848,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -10999,8 +10999,8 @@
   },
   "589e88471b31e69d329bbfde6f1abdbf2d94cf4a43e47ce89f22999d278d8ded": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -11010,15 +11010,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -11131,6 +11126,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -11139,8 +11139,8 @@
   },
   "abc2795943b5a7b09ed816bef395b90859d6c6b679162fb3605495428df51127": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -11150,15 +11150,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -11271,6 +11266,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -11279,8 +11279,8 @@
   },
   "df395c2a7eae4856fb640c23869dc50cbb56ee40bcfbcac802842400e6a25a75": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 1,
     "uptime": 1.6,
     "recent_success_rate": 0.0,
@@ -11290,15 +11290,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 47,
+    "consecutive_failures": 48,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -11411,6 +11406,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -11419,8 +11419,8 @@
   },
   "c8a631ea8b090a9d1fa8d47309acc2a8bbfad0e401eff3628a1e5fef997ac6da": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 1,
     "uptime": 1.6,
     "recent_success_rate": 0.0,
@@ -11430,15 +11430,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 47,
+    "consecutive_failures": 48,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -11551,6 +11546,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -11559,8 +11559,8 @@
   },
   "8258dc83d605002e703f29016b724afbc0b0a55e6a07e4b355a271fc6713a4b3": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -11570,15 +11570,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -11691,6 +11686,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -11699,8 +11699,8 @@
   },
   "3e804eddc350f3a52e80f0b548dd3c46069276e697a089cee6b785dd71ff95a4": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -11710,15 +11710,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -11831,6 +11826,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -11887,13 +11887,13 @@
   },
   "e21d39299376f3515e3142e1544cc4cc2533f917ff493a0d097f9c1ab0994557": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 122.25,
-    "jitter_ms": 26.53,
+    "latency_ms": 110.28,
+    "jitter_ms": 26.32,
     "score": 83.9,
     "gaming_score": 79.0,
     "reachable": true,
@@ -11902,11 +11902,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 140.03
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -12021,19 +12016,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 122.25
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 110.28
       }
     ],
     "status": "STABLE"
   },
   "b3f18b4a7f28695e3eb7b2769b152e01c239bdf8ab529ad780928efa982827f5": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
-    "success_runs": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
+    "success_runs": 63,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 327.37,
-    "jitter_ms": 76.57,
+    "latency_ms": 302.9,
+    "jitter_ms": 69.98,
     "score": 69.5,
     "gaming_score": 55.0,
     "reachable": true,
@@ -12042,11 +12042,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 279.7
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -12161,19 +12156,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 327.37
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 302.9
       }
     ],
     "status": "WEAK"
   },
   "9a01b6d47d7023ebb65753afafa08b24c7ec361a61bc274eae6527be207d286c": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 65,
-    "success_runs": 65,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 66,
+    "success_runs": 66,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 39.64,
-    "jitter_ms": 28.44,
+    "latency_ms": 20.0,
+    "jitter_ms": 27.99,
     "score": 90.5,
     "gaming_score": 90.0,
     "reachable": true,
@@ -12182,11 +12182,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 58.31
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -12301,32 +12296,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 39.64
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 20.0
       }
     ],
     "status": "HEALTHY"
   },
   "3d679c12cfe5319014069214ed8c9373eec796526dd9fad636b82ea69bbb99a7": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
-    "success_runs": 48,
-    "uptime": 77.4,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
+    "success_runs": 49,
+    "uptime": 77.8,
     "recent_success_rate": 100.0,
-    "latency_ms": 152.51,
-    "jitter_ms": 26.86,
-    "score": 69.8,
-    "gaming_score": 72.5,
+    "latency_ms": 146.75,
+    "jitter_ms": 25.63,
+    "score": 73.9,
+    "gaming_score": 79.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 177.34
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -12441,19 +12436,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 152.51
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 146.75
       }
     ],
-    "status": "WEAK"
+    "status": "STABLE"
   },
   "81f34c7f4d5f600f19fd4b3850b380b3a84802c4bb2a327eeab0bcbf977dad63": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 132.03,
-    "jitter_ms": 28.18,
+    "latency_ms": 119.14,
+    "jitter_ms": 27.71,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -12462,11 +12462,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 151.25
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -12581,19 +12576,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 132.03
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 119.14
       }
     ],
     "status": "HEALTHY"
   },
   "1e8126852e2885701a94ecc40b67c5d36d9431267495e9b8551b64e422c7ecd4": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
-    "success_runs": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
+    "success_runs": 63,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 298.95,
-    "jitter_ms": 87.62,
+    "latency_ms": 270.87,
+    "jitter_ms": 81.42,
     "score": 69.5,
     "gaming_score": 55.0,
     "reachable": true,
@@ -12602,11 +12602,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 286.36
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -12721,32 +12716,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 298.95
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 270.87
       }
     ],
     "status": "WEAK"
   },
   "1d95c7631ca4fb91be36232ffd1ead1827f329cdab8b2efde49544f287325d1b": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 52,
-    "success_runs": 43,
-    "uptime": 82.7,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 53,
+    "success_runs": 44,
+    "uptime": 83.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 351.94,
-    "jitter_ms": 88.07,
-    "score": 55.7,
-    "gaming_score": 45.0,
+    "latency_ms": 299.92,
+    "jitter_ms": 81.98,
+    "score": 61.9,
+    "gaming_score": 55.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 298.14
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -12861,20 +12856,25 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 351.94
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 299.92
       }
     ],
     "status": "WEAK"
   },
   "65b7d49d328b79aacaf813d4c3f1d38fb160713b9bdcbb5d42ce7b141d859c19": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
-    "success_runs": 27,
-    "uptime": 43.5,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
+    "success_runs": 28,
+    "uptime": 44.4,
     "recent_success_rate": 100.0,
-    "latency_ms": 303.36,
-    "jitter_ms": 114.12,
-    "score": 44.1,
+    "latency_ms": 296.98,
+    "jitter_ms": 103.0,
+    "score": 44.5,
     "gaming_score": 55.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
@@ -12882,11 +12882,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 295.42
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -13001,14 +12996,19 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 303.36
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 296.98
       }
     ],
     "status": "WEAK"
   },
   "18f7c42cf4bdad0b943f017c4baf20b0f195497857bdce397cc78bdcca091283": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -13018,15 +13018,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -13139,6 +13134,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -13147,8 +13147,8 @@
   },
   "018000b230b3716cf3a1c5c4237264589461e8a4826fbd67ca8f9b0d50530ffc": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -13158,15 +13158,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -13281,19 +13276,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": false,
         "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": false,
+        "latency_ms": null
       }
     ],
     "status": "OFFLINE"
   },
   "3d54815bc777796426c6eca01390bd1fd4fd3e3cbfd3d08bfc3caeacf8ee06c3": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 123.37,
-    "jitter_ms": 32.24,
+    "latency_ms": 106.25,
+    "jitter_ms": 31.66,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -13302,11 +13302,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 151.81
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -13421,14 +13416,19 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 123.37
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 106.25
       }
     ],
     "status": "HEALTHY"
   },
   "7b33533b23f187d1dbd34fb0c71969e4c5e0cde4a7a72c886d98cdb0c25c1f48": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -13438,15 +13438,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -13561,32 +13556,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": false,
         "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": false,
+        "latency_ms": null
       }
     ],
     "status": "OFFLINE"
   },
   "d6c4b65bcce30201be032d3b2a696cba70b3adb20f9d56a7896a328af02d3899": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 63,
-    "success_runs": 63,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 64,
+    "success_runs": 64,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 120.45,
-    "jitter_ms": 73.16,
-    "score": 77.9,
-    "gaming_score": 69.0,
+    "latency_ms": 620.99,
+    "jitter_ms": 94.41,
+    "score": 57.5,
+    "gaming_score": 35.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 136.44
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -13701,14 +13696,19 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 120.45
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 620.99
       }
     ],
-    "status": "STABLE"
+    "status": "DEGRADING"
   },
   "8bad7daca00e8a29b58f4215a8fca4926ddb7a624eb8ccde1b76da7f5c7b7aea": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -13718,15 +13718,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -13839,6 +13834,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -13847,8 +13847,8 @@
   },
   "5128f6d6c4b7276df89601ae0775817e9d2dd75a597e89a705d39331423b37eb": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -13858,15 +13858,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -13979,6 +13974,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -13987,8 +13987,8 @@
   },
   "dfb2ffa0b8ec57b8ad6751e43d506d9aefd92017618f7c03895896afe365a408": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -13998,15 +13998,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -14119,6 +14114,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -14127,8 +14127,8 @@
   },
   "3ee825969b11aa707098c5c96f771becd2a42bac4f4dc0a96ce8a5b38624bfce": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -14138,15 +14138,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -14261,20 +14256,25 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": false,
         "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": false,
+        "latency_ms": null
       }
     ],
     "status": "OFFLINE"
   },
   "b64d16d7d973413a861cc2f4183245b4c598c969359a636f95d4eb06cc9b86ee": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
-    "success_runs": 36,
-    "uptime": 58.1,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
+    "success_runs": 37,
+    "uptime": 58.7,
     "recent_success_rate": 100.0,
-    "latency_ms": 140.53,
-    "jitter_ms": 27.21,
-    "score": 68.5,
+    "latency_ms": 123.05,
+    "jitter_ms": 27.15,
+    "score": 68.8,
     "gaming_score": 79.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
@@ -14282,11 +14282,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 166.36
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -14401,32 +14396,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 140.53
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 123.05
       }
     ],
     "status": "WEAK"
   },
   "1e92f65696f6ded9040e6b01c53ee93d46b64f0617d8ff0baf5fb0716ecd2cdc": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 43,
-    "uptime": 69.4,
-    "recent_success_rate": 83.3,
+    "uptime": 68.3,
+    "recent_success_rate": 79.2,
     "latency_ms": null,
-    "jitter_ms": 27.37,
+    "jitter_ms": 27.62,
     "score": 0.0,
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 4,
+    "consecutive_failures": 5,
     "survival_streak": 0,
-    "survival_score": 65.8,
+    "survival_score": 63.6,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 163.14
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -14541,32 +14536,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": false,
         "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": false,
+        "latency_ms": null
       }
     ],
     "status": "OFFLINE"
   },
   "bbbb2a65ca098f024a4bc7b799130c266245281696268fa42e961a4f5ee54f7f": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 63,
-    "success_runs": 63,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 64,
+    "success_runs": 64,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 627.49,
-    "jitter_ms": 90.43,
-    "score": 57.5,
-    "gaming_score": 35.0,
+    "latency_ms": 114.59,
+    "jitter_ms": 111.76,
+    "score": 77.9,
+    "gaming_score": 69.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 156.79
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -14681,19 +14676,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 627.49
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 114.59
       }
     ],
-    "status": "DEGRADING"
+    "status": "STABLE"
   },
   "02917c55c025ba7f5415297b6391b8776e4730cc8f402868404c7aff854da56c": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 63,
-    "success_runs": 63,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 64,
+    "success_runs": 64,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 127.58,
-    "jitter_ms": 31.46,
+    "latency_ms": 115.81,
+    "jitter_ms": 31.38,
     "score": 83.9,
     "gaming_score": 79.0,
     "reachable": true,
@@ -14702,11 +14702,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 155.25
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -14821,32 +14816,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 127.58
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 115.81
       }
     ],
     "status": "STABLE"
   },
   "e8106278c35b35acd0bb5c0d37ec2fa0a0a5c583a4624795527d0a9859498cb3": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
-    "success_runs": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
+    "success_runs": 63,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 493.42,
-    "jitter_ms": 78.45,
-    "score": 63.5,
-    "gaming_score": 45.0,
+    "latency_ms": 324.31,
+    "jitter_ms": 79.94,
+    "score": 69.5,
+    "gaming_score": 55.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 370.76
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -14961,32 +14956,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 493.42
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 324.31
       }
     ],
     "status": "WEAK"
   },
   "c0d87852e9f3652c684ae716d54117feea14d9cc6dddff96f23ce9b59bdc114f": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
-    "success_runs": 27,
-    "uptime": 43.5,
-    "recent_success_rate": 20.8,
-    "latency_ms": 114.79,
-    "jitter_ms": 9.24,
-    "score": 66.8,
-    "gaming_score": 67.2,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
+    "success_runs": 28,
+    "uptime": 44.4,
+    "recent_success_rate": 25.0,
+    "latency_ms": 97.29,
+    "jitter_ms": 10.89,
+    "score": 68.1,
+    "gaming_score": 69.8,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 4,
-    "survival_score": 39.8,
+    "survival_streak": 5,
+    "survival_score": 44.2,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -15101,32 +15096,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 114.79
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 97.29
       }
     ],
     "status": "WEAK"
   },
   "d90bdf63cff29fc1cfa7aa469a202d47626a9284c2500a9991b873e1753bdf84": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
-    "success_runs": 27,
-    "uptime": 43.5,
-    "recent_success_rate": 20.8,
-    "latency_ms": 430.48,
-    "jitter_ms": 134.33,
-    "score": 41.6,
-    "gaming_score": 25.2,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
+    "success_runs": 28,
+    "uptime": 44.4,
+    "recent_success_rate": 25.0,
+    "latency_ms": 275.05,
+    "jitter_ms": 138.55,
+    "score": 48.0,
+    "gaming_score": 36.2,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 4,
-    "survival_score": 39.8,
+    "survival_streak": 5,
+    "survival_score": 44.2,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -15241,14 +15236,19 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 430.48
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 275.05
       }
     ],
     "status": "WEAK"
   },
   "2d7295ff35f97e85341660787b6143669e8e88fb6af0686cd46c7aea1d901be0": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -15258,15 +15258,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -15379,6 +15374,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -15387,8 +15387,8 @@
   },
   "9af96fc663134af50b1e8461a4b0f4455ba57475e259dd59746a416b0250c8fb": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -15398,15 +15398,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -15519,6 +15514,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -15527,8 +15527,8 @@
   },
   "f826e37745f97bdce21fb09c3e6bb5d8973a79775e727a229fb1a7b508e1eb6d": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -15538,15 +15538,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -15659,6 +15654,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -15667,8 +15667,8 @@
   },
   "85105eaae7ccb62ed4fb126d4697cad3e0cface9df3ef223f89b784d654987dc": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -15678,15 +15678,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -15799,6 +15794,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -15807,8 +15807,8 @@
   },
   "e936227add08ec48f05aade46a2118825699dd2f3c7d3efacee874ef41c5f536": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -15818,15 +15818,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -15939,6 +15934,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -15947,8 +15947,8 @@
   },
   "8fb62034c7ef3aa3ef5229c7d61a78d0806c50d9aa8fc94f3d13f4d65b7b2889": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -15958,15 +15958,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -16079,6 +16074,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -16087,8 +16087,8 @@
   },
   "e048c37dd91fc0e9f73851fb9e0061e0643e10b099caa86d3c512ebbd6e05ce1": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -16098,15 +16098,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -16219,6 +16214,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -16227,8 +16227,8 @@
   },
   "6d24081ab22a940c121d0ea06b87fbf7f1f067d33a066000596d8742fd16c1d9": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -16238,15 +16238,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -16359,6 +16354,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -16367,8 +16367,8 @@
   },
   "d53e347a1530a9fee9d42056397cc6a899e24fb0901515088afa301fe3b404f3": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -16378,15 +16378,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -16499,6 +16494,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -16507,10 +16507,10 @@
   },
   "061c29e39b4b92c0016718372eb38c54d35fb6018c84c581e390f621ccae8667": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 34,
-    "uptime": 54.8,
+    "uptime": 54.0,
     "recent_success_rate": 0.0,
     "latency_ms": null,
     "jitter_ms": null,
@@ -16518,15 +16518,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 24,
+    "consecutive_failures": 25,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -16639,6 +16634,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -16647,10 +16647,10 @@
   },
   "a9549f7526610b315d30a781c5b9314b124ad21b71d3d175d5979b4a8fb8f538": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 34,
-    "uptime": 54.8,
+    "uptime": 54.0,
     "recent_success_rate": 0.0,
     "latency_ms": null,
     "jitter_ms": null,
@@ -16658,15 +16658,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 24,
+    "consecutive_failures": 25,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -16781,32 +16776,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": false,
         "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": false,
+        "latency_ms": null
       }
     ],
     "status": "OFFLINE"
   },
   "a1ca26d31ea3b11c4026533809327df35b135f3b7485df91836f03e97c6a0ce3": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
-    "success_runs": 55,
-    "uptime": 88.7,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
+    "success_runs": 56,
+    "uptime": 88.9,
     "recent_success_rate": 100.0,
-    "latency_ms": 457.87,
-    "jitter_ms": 175.51,
-    "score": 58.4,
-    "gaming_score": 45.0,
+    "latency_ms": 320.88,
+    "jitter_ms": 174.31,
+    "score": 64.5,
+    "gaming_score": 55.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 375.35
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -16921,19 +16916,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 457.87
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 320.88
       }
     ],
     "status": "WEAK"
   },
   "d9b3e6e6f84991b069ebca1b645402715460decc7c734451d7f877daa1d105db": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
-    "success_runs": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
+    "success_runs": 63,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 36.15,
-    "jitter_ms": 593.08,
+    "latency_ms": 25.27,
+    "jitter_ms": 549.17,
     "score": 84.5,
     "gaming_score": 80.0,
     "reachable": true,
@@ -16942,11 +16942,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 59.2
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -17061,19 +17056,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 36.15
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 25.27
       }
     ],
     "status": "STABLE"
   },
   "a9ae7d0c387ccc90ee4d920937994c1bd5723044c2d54a71bf9926a3c4dad702": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 121.88,
-    "jitter_ms": 28.15,
+    "latency_ms": 102.65,
+    "jitter_ms": 28.06,
     "score": 83.9,
     "gaming_score": 79.0,
     "reachable": true,
@@ -17082,11 +17082,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 133.8
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -17201,32 +17196,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 121.88
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 102.65
       }
     ],
     "status": "STABLE"
   },
   "6402bd717e13d5bfe4cb5dad9052969a8ab1e5a3ff2032f537b5169330ab88d9": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
-    "success_runs": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
+    "success_runs": 63,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 357.88,
-    "jitter_ms": 99.86,
-    "score": 63.5,
-    "gaming_score": 45.0,
+    "latency_ms": 234.72,
+    "jitter_ms": 97.42,
+    "score": 69.5,
+    "gaming_score": 55.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 321.96
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -17341,14 +17336,19 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 357.88
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 234.72
       }
     ],
     "status": "WEAK"
   },
   "15a23cb2a3e2be9518e5ae5944717801df2bede3035ca983bf74c6de3f786ede": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -17358,15 +17358,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -17479,6 +17474,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -17487,8 +17487,8 @@
   },
   "67d1384ffd98eabf6a0b47ebf19613a1fab7e704f5fdb192a5ce9cd45b554d28": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -17498,15 +17498,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -17619,6 +17614,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -17627,8 +17627,8 @@
   },
   "adf8fb71b87f3733816d91fed4fb5d7ce98c73e21a1d833e944ea393735500e8": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -17638,15 +17638,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -17759,6 +17754,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -17767,8 +17767,8 @@
   },
   "5e0c037c52c869312627ac0fb49fdaad1af34858761c0840a7a2941581bd3ddb": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -17778,15 +17778,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 62,
+    "consecutive_failures": 63,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -17899,6 +17894,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -18047,13 +18047,13 @@
   },
   "7ad939185c738cca5b7ded1ce7699cfb2b4624f91df3b1257c3995cb6ea383dd": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 58,
-    "success_runs": 58,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 59,
+    "success_runs": 59,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 121.23,
-    "jitter_ms": 64.75,
+    "latency_ms": 109.56,
+    "jitter_ms": 64.78,
     "score": 81.4,
     "gaming_score": 69.0,
     "reachable": true,
@@ -18062,11 +18062,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-25T21:39:53Z",
-        "reachable": true,
-        "latency_ms": 123.6
-      },
       {
         "at": "2026-09-26T05:07:48Z",
         "reachable": true,
@@ -18181,19 +18176,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 121.23
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 109.56
       }
     ],
     "status": "STABLE"
   },
   "5631d07d6430b796963b5128a6e3f66c33f1e4990fbda58a1ee791ac814e629f": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 52,
-    "success_runs": 51,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 53,
+    "success_runs": 52,
     "uptime": 98.1,
     "recent_success_rate": 100.0,
-    "latency_ms": 123.84,
-    "jitter_ms": 25.82,
+    "latency_ms": 113.59,
+    "jitter_ms": 24.27,
     "score": 86.5,
     "gaming_score": 79.0,
     "reachable": true,
@@ -18202,11 +18202,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-26T09:22:56Z",
-        "reachable": true,
-        "latency_ms": 100.41
-      },
       {
         "at": "2026-09-26T14:33:36Z",
         "reachable": true,
@@ -18321,6 +18316,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 123.84
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 113.59
       }
     ],
     "status": "HEALTHY"
@@ -18385,13 +18385,13 @@
   },
   "23935109f62670b699afda40151c4de040877ef475ef5564efb2b1c2272e8924": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 63,
-    "success_runs": 63,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 64,
+    "success_runs": 64,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 39.64,
-    "jitter_ms": 27.62,
+    "latency_ms": 20.54,
+    "jitter_ms": 27.2,
     "score": 94.0,
     "gaming_score": 90.0,
     "reachable": true,
@@ -18400,11 +18400,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 58.13
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -18519,20 +18514,25 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 39.64
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 20.54
       }
     ],
     "status": "HEALTHY"
   },
   "82f0a4535d5ec1c202ab916729d89a3845def69bdd1d9679ffdfcf594e81e235": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 54,
-    "success_runs": 53,
-    "uptime": 98.1,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 55,
+    "success_runs": 54,
+    "uptime": 98.2,
     "recent_success_rate": 100.0,
-    "latency_ms": 122.12,
-    "jitter_ms": 26.05,
-    "score": 86.5,
+    "latency_ms": 111.47,
+    "jitter_ms": 24.4,
+    "score": 86.6,
     "gaming_score": 79.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
@@ -18540,11 +18540,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-26T09:22:56Z",
-        "reachable": true,
-        "latency_ms": 99.05
-      },
       {
         "at": "2026-09-26T14:33:36Z",
         "reachable": true,
@@ -18659,19 +18654,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 122.12
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 111.47
       }
     ],
     "status": "HEALTHY"
   },
   "6842dd94fe553de75847e9fae726f94cbc2a29afbfd83d16e5ffbb137cbdf577": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 123.62,
-    "jitter_ms": 62.87,
+    "latency_ms": 110.74,
+    "jitter_ms": 62.24,
     "score": 81.4,
     "gaming_score": 69.0,
     "reachable": true,
@@ -18680,11 +18680,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 146.93
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -18799,19 +18794,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 123.62
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 110.74
       }
     ],
     "status": "STABLE"
   },
   "c5a7ec9606725a7990bcbdc431c1406fe3a3aabbd5c37262e4a0fb5086bfd240": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 38,
-    "success_runs": 37,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 39,
+    "success_runs": 38,
     "uptime": 97.4,
     "recent_success_rate": 100.0,
-    "latency_ms": 123.59,
-    "jitter_ms": 226.32,
+    "latency_ms": 116.62,
+    "jitter_ms": 226.25,
     "score": 80.2,
     "gaming_score": 69.0,
     "reachable": true,
@@ -18820,11 +18820,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-22T08:07:16Z",
-        "reachable": true,
-        "latency_ms": 659.35
-      },
       {
         "at": "2026-09-22T17:02:13Z",
         "reachable": true,
@@ -18939,6 +18934,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 123.59
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 116.62
       }
     ],
     "status": "STABLE"
@@ -19141,26 +19141,21 @@
   },
   "92852a90a55b2596e575712faecb87bf6827f7cc0cbc46e57e51a0b15247ad8e": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 55,
-    "success_runs": 52,
-    "uptime": 94.5,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 56,
+    "success_runs": 53,
+    "uptime": 94.6,
     "recent_success_rate": 95.8,
-    "latency_ms": 118.27,
-    "jitter_ms": 26.53,
-    "score": 84.9,
+    "latency_ms": 115.12,
+    "jitter_ms": 25.45,
+    "score": 85.0,
     "gaming_score": 78.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 13,
+    "survival_streak": 14,
     "survival_score": 97.7,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 146.24
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -19275,19 +19270,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 118.27
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 115.12
       }
     ],
-    "status": "STABLE"
+    "status": "HEALTHY"
   },
   "f7ef48f0b24c8b2f32392a216b77463b94f08f8809d5e1728556a6f82994e9e7": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 59,
-    "success_runs": 59,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 60,
+    "success_runs": 60,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 128.42,
-    "jitter_ms": 27.56,
+    "latency_ms": 115.58,
+    "jitter_ms": 27.55,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -19296,11 +19296,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-25T21:39:53Z",
-        "reachable": true,
-        "latency_ms": 121.69
-      },
       {
         "at": "2026-09-26T05:07:48Z",
         "reachable": true,
@@ -19415,19 +19410,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 128.42
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 115.58
       }
     ],
     "status": "HEALTHY"
   },
   "d62c3b65c73f035258e284e9b4a0bceb1e01a71d6079a975fe0c5c383a9548d3": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 121.03,
-    "jitter_ms": 27.44,
+    "latency_ms": 112.22,
+    "jitter_ms": 26.57,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -19436,11 +19436,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 147.33
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -19555,6 +19550,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 121.03
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 112.22
       }
     ],
     "status": "HEALTHY"
@@ -19679,13 +19679,13 @@
   },
   "bac0c4f644e1bc2a263a3632c65b318eaa37c8bdb0558ee1ad164f10a14e325a": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 58,
-    "success_runs": 58,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 59,
+    "success_runs": 59,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 121.08,
-    "jitter_ms": 24.67,
+    "latency_ms": 109.75,
+    "jitter_ms": 24.38,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -19694,11 +19694,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-25T17:18:14Z",
-        "reachable": true,
-        "latency_ms": 145.9
-      },
       {
         "at": "2026-09-25T21:39:53Z",
         "reachable": true,
@@ -19813,19 +19808,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 121.08
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 109.75
       }
     ],
     "status": "HEALTHY"
   },
   "60c0275ca580963f92daf91494a74e1cb9389662fed3e5cec8277a0b43f25ce4": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 62,
-    "success_runs": 62,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 63,
+    "success_runs": 63,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 125.93,
-    "jitter_ms": 27.24,
+    "latency_ms": 110.95,
+    "jitter_ms": 26.85,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -19834,11 +19834,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 144.53
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -19953,6 +19948,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 125.93
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 110.95
       }
     ],
     "status": "HEALTHY"
@@ -20099,13 +20099,13 @@
   },
   "30c5ed5b4123b7edffff2cc1f51efe4f64db7a026a4de1e9144c695d541301b9": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 60,
-    "success_runs": 60,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 61,
+    "success_runs": 61,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 126.92,
-    "jitter_ms": 26.9,
+    "latency_ms": 113.31,
+    "jitter_ms": 26.34,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -20114,11 +20114,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 145.8
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -20233,6 +20228,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 126.92
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 113.31
       }
     ],
     "status": "HEALTHY"
@@ -20644,13 +20644,13 @@
   },
   "a1ff235c2d880f7e4d821c465de99dc76825d5c30438948b93e066515145856c": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 121.22,
-    "jitter_ms": 27.2,
+    "latency_ms": 110.85,
+    "jitter_ms": 26.67,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -20659,11 +20659,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 146.21
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -20778,19 +20773,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 121.22
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 110.85
       }
     ],
     "status": "HEALTHY"
   },
   "109631baaa4bf25f62dc5909117c6814b3db95fa90b89229657bab525f413889": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 124.14,
-    "jitter_ms": 27.98,
+    "latency_ms": 107.94,
+    "jitter_ms": 27.59,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -20799,11 +20799,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 145.44
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -20918,32 +20913,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 124.14
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 107.94
       }
     ],
     "status": "HEALTHY"
   },
   "5b8712160a66a341c0920d79238a8ae8aa7281d622f2df6fe50b30d1c51fcd0d": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 111.61,
-    "jitter_ms": 27.39,
-    "score": 87.4,
-    "gaming_score": 79.0,
+    "latency_ms": 97.42,
+    "jitter_ms": 26.94,
+    "score": 90.4,
+    "gaming_score": 84.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 132.21
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -21058,6 +21053,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 111.61
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 97.42
       }
     ],
     "status": "HEALTHY"
@@ -21344,13 +21344,13 @@
   },
   "b2f81efd211faa5fcd4622c4384e2d1330f0162043b6b2963acecb838de4e366": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 64,
-    "success_runs": 64,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 65,
+    "success_runs": 65,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 118.27,
-    "jitter_ms": 27.02,
+    "latency_ms": 107.92,
+    "jitter_ms": 26.18,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -21359,11 +21359,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 142.84
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -21478,19 +21473,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 118.27
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 107.92
       }
     ],
     "status": "HEALTHY"
   },
   "a30c51a25aaf6e51122ed2dda11742a3aa2005c676f98242f8435b654f8f1579": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 49,
-    "success_runs": 49,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 50,
+    "success_runs": 50,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 37.36,
-    "jitter_ms": 31.49,
+    "latency_ms": 20.86,
+    "jitter_ms": 30.62,
     "score": 94.0,
     "gaming_score": 90.0,
     "reachable": true,
@@ -21499,11 +21499,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-26T05:07:48Z",
-        "reachable": true,
-        "latency_ms": 44.09
-      },
       {
         "at": "2026-09-26T09:22:56Z",
         "reachable": true,
@@ -21618,19 +21613,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 37.36
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 20.86
       }
     ],
     "status": "HEALTHY"
   },
   "513c87ff5b102d73cc2376edb2762c033677f18454506972e6fdea9e34e02d21": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 38,
-    "success_runs": 38,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 39,
+    "success_runs": 39,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 34.88,
-    "jitter_ms": 25.8,
+    "latency_ms": 23.18,
+    "jitter_ms": 24.65,
     "score": 94.0,
     "gaming_score": 90.0,
     "reachable": true,
@@ -21639,11 +21639,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-24T05:01:08Z",
-        "reachable": true,
-        "latency_ms": 52.78
-      },
       {
         "at": "2026-09-24T11:55:51Z",
         "reachable": true,
@@ -21758,6 +21753,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 34.88
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 23.18
       }
     ],
     "status": "HEALTHY"
@@ -21904,13 +21904,13 @@
   },
   "e83d34fbc141f7e96748f1ff3f37655edf8da9fe0bc8a6740b98747a3a48467f": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 41,
-    "success_runs": 41,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 42,
+    "success_runs": 42,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 39.17,
-    "jitter_ms": 24.49,
+    "latency_ms": 23.23,
+    "jitter_ms": 24.06,
     "score": 94.0,
     "gaming_score": 90.0,
     "reachable": true,
@@ -21919,11 +21919,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-24T17:17:59Z",
-        "reachable": true,
-        "latency_ms": 15.04
-      },
       {
         "at": "2026-09-25T05:04:48Z",
         "reachable": true,
@@ -22038,6 +22033,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 39.17
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 23.23
       }
     ],
     "status": "HEALTHY"
@@ -23393,13 +23393,13 @@
   },
   "e92aacee89ab94ded02c2ed8a99dce3ac3ece08ab401a66f1989129a06445477": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 59,
-    "success_runs": 59,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 60,
+    "success_runs": 60,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 60.25,
-    "jitter_ms": 153.94,
+    "latency_ms": 52.89,
+    "jitter_ms": 131.21,
     "score": 83.0,
     "gaming_score": 77.5,
     "reachable": true,
@@ -23408,11 +23408,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-26T05:07:48Z",
-        "reachable": true,
-        "latency_ms": 46.48
-      },
       {
         "at": "2026-09-26T09:22:56Z",
         "reachable": true,
@@ -23527,6 +23522,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 60.25
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 52.89
       }
     ],
     "status": "STABLE"
@@ -24145,13 +24145,13 @@
   },
   "ad040c54da9b14286467571dbedaba644180e76bd50ae30e1c7527d90943f08a": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 47,
-    "success_runs": 47,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 48,
+    "success_runs": 48,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 197.49,
-    "jitter_ms": 25.72,
+    "latency_ms": 205.52,
+    "jitter_ms": 24.52,
     "score": 83.5,
     "gaming_score": 72.5,
     "reachable": true,
@@ -24160,11 +24160,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-24T05:01:08Z",
-        "reachable": true,
-        "latency_ms": 186.72
-      },
       {
         "at": "2026-09-24T11:55:51Z",
         "reachable": true,
@@ -24279,6 +24274,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 197.49
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 205.52
       }
     ],
     "status": "STABLE"
@@ -24425,13 +24425,13 @@
   },
   "eba1a0ba86745135f77f1657d4de2c388155bfa1eb6686d8312e0f359f7d3db9": {
     "first_seen_at": "2026-09-20T07:04:52Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 52,
-    "success_runs": 50,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 53,
+    "success_runs": 51,
     "uptime": 96.2,
     "recent_success_rate": 100.0,
-    "latency_ms": 383.24,
-    "jitter_ms": 169.64,
+    "latency_ms": 400.56,
+    "jitter_ms": 123.02,
     "score": 65.3,
     "gaming_score": 45.0,
     "reachable": true,
@@ -24440,11 +24440,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 379.55
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -24559,6 +24554,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 383.24
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 400.56
       }
     ],
     "status": "WEAK"
@@ -24879,26 +24879,21 @@
   },
   "b6f06480dddcbb1de89e4d9c64f9cfc02a95194a16e0c2277cf1e1541b04694e": {
     "first_seen_at": "2026-09-20T10:09:56Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 28,
-    "success_runs": 28,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 29,
+    "success_runs": 29,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 159.08,
-    "jitter_ms": 28.73,
-    "score": 83.5,
-    "gaming_score": 72.5,
+    "latency_ms": 144.47,
+    "jitter_ms": 28.65,
+    "score": 87.4,
+    "gaming_score": 79.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-21T05:05:33Z",
-        "reachable": true,
-        "latency_ms": 125.73
-      },
       {
         "at": "2026-09-21T06:02:23Z",
         "reachable": true,
@@ -25013,9 +25008,14 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 159.08
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 144.47
       }
     ],
-    "status": "STABLE"
+    "status": "HEALTHY"
   },
   "5534509a1881cd510b2c0c4257baf2b1b5347b160794146fa435fdb80a555ce2": {
     "first_seen_at": "2026-09-20T10:09:56Z",
@@ -25172,26 +25172,21 @@
   },
   "1a6b14e11daaf6cc8ab66cc989c90bcdf1c572d1adbb31892cd4802d1fb3436d": {
     "first_seen_at": "2026-09-20T10:09:56Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 36,
-    "success_runs": 36,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 37,
+    "success_runs": 37,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 217.16,
-    "jitter_ms": 284.15,
-    "score": 77.5,
-    "gaming_score": 62.5,
+    "latency_ms": 236.07,
+    "jitter_ms": 260.89,
+    "score": 73.0,
+    "gaming_score": 55.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-22T08:07:16Z",
-        "reachable": true,
-        "latency_ms": 211.62
-      },
       {
         "at": "2026-09-22T11:48:22Z",
         "reachable": true,
@@ -25306,6 +25301,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 217.16
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 236.07
       }
     ],
     "status": "STABLE"
@@ -28048,13 +28048,13 @@
   },
   "70b582798a82e0f1742882b2fa8ef0fdfabaf3a8fe1c8a8f81ed2242328b3f2c": {
     "first_seen_at": "2026-09-20T13:37:02Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 40,
-    "success_runs": 40,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 41,
+    "success_runs": 41,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 112.0,
-    "jitter_ms": 33.63,
+    "latency_ms": 101.63,
+    "jitter_ms": 31.74,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -28063,11 +28063,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-24T05:01:08Z",
-        "reachable": true,
-        "latency_ms": 135.02
-      },
       {
         "at": "2026-09-24T11:55:51Z",
         "reachable": true,
@@ -28182,6 +28177,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 112.0
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 101.63
       }
     ],
     "status": "HEALTHY"
@@ -33267,26 +33267,21 @@
   },
   "427c2facf53c2bfaacd716daa24859b21a9531e093e9adae8465c3c5523255d6": {
     "first_seen_at": "2026-09-20T18:13:22Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 36,
-    "success_runs": 36,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 37,
+    "success_runs": 37,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 143.34,
-    "jitter_ms": 48.28,
-    "score": 84.4,
-    "gaming_score": 74.0,
+    "latency_ms": 92.41,
+    "jitter_ms": 49.59,
+    "score": 87.4,
+    "gaming_score": 79.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 126.09
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -33401,32 +33396,32 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 143.34
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 92.41
       }
     ],
-    "status": "STABLE"
+    "status": "HEALTHY"
   },
   "d0927638614626061e4308decc59b18763f983ecd2a7dc548b46ca504f1d5238": {
     "first_seen_at": "2026-09-20T18:13:22Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 36,
-    "success_runs": 36,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 37,
+    "success_runs": 37,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 148.06,
-    "jitter_ms": 47.73,
-    "score": 84.4,
-    "gaming_score": 74.0,
+    "latency_ms": 94.57,
+    "jitter_ms": 49.18,
+    "score": 87.4,
+    "gaming_score": 79.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 127.68
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -33541,9 +33536,14 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 148.06
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 94.57
       }
     ],
-    "status": "STABLE"
+    "status": "HEALTHY"
   },
   "abbb4b329119994067b47fe067c02faec004cb3b6c37ed407966bbe985a82f36": {
     "first_seen_at": "2026-09-20T18:13:22Z",
@@ -35126,20 +35126,20 @@
   },
   "418c61245d124ef622630cd8a2a9ff50fa7e94e953add9ac5b1a64f441e00086": {
     "first_seen_at": "2026-09-20T23:17:15Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 6,
-    "success_runs": 6,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 7,
+    "success_runs": 7,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 913.17,
-    "jitter_ms": 770.74,
+    "latency_ms": 1002.72,
+    "jitter_ms": 657.21,
     "score": 61.0,
     "gaming_score": 35.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 6,
-    "survival_score": 77.5,
+    "survival_streak": 7,
+    "survival_score": 81.3,
     "recent": [
       {
         "at": "2026-09-20T23:17:15Z",
@@ -35170,6 +35170,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 913.17
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 1002.72
       }
     ],
     "status": "WEAK"
@@ -36193,26 +36198,21 @@
   },
   "1806186f4e7e74a4649408b2745e0a79b68dd85d6200ba6254d69d1dd5f494bb": {
     "first_seen_at": "2026-09-21T12:58:26Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 50,
-    "success_runs": 50,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 51,
+    "success_runs": 51,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 108.42,
-    "jitter_ms": 26.08,
-    "score": 86.9,
-    "gaming_score": 79.0,
+    "latency_ms": 98.59,
+    "jitter_ms": 25.73,
+    "score": 89.9,
+    "gaming_score": 84.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 133.19
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -36327,6 +36327,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 108.42
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 98.59
       }
     ],
     "status": "HEALTHY"
@@ -36732,13 +36737,13 @@
   },
   "5390b166cbc5ac8634d291b999d0ff7f68b5faa84f2080e49389db2b41c6d381": {
     "first_seen_at": "2026-09-21T20:01:10Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 27,
-    "success_runs": 27,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 28,
+    "success_runs": 28,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 272.99,
-    "jitter_ms": 51.91,
+    "latency_ms": 234.18,
+    "jitter_ms": 51.81,
     "score": 76.0,
     "gaming_score": 60.0,
     "reachable": true,
@@ -36747,11 +36752,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-22T11:48:22Z",
-        "reachable": true,
-        "latency_ms": 256.69
-      },
       {
         "at": "2026-09-22T17:02:13Z",
         "reachable": true,
@@ -36866,6 +36866,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 272.99
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 234.18
       }
     ],
     "status": "STABLE"
@@ -37196,19 +37201,19 @@
   },
   "e6671c3a48a76282c71acb46d337ff4c4eb7fb0dbc81937ca1c0fa17e8d36609": {
     "first_seen_at": "2026-09-21T20:01:10Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 17,
-    "success_runs": 17,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 18,
+    "success_runs": 18,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 422.72,
-    "jitter_ms": 131.57,
+    "latency_ms": 440.53,
+    "jitter_ms": 124.88,
     "score": 67.0,
     "gaming_score": 45.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 17,
+    "survival_streak": 18,
     "survival_score": 100.0,
     "recent": [
       {
@@ -37295,6 +37300,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 422.72
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 440.53
       }
     ],
     "status": "WEAK"
@@ -37980,20 +37990,20 @@
   },
   "6875e54863fc99a235bbf5c8352c216abceaadd61d0de5f65826a9df924fe8be": {
     "first_seen_at": "2026-09-22T00:10:32Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 4,
-    "success_runs": 4,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 5,
+    "success_runs": 5,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 123.04,
-    "jitter_ms": 11.47,
+    "latency_ms": 112.86,
+    "jitter_ms": 11.15,
     "score": 90.1,
     "gaming_score": 83.5,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 4,
-    "survival_score": 70.0,
+    "survival_streak": 5,
+    "survival_score": 73.8,
     "recent": [
       {
         "at": "2026-09-22T00:10:32Z",
@@ -38014,6 +38024,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 123.04
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 112.86
       }
     ],
     "status": "HEALTHY"
@@ -39232,13 +39247,13 @@
   },
   "642069258b91c49a19d1d22e9797b79128bdf5009da7b0e6524a396cc6eaeb6d": {
     "first_seen_at": "2026-09-22T17:02:13Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 38,
-    "success_runs": 38,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 39,
+    "success_runs": 39,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 121.79,
-    "jitter_ms": 33.93,
+    "latency_ms": 109.36,
+    "jitter_ms": 34.45,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -39247,11 +39262,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-26T14:33:36Z",
-        "reachable": true,
-        "latency_ms": 147.66
-      },
       {
         "at": "2026-09-26T18:38:27Z",
         "reachable": true,
@@ -39366,6 +39376,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 121.79
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 109.36
       }
     ],
     "status": "HEALTHY"
@@ -40059,8 +40074,8 @@
   },
   "fa7e7410ba56480f90fcd4315ab393aa171334ed0a08bc7c081ebf2affc1a261": {
     "first_seen_at": "2026-09-22T21:25:37Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 32,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 33,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -40070,15 +40085,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 32,
+    "consecutive_failures": 33,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -40191,6 +40201,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -40339,8 +40354,8 @@
   },
   "9aa6dfec37c5b9618b0266b5bed7455afc91e60cc0c4c66a1862c0845024ef11": {
     "first_seen_at": "2026-09-22T21:25:37Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 32,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 33,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -40350,15 +40365,10 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 32,
+    "consecutive_failures": 33,
     "survival_streak": 0,
     "survival_score": 20.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": false,
-        "latency_ms": null
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": false,
@@ -40473,6 +40483,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": false,
         "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": false,
+        "latency_ms": null
       }
     ],
     "status": "OFFLINE"
@@ -40550,20 +40565,20 @@
   },
   "148a4d974ae07a521815857727a0ce99a59b979a468e8298cfc1341d0d30ec64": {
     "first_seen_at": "2026-09-22T21:25:37Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 5,
-    "success_runs": 5,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 6,
+    "success_runs": 6,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 893.59,
-    "jitter_ms": 879.04,
+    "latency_ms": 1543.29,
+    "jitter_ms": 833.17,
     "score": 61.0,
     "gaming_score": 35.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 5,
-    "survival_score": 73.8,
+    "survival_streak": 6,
+    "survival_score": 77.5,
     "recent": [
       {
         "at": "2026-09-22T21:25:37Z",
@@ -40589,9 +40604,14 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 893.59
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 1543.29
       }
     ],
-    "status": "WEAK"
+    "status": "DEGRADING"
   },
   "49a66d0c96894215c9603a162403e0c9b6741dba4218f979ea01be2d4432007c": {
     "first_seen_at": "2026-09-22T21:25:37Z",
@@ -41157,13 +41177,13 @@
   },
   "c6fe6cb2e00a765217484102efeae5c72a32c0015d24089505528ea2db056997": {
     "first_seen_at": "2026-09-22T21:25:37Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 29,
-    "success_runs": 29,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 30,
+    "success_runs": 30,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 127.58,
-    "jitter_ms": 66.78,
+    "latency_ms": 109.09,
+    "jitter_ms": 67.32,
     "score": 81.4,
     "gaming_score": 69.0,
     "reachable": true,
@@ -41172,11 +41192,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-26T14:33:36Z",
-        "reachable": true,
-        "latency_ms": 148.06
-      },
       {
         "at": "2026-09-26T18:38:27Z",
         "reachable": true,
@@ -41291,6 +41306,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 127.58
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 109.09
       }
     ],
     "status": "STABLE"
@@ -44076,26 +44096,21 @@
   },
   "aa0ad5118b9d94f7a7ee544927417402a9e2ff6bccf50213a987ceba16aa3361": {
     "first_seen_at": "2026-09-23T17:11:46Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 32,
-    "success_runs": 32,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 33,
+    "success_runs": 33,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 46.2,
-    "jitter_ms": 70.03,
-    "score": 86.5,
-    "gaming_score": 77.5,
+    "latency_ms": 47.2,
+    "jitter_ms": 46.18,
+    "score": 89.5,
+    "gaming_score": 82.5,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T11:18:48Z",
-        "reachable": true,
-        "latency_ms": 42.78
-      },
       {
         "at": "2026-09-27T11:25:26Z",
         "reachable": true,
@@ -44210,6 +44225,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 46.2
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 47.2
       }
     ],
     "status": "HEALTHY"
@@ -45022,19 +45042,19 @@
   },
   "c4108e772613da7b960472e942952bb4f30056bd21c2660c17cadfd00b255c91": {
     "first_seen_at": "2026-09-24T05:01:08Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 23,
-    "success_runs": 23,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 24,
+    "success_runs": 24,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 119.43,
-    "jitter_ms": 29.15,
-    "score": 86.9,
-    "gaming_score": 79.0,
+    "latency_ms": 99.7,
+    "jitter_ms": 28.74,
+    "score": 89.9,
+    "gaming_score": 84.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 23,
+    "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
       {
@@ -45151,6 +45171,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 119.43
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 99.7
       }
     ],
     "status": "HEALTHY"
@@ -45545,26 +45570,21 @@
   },
   "240a1a173bebac75c3e76f27e021360048d178b112af452833b6367a6206c5f8": {
     "first_seen_at": "2026-09-24T05:01:08Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 28,
-    "success_runs": 28,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 29,
+    "success_runs": 29,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 560.29,
-    "jitter_ms": 108.55,
-    "score": 67.0,
-    "gaming_score": 45.0,
+    "latency_ms": 19.77,
+    "jitter_ms": 107.89,
+    "score": 88.0,
+    "gaming_score": 80.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 587.08
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -45679,9 +45699,14 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 560.29
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 19.77
       }
     ],
-    "status": "DEGRADING"
+    "status": "HEALTHY"
   },
   "65b58a4084b69fb861d4d145b329335f976d4f03b952c197fe459ad08fbcceb8": {
     "first_seen_at": "2026-09-24T11:55:51Z",
@@ -46324,13 +46349,13 @@
   },
   "7561580523d331ceed9cc33951181bae9b7000559dc8e38bb871214f84306747": {
     "first_seen_at": "2026-09-24T21:35:39Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 31,
-    "success_runs": 31,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 32,
+    "success_runs": 32,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 49.52,
-    "jitter_ms": 24.63,
+    "latency_ms": 51.32,
+    "jitter_ms": 23.93,
     "score": 92.0,
     "gaming_score": 87.5,
     "reachable": true,
@@ -46339,11 +46364,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 30.42
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -46458,19 +46478,24 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 49.52
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 51.32
       }
     ],
     "status": "HEALTHY"
   },
   "a15fc83c97ea88b28afa0882064251d14556507d23506687905fd0190752d96a": {
     "first_seen_at": "2026-09-24T21:35:39Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 24,
-    "success_runs": 24,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 25,
+    "success_runs": 25,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 50.89,
-    "jitter_ms": 26.66,
+    "latency_ms": 50.14,
+    "jitter_ms": 24.89,
     "score": 92.5,
     "gaming_score": 87.5,
     "reachable": true,
@@ -46479,11 +46504,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-24T21:35:39Z",
-        "reachable": true,
-        "latency_ms": 71.48
-      },
       {
         "at": "2026-09-25T17:18:14Z",
         "reachable": true,
@@ -46598,6 +46618,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 50.89
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 50.14
       }
     ],
     "status": "HEALTHY"
@@ -48452,13 +48477,13 @@
   },
   "14948beef291cd85f3934ad370698fc44a0abc19b78341edd01cdb251b7c7dcc": {
     "first_seen_at": "2026-09-24T21:35:39Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 31,
-    "success_runs": 31,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 32,
+    "success_runs": 32,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 134.03,
-    "jitter_ms": 30.61,
+    "latency_ms": 117.66,
+    "jitter_ms": 31.28,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
@@ -48467,11 +48492,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-26T14:33:36Z",
-        "reachable": true,
-        "latency_ms": 160.81
-      },
       {
         "at": "2026-09-27T12:18:53Z",
         "reachable": true,
@@ -48586,6 +48606,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 134.03
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 117.66
       }
     ],
     "status": "HEALTHY"
@@ -50205,19 +50230,19 @@
   },
   "534cb7fdaab4634ade1adb4f6506814231bb647ac83bd8cbe35bbac1efeaf407": {
     "first_seen_at": "2026-09-25T21:39:53Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 12,
-    "success_runs": 12,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 13,
+    "success_runs": 13,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 109.42,
-    "jitter_ms": 58.36,
-    "score": 84.4,
-    "gaming_score": 74.0,
+    "latency_ms": 96.34,
+    "jitter_ms": 54.59,
+    "score": 87.4,
+    "gaming_score": 79.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 12,
+    "survival_streak": 13,
     "survival_score": 100.0,
     "recent": [
       {
@@ -50279,9 +50304,14 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 109.42
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 96.34
       }
     ],
-    "status": "STABLE"
+    "status": "HEALTHY"
   },
   "c568615d0310faadd025f583b9158693fc5b9f4269679317c179d5df96a54d12": {
     "first_seen_at": "2026-09-25T21:39:53Z",
@@ -82783,20 +82813,20 @@
   },
   "9c408c8c666628b3ff492f6cc968494784c655906bb05aead2ad8b3fd4984db4": {
     "first_seen_at": "2026-09-26T18:38:27Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 7,
-    "success_runs": 7,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 8,
+    "success_runs": 8,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 49.48,
-    "jitter_ms": 20.77,
-    "score": 92.5,
-    "gaming_score": 87.5,
+    "latency_ms": 46.0,
+    "jitter_ms": 18.3,
+    "score": 95.2,
+    "gaming_score": 92.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 7,
-    "survival_score": 81.3,
+    "survival_streak": 8,
+    "survival_score": 85.0,
     "recent": [
       {
         "at": "2026-09-26T18:38:27Z",
@@ -82832,6 +82862,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 49.48
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 46.0
       }
     ],
     "status": "HEALTHY"
@@ -85453,13 +85488,13 @@
   },
   "a541438e9ce602a063e2d50e4e486ec305b8145302d957128d76c8ca80ab2452": {
     "first_seen_at": "2026-09-26T18:38:27Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 25,
-    "success_runs": 25,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 26,
+    "success_runs": 26,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 28.57,
-    "jitter_ms": 29.21,
+    "latency_ms": 20.84,
+    "jitter_ms": 27.64,
     "score": 94.0,
     "gaming_score": 90.0,
     "reachable": true,
@@ -85468,11 +85503,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-26T21:59:28Z",
-        "reachable": true,
-        "latency_ms": 11.56
-      },
       {
         "at": "2026-09-27T12:18:53Z",
         "reachable": true,
@@ -85587,6 +85617,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 28.57
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 20.84
       }
     ],
     "status": "HEALTHY"
@@ -87878,20 +87913,20 @@
   },
   "05cab4ef4eece3ac9f1017823dbfcc29377a47e007502785706274ce9db3e7d6": {
     "first_seen_at": "2026-09-26T18:38:27Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 9,
-    "success_runs": 9,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 10,
+    "success_runs": 10,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 316.32,
-    "jitter_ms": 158.72,
-    "score": 73.0,
-    "gaming_score": 55.0,
+    "latency_ms": 205.15,
+    "jitter_ms": 153.44,
+    "score": 77.5,
+    "gaming_score": 62.5,
     "reachable": true,
-    "attempt_success_rate": 50.0,
+    "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 9,
-    "survival_score": 88.8,
+    "survival_streak": 10,
+    "survival_score": 92.5,
     "recent": [
       {
         "at": "2026-09-26T18:38:27Z",
@@ -87937,6 +87972,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 316.32
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 205.15
       }
     ],
     "status": "STABLE"
@@ -140672,20 +140712,20 @@
   },
   "d73c4b8c0861da5ba2fc86ed5317534947e32875d3ac671f3342621c694ea43c": {
     "first_seen_at": "2026-09-27T11:35:10Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 2,
-    "success_runs": 2,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 3,
+    "success_runs": 3,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 30.67,
-    "jitter_ms": 34.0,
+    "latency_ms": 19.37,
+    "jitter_ms": 22.65,
     "score": 93.5,
     "gaming_score": 90.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 2,
-    "survival_score": 62.5,
+    "survival_streak": 3,
+    "survival_score": 66.2,
     "recent": [
       {
         "at": "2026-09-27T11:35:10Z",
@@ -140696,6 +140736,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 30.67
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 19.37
       }
     ],
     "status": "HEALTHY"
@@ -159805,13 +159850,13 @@
   },
   "75096edf307648b31df6fe251e17acb7f6b725ac95cf6fa8b0f82f0450f0ddd9": {
     "first_seen_at": "2026-09-27T12:18:53Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 24,
-    "success_runs": 24,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 25,
+    "success_runs": 25,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 528.99,
-    "jitter_ms": 231.27,
+    "latency_ms": 360.1,
+    "jitter_ms": 232.86,
     "score": 67.0,
     "gaming_score": 45.0,
     "reachable": true,
@@ -159820,11 +159865,6 @@
     "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
-      {
-        "at": "2026-09-27T12:18:53Z",
-        "reachable": true,
-        "latency_ms": 193.1
-      },
       {
         "at": "2026-09-27T12:56:30Z",
         "reachable": true,
@@ -159939,9 +159979,14 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 528.99
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 360.1
       }
     ],
-    "status": "DEGRADING"
+    "status": "WEAK"
   },
   "ba713234a52bb789f1de7d43188cf65bcc4867bc361fa4c9f45f92d04d272de8": {
     "first_seen_at": "2026-09-27T12:18:53Z",
@@ -160800,19 +160845,19 @@
   },
   "aaa67ba7bb9ce0128a3de654da5d4f5198282471e4fe6f3b3dddc4f4156fd8da": {
     "first_seen_at": "2026-09-27T12:18:53Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 23,
-    "success_runs": 23,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 24,
+    "success_runs": 24,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 109.72,
-    "jitter_ms": 30.62,
+    "latency_ms": 100.25,
+    "jitter_ms": 29.7,
     "score": 87.4,
     "gaming_score": 79.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 23,
+    "survival_streak": 24,
     "survival_score": 100.0,
     "recent": [
       {
@@ -160929,6 +160974,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 109.72
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 100.25
       }
     ],
     "status": "HEALTHY"
@@ -161720,19 +161770,19 @@
   },
   "9105d0d556509e28d2c92333cce857e0d3a442924e1555c0ee3b2269157befc3": {
     "first_seen_at": "2026-09-27T17:48:30Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 20,
-    "success_runs": 20,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 21,
+    "success_runs": 21,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 1160.59,
-    "jitter_ms": 86.27,
+    "latency_ms": 1655.76,
+    "jitter_ms": 106.71,
     "score": 61.0,
     "gaming_score": 35.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 20,
+    "survival_streak": 21,
     "survival_score": 100.0,
     "recent": [
       {
@@ -161834,9 +161884,14 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 1160.59
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 1655.76
       }
     ],
-    "status": "DEGRADING"
+    "status": "WEAK"
   },
   "5eba2aef1939647fc5ffa3f71ae5f9fcc0ed01f89a80c8fec694e3daaa2c94b2": {
     "first_seen_at": "2026-09-27T17:48:30Z",
@@ -164675,19 +164730,19 @@
   },
   "994e1fb9c3be58c0b0ef7c744ebb8f4279741b992c06c0a978cdd5d17e8f065f": {
     "first_seen_at": "2026-09-28T00:52:08Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 19,
-    "success_runs": 19,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 20,
+    "success_runs": 20,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 843.93,
-    "jitter_ms": 176.54,
-    "score": 61.0,
-    "gaming_score": 35.0,
+    "latency_ms": 166.72,
+    "jitter_ms": 202.89,
+    "score": 77.5,
+    "gaming_score": 62.5,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 19,
+    "survival_streak": 20,
     "survival_score": 100.0,
     "recent": [
       {
@@ -164784,9 +164839,14 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 843.93
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 166.72
       }
     ],
-    "status": "DEGRADING"
+    "status": "STABLE"
   },
   "5c8d5b332baaf89f62ad53696fb9e28a6b6da44797d6bf36e4d8f4b017bf6b01": {
     "first_seen_at": "2026-09-28T00:52:08Z",
@@ -166035,20 +166095,20 @@
   },
   "ae99c3372dc9f3887f261b41c0662f9a78d91b5859e09167c9420591585179c0": {
     "first_seen_at": "2026-09-28T15:36:16Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 4,
-    "success_runs": 4,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 5,
+    "success_runs": 5,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 165.48,
-    "jitter_ms": 25.95,
-    "score": 83.5,
-    "gaming_score": 72.5,
+    "latency_ms": 139.48,
+    "jitter_ms": 25.96,
+    "score": 87.4,
+    "gaming_score": 79.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 4,
-    "survival_score": 70.0,
+    "survival_streak": 5,
+    "survival_score": 73.8,
     "recent": [
       {
         "at": "2026-09-28T15:36:16Z",
@@ -166069,9 +166129,14 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 165.48
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 139.48
       }
     ],
-    "status": "STABLE"
+    "status": "HEALTHY"
   },
   "e61eed79acec4748944e810d93b6b9472ab356a6fe5b909af7a4c8f5584eaad6": {
     "first_seen_at": "2026-09-28T15:36:16Z",
@@ -166260,8 +166325,8 @@
   },
   "0c6c415033e55af8fbaf32681374895aacc0cf29cbfdda7b8206cd317bdb9537": {
     "first_seen_at": "2026-09-28T22:07:37Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 4,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 5,
     "success_runs": 0,
     "uptime": 0.0,
     "recent_success_rate": 0.0,
@@ -166271,9 +166336,9 @@
     "gaming_score": 0.0,
     "reachable": false,
     "attempt_success_rate": 0.0,
-    "consecutive_failures": 4,
+    "consecutive_failures": 5,
     "survival_streak": 0,
-    "survival_score": 6.7,
+    "survival_score": 8.3,
     "recent": [
       {
         "at": "2026-09-28T22:07:37Z",
@@ -166292,6 +166357,11 @@
       },
       {
         "at": "2026-09-29T15:47:43Z",
+        "reachable": false,
+        "latency_ms": null
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
         "reachable": false,
         "latency_ms": null
       }
@@ -166435,20 +166505,20 @@
   },
   "457a62d82fe10d30f56ca509b20d49c8324107b4e58ce0a4fe8c71a026a114e5": {
     "first_seen_at": "2026-09-28T22:07:37Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 4,
-    "success_runs": 4,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 5,
+    "success_runs": 5,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 119.99,
-    "jitter_ms": 16.2,
+    "latency_ms": 143.67,
+    "jitter_ms": 18.07,
     "score": 90.1,
     "gaming_score": 83.5,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 4,
-    "survival_score": 70.0,
+    "survival_streak": 5,
+    "survival_score": 73.8,
     "recent": [
       {
         "at": "2026-09-28T22:07:37Z",
@@ -166469,6 +166539,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 119.99
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 143.67
       }
     ],
     "status": "HEALTHY"
@@ -166645,20 +166720,20 @@
   },
   "f51b22fbdadd0aaa3c9df8ba7e480907cd569aadc944eb60deecc1d6a90792d7": {
     "first_seen_at": "2026-09-29T02:03:20Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 3,
-    "success_runs": 3,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 4,
+    "success_runs": 4,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 32.54,
-    "jitter_ms": 8.74,
+    "latency_ms": 22.74,
+    "jitter_ms": 9.1,
     "score": 98.8,
     "gaming_score": 98.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 3,
-    "survival_score": 66.2,
+    "survival_streak": 4,
+    "survival_score": 70.0,
     "recent": [
       {
         "at": "2026-09-29T02:03:20Z",
@@ -166674,26 +166749,31 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 32.54
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 22.74
       }
     ],
     "status": "HEALTHY"
   },
   "c4a3fbffedab20b06d2d7dbc772eedade2d7e7cc488f3c2d3e653b2a5ad196e8": {
     "first_seen_at": "2026-09-29T02:03:20Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 3,
-    "success_runs": 3,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 4,
+    "success_runs": 4,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 408.61,
-    "jitter_ms": 54.62,
-    "score": 70.0,
-    "gaming_score": 50.0,
+    "latency_ms": 273.7,
+    "jitter_ms": 81.39,
+    "score": 73.0,
+    "gaming_score": 55.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 3,
-    "survival_score": 66.2,
+    "survival_streak": 4,
+    "survival_score": 70.0,
     "recent": [
       {
         "at": "2026-09-29T02:03:20Z",
@@ -166709,6 +166789,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 408.61
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 273.7
       }
     ],
     "status": "STABLE"
@@ -166805,20 +166890,20 @@
   },
   "54f652a2aa9869f05f5d0c41bed209cdbab97e5736ea11a77ede83d5b3a18a38": {
     "first_seen_at": "2026-09-29T02:03:20Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 3,
-    "success_runs": 3,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 4,
+    "success_runs": 4,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 13.57,
-    "jitter_ms": 6.0,
+    "latency_ms": 1.86,
+    "jitter_ms": 7.91,
     "score": 98.8,
     "gaming_score": 98.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 3,
-    "survival_score": 66.2,
+    "survival_streak": 4,
+    "survival_score": 70.0,
     "recent": [
       {
         "at": "2026-09-29T02:03:20Z",
@@ -166834,6 +166919,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 13.57
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 1.86
       }
     ],
     "status": "HEALTHY"
@@ -166930,20 +167020,20 @@
   },
   "0d4aca64df630b5d819b9673bf16b34db3da5afa4c60048a01443ed2e6324413": {
     "first_seen_at": "2026-09-29T02:03:20Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 3,
-    "success_runs": 3,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 4,
+    "success_runs": 4,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 13.49,
-    "jitter_ms": 5.95,
+    "latency_ms": 1.79,
+    "jitter_ms": 7.87,
     "score": 98.8,
     "gaming_score": 98.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 3,
-    "survival_score": 66.2,
+    "survival_streak": 4,
+    "survival_score": 70.0,
     "recent": [
       {
         "at": "2026-09-29T02:03:20Z",
@@ -166959,6 +167049,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 13.49
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 1.79
       }
     ],
     "status": "HEALTHY"
@@ -166995,20 +167090,20 @@
   },
   "45140e839041d512fb27aadfd6a42cd785bc90629dae1f26fb3d553d12ecf925": {
     "first_seen_at": "2026-09-29T02:03:20Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 2,
-    "success_runs": 2,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 3,
+    "success_runs": 3,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 917.33,
-    "jitter_ms": 1174.95,
+    "latency_ms": 1033.26,
+    "jitter_ms": 645.44,
     "score": 61.0,
     "gaming_score": 35.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 2,
-    "survival_score": 62.5,
+    "survival_streak": 3,
+    "survival_score": 66.2,
     "recent": [
       {
         "at": "2026-09-29T02:03:20Z",
@@ -167019,6 +167114,11 @@
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 917.33
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 1033.26
       }
     ],
     "status": "WEAK"
@@ -167200,202 +167300,242 @@
   },
   "be6ec46513eba6b2e1349634ecbed565aa6308c32cc08b6b91c959254329d17d": {
     "first_seen_at": "2026-09-29T15:47:43Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 1,
-    "success_runs": 1,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 2,
+    "success_runs": 2,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 110.69,
-    "jitter_ms": null,
-    "score": 88.2,
-    "gaming_score": 80.2,
+    "latency_ms": 97.94,
+    "jitter_ms": 12.75,
+    "score": 93.1,
+    "gaming_score": 88.5,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 1,
-    "survival_score": 58.8,
+    "survival_streak": 2,
+    "survival_score": 62.5,
     "recent": [
       {
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 110.69
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 97.94
       }
     ],
-    "status": "NEW"
+    "status": "HEALTHY"
   },
   "17913a7fcd622af63eb29efb64906a5fc0b8b5c8e0734ddcdc8d600da5dae390": {
     "first_seen_at": "2026-09-29T15:47:43Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 1,
-    "success_runs": 1,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 2,
+    "success_runs": 2,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 138.5,
-    "jitter_ms": null,
-    "score": 88.2,
-    "gaming_score": 80.2,
+    "latency_ms": 129.38,
+    "jitter_ms": 9.12,
+    "score": 92.2,
+    "gaming_score": 87.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 1,
-    "survival_score": 58.8,
+    "survival_streak": 2,
+    "survival_score": 62.5,
     "recent": [
       {
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 138.5
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 129.38
       }
     ],
-    "status": "NEW"
+    "status": "HEALTHY"
   },
   "9aee88198af0814cca9e13ecdaf4a28cc881aa6afa2b6ba750e562c0970e8aa5": {
     "first_seen_at": "2026-09-29T15:47:43Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 1,
-    "success_runs": 1,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 2,
+    "success_runs": 2,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 25.13,
-    "jitter_ms": null,
-    "score": 94.8,
-    "gaming_score": 91.2,
+    "latency_ms": 14.04,
+    "jitter_ms": 11.09,
+    "score": 96.7,
+    "gaming_score": 94.5,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 1,
-    "survival_score": 58.8,
+    "survival_streak": 2,
+    "survival_score": 62.5,
     "recent": [
       {
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 25.13
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 14.04
       }
     ],
-    "status": "NEW"
+    "status": "HEALTHY"
   },
   "c523b07739693ce9942ee7ec769fdc9c123608b25e17e0b3c3763ea8816acdce": {
     "first_seen_at": "2026-09-29T15:47:43Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 1,
-    "success_runs": 1,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 2,
+    "success_runs": 2,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 43.7,
-    "jitter_ms": null,
-    "score": 93.2,
-    "gaming_score": 88.8,
+    "latency_ms": 11.61,
+    "jitter_ms": 32.09,
+    "score": 94.0,
+    "gaming_score": 90.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 1,
-    "survival_score": 58.8,
+    "survival_streak": 2,
+    "survival_score": 62.5,
     "recent": [
       {
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 43.7
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 11.61
       }
     ],
-    "status": "NEW"
+    "status": "HEALTHY"
   },
   "09b4308cdba1514fd1cdc74a4681203a1986123278ddda0dc6decce52fa1fe56": {
     "first_seen_at": "2026-09-29T15:47:43Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 1,
-    "success_runs": 1,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 2,
+    "success_runs": 2,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 9.78,
-    "jitter_ms": null,
-    "score": 94.8,
-    "gaming_score": 91.2,
+    "latency_ms": 2.19,
+    "jitter_ms": 7.59,
+    "score": 98.8,
+    "gaming_score": 98.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 1,
-    "survival_score": 58.8,
+    "survival_streak": 2,
+    "survival_score": 62.5,
     "recent": [
       {
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 9.78
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 2.19
       }
     ],
-    "status": "NEW"
+    "status": "HEALTHY"
   },
   "be14661a18bf7ab95e6ba1535fe6a40905df05180d6ce8506d63d133694dae83": {
     "first_seen_at": "2026-09-29T15:47:43Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 1,
-    "success_runs": 1,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 2,
+    "success_runs": 2,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 12.12,
-    "jitter_ms": null,
-    "score": 94.8,
-    "gaming_score": 91.2,
+    "latency_ms": 1.75,
+    "jitter_ms": 10.37,
+    "score": 96.7,
+    "gaming_score": 94.5,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 1,
-    "survival_score": 58.8,
+    "survival_streak": 2,
+    "survival_score": 62.5,
     "recent": [
       {
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 12.12
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 1.75
       }
     ],
-    "status": "NEW"
+    "status": "HEALTHY"
   },
   "43eb1887827dfb48a94b7216310d3e4c92ca0ae37ae0e582f74cfe69ad15038c": {
     "first_seen_at": "2026-09-29T15:47:43Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 1,
-    "success_runs": 1,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 2,
+    "success_runs": 2,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 11.53,
-    "jitter_ms": null,
-    "score": 94.8,
-    "gaming_score": 91.2,
+    "latency_ms": 1.82,
+    "jitter_ms": 9.71,
+    "score": 98.8,
+    "gaming_score": 98.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 1,
-    "survival_score": 58.8,
+    "survival_streak": 2,
+    "survival_score": 62.5,
     "recent": [
       {
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 11.53
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 1.82
       }
     ],
-    "status": "NEW"
+    "status": "HEALTHY"
   },
   "54d265b70e09cfd54f28a78ce990ef2c9d0f6f78eb24a8786aec7fcf8c2221fc": {
     "first_seen_at": "2026-09-29T15:47:43Z",
-    "last_seen_at": "2026-09-29T15:47:43Z",
-    "run_count": 1,
-    "success_runs": 1,
+    "last_seen_at": "2026-09-29T15:58:41Z",
+    "run_count": 2,
+    "success_runs": 2,
     "uptime": 100.0,
     "recent_success_rate": 100.0,
-    "latency_ms": 891.13,
-    "jitter_ms": null,
-    "score": 67.8,
-    "gaming_score": 46.2,
+    "latency_ms": 1498.74,
+    "jitter_ms": 607.61,
+    "score": 61.0,
+    "gaming_score": 35.0,
     "reachable": true,
     "attempt_success_rate": 100.0,
     "consecutive_failures": 0,
-    "survival_streak": 1,
-    "survival_score": 58.8,
+    "survival_streak": 2,
+    "survival_score": 62.5,
     "recent": [
       {
         "at": "2026-09-29T15:47:43Z",
         "reachable": true,
         "latency_ms": 891.13
+      },
+      {
+        "at": "2026-09-29T15:58:41Z",
+        "reachable": true,
+        "latency_ms": 1498.74
       }
     ],
-    "status": "NEW"
+    "status": "DEGRADING"
   }
 }

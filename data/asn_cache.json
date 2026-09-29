@@ -2511,5 +2511,26 @@
     "isp": "FREAKHOSTING LTD",
     "country_code": "DE",
     "fetched_at": "2026-09-29T15:48:16Z"
+  },
+  "162.243.115.23": {
+    "asn": 14061,
+    "org": "DigitalOcean, LLC",
+    "isp": "DigitalOcean, LLC",
+    "country_code": "US",
+    "fetched_at": "2026-09-29T15:59:15Z"
+  },
+  "20.106.211.232": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "US",
+    "fetched_at": "2026-09-29T15:59:15Z"
+  },
+  "138.68.80.136": {
+    "asn": 14061,
+    "org": "DigitalOcean, LLC",
+    "isp": "DigitalOcean, LLC",
+    "country_code": "DE",
+    "fetched_at": "2026-09-29T15:59:15Z"
   }
 }
