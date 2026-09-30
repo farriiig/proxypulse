@@ -2840,5 +2840,54 @@
     "isp": "G-Core Labs S.A.",
     "country_code": "IT",
     "fetched_at": "2026-09-30T00:33:59Z"
+  },
+  "20.166.59.119": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "IE",
+    "fetched_at": "2026-09-30T06:50:33Z"
+  },
+  "150.136.105.229": {
+    "asn": 31898,
+    "org": "Oracle Public Cloud",
+    "isp": "Oracle Corporation",
+    "country_code": "US",
+    "fetched_at": "2026-09-30T06:50:33Z"
+  },
+  "192.193.104.22": {
+    "asn": 25883,
+    "org": "Citibank N.A.",
+    "isp": "Citigroup Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-09-30T06:50:33Z"
+  },
+  "104.28.195.192": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-09-30T06:50:33Z"
+  },
+  "85.208.139.48": {
+    "asn": 215540,
+    "org": "HOST TELECOM LTD",
+    "isp": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+    "country_code": "DE",
+    "fetched_at": "2026-09-30T06:50:33Z"
+  },
+  "150.136.139.228": {
+    "asn": 31898,
+    "org": "Oracle Public Cloud",
+    "isp": "Oracle Corporation",
+    "country_code": "US",
+    "fetched_at": "2026-09-30T06:50:33Z"
+  },
+  "31.76.12.201": {
+    "asn": 215590,
+    "org": "Frankfurt, Germany",
+    "isp": "DpkgSoft International Limited",
+    "country_code": "DE",
+    "fetched_at": "2026-09-30T06:50:33Z"
   }
 }
