@@ -2966,5 +2966,40 @@
     "isp": "Alibaba US Technology Co., Ltd.",
     "country_code": "DE",
     "fetched_at": "2026-09-30T13:52:39Z"
+  },
+  "64.74.161.146": {
+    "asn": 63018,
+    "org": "Dedicated.com",
+    "isp": "Dedicated.com",
+    "country_code": "CA",
+    "fetched_at": "2026-09-30T19:28:19Z"
+  },
+  "80.209.242.150": {
+    "asn": 395839,
+    "org": "HOSTKEY",
+    "isp": "HOSTKEY",
+    "country_code": "US",
+    "fetched_at": "2026-09-30T19:28:19Z"
+  },
+  "2.26.54.18": {
+    "asn": 215439,
+    "org": "play2go.cloud - Cheap and reliable hosting",
+    "isp": "PLAY2GO INTERNATIONAL LIMITED",
+    "country_code": "DE",
+    "fetched_at": "2026-09-30T19:28:19Z"
+  },
+  "23.95.88.103": {
+    "asn": 36352,
+    "org": "RackNerd LLC",
+    "isp": "HostPapa",
+    "country_code": "US",
+    "fetched_at": "2026-09-30T19:28:19Z"
+  },
+  "140.82.34.21": {
+    "asn": 20473,
+    "org": "Vultr Holdings, LLC",
+    "isp": "The Constant Company, LLC",
+    "country_code": "DE",
+    "fetched_at": "2026-09-30T19:28:19Z"
   }
 }

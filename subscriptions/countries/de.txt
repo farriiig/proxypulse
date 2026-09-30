@@ -1,11 +1,9 @@
+trojan://mitivpn@199.232.78.170:443?security=tls&alpn=http/1.1&insecure=0&host=mitivpn---de--s---mitivpn-11.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#🇺🇸
 trojan://mitivpn@199.232.78.101:443?path=/---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN/NLSus---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN&security=tls&alpn=http/1.1&insecure=0&host=mitivpn---de--s---mitivpn-11.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#🇺🇸
 trojan://mitivpn@199.232.78.170:443?path=@mehrosabiran&security=tls&alpn=http/1.1&insecure=0&host=mitivpn---de--s---mitivpn-11.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#🇺🇸
-trojan://mitivpn@199.232.78.170:443?security=tls&sni=ssl.fastly.com&alpn=http/1.1&type=ws&host=mitivpn---de--s---mitivpn-11.global.ssl.fastly.net&path=@VPNine1#🇺🇸
-trojan://mitivpn@199.232.78.170:443?security=tls&alpn=http/1.1&insecure=0&host=mitivpn---de--s---mitivpn-11.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#🇺🇸
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyWWRFNGxGT2lkNWE@51.195.126.38:8388#🇩🇪
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#🇩🇪
-hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@91.196.32.163:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
-ss://YWVzLTI1Ni1nY206a0tFZDByQnJkNTZGdXJqeg@2.58.81.221:80#🇩🇪
-ss://YWVzLTI1Ni1nY206a0tFZDByQnJkNTZGdXJqeg@2.58.81.221:443#🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyWWRFNGxGT2lkNWE@51.195.126.38:8388#🇩🇪
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@64.188.98.171:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
+ss://YWVzLTI1Ni1nY206a0tFZDByQnJkNTZGdXJqeg@2.58.81.221:443#🇩🇪
+ss://YWVzLTI1Ni1nY206a0tFZDByQnJkNTZGdXJqeg@2.58.81.221:80#🇩🇪
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@de.1.23.h2corp.org:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
