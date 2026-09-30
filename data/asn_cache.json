@@ -3001,5 +3001,110 @@
     "isp": "The Constant Company, LLC",
     "country_code": "DE",
     "fetched_at": "2026-09-30T19:28:19Z"
+  },
+  "144.31.218.159": {
+    "asn": 207957,
+    "org": "SERV.HOST GROUP LTD",
+    "isp": "SERV.HOST GROUP LTD",
+    "country_code": "DE",
+    "fetched_at": "2026-09-30T23:56:56Z"
+  },
+  "65.109.28.164": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "FI",
+    "fetched_at": "2026-09-30T23:56:56Z"
+  },
+  "31.77.161.15": {
+    "asn": 213520,
+    "org": "Senko Digital LLC",
+    "isp": "Senko Digital LLC",
+    "country_code": "DE",
+    "fetched_at": "2026-09-30T23:56:56Z"
+  },
+  "144.31.5.3": {
+    "asn": 215730,
+    "org": "H2NEXUS LTD",
+    "isp": "H2NEXUS CLOUD SERVICES - FZCO",
+    "country_code": "PL",
+    "fetched_at": "2026-09-30T23:56:56Z"
+  },
+  "20.123.34.66": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "IE",
+    "fetched_at": "2026-09-30T23:56:56Z"
+  },
+  "2a05:d014:1701:f201:525:b7cd:7bc2:246c": {
+    "asn": 16509,
+    "org": "Amazon Data Services Ireland Ltd",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "DE",
+    "fetched_at": "2026-09-30T23:56:56Z"
+  },
+  "2a05:d014:1701:f201:5f58:f0c8:8429:cd07": {
+    "asn": 16509,
+    "org": "Amazon Data Services Ireland Ltd",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "DE",
+    "fetched_at": "2026-09-30T23:56:56Z"
+  },
+  "51.158.173.231": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-09-30T23:56:56Z"
+  },
+  "2.26.21.163": {
+    "asn": 215590,
+    "org": "Frankfurt, Germany",
+    "isp": "DpkgSoft International Limited",
+    "country_code": "DE",
+    "fetched_at": "2026-09-30T23:56:56Z"
+  },
+  "66.154.117.245": {
+    "asn": 7393,
+    "org": "ASSERTIVENET",
+    "isp": "CYBERCON, INC.",
+    "country_code": "US",
+    "fetched_at": "2026-09-30T23:56:56Z"
+  },
+  "47.254.122.134": {
+    "asn": 45102,
+    "org": "Alibaba Cloud - US",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "US",
+    "fetched_at": "2026-09-30T23:56:56Z"
+  },
+  "89.19.209.6": {
+    "asn": 210976,
+    "org": "Timeweb, LLP",
+    "isp": "Timeweb, LLP",
+    "country_code": "DE",
+    "fetched_at": "2026-09-30T23:56:56Z"
+  },
+  "195.54.33.164": {
+    "asn": 28753,
+    "org": "TK Rustelekom LLC",
+    "isp": "Leaseweb Deutschland GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-09-30T23:56:56Z"
+  },
+  "18.134.196.127": {
+    "asn": 16509,
+    "org": "Amazon Data Services UK",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "GB",
+    "fetched_at": "2026-09-30T23:56:56Z"
+  },
+  "89.39.161.157": {
+    "asn": 199524,
+    "org": "G-Core Labs Customer assignment",
+    "isp": "G-Core Labs S.A.",
+    "country_code": "BR",
+    "fetched_at": "2026-09-30T23:56:56Z"
   }
 }
