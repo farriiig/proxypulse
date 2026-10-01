@@ -3204,5 +3204,47 @@
     "isp": "Baykov Ilya Sergeevich",
     "country_code": "DE",
     "fetched_at": "2026-10-01T06:07:50Z"
+  },
+  "31.76.60.142": {
+    "asn": 207957,
+    "org": "SERV.HOST GROUP LTD",
+    "isp": "SERV.HOST GROUP LTD",
+    "country_code": "GB",
+    "fetched_at": "2026-10-01T13:30:34Z"
+  },
+  "143.20.160.38": {
+    "asn": 212238,
+    "org": "Private Customer",
+    "isp": "Datacamp Limited",
+    "country_code": "DE",
+    "fetched_at": "2026-10-01T13:30:34Z"
+  },
+  "185.94.142.105": {
+    "asn": 35280,
+    "org": "F5 XC",
+    "isp": "F5 Networks SARL",
+    "country_code": "US",
+    "fetched_at": "2026-10-01T13:30:34Z"
+  },
+  "185.125.102.120": {
+    "asn": 210644,
+    "org": "AEZA GROUP LLC",
+    "isp": "AEZA GROUP LLC",
+    "country_code": "DE",
+    "fetched_at": "2026-10-01T13:30:34Z"
+  },
+  "95.181.174.88": {
+    "asn": 210644,
+    "org": "AEZA GROUP LLC",
+    "isp": "AEZA GROUP LLC",
+    "country_code": "DE",
+    "fetched_at": "2026-10-01T13:30:34Z"
+  },
+  "57.128.177.172": {
+    "asn": 16276,
+    "org": "OVH Ltd",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-10-01T13:30:34Z"
   }
 }
