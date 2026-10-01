@@ -3106,5 +3106,103 @@
     "isp": "G-Core Labs S.A.",
     "country_code": "BR",
     "fetched_at": "2026-09-30T23:56:56Z"
+  },
+  "38.244.190.145": {
+    "asn": 9009,
+    "org": "3NT SOLUTIONS LLP",
+    "isp": "M247 Europe SRL",
+    "country_code": "RS",
+    "fetched_at": "2026-10-01T06:07:50Z"
+  },
+  "162.120.69.83": {
+    "asn": 62240,
+    "org": "Clouvider Limited",
+    "isp": "Clouvider Limited",
+    "country_code": "US",
+    "fetched_at": "2026-10-01T06:07:50Z"
+  },
+  "185.195.57.175": {
+    "asn": 62240,
+    "org": "New Jersey Network",
+    "isp": "Clouvider Limited",
+    "country_code": "US",
+    "fetched_at": "2026-10-01T06:07:50Z"
+  },
+  "45.144.112.55": {
+    "asn": 62240,
+    "org": "New York Network",
+    "isp": "Clouvider Limited",
+    "country_code": "US",
+    "fetched_at": "2026-10-01T06:07:50Z"
+  },
+  "91.239.157.84": {
+    "asn": 62240,
+    "org": "Clouvider Limited",
+    "isp": "Clouvider Limited",
+    "country_code": "DE",
+    "fetched_at": "2026-10-01T06:07:50Z"
+  },
+  "38.65.9.251": {
+    "asn": 210661,
+    "org": "ZMTO Technologies OÜ",
+    "isp": "ZMTO Technologies OU",
+    "country_code": "US",
+    "fetched_at": "2026-10-01T06:07:50Z"
+  },
+  "89.40.117.143": {
+    "asn": 200185,
+    "org": "Cloud Services DC05",
+    "isp": "Aruba S.p.A.",
+    "country_code": "DE",
+    "fetched_at": "2026-10-01T06:07:50Z"
+  },
+  "107.174.40.115": {
+    "asn": 36352,
+    "org": "Huang Jim",
+    "isp": "HostPapa",
+    "country_code": "US",
+    "fetched_at": "2026-10-01T06:07:50Z"
+  },
+  "138.2.236.17": {
+    "asn": 31898,
+    "org": "Oracle Corporation",
+    "isp": "Oracle Corporation",
+    "country_code": "US",
+    "fetched_at": "2026-10-01T06:07:50Z"
+  },
+  "46.249.102.151": {
+    "asn": 212552,
+    "org": "BitCommand LLC",
+    "isp": "BitCommand LLC",
+    "country_code": "DE",
+    "fetched_at": "2026-10-01T06:07:50Z"
+  },
+  "35.212.217.90": {
+    "asn": null,
+    "org": "Google LLC",
+    "isp": "Google Ireland Limited",
+    "country_code": "US",
+    "fetched_at": "2026-10-01T06:07:50Z"
+  },
+  "107.174.154.23": {
+    "asn": 36352,
+    "org": "sally wang",
+    "isp": "HostPapa",
+    "country_code": "US",
+    "fetched_at": "2026-10-01T06:07:50Z"
+  },
+  "91.132.160.255": {
+    "asn": 213520,
+    "org": "Senko Digital LLC",
+    "isp": "Senko Digital LLC",
+    "country_code": "DE",
+    "fetched_at": "2026-10-01T06:07:50Z"
+  },
+  "185.68.184.15": {
+    "asn": 41745,
+    "org": "Baykov Ilya Sergeevich",
+    "isp": "Baykov Ilya Sergeevich",
+    "country_code": "DE",
+    "fetched_at": "2026-10-01T06:07:50Z"
   }
 }
