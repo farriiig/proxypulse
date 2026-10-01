@@ -3295,5 +3295,47 @@
     "isp": "Gold IP L.l.c-fz",
     "country_code": "AE",
     "fetched_at": "2026-10-01T19:37:29Z"
+  },
+  "78.140.253.37": {
+    "asn": 209283,
+    "org": "ITGLOBALCOM BEL LLC",
+    "isp": "ITGLOBALCOM BEL LLC",
+    "country_code": "BY",
+    "fetched_at": "2026-10-01T23:57:27Z"
+  },
+  "185.195.57.172": {
+    "asn": 62240,
+    "org": "New Jersey Network",
+    "isp": "Clouvider Limited",
+    "country_code": "US",
+    "fetched_at": "2026-10-01T23:57:27Z"
+  },
+  "162.35.242.252": {
+    "asn": 212477,
+    "org": "RCS Technologies FZE LLC",
+    "isp": "RoyaleHosting BV",
+    "country_code": "NL",
+    "fetched_at": "2026-10-01T23:57:27Z"
+  },
+  "149.104.107.41": {
+    "asn": 154177,
+    "org": "Lightnode-CO",
+    "isp": "LIGHT NODE LIMITED",
+    "country_code": "CO",
+    "fetched_at": "2026-10-01T23:57:27Z"
+  },
+  "130.94.69.15": {
+    "asn": 154177,
+    "org": "LIGHT NODE LIMITED",
+    "isp": "LIGHT NODE LIMITED",
+    "country_code": "MY",
+    "fetched_at": "2026-10-01T23:57:27Z"
+  },
+  "202.78.163.237": {
+    "asn": 199524,
+    "org": "G-Core Labs Customer assignment",
+    "isp": "G-Core Labs S.A.",
+    "country_code": "PL",
+    "fetched_at": "2026-10-01T23:57:27Z"
   }
 }

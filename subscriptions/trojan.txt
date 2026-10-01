@@ -1,3 +1,4 @@
-trojan://1426d11f-f700-466f-80fe-1010b0ab59ae@45.76.218.34:32676?security=tls&sni=lazeno.vip&type=tcp&headerType=none#🇯🇵
+trojan://UX82473651@3.120.109.26:443?sni=actual-squid.rooster465.autos&path=/#🇩🇪
 trojan://XuMweB2PWs@2.27.109.179:45464?sni=2.27.109.179.sslip.io&fp=chrome&type=tcp&path=/#🇭🇰
+trojan://UX82473651@cheerful-swan.rooster465.autos:443?sni=cheerful-swan.rooster465.autos&path=/#🇵🇱
 trojan://UX82473651@actual-squid.rooster465.autos:443?sni=actual-squid.rooster465.autos&fp=chrome&type=tcp&path=/#🇩🇪
