@@ -3337,5 +3337,40 @@
     "isp": "G-Core Labs S.A.",
     "country_code": "PL",
     "fetched_at": "2026-10-01T23:57:27Z"
+  },
+  "217.12.207.50": {
+    "asn": 204957,
+    "org": "Green Floid LLC",
+    "isp": "ROUTE 95 LLC",
+    "country_code": "PL",
+    "fetched_at": "2026-10-02T05:50:34Z"
+  },
+  "5.253.30.175": {
+    "asn": 153914,
+    "org": "BEAFORT LIMITED",
+    "isp": "NETRANEX TECHNOLOGIES INDIA PRIVATE LIMITED",
+    "country_code": "IN",
+    "fetched_at": "2026-10-02T05:50:34Z"
+  },
+  "185.195.57.177": {
+    "asn": 62240,
+    "org": "New Jersey Network",
+    "isp": "Clouvider Limited",
+    "country_code": "US",
+    "fetched_at": "2026-10-02T05:50:34Z"
+  },
+  "217.60.33.10": {
+    "asn": 197574,
+    "org": "ExpressHost LTD",
+    "isp": "ExpressHost Ltd",
+    "country_code": "PL",
+    "fetched_at": "2026-10-02T05:50:34Z"
+  },
+  "45.80.215.8": {
+    "asn": 202422,
+    "org": "G-Core Labs Customer assignment",
+    "isp": "G-Core Labs S.A.",
+    "country_code": "FR",
+    "fetched_at": "2026-10-02T05:50:34Z"
   }
 }
