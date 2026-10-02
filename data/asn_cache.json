@@ -3386,5 +3386,47 @@
     "isp": "H2NEXUS CLOUD SERVICES - FZCO",
     "country_code": "PL",
     "fetched_at": "2026-10-02T12:49:07Z"
+  },
+  "45.136.228.234": {
+    "asn": 210644,
+    "org": "RapidSeedbox Ltd",
+    "isp": "AEZA GROUP LLC",
+    "country_code": "FI",
+    "fetched_at": "2026-10-02T18:31:21Z"
+  },
+  "85.159.228.223": {
+    "asn": 215540,
+    "org": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+    "isp": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+    "country_code": "LV",
+    "fetched_at": "2026-10-02T18:31:21Z"
+  },
+  "170.168.4.52": {
+    "asn": 214238,
+    "org": "IT Hostline Ltd",
+    "isp": "HOST TELECOM LTD",
+    "country_code": "FI",
+    "fetched_at": "2026-10-02T18:31:21Z"
+  },
+  "2.26.148.145": {
+    "asn": 209693,
+    "org": "1Cent Host",
+    "isp": "OC NETWORKS LIMITED",
+    "country_code": "PL",
+    "fetched_at": "2026-10-02T18:31:21Z"
+  },
+  "2a14:6e40:4:227::1": {
+    "asn": null,
+    "org": "Gold IP L.l.c-fz",
+    "isp": "Gold IP L.l.c-fz",
+    "country_code": "AE",
+    "fetched_at": "2026-10-02T18:31:21Z"
+  },
+  "31.77.8.97": {
+    "asn": 219337,
+    "org": "PLAY2GO - FZCO",
+    "isp": "PLAY2GO - FZCO",
+    "country_code": "DE",
+    "fetched_at": "2026-10-02T18:31:21Z"
   }
 }
