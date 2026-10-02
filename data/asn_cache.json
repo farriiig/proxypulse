@@ -3372,5 +3372,19 @@
     "isp": "G-Core Labs S.A.",
     "country_code": "FR",
     "fetched_at": "2026-10-02T05:50:34Z"
+  },
+  "144.31.27.215": {
+    "asn": 213877,
+    "org": "u1host Finland",
+    "isp": "U1 DIGITAL SERVICES LTD",
+    "country_code": "FI",
+    "fetched_at": "2026-10-02T12:49:07Z"
+  },
+  "2.59.253.251": {
+    "asn": 215730,
+    "org": "H2nexus LTD",
+    "isp": "H2NEXUS CLOUD SERVICES - FZCO",
+    "country_code": "PL",
+    "fetched_at": "2026-10-02T12:49:07Z"
   }
 }
