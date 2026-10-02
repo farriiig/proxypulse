@@ -3428,5 +3428,26 @@
     "isp": "PLAY2GO - FZCO",
     "country_code": "DE",
     "fetched_at": "2026-10-02T18:31:21Z"
+  },
+  "31.77.227.213": {
+    "asn": 198364,
+    "org": "ROCKET & MARINICA LTD",
+    "isp": "BANATSYNC SRL",
+    "country_code": "FR",
+    "fetched_at": "2026-10-02T23:03:03Z"
+  },
+  "91.239.157.86": {
+    "asn": 62240,
+    "org": "Clouvider Limited",
+    "isp": "Clouvider Limited",
+    "country_code": "DE",
+    "fetched_at": "2026-10-02T23:03:03Z"
+  },
+  "193.29.139.139": {
+    "asn": 47172,
+    "org": "Greenhost BV",
+    "isp": "Greenhost BV",
+    "country_code": "NL",
+    "fetched_at": "2026-10-02T23:03:03Z"
   }
 }
