@@ -3449,5 +3449,12 @@
     "isp": "Greenhost BV",
     "country_code": "NL",
     "fetched_at": "2026-10-02T23:03:03Z"
+  },
+  "77.72.85.247": {
+    "asn": 62005,
+    "org": "BlueVPS OU",
+    "isp": "BlueVPS OU",
+    "country_code": "EE",
+    "fetched_at": "2026-10-03T08:16:00Z"
   }
 }
