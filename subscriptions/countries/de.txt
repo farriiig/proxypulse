@@ -1,10 +1,9 @@
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#🇩🇪
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@82.39.171.12:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyWWRFNGxGT2lkNWE@51.195.126.38:8388#🇩🇪
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@82.39.171.12:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#🇩🇪
 trojan://UX82473651@3.120.109.26:443?sni=actual-squid.rooster465.autos&fp=chrome&type=tcp&path=/#🇩🇪
-vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.109.105.186:9892?encryption=none&fp=edge&mode=gun&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&security=reality&serviceName=grpc-tunnel&sid=aa&sni=dl.google.com&type=grpc#🇷🇺
-trojan://UX82473651@actual-squid.rooster465.autos:443?sni=actual-squid.rooster465.autos&fp=chrome&type=tcp&path=/#🇩🇪
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@64.188.98.171:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@91.196.32.163:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
-vmess://eyJhZGQiOiAiYWlkcml2ZXJjYXQub3JnIiwgImFpZCI6ICIwIiwgImhvc3QiOiAiYWlkcml2ZXJjYXQub3JnIiwgImlkIjogIjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvbGlua3Z3cyIsICJwb3J0IjogNDQzLCAicHMiOiAi8J+HuvCfh7ggNDMgLSBVUyAtIFZNZXNzL1dTL1RMUyAtIDQ0MyIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiYWlkcml2ZXJjYXQub3JnIiwgInRlc3RfbmFtZSI6ICIxNTMiLCAidGxzIjogInRscyIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIiwgIm5hbWUiOiAi8J+HqfCfh6ogREUgfCBWTUVTUyB8IEBvdXRsaW5lcmVsZWFzZWRrZXkgIzEgW2Zhc3RdIn0=
+vmess://eyJhZGQiOiAiYWlkcml2ZXJjYXQub3JnIiwgImFpZCI6ICIwIiwgImhvc3QiOiAiYWlkcml2ZXJjYXQub3JnIiwgImlkIjogIjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvbGlua3Z3cyIsICJwb3J0IjogNDQzLCAicHMiOiAi8J+HuvCfh7ggMzkgLSBVUyAtIFZNZXNzL1dTL1RMUyAtIDQ0MyIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiYWlkcml2ZXJjYXQub3JnIiwgInRlc3RfbmFtZSI6ICIxNTMiLCAidGxzIjogInRscyIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIiwgIm5hbWUiOiAi8J+HqfCfh6ogREUgfCBWTUVTUyB8IEBvdXRsaW5lcmVsZWFzZWRrZXkgIzEgW2Zhc3RdIn0=
+trojan://UX82473651@actual-squid.rooster465.autos:443?sni=actual-squid.rooster465.autos&fp=chrome&type=tcp&path=/#🇩🇪
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@de.1.23.h2corp.org:443?insecure=1&sni=germany3.h2corp.local#🇩🇪

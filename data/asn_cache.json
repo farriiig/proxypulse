@@ -3477,5 +3477,12 @@
     "isp": "OC NETWORKS LIMITED",
     "country_code": "PL",
     "fetched_at": "2026-10-03T13:31:53Z"
+  },
+  "185.53.209.67": {
+    "asn": 36007,
+    "org": "O.M.C. COMPUTERS & COMMUNICATIONS LTD",
+    "isp": "Kamatera, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-10-03T18:01:25Z"
   }
 }

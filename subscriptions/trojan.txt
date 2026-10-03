@@ -1,5 +1,4 @@
-trojan://Telegram_healer_config@104.21.64.165:443?security=tls&sni=3w2hk6Zj92orJcJedMI77HzC.Ny49NuZ6g33rYkoWaZQUNl-B9GuN5T.wOrkERs.DEv&alpn=http/1.1&type=ws&host=3w2hk6zj92orjcjedmi77hzc.ny49nuz6g33rykowazqunl-b9gun5t.workers.dev&path=/tr/owxywx7VjYMLyGu2JOQYjHwV67l?ed=2560#🇺🇸
 trojan://UX82473651@3.120.109.26:443?sni=actual-squid.rooster465.autos&fp=chrome&type=tcp&path=/#🇩🇪
 trojan://UX82473651@202.78.163.237:443?sni=cheerful-swan.rooster465.autos&path=/#🇵🇱
-trojan://UX82473651@actual-squid.rooster465.autos:443?sni=actual-squid.rooster465.autos&fp=chrome&type=tcp&path=/#🇩🇪
 trojan://UX82473651@cheerful-swan.rooster465.autos:443?security=tls&sni=cheerful-swan.rooster465.autos&path=/#🇵🇱
+trojan://UX82473651@actual-squid.rooster465.autos:443?sni=actual-squid.rooster465.autos&fp=chrome&type=tcp&path=/#🇩🇪
