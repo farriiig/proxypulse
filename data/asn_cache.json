@@ -3456,5 +3456,26 @@
     "isp": "BlueVPS OU",
     "country_code": "EE",
     "fetched_at": "2026-10-03T08:16:00Z"
+  },
+  "150.241.124.80": {
+    "asn": 218731,
+    "org": "Ace Data Centers II, LLC",
+    "isp": "Andris Jakovlevs",
+    "country_code": "DE",
+    "fetched_at": "2026-10-03T13:31:53Z"
+  },
+  "2a0f:85c1:b36:c8::1": {
+    "asn": 213693,
+    "org": "Imad Nabil Daher trading as ID Performance",
+    "isp": "Imad Nabil Daher trading as ID Performance",
+    "country_code": "DK",
+    "fetched_at": "2026-10-03T13:31:53Z"
+  },
+  "95.85.227.241": {
+    "asn": 209693,
+    "org": "1Cent Host",
+    "isp": "OC NETWORKS LIMITED",
+    "country_code": "PL",
+    "fetched_at": "2026-10-03T13:31:53Z"
   }
 }
