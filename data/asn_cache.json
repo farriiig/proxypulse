@@ -3484,5 +3484,215 @@
     "isp": "Kamatera, Inc.",
     "country_code": "US",
     "fetched_at": "2026-10-03T18:01:25Z"
+  },
+  "31.207.7.74": {
+    "asn": 218731,
+    "org": "Andris Jakovlevs",
+    "isp": "Andris Jakovlevs",
+    "country_code": "SE",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "144.31.215.227": {
+    "asn": 198550,
+    "org": "NODE HOST LIMITED",
+    "isp": "NODE HOST LIMITED",
+    "country_code": "DE",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "5.253.42.164": {
+    "asn": 153914,
+    "org": "BEAFORT LIMITED",
+    "isp": "NETRANEX TECHNOLOGIES INDIA PRIVATE LIMITED",
+    "country_code": "IN",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "208.69.78.217": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "CH",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2406:da14:1cc2:2600:74a9:d6f2:dd82:363d": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "JP",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "102.37.156.224": {
+    "asn": 8075,
+    "org": "South Africa Allocations",
+    "isp": "Microsoft Corporation",
+    "country_code": "ZA",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "31.77.168.21": {
+    "asn": 218731,
+    "org": "Andris Jakovlevs",
+    "isp": "Andris Jakovlevs",
+    "country_code": "DE",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "31.77.168.33": {
+    "asn": 218731,
+    "org": "Andris Jakovlevs",
+    "isp": "Andris Jakovlevs",
+    "country_code": "DE",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "31.77.168.35": {
+    "asn": 218731,
+    "org": "Andris Jakovlevs",
+    "isp": "Andris Jakovlevs",
+    "country_code": "DE",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2406:da14:1b3c:4500:e57e:ca13:7168:1b45": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "JP",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2406:da12:cbf:5000:2bf1:e5fc:1799:bf10": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "KR",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2406:da14:1b3c:4500:43a2:b422:be4:8d01": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "JP",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2406:da14:1b3c:4500:140b:f634:8ce0:2b16": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "JP",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2406:da12:cbf:5000:5b3b:f1c:32c1:da83": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "KR",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2406:da14:1b3c:4500:d8dc:300c:e65a:ec2a": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "JP",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2406:da14:1b3c:4500:262e:cda5:9276:8438": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "JP",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2406:da18:653:f101:152c:c5eb:8d27:a8eb": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "SG",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2600:1f13:4a3:7e01:38d:929:3260:a653": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2406:da14:1b3c:4500:bc35:d1f7:267d:8f9a": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "JP",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2406:da14:1b3c:4500:2260:6672:f8f9:cca8": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "JP",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2a05:d018:2a7:8b00:e655:3125:1f20:69f5": {
+    "asn": 16509,
+    "org": "Amazon Data Services Ireland Ltd",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "IE",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2406:da12:cbf:5000:db6e:8772:68fc:173a": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "KR",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2a05:d014:1701:f201:5928:8188:43c6:a7a5": {
+    "asn": 16509,
+    "org": "Amazon Data Services Ireland Ltd",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "DE",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2406:da12:cbf:5000:9bd2:4d69:39a4:7fe6": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "KR",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "2406:da14:1b3c:4500:1f81:4530:8b45:8a02": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "JP",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "185.244.208.69": {
+    "asn": 199524,
+    "org": "G-Core Labs Customer assignment",
+    "isp": "G-Core Labs S.A.",
+    "country_code": "HK",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "145.239.55.210": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "45.32.57.118": {
+    "asn": 20473,
+    "org": "Vultr Holdings, LLC",
+    "isp": "The Constant Company, LLC",
+    "country_code": "JP",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "168.138.43.75": {
+    "asn": 31898,
+    "org": "Oracle Public Cloud",
+    "isp": "Oracle Corporation",
+    "country_code": "JP",
+    "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "169.197.142.22": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-03T21:26:24Z"
   }
 }
