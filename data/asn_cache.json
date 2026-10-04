@@ -3757,5 +3757,33 @@
     "isp": "Oracle Corporation",
     "country_code": "US",
     "fetched_at": "2026-10-04T00:44:51Z"
+  },
+  "2a02:7b40:3e4d:9e01::1": {
+    "asn": 212531,
+    "org": "UAB Interneto vizija",
+    "isp": "UAB Interneto vizija",
+    "country_code": "LT",
+    "fetched_at": "2026-10-04T07:01:34Z"
+  },
+  "132.243.221.25": {
+    "asn": 218731,
+    "org": "Andris Jakovlevs",
+    "isp": "Andris Jakovlevs",
+    "country_code": "NL",
+    "fetched_at": "2026-10-04T07:01:34Z"
+  },
+  "94.159.106.11": {
+    "asn": 215730,
+    "org": "New Hosting Technologies LLC",
+    "isp": "H2NEXUS CLOUD SERVICES - FZCO",
+    "country_code": "DE",
+    "fetched_at": "2026-10-04T07:01:34Z"
+  },
+  "165.245.217.16": {
+    "asn": 14061,
+    "org": "DigitalOcean, LLC",
+    "isp": "DigitalOcean, LLC",
+    "country_code": "DE",
+    "fetched_at": "2026-10-04T07:01:34Z"
   }
 }
