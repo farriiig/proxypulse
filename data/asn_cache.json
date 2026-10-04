@@ -3694,5 +3694,68 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-10-03T21:26:24Z"
+  },
+  "20.238.125.195": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "IE",
+    "fetched_at": "2026-10-04T00:44:51Z"
+  },
+  "146.19.207.133": {
+    "asn": 210546,
+    "org": "Cloud Hosting Solutions, Limited.",
+    "isp": "CHSL ONE LTD",
+    "country_code": "DE",
+    "fetched_at": "2026-10-04T00:44:51Z"
+  },
+  "195.133.65.232": {
+    "asn": 210546,
+    "org": "CHSL ONE LTD",
+    "isp": "CHSL ONE LTD",
+    "country_code": "DE",
+    "fetched_at": "2026-10-04T00:44:51Z"
+  },
+  "23.251.51.239": {
+    "asn": 62610,
+    "org": "zenlayer.inc",
+    "isp": "Zenlayer Inc",
+    "country_code": "DE",
+    "fetched_at": "2026-10-04T00:44:51Z"
+  },
+  "64.188.83.202": {
+    "asn": 209693,
+    "org": "1Cent Host",
+    "isp": "OC NETWORKS LIMITED",
+    "country_code": "DE",
+    "fetched_at": "2026-10-04T00:44:51Z"
+  },
+  "8.210.24.181": {
+    "asn": 45102,
+    "org": "Aliyun Computing Co.LTD",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "HK",
+    "fetched_at": "2026-10-04T00:44:51Z"
+  },
+  "152.67.8.205": {
+    "asn": 31898,
+    "org": "Oracle Public Cloud",
+    "isp": "Oracle Corporation",
+    "country_code": "IN",
+    "fetched_at": "2026-10-04T00:44:51Z"
+  },
+  "186.190.211.67": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "GB",
+    "fetched_at": "2026-10-04T00:44:51Z"
+  },
+  "129.146.77.248": {
+    "asn": 31898,
+    "org": "Oracle Corporation",
+    "isp": "Oracle Corporation",
+    "country_code": "US",
+    "fetched_at": "2026-10-04T00:44:51Z"
   }
 }
