@@ -3785,5 +3785,75 @@
     "isp": "DigitalOcean, LLC",
     "country_code": "DE",
     "fetched_at": "2026-10-04T07:01:34Z"
+  },
+  "152.228.139.33": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-10-04T13:17:39Z"
+  },
+  "31.207.7.150": {
+    "asn": 218731,
+    "org": "Andris Jakovlevs",
+    "isp": "Andris Jakovlevs",
+    "country_code": "SE",
+    "fetched_at": "2026-10-04T13:17:39Z"
+  },
+  "185.166.154.111": {
+    "asn": 212171,
+    "org": "UOWH LLC",
+    "isp": "Local NCC Ltd.",
+    "country_code": "FI",
+    "fetched_at": "2026-10-04T13:17:39Z"
+  },
+  "2406:da14:1b3c:4500:7750:80f7:f393:3ca5": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "JP",
+    "fetched_at": "2026-10-04T13:17:39Z"
+  },
+  "103.109.234.61": {
+    "asn": 214716,
+    "org": "WEYRO LTD",
+    "isp": "WEYRO LTD",
+    "country_code": "DE",
+    "fetched_at": "2026-10-04T13:17:39Z"
+  },
+  "88.99.92.84": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-10-04T13:17:39Z"
+  },
+  "46.225.149.10": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-10-04T13:17:39Z"
+  },
+  "179.254.115.109": {
+    "asn": 219095,
+    "org": "Paul Sagov",
+    "isp": "Paul Sagov",
+    "country_code": "DE",
+    "fetched_at": "2026-10-04T13:17:39Z"
+  },
+  "82.21.117.56": {
+    "asn": 57043,
+    "org": "HOSTKEY B.V.",
+    "isp": "HOSTKEY B.V.",
+    "country_code": "DE",
+    "fetched_at": "2026-10-04T13:17:39Z"
+  },
+  "66.163.117.58": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "GB",
+    "fetched_at": "2026-10-04T13:17:39Z"
   }
 }
