@@ -4100,5 +4100,47 @@
     "isp": "Leaseweb Deutschland GmbH",
     "country_code": "DE",
     "fetched_at": "2026-10-05T07:11:15Z"
+  },
+  "103.56.84.189": {
+    "asn": 26383,
+    "org": "RCS Technologies FZE LLC",
+    "isp": "Baxet Group Inc.",
+    "country_code": "DE",
+    "fetched_at": "2026-10-05T16:10:06Z"
+  },
+  "185.242.113.117": {
+    "asn": 48314,
+    "org": "IP-Projects GmbH & Co. KG",
+    "isp": "Michael Sebastian Schinzel trading as IP-Projects GmbH & Co. KG",
+    "country_code": "DE",
+    "fetched_at": "2026-10-05T16:10:06Z"
+  },
+  "82.153.50.212": {
+    "asn": 210734,
+    "org": "ipxo",
+    "isp": "IPHOSTER OU",
+    "country_code": "DE",
+    "fetched_at": "2026-10-05T16:10:06Z"
+  },
+  "179.254.115.83": {
+    "asn": 219095,
+    "org": "Paul Sagov",
+    "isp": "Paul Sagov",
+    "country_code": "DE",
+    "fetched_at": "2026-10-05T16:10:06Z"
+  },
+  "89.107.10.194": {
+    "asn": 210546,
+    "org": "Cloud Hosting Solutions, Limited.",
+    "isp": "CHSL ONE LTD",
+    "country_code": "DE",
+    "fetched_at": "2026-10-05T16:10:06Z"
+  },
+  "185.237.14.48": {
+    "asn": 204548,
+    "org": "O.M.C. COMPUTERS & COMMUNICATIONS LTD",
+    "isp": "Kamatera Inc",
+    "country_code": "DE",
+    "fetched_at": "2026-10-05T16:10:06Z"
   }
 }
