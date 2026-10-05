@@ -4142,5 +4142,96 @@
     "isp": "Kamatera Inc",
     "country_code": "DE",
     "fetched_at": "2026-10-05T16:10:06Z"
+  },
+  "94.183.170.135": {
+    "asn": 212743,
+    "org": "EternityCloud",
+    "isp": "ETERNITY INTERNATIONAL LIMITED",
+    "country_code": "EE",
+    "fetched_at": "2026-10-05T22:44:50Z"
+  },
+  "195.62.49.65": {
+    "asn": 206134,
+    "org": "Aleksandr Popov",
+    "isp": "NEKOBYTE INTERNATIONAL LIMITED",
+    "country_code": "DE",
+    "fetched_at": "2026-10-05T22:44:50Z"
+  },
+  "2a12:bec4:1bb0:1cce::2": {
+    "asn": 213520,
+    "org": "Senko Digital LLC",
+    "isp": "Senko Digital LLC",
+    "country_code": "DE",
+    "fetched_at": "2026-10-05T22:44:50Z"
+  },
+  "50.7.248.122": {
+    "asn": 30058,
+    "org": "FDCservers.net",
+    "isp": "FDCservers.net",
+    "country_code": "PL",
+    "fetched_at": "2026-10-05T22:44:50Z"
+  },
+  "66.90.100.114": {
+    "asn": 30058,
+    "org": "FDCservers.net",
+    "isp": "FDCservers.net",
+    "country_code": "NL",
+    "fetched_at": "2026-10-05T22:44:50Z"
+  },
+  "50.7.230.82": {
+    "asn": 30058,
+    "org": "FDCservers.net",
+    "isp": "FDCservers.net",
+    "country_code": "NL",
+    "fetched_at": "2026-10-05T22:44:50Z"
+  },
+  "2.27.211.38": {
+    "asn": 207957,
+    "org": "SERV.HOST GROUP LTD",
+    "isp": "SERV.HOST GROUP LTD",
+    "country_code": "PL",
+    "fetched_at": "2026-10-05T22:44:50Z"
+  },
+  "83.229.87.123": {
+    "asn": 204548,
+    "org": "O.M.C. COMPUTERS & COMMUNICATIONS LTD",
+    "isp": "Kamatera Inc",
+    "country_code": "DE",
+    "fetched_at": "2026-10-05T22:44:50Z"
+  },
+  "192.9.158.245": {
+    "asn": 31898,
+    "org": "Oracle Corporation",
+    "isp": "Oracle Corporation",
+    "country_code": "US",
+    "fetched_at": "2026-10-05T22:44:50Z"
+  },
+  "193.37.70.63": {
+    "asn": 210546,
+    "org": "Cloud Hosting Solutions, Limited.",
+    "isp": "CHSL ONE LTD",
+    "country_code": "DE",
+    "fetched_at": "2026-10-05T22:44:50Z"
+  },
+  "47.245.131.215": {
+    "asn": 45102,
+    "org": "Alibaba Cloud LLC",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "DE",
+    "fetched_at": "2026-10-05T22:44:50Z"
+  },
+  "185.14.92.80": {
+    "asn": 58087,
+    "org": "intercolo GmbH",
+    "isp": "Florian Kolb",
+    "country_code": "DE",
+    "fetched_at": "2026-10-05T22:44:50Z"
+  },
+  "185.34.33.2": {
+    "asn": 28855,
+    "org": "Octopuce S.A.R.L.",
+    "isp": "Octopuce s.a.r.l.",
+    "country_code": "FR",
+    "fetched_at": "2026-10-05T22:44:50Z"
   }
 }
