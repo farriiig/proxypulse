@@ -4233,5 +4233,54 @@
     "isp": "Octopuce s.a.r.l.",
     "country_code": "FR",
     "fetched_at": "2026-10-05T22:44:50Z"
+  },
+  "67.159.44.194": {
+    "asn": 30058,
+    "org": "FDCservers.net",
+    "isp": "FDCservers.net",
+    "country_code": "FR",
+    "fetched_at": "2026-10-06T03:06:39Z"
+  },
+  "2a12:bec4:1460:1a0::2": {
+    "asn": 218731,
+    "org": "Andris Jakovlevs",
+    "isp": "Andris Jakovlevs",
+    "country_code": "DE",
+    "fetched_at": "2026-10-06T03:06:39Z"
+  },
+  "45.149.114.171": {
+    "asn": 41745,
+    "org": "LVNET LTD",
+    "isp": "Baykov Ilya Sergeevich",
+    "country_code": "IN",
+    "fetched_at": "2026-10-06T03:06:39Z"
+  },
+  "108.181.133.97": {
+    "asn": 40676,
+    "org": "Profuse Solutions INC - PhotonVPS",
+    "isp": "Psychz Networks",
+    "country_code": "US",
+    "fetched_at": "2026-10-06T03:06:39Z"
+  },
+  "31.172.72.83": {
+    "asn": 44051,
+    "org": "www.fornex.com, Fornex Hosting S.L.",
+    "isp": "Fornex Hosting S.L.",
+    "country_code": "DE",
+    "fetched_at": "2026-10-06T03:06:39Z"
+  },
+  "162.19.247.245": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "DE",
+    "fetched_at": "2026-10-06T03:06:39Z"
+  },
+  "91.107.240.211": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-10-06T03:06:39Z"
   }
 }
