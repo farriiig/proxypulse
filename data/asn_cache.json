@@ -4611,5 +4611,40 @@
     "isp": "VPSPay Networks LTD",
     "country_code": "PL",
     "fetched_at": "2026-10-07T01:38:49Z"
+  },
+  "2a03:90c0:162:1::253": {
+    "asn": 199524,
+    "org": "G-Core Labs S.A.",
+    "isp": "G-Core Labs S.A.",
+    "country_code": "TR",
+    "fetched_at": "2026-10-07T08:49:46Z"
+  },
+  "13.143.166.245": {
+    "asn": 201988,
+    "org": "Vpspay Networks LTD",
+    "isp": "VPSPay Networks LTD",
+    "country_code": "FI",
+    "fetched_at": "2026-10-07T08:49:46Z"
+  },
+  "83.147.233.42": {
+    "asn": 200740,
+    "org": "FIRST SERVER, SOCIEDAD LIMITADA",
+    "isp": "FIRST SERVER LIMITED",
+    "country_code": "NL",
+    "fetched_at": "2026-10-07T08:49:46Z"
+  },
+  "31.76.103.140": {
+    "asn": 201988,
+    "org": "Vpspay Networks LTD",
+    "isp": "VPSPay Networks LTD",
+    "country_code": "FI",
+    "fetched_at": "2026-10-07T08:49:46Z"
+  },
+  "185.67.125.90": {
+    "asn": 199524,
+    "org": "G-Core Labs Customer assignment",
+    "isp": "G-Core Labs S.A.",
+    "country_code": "IN",
+    "fetched_at": "2026-10-07T08:49:46Z"
   }
 }

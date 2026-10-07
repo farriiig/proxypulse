@@ -559,5 +559,14 @@
     "tunnel_success_rate": 84.0,
     "survival_score": 85.0,
     "countries": 19
+  },
+  {
+    "at": "2026-10-07T08:49:09Z",
+    "online": 210,
+    "avg_latency_ms": 177.9,
+    "verified": 165,
+    "tunnel_success_rate": 82.5,
+    "survival_score": 88.8,
+    "countries": 18
   }
 ]

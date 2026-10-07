@@ -1,7 +1,5 @@
 trojan://UX82473651@202.78.163.237:443?sni=cheerful-swan.rooster465.autos&path=/#🇵🇱
-vless://a2bbb4ba-6d21-4ae0-9682-dacfbea98ae9@217.19.122.214:8448?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=jOBo4R259-p0H2EcHMPO_R1uPZ8hyM_Yj1K5Nejch2U&security=reality&sid=d681ac08&sni=cdp.x5.ru&type=raw#🇷🇺
 hysteria2://YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc@45.192.12.93:443?sni=admin.wwwinternetvideo.click#🇵🇱
-trojan://WFer-5gN21nfHbVB2N8s71Z74EPUfzVj@pl.zhabulik.ru:443?security=tls&sni=pl.zhabulik.ru&fp=firefox&alpn=h2,http/1.1&type=tcp&headerType=none#🇩🇪
-hysteria2://YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc@144.31.49.47:443?insecure=1&sni=admin.wwwinternetvideo.click#🇷🇺
 trojan://UX82473651@cheerful-swan.rooster465.autos:443?security=tls&sni=cheerful-swan.rooster465.autos&path=/#🇵🇱
+hysteria2://YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc@144.31.49.47:443?insecure=1&sni=admin.wwwinternetvideo.click#🇷🇺
 hysteria2://YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc@admin.wwwinternetvideo.click:443?insecure=1#🇵🇱
