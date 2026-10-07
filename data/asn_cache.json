@@ -4646,5 +4646,33 @@
     "isp": "G-Core Labs S.A.",
     "country_code": "IN",
     "fetched_at": "2026-10-07T08:49:46Z"
+  },
+  "78.40.194.233": {
+    "asn": 216071,
+    "org": "Amsterdam, Netherlands",
+    "isp": "SERVERS TECH FZCO",
+    "country_code": "NL",
+    "fetched_at": "2026-10-07T16:38:18Z"
+  },
+  "2001:41d0:a:43aa::1": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-10-07T16:38:18Z"
+  },
+  "54.249.55.154": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "JP",
+    "fetched_at": "2026-10-07T16:38:18Z"
+  },
+  "52.143.57.34": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "NL",
+    "fetched_at": "2026-10-07T16:38:18Z"
   }
 }
