@@ -4765,5 +4765,33 @@
     "isp": "Greenhost BV",
     "country_code": "NL",
     "fetched_at": "2026-10-08T16:36:55Z"
+  },
+  "2001:1600:13:101::1964": {
+    "asn": 29222,
+    "org": "Infomaniak Network SA",
+    "isp": "Infomaniak Network SA",
+    "country_code": "CH",
+    "fetched_at": "2026-10-08T22:11:17Z"
+  },
+  "37.187.133.170": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-10-08T22:11:17Z"
+  },
+  "102.37.97.228": {
+    "asn": 8075,
+    "org": "South Africa Allocations",
+    "isp": "Microsoft Corporation",
+    "country_code": "ZA",
+    "fetched_at": "2026-10-08T22:11:17Z"
+  },
+  "107.149.159.190": {
+    "asn": 213840,
+    "org": "Private Customer",
+    "isp": "DDOS PROTECTION LTD",
+    "country_code": "US",
+    "fetched_at": "2026-10-08T22:11:17Z"
   }
 }
