@@ -4744,5 +4744,26 @@
     "isp": "Scaleway SAS",
     "country_code": "NL",
     "fetched_at": "2026-10-08T02:03:26Z"
+  },
+  "163.172.214.188": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-08T16:36:55Z"
+  },
+  "192.6.154.68": {
+    "asn": 23470,
+    "org": "Private Customer",
+    "isp": "ReliableSite.Net LLC",
+    "country_code": "US",
+    "fetched_at": "2026-10-08T16:36:55Z"
+  },
+  "193.29.139.203": {
+    "asn": 47172,
+    "org": "Greenhost BV",
+    "isp": "Greenhost BV",
+    "country_code": "NL",
+    "fetched_at": "2026-10-08T16:36:55Z"
   }
 }
