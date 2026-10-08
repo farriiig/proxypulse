@@ -1,5 +1,4 @@
-vless://b1813cbd-831f-4cb3-baf8-5bc0cc8298bc@83.168.107.220:443?security=reality&encryption=none&pbk=s0lbZ5BO3ctZjE8DzsXkNL0NvLl6FgLG6532NQzXigo&headerType=none&fp=safari&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=c56d4f1c#🇵🇱
 hysteria2://YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc@45.192.12.93:443?sni=admin.wwwinternetvideo.click#🇵🇱
 hysteria2://YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc@144.31.49.47:443?insecure=1&sni=admin.wwwinternetvideo.click#🇷🇺
-hysteria2://YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc@admin.wwwinternetvideo.click:443?insecure=1#🇵🇱
+hysteria2://YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc@admin.wwwinternetvideo.click:443?insecure=0&sni=admin.wwwinternetvideo.click#🇵🇱
 hysteria2://YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc@go.wwwinternetvideo.click:443?insecure=1&sni=admin.wwwinternetvideo.click#🇷🇺

@@ -4709,5 +4709,40 @@
     "isp": "Datacamp Limited",
     "country_code": "US",
     "fetched_at": "2026-10-07T22:04:09Z"
+  },
+  "157.228.152.186": {
+    "asn": 204339,
+    "org": "FIRST SERVER, SOCIEDAD LIMITADA",
+    "isp": "FIRST SERVER LIMITED",
+    "country_code": "FI",
+    "fetched_at": "2026-10-08T02:03:26Z"
+  },
+  "185.112.59.210": {
+    "asn": 209207,
+    "org": "Digital Hosting Provider LLC",
+    "isp": "Digital Hosting Provider LLC",
+    "country_code": "NL",
+    "fetched_at": "2026-10-08T02:03:26Z"
+  },
+  "51.124.237.47": {
+    "asn": 8075,
+    "org": "cloud",
+    "isp": "Microsoft Corporation",
+    "country_code": "NL",
+    "fetched_at": "2026-10-08T02:03:26Z"
+  },
+  "45.76.9.57": {
+    "asn": 20473,
+    "org": "Vultr Holdings, LLC",
+    "isp": "The Constant Company, LLC",
+    "country_code": "US",
+    "fetched_at": "2026-10-08T02:03:26Z"
+  },
+  "51.15.127.124": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-08T02:03:26Z"
   }
 }
