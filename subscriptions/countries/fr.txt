@@ -1,2 +1,4 @@
+vless://9d672694-c146-422e-b3b5-3717a38a0fcc@fr.api-music-fa.com:2053?encryption=none&security=tls&sni=fr.api-music-fa.com&alpn=http/1.1&type=ws&host=fr.api-music-fa.com&path=/api/voip/updates/static/fr2035#🇺🇸
 vless://df53b6c2-8005-475c-9eb9-74e1be785dc8@157.228.155.185:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=4q8nqNb-0c-akP3XqVmen67BLXJVlx48a_GDRw16nVg&sid=5ea112e8&type=tcp&headerType=none#🇬🇧
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCcW5xVG9paDBQYlU@51.255.13.232:8388#🇫🇷
 hysteria2://dongtaiwang.com@62.210.124.146:22000?insecure=1&sni=www.microsoft.com#🇫🇷
