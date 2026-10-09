@@ -4793,5 +4793,47 @@
     "isp": "DDOS PROTECTION LTD",
     "country_code": "US",
     "fetched_at": "2026-10-08T22:11:17Z"
+  },
+  "2001:1600:13:101::605": {
+    "asn": 29222,
+    "org": "Infomaniak Network SA",
+    "isp": "Infomaniak Network SA",
+    "country_code": "CH",
+    "fetched_at": "2026-10-09T02:16:55Z"
+  },
+  "2001:1600:13:101::184a": {
+    "asn": 29222,
+    "org": "Infomaniak Network SA",
+    "isp": "Infomaniak Network SA",
+    "country_code": "CH",
+    "fetched_at": "2026-10-09T02:16:55Z"
+  },
+  "103.6.234.223": {
+    "asn": 152992,
+    "org": "HASAKI VIETNAM SECURITY SERVICES COMPANY LIMITED",
+    "isp": "Vietnam Internet Network Information Center VNNIC",
+    "country_code": "VN",
+    "fetched_at": "2026-10-09T02:16:55Z"
+  },
+  "138.124.59.94": {
+    "asn": 210644,
+    "org": "AEZA GROUP LLC",
+    "isp": "AEZA GROUP LLC",
+    "country_code": "FI",
+    "fetched_at": "2026-10-09T02:16:55Z"
+  },
+  "212.87.190.93": {
+    "asn": 219095,
+    "org": "Paul Sagov",
+    "isp": "Paul Sagov",
+    "country_code": "EE",
+    "fetched_at": "2026-10-09T02:16:55Z"
+  },
+  "8.217.254.88": {
+    "asn": 45102,
+    "org": "Aliyun Computing Co.LTD",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "HK",
+    "fetched_at": "2026-10-09T02:16:55Z"
   }
 }

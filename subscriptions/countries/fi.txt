@@ -1,0 +1,2 @@
+vless://985fbc4e-f2fd-4a7f-b09f-f9b7728dd0a4@217.19.122.214:7449?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=OGMQnJGgrCYDojFm4u7YrvOoOmtjK6iZ4_q-Kmanozs&security=reality&sid=03cf706025caa46e&sni=passport.yandex.ru&type=raw#🇳🇱
+vless://df53b6c2-8005-475c-9eb9-74e1be785dc8@157.228.128.59:443?security=reality&encryption=none&pbk=QnxkyscHouhaLDJHT47beyenVd4LHi62yfJIeRV01Ws&host=/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&headerType=none&fp=randomized&type=tcp&flow=xtls-rprx-vision&sni=addons.mozilla.org&sid=06e00e7c#🇬🇧
