@@ -1,8 +1,11 @@
-trojan://eabf1999fefbb7d2@waysi.waysi6688.workers.dev:2087?alpn=http/1.1&ed=2560&eh=Sec-WebSocket-Protocol&fp=ios&host=waysi.waysi6688.workers.dev&path=/tr/sMpzOZ0eWEt6jbZ1jjN3BaM7LLoQ&sni=WaYSi.wAYsI6688.WOrkeRS.deV&type=ws#🇺🇸
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyWWRFNGxGT2lkNWE@51.195.126.38:8388#🇩🇪
+vless://318c935d-c195-41d3-99ad-9bbcfdab3386@144.31.62.170:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=de2.srv.vbuste.ru&fp=chrome&pbk=0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08&sid=4be4110078ebed4a&type=tcp&headerType=none#🇩🇪
+vless://a889fba5-5472-4022-a6b4-9710157fda2f@138.124.73.88:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=github.com&fp=firefox&pbk=SpDERK2bCJgRdaDP3cSsQDfOCghD94d0-zjuKIHYQy0&sid=a2aa&type=tcp&headerType=none#🇩🇪
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyWWRFNGxGT2lkNWE@51.195.126.38:8388#🇩🇪
+ss://YWVzLTI1Ni1nY206a0tFZDByQnJkNTZGdXJqeg@2.58.81.221:80#🇩🇪
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@91.196.32.163:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@64.188.98.171:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
 ss://YWVzLTI1Ni1nY206a0tFZDByQnJkNTZGdXJqeg@2.58.81.221:443#🇩🇪
-ss://YWVzLTI1Ni1nY206a0tFZDByQnJkNTZGdXJqeg@2.58.81.221:80#🇩🇪
+trojan://gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU@ger1.fytpn.com:443?security=tls&sni=ger1.fytpn.com&fp=firefox&type=tcp&headerType=none#🇩🇪
+trojan://gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU@ger2.fytpn.com:443?security=tls&sni=ger2.fytpn.com&fp=firefox&type=tcp&headerType=none#🇩🇪
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@de.1.23.h2corp.org:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
