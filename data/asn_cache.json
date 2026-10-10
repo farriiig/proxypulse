@@ -4905,5 +4905,61 @@
     "isp": "Datagio Systems Ltd.",
     "country_code": "PL",
     "fetched_at": "2026-10-09T09:19:24Z"
+  },
+  "13.143.174.146": {
+    "asn": 219337,
+    "org": "play2go.cloud - Cheap and reliable hosting",
+    "isp": "PLAY2GO - FZCO",
+    "country_code": "SE",
+    "fetched_at": "2026-10-10T01:49:00Z"
+  },
+  "177.1.192.81": {
+    "asn": 197462,
+    "org": "UPHOST SOLUTIONS LIMITED",
+    "isp": "UPHOST SOLUTIONS LIMITED",
+    "country_code": "PL",
+    "fetched_at": "2026-10-10T01:49:00Z"
+  },
+  "5.75.203.174": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-10-10T01:49:00Z"
+  },
+  "195.133.80.152": {
+    "asn": 219288,
+    "org": "SOULFUL HOSTING LTD",
+    "isp": "SOULFUL HOSTING LTD",
+    "country_code": "PL",
+    "fetched_at": "2026-10-10T01:49:00Z"
+  },
+  "20.67.93.66": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "NL",
+    "fetched_at": "2026-10-10T01:49:00Z"
+  },
+  "144.31.212.253": {
+    "asn": 215439,
+    "org": "play2go.cloud - Cheap and reliable hosting",
+    "isp": "PLAY2GO INTERNATIONAL LIMITED",
+    "country_code": "FI",
+    "fetched_at": "2026-10-10T01:49:00Z"
+  },
+  "47.244.120.197": {
+    "asn": 45102,
+    "org": "Alibaba Cloud - HK",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "HK",
+    "fetched_at": "2026-10-10T01:49:00Z"
+  },
+  "47.243.194.125": {
+    "asn": 45102,
+    "org": "Alibaba Cloud - HK",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "HK",
+    "fetched_at": "2026-10-10T01:49:00Z"
   }
 }
