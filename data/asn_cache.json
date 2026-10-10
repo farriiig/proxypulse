@@ -5031,5 +5031,33 @@
     "isp": "Scaleway SAS",
     "country_code": "NL",
     "fetched_at": "2026-10-10T20:09:46Z"
+  },
+  "86.54.28.75": {
+    "asn": 12989,
+    "org": "THE WEB IS WHAT WE MAKE OF IT",
+    "isp": "Black HOST Ltd",
+    "country_code": "NL",
+    "fetched_at": "2026-10-10T23:39:19Z"
+  },
+  "2.26.55.163": {
+    "asn": 215439,
+    "org": "play2go.cloud - Cheap and reliable hosting",
+    "isp": "PLAY2GO INTERNATIONAL LIMITED",
+    "country_code": "SE",
+    "fetched_at": "2026-10-10T23:39:19Z"
+  },
+  "93.188.184.150": {
+    "asn": 198610,
+    "org": "Beget LLC",
+    "isp": "Beget LLC",
+    "country_code": "RU",
+    "fetched_at": "2026-10-10T23:39:19Z"
+  },
+  "2a01:4f9:c012:764c::1": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "FI",
+    "fetched_at": "2026-10-10T23:39:19Z"
   }
 }
