@@ -4982,5 +4982,26 @@
     "isp": "Microsoft Corporation",
     "country_code": "NL",
     "fetched_at": "2026-10-10T08:38:26Z"
+  },
+  "52.157.100.252": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "NL",
+    "fetched_at": "2026-10-10T15:27:40Z"
+  },
+  "78.129.252.52": {
+    "asn": 20860,
+    "org": "Iomart Managed Services Limited",
+    "isp": "IOMART CLOUD SERVICES LIMITED",
+    "country_code": "GB",
+    "fetched_at": "2026-10-10T15:27:40Z"
+  },
+  "38.181.42.136": {
+    "asn": 140227,
+    "org": "Cogent Communications",
+    "isp": "Hong Kong Communications International Co., Limited",
+    "country_code": "US",
+    "fetched_at": "2026-10-10T15:27:40Z"
   }
 }
