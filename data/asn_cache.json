@@ -4961,5 +4961,26 @@
     "isp": "Alibaba US Technology Co., Ltd.",
     "country_code": "HK",
     "fetched_at": "2026-10-10T01:49:00Z"
+  },
+  "201.24.115.45": {
+    "asn": 9123,
+    "org": "JSC TIMEWEB",
+    "isp": "JSC TIMEWEB",
+    "country_code": "RU",
+    "fetched_at": "2026-10-10T08:38:26Z"
+  },
+  "217.149.30.73": {
+    "asn": 9123,
+    "org": "JSC TIMEWEB",
+    "isp": "JSC TIMEWEB",
+    "country_code": "RU",
+    "fetched_at": "2026-10-10T08:38:26Z"
+  },
+  "40.114.228.208": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "NL",
+    "fetched_at": "2026-10-10T08:38:26Z"
   }
 }

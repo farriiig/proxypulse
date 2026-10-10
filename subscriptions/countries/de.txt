@@ -1,8 +1,6 @@
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyWWRFNGxGT2lkNWE@51.195.126.38:8388#🇩🇪
-hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@91.196.32.163:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
 trojan://eabf1999fefbb7d2@waysi.waysi6688.workers.dev:2087?alpn=http/1.1&ed=2560&eh=Sec-WebSocket-Protocol&fp=ios&host=waysi.waysi6688.workers.dev&path=/tr/sMpzOZ0eWEt6jbZ1jjN3BaM7LLoQ&sni=WaYSi.wAYsI6688.WOrkeRS.deV&type=ws#🇺🇸
+hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@91.196.32.163:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@64.188.98.171:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
-vless://966f332d-f552-4a79-b57c-9151bf51f76e@cdn-2d12.giftcardbazarbot.com:2053?encryption=none&flow=xtls-rprx-vision&security=reality&sni=cdn-2d12.giftcardbazarbot.com&fp=chrome&pbk=I9amRmbdpKTqhvPcfYqJcJqFbd-Sbq5ylCcIX9AQgxg&sid=9c2ca23e942cd346&spx=/&type=tcp&headerType=none#🇩🇪
-vless://0783c6fc-16a8-46ff-a408-a099d2f6f3ac@hz-online-balancer.nyxenpro.ir:2080?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=edge&pbk=A2-_TVXJkWh9CZ7aD4NT9CsfAalIAn9r3BYXNJ3vhlc&sid=6ee75d75c8607846&type=tcp&headerType=none#🇺🇦
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@de.1.23.h2corp.org:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
