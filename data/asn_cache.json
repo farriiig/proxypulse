@@ -5129,5 +5129,33 @@
     "isp": "Amazon.com, Inc.",
     "country_code": "JP",
     "fetched_at": "2026-10-11T05:59:36Z"
+  },
+  "31.56.185.134": {
+    "asn": 219064,
+    "org": "Akenai Products LTD",
+    "isp": "Akenai Products LTD",
+    "country_code": "NL",
+    "fetched_at": "2026-10-11T13:04:23Z"
+  },
+  "89.125.100.59": {
+    "asn": 219147,
+    "org": "Moskalev Georgiy",
+    "isp": "Moskalev Georgiy",
+    "country_code": "NL",
+    "fetched_at": "2026-10-11T13:04:23Z"
+  },
+  "212.100.171.154": {
+    "asn": 16276,
+    "org": "Doprax Aps",
+    "isp": "OVH SAS",
+    "country_code": "DE",
+    "fetched_at": "2026-10-11T13:04:23Z"
+  },
+  "193.164.149.248": {
+    "asn": 9123,
+    "org": "JSC TIMEWEB",
+    "isp": "JSC TIMEWEB",
+    "country_code": "RU",
+    "fetched_at": "2026-10-11T13:04:24Z"
   }
 }

@@ -1,4 +1,4 @@
-vless://accfae78-b31c-47cb-86a1-bb9a07973e4a@194.55.239.101:8443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=vxA0Fdcn39Z6w1JrR958Ii0W9uLk2Knxg5XDagcPtxQ&security=reality&sid=e016190556fb1c9b&sni=passport.yandex.ru&type=raw#🇷🇺
+vless://a5ce10af-5e95-4eb3-ab87-bf4f95cb059b@212.100.171.154:443?security=reality&encryption=none&pbk=8u8r2iWMt8Isz2ZNRbn3g4cfldhcePRB-1hxGYLTnSg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=aa6582cf25e243ce#🇩🇰
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyWWRFNGxGT2lkNWE@51.195.126.38:8388#🇩🇪
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@91.196.32.163:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
