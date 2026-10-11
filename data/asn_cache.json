@@ -5213,5 +5213,96 @@
     "isp": "Dromatics Systems Pte Ltd",
     "country_code": "SG",
     "fetched_at": "2026-10-11T18:10:20Z"
+  },
+  "78.135.73.47": {
+    "asn": 51722,
+    "org": "PIXOOF TEKNOLOJI ANONIM SIRKETI",
+    "isp": "PIXOOF TEKNOLOJI ANONIM SIRKETI",
+    "country_code": "TR",
+    "fetched_at": "2026-10-11T22:07:14Z"
+  },
+  "2a12:bec4:1bb0:204b::2": {
+    "asn": 213520,
+    "org": "Senko Digital LLC",
+    "isp": "Senko Digital LLC",
+    "country_code": "DE",
+    "fetched_at": "2026-10-11T22:07:14Z"
+  },
+  "179.61.145.245": {
+    "asn": 202051,
+    "org": "NetGrid Host LTD",
+    "isp": "NETGRID HOST LTD",
+    "country_code": "DE",
+    "fetched_at": "2026-10-11T22:07:14Z"
+  },
+  "44.248.233.99": {
+    "asn": 16509,
+    "org": "Amazon.com, Inc.",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-10-11T22:07:14Z"
+  },
+  "2001:1600:13:101::59d": {
+    "asn": 29222,
+    "org": "Infomaniak Network SA",
+    "isp": "Infomaniak Network SA",
+    "country_code": "CH",
+    "fetched_at": "2026-10-11T22:07:14Z"
+  },
+  "31.77.114.114": {
+    "asn": 219064,
+    "org": "Akenai Products LTD",
+    "isp": "Akenai Products LTD",
+    "country_code": "NL",
+    "fetched_at": "2026-10-11T22:07:14Z"
+  },
+  "172.245.253.16": {
+    "asn": 36352,
+    "org": "RackNerd LLC",
+    "isp": "HostPapa",
+    "country_code": "US",
+    "fetched_at": "2026-10-11T22:07:14Z"
+  },
+  "51.38.71.147": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-10-11T22:07:14Z"
+  },
+  "2a03:6f01:1:2::2:1c16": {
+    "asn": 9123,
+    "org": "JSC TIMEWEB",
+    "isp": "JSC TIMEWEB",
+    "country_code": "RU",
+    "fetched_at": "2026-10-11T22:07:14Z"
+  },
+  "51.255.166.202": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-10-11T22:07:14Z"
+  },
+  "45.150.33.33": {
+    "asn": 210644,
+    "org": "AEZA GROUP LLC",
+    "isp": "AEZA GROUP LLC",
+    "country_code": "NL",
+    "fetched_at": "2026-10-11T22:07:14Z"
+  },
+  "31.56.18.255": {
+    "asn": 219064,
+    "org": "Akenai Products LTD",
+    "isp": "Akenai Products LTD",
+    "country_code": "DE",
+    "fetched_at": "2026-10-11T22:07:14Z"
+  },
+  "149.202.57.89": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-10-11T22:07:14Z"
   }
 }
