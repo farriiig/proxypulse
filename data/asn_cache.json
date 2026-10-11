@@ -5157,5 +5157,61 @@
     "isp": "JSC TIMEWEB",
     "country_code": "RU",
     "fetched_at": "2026-10-11T13:04:24Z"
+  },
+  "2001:1600:13:101::7e4": {
+    "asn": 29222,
+    "org": "Infomaniak Network SA",
+    "isp": "Infomaniak Network SA",
+    "country_code": "CH",
+    "fetched_at": "2026-10-11T18:10:20Z"
+  },
+  "94.103.168.219": {
+    "asn": 214919,
+    "org": "GHOSTNET GmbH",
+    "isp": "Kabat OU",
+    "country_code": "DE",
+    "fetched_at": "2026-10-11T18:10:20Z"
+  },
+  "191.217.216.247": {
+    "asn": 219064,
+    "org": "Vodafone Libertel B.V.",
+    "isp": "Akenai Products LTD",
+    "country_code": "US",
+    "fetched_at": "2026-10-11T18:10:20Z"
+  },
+  "13.143.239.75": {
+    "asn": 219095,
+    "org": "Paul Sagov",
+    "isp": "Paul Sagov",
+    "country_code": "EE",
+    "fetched_at": "2026-10-11T18:10:20Z"
+  },
+  "31.77.59.95": {
+    "asn": 219095,
+    "org": "Paul Sagov",
+    "isp": "Paul Sagov",
+    "country_code": "PL",
+    "fetched_at": "2026-10-11T18:10:20Z"
+  },
+  "150.251.143.249": {
+    "asn": 219095,
+    "org": "InterLIR GmbH",
+    "isp": "Paul Sagov",
+    "country_code": "NL",
+    "fetched_at": "2026-10-11T18:10:21Z"
+  },
+  "64.110.25.2": {
+    "asn": 63018,
+    "org": "Dedicated.com",
+    "isp": "Dedicated.com",
+    "country_code": "US",
+    "fetched_at": "2026-10-11T18:10:20Z"
+  },
+  "45.127.32.220": {
+    "asn": 134677,
+    "org": "Dromatics Systems Pte LTD",
+    "isp": "Dromatics Systems Pte Ltd",
+    "country_code": "SG",
+    "fetched_at": "2026-10-11T18:10:20Z"
   }
 }
