@@ -5304,5 +5304,75 @@
     "isp": "OVH SAS",
     "country_code": "FR",
     "fetched_at": "2026-10-11T22:07:14Z"
+  },
+  "151.80.87.54": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-10-12T01:25:02Z"
+  },
+  "2001:1600:13:101::b13": {
+    "asn": 29222,
+    "org": "Infomaniak Network SA",
+    "isp": "Infomaniak Network SA",
+    "country_code": "CH",
+    "fetched_at": "2026-10-12T01:25:02Z"
+  },
+  "136.148.71.100": {
+    "asn": 214716,
+    "org": "WEYRO LTD",
+    "isp": "WEYRO LTD",
+    "country_code": "DE",
+    "fetched_at": "2026-10-12T01:25:02Z"
+  },
+  "178.214.111.4": {
+    "asn": 208673,
+    "org": "IPv4 PA lease by LIRBEE",
+    "isp": "ESTOXY OU",
+    "country_code": "NL",
+    "fetched_at": "2026-10-12T01:25:02Z"
+  },
+  "191.101.157.223": {
+    "asn": null,
+    "org": "Freedomtech Solutions Ltd",
+    "isp": "Cogent Communications",
+    "country_code": "DE",
+    "fetched_at": "2026-10-12T01:25:02Z"
+  },
+  "104.171.136.85": {
+    "asn": 9123,
+    "org": "JSC TIMEWEB",
+    "isp": "JSC TIMEWEB",
+    "country_code": "RU",
+    "fetched_at": "2026-10-12T01:25:02Z"
+  },
+  "178.104.84.10": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-10-12T01:25:02Z"
+  },
+  "2001:19f0:7001:7bb:5400:6ff:fe1b:e433": {
+    "asn": 20473,
+    "org": "The Constant Company, LLC",
+    "isp": "The Constant Company, LLC",
+    "country_code": "JP",
+    "fetched_at": "2026-10-12T01:25:02Z"
+  },
+  "136.148.223.212": {
+    "asn": 214640,
+    "org": "Hostup AB",
+    "isp": "Hostup AB",
+    "country_code": "SE",
+    "fetched_at": "2026-10-12T01:25:02Z"
+  },
+  "20.123.1.55": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "IE",
+    "fetched_at": "2026-10-12T01:25:02Z"
   }
 }
