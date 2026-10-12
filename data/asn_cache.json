@@ -5395,5 +5395,19 @@
     "isp": "Microsoft Corporation",
     "country_code": "ZA",
     "fetched_at": "2026-10-12T09:23:38Z"
+  },
+  "31.77.151.175": {
+    "asn": 215439,
+    "org": "play2go.cloud - Cheap and reliable hosting",
+    "isp": "PLAY2GO INTERNATIONAL LIMITED",
+    "country_code": "FI",
+    "fetched_at": "2026-10-12T19:52:59Z"
+  },
+  "51.158.178.176": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-12T19:52:59Z"
   }
 }
