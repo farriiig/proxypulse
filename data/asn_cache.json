@@ -5374,5 +5374,26 @@
     "isp": "Microsoft Corporation",
     "country_code": "IE",
     "fetched_at": "2026-10-12T01:25:02Z"
+  },
+  "31.59.211.220": {
+    "asn": 219357,
+    "org": "ETERNITY INTERNATIONAL LIMITED",
+    "isp": "Kochedykov Egor Aleksandrovich",
+    "country_code": "PL",
+    "fetched_at": "2026-10-12T09:23:38Z"
+  },
+  "20.234.97.18": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "IE",
+    "fetched_at": "2026-10-12T09:23:38Z"
+  },
+  "102.37.103.137": {
+    "asn": 8075,
+    "org": "South Africa Allocations",
+    "isp": "Microsoft Corporation",
+    "country_code": "ZA",
+    "fetched_at": "2026-10-12T09:23:38Z"
   }
 }
