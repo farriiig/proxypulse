@@ -5409,5 +5409,26 @@
     "isp": "Scaleway SAS",
     "country_code": "NL",
     "fetched_at": "2026-10-12T19:52:59Z"
+  },
+  "45.196.221.94": {
+    "asn": 151407,
+    "org": "Akile LTD",
+    "isp": "Hytron Network Services Limited",
+    "country_code": "HK",
+    "fetched_at": "2026-10-13T02:06:50Z"
+  },
+  "154.46.31.106": {
+    "asn": 43376,
+    "org": "LifeinCloud LTD",
+    "isp": "DOTRO TELECOM SRL",
+    "country_code": "RO",
+    "fetched_at": "2026-10-13T02:06:50Z"
+  },
+  "51.15.127.30": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-13T02:06:50Z"
   }
 }
