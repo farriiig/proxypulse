@@ -5458,5 +5458,75 @@
     "isp": "OVH SAS",
     "country_code": "DE",
     "fetched_at": "2026-10-13T17:39:48Z"
+  },
+  "2.56.125.148": {
+    "asn": 203273,
+    "org": "NetCrafters OU",
+    "isp": "NetCrafters OU",
+    "country_code": "PL",
+    "fetched_at": "2026-10-13T22:54:13Z"
+  },
+  "104.28.198.244": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "RU",
+    "fetched_at": "2026-10-13T22:54:13Z"
+  },
+  "185.195.57.176": {
+    "asn": 62240,
+    "org": "New Jersey Network",
+    "isp": "Clouvider Limited",
+    "country_code": "US",
+    "fetched_at": "2026-10-13T22:54:13Z"
+  },
+  "4.210.66.165": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "IE",
+    "fetched_at": "2026-10-13T22:54:13Z"
+  },
+  "193.29.139.172": {
+    "asn": 47172,
+    "org": "Greenhost BV",
+    "isp": "Greenhost BV",
+    "country_code": "NL",
+    "fetched_at": "2026-10-13T22:54:13Z"
+  },
+  "156.146.38.168": {
+    "asn": 60068,
+    "org": "Datacamp Limited",
+    "isp": "Datacamp Limited",
+    "country_code": "US",
+    "fetched_at": "2026-10-13T22:54:13Z"
+  },
+  "51.15.124.179": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-13T22:54:13Z"
+  },
+  "38.91.107.49": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-13T22:54:13Z"
+  },
+  "67.220.85.46": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-13T22:54:13Z"
+  },
+  "67.220.95.3": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-13T22:54:13Z"
   }
 }
