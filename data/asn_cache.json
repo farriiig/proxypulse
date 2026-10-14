@@ -5612,5 +5612,54 @@
     "isp": "Scaleway SAS",
     "country_code": "NL",
     "fetched_at": "2026-10-14T07:46:49Z"
+  },
+  "31.56.18.67": {
+    "asn": 219064,
+    "org": "Akenai Products LTD",
+    "isp": "Akenai Products LTD",
+    "country_code": "DE",
+    "fetched_at": "2026-10-14T13:50:13Z"
+  },
+  "2a01:4f8:1c16:f5b7::1": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-10-14T13:50:13Z"
+  },
+  "94.103.168.54": {
+    "asn": 214919,
+    "org": "GHOSTNET GmbH",
+    "isp": "Kabat OU",
+    "country_code": "DE",
+    "fetched_at": "2026-10-14T13:50:13Z"
+  },
+  "2a01:4f8:1c16:2d6a::1": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-10-14T13:50:13Z"
+  },
+  "94.103.168.58": {
+    "asn": 214919,
+    "org": "GHOSTNET GmbH",
+    "isp": "Kabat OU",
+    "country_code": "DE",
+    "fetched_at": "2026-10-14T13:50:13Z"
+  },
+  "51.83.192.80": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "PL",
+    "fetched_at": "2026-10-14T13:50:13Z"
+  },
+  "51.158.237.119": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-14T13:50:13Z"
   }
 }
