@@ -5668,5 +5668,61 @@
     "isp": "Scaleway SAS",
     "country_code": "NL",
     "fetched_at": "2026-10-14T18:43:48Z"
+  },
+  "64.118.136.68": {
+    "asn": 138997,
+    "org": "Eons Data Communications Limited",
+    "isp": "Eons Data Communications Limited",
+    "country_code": "SG",
+    "fetched_at": "2026-10-14T22:22:33Z"
+  },
+  "166.0.18.97": {
+    "asn": 26042,
+    "org": "Private Customer",
+    "isp": "FiberState, LLC",
+    "country_code": "US",
+    "fetched_at": "2026-10-14T22:22:33Z"
+  },
+  "50.117.15.225": {
+    "asn": 51852,
+    "org": "Bio Databoard",
+    "isp": "Private Layer INC",
+    "country_code": "PA",
+    "fetched_at": "2026-10-14T22:22:33Z"
+  },
+  "2a02:4780:75:ab4b::1": {
+    "asn": 47583,
+    "org": "Hostinger International Limited",
+    "isp": "Hostinger International Limited",
+    "country_code": "US",
+    "fetched_at": "2026-10-14T22:22:33Z"
+  },
+  "94.103.168.133": {
+    "asn": 214919,
+    "org": "GHOSTNET GmbH",
+    "isp": "Kabat OU",
+    "country_code": "DE",
+    "fetched_at": "2026-10-14T22:22:33Z"
+  },
+  "94.26.35.10": {
+    "asn": 51852,
+    "org": "SINO WORLDWIDE TRADING LIMITED",
+    "isp": "Private Layer INC",
+    "country_code": "CH",
+    "fetched_at": "2026-10-14T22:22:33Z"
+  },
+  "51.158.238.250": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-14T22:22:33Z"
+  },
+  "51.158.166.136": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-14T22:22:33Z"
   }
 }
