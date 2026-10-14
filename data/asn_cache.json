@@ -5528,5 +5528,61 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-10-13T22:54:13Z"
+  },
+  "2404:8c80:ff00::13f": {
+    "asn": 206300,
+    "org": "Cloudie Limited",
+    "isp": "YUNYOO LTD",
+    "country_code": "HK",
+    "fetched_at": "2026-10-14T01:59:13Z"
+  },
+  "212.87.190.106": {
+    "asn": 219095,
+    "org": "Paul Sagov",
+    "isp": "Paul Sagov",
+    "country_code": "EE",
+    "fetched_at": "2026-10-14T01:59:13Z"
+  },
+  "31.56.184.209": {
+    "asn": 219064,
+    "org": "Akenai Products LTD",
+    "isp": "Akenai Products LTD",
+    "country_code": "NL",
+    "fetched_at": "2026-10-14T01:59:13Z"
+  },
+  "177.1.192.72": {
+    "asn": 197462,
+    "org": "UPHOST SOLUTIONS LIMITED",
+    "isp": "Uphost Solutions Limited",
+    "country_code": "PL",
+    "fetched_at": "2026-10-14T01:59:13Z"
+  },
+  "94.183.167.61": {
+    "asn": 219506,
+    "org": "TURTLEGUARD",
+    "isp": "Vladislav Doniy",
+    "country_code": "PL",
+    "fetched_at": "2026-10-14T01:59:13Z"
+  },
+  "40.113.154.234": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "NL",
+    "fetched_at": "2026-10-14T01:59:13Z"
+  },
+  "193.29.139.161": {
+    "asn": 47172,
+    "org": "Greenhost BV",
+    "isp": "Greenhost BV",
+    "country_code": "NL",
+    "fetched_at": "2026-10-14T01:59:13Z"
+  },
+  "51.158.236.235": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-14T01:59:13Z"
   }
 }
