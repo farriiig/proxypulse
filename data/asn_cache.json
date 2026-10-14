@@ -5584,5 +5584,33 @@
     "isp": "Scaleway SAS",
     "country_code": "NL",
     "fetched_at": "2026-10-14T01:59:13Z"
+  },
+  "64.7.199.131": {
+    "asn": 399629,
+    "org": "BL Networks",
+    "isp": "BL Networks",
+    "country_code": "RO",
+    "fetched_at": "2026-10-14T07:46:49Z"
+  },
+  "178.215.236.176": {
+    "asn": 215439,
+    "org": "play2go.cloud - Cheap and reliable hosting",
+    "isp": "PLAY2GO INTERNATIONAL LIMITED",
+    "country_code": "DE",
+    "fetched_at": "2026-10-14T07:46:49Z"
+  },
+  "179.254.126.20": {
+    "asn": 219095,
+    "org": "Paul Sagov",
+    "isp": "Paul Sagov",
+    "country_code": "EE",
+    "fetched_at": "2026-10-14T07:46:49Z"
+  },
+  "51.158.169.153": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-14T07:46:49Z"
   }
 }
