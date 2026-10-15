@@ -5724,5 +5724,33 @@
     "isp": "Scaleway SAS",
     "country_code": "NL",
     "fetched_at": "2026-10-14T22:22:33Z"
+  },
+  "51.124.214.122": {
+    "asn": 8075,
+    "org": "cloud",
+    "isp": "Microsoft Corporation",
+    "country_code": "NL",
+    "fetched_at": "2026-10-15T01:34:05Z"
+  },
+  "51.158.239.154": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-15T01:34:05Z"
+  },
+  "51.158.168.62": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-15T01:34:05Z"
+  },
+  "31.76.11.83": {
+    "asn": 215439,
+    "org": "play2go.cloud - Cheap and reliable hosting",
+    "isp": "PLAY2GO INTERNATIONAL LIMITED",
+    "country_code": "DE",
+    "fetched_at": "2026-10-15T01:34:05Z"
   }
 }
