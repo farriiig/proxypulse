@@ -5759,5 +5759,19 @@
     "isp": "Scaleway SAS",
     "country_code": "FR",
     "fetched_at": "2026-10-15T07:33:54Z"
+  },
+  "185.115.34.209": {
+    "asn": 50132,
+    "org": "3NT SOLUTIONS LLP",
+    "isp": "3NT SOLUTIONS LLP",
+    "country_code": "NL",
+    "fetched_at": "2026-10-15T13:32:03Z"
+  },
+  "51.158.237.112": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-15T13:32:03Z"
   }
 }
