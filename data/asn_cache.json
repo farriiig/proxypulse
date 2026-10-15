@@ -5752,5 +5752,12 @@
     "isp": "PLAY2GO INTERNATIONAL LIMITED",
     "country_code": "DE",
     "fetched_at": "2026-10-15T01:34:05Z"
+  },
+  "212.47.233.11": {
+    "asn": 12876,
+    "org": "Scaleway SAS",
+    "isp": "Scaleway SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-10-15T07:33:54Z"
   }
 }
