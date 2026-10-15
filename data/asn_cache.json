@@ -5780,5 +5780,33 @@
     "isp": "ExpressHost Ltd",
     "country_code": "NL",
     "fetched_at": "2026-10-15T18:23:06Z"
+  },
+  "2400:8901::2000:dcff:fea8:819f": {
+    "asn": 63949,
+    "org": "Akamai Connected Cloud / Linode",
+    "isp": "Akamai Technologies, Inc.",
+    "country_code": "SG",
+    "fetched_at": "2026-10-15T22:26:58Z"
+  },
+  "157.228.155.161": {
+    "asn": 200740,
+    "org": "FIRST SERVER, SOCIEDAD LIMITADA",
+    "isp": "FIRST SERVER LIMITED",
+    "country_code": "FR",
+    "fetched_at": "2026-10-15T22:26:58Z"
+  },
+  "154.36.158.197": {
+    "asn": 979,
+    "org": "PSINet, Inc.",
+    "isp": "NetLab Global",
+    "country_code": "JP",
+    "fetched_at": "2026-10-15T22:26:58Z"
+  },
+  "84.17.41.2": {
+    "asn": 60068,
+    "org": "Datacamp Limited",
+    "isp": "Datacamp Limited",
+    "country_code": "US",
+    "fetched_at": "2026-10-15T22:26:58Z"
   }
 }
