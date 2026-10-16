@@ -5920,5 +5920,33 @@
     "isp": "Scaleway SAS",
     "country_code": "FR",
     "fetched_at": "2026-10-16T13:20:38Z"
+  },
+  "85.9.210.171": {
+    "asn": 202053,
+    "org": "UpCloud Cloud Servers",
+    "isp": "UpCloud Ltd",
+    "country_code": "NL",
+    "fetched_at": "2026-10-16T18:09:59Z"
+  },
+  "104.28.165.52": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-10-16T18:09:59Z"
+  },
+  "65.108.93.247": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "FI",
+    "fetched_at": "2026-10-16T18:09:59Z"
+  },
+  "20.164.209.198": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "ZA",
+    "fetched_at": "2026-10-16T18:09:59Z"
   }
 }
