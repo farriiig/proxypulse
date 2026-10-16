@@ -5864,5 +5864,33 @@
     "isp": "Scaleway SAS",
     "country_code": "NL",
     "fetched_at": "2026-10-16T01:29:00Z"
+  },
+  "104.28.166.41": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-10-16T07:19:22Z"
+  },
+  "20.234.202.46": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "NL",
+    "fetched_at": "2026-10-16T07:19:22Z"
+  },
+  "51.158.244.53": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-16T07:19:22Z"
+  },
+  "51.158.188.21": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-16T07:19:22Z"
   }
 }

@@ -1,2 +1,2 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplNWM2NXBo@54.36.174.140:443#🇵🇱
-vless://019fbe0f-2d9f-4b89-9f81-e1e36129892a@77.110.105.122:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=co-pl.speedtec.ru&type=tcp&headerType=none#🇷🇺
+vless://adc11f30-e4cb-4985-bf5e-f9ded69c019f@2.59.253.251:443?security=reality&type=tcp&packetEncoding=xudp&sni=nvidia.com&fp=firefox&flow=xtls-rprx-vision&sid=db04ce8bdb8900f1&pbk=fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI&encryption=none#🇵🇱
