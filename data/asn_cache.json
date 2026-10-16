@@ -5948,5 +5948,40 @@
     "isp": "Microsoft Corporation",
     "country_code": "ZA",
     "fetched_at": "2026-10-16T18:09:59Z"
+  },
+  "95.179.253.68": {
+    "asn": 20473,
+    "org": "Vultr Holdings LLC Frankfurt",
+    "isp": "The Constant Company, LLC",
+    "country_code": "DE",
+    "fetched_at": "2026-10-16T21:21:07Z"
+  },
+  "193.23.221.150": {
+    "asn": 213905,
+    "org": "INYC HOLDING LIMITED",
+    "isp": "ISPLABS LIMITED",
+    "country_code": "DE",
+    "fetched_at": "2026-10-16T21:21:07Z"
+  },
+  "104.28.157.118": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-10-16T21:21:07Z"
+  },
+  "147.45.61.188": {
+    "asn": 209207,
+    "org": "Digital Hosting Provider LLC",
+    "isp": "Digital Hosting Provider LLC",
+    "country_code": "NL",
+    "fetched_at": "2026-10-16T21:21:07Z"
+  },
+  "38.107.234.57": {
+    "asn": 49791,
+    "org": "TOO Tol ko litsenzionnyye produkty 191040025262",
+    "isp": "Newserverlife LLC",
+    "country_code": "KZ",
+    "fetched_at": "2026-10-16T21:21:07Z"
   }
 }
