@@ -5983,5 +5983,33 @@
     "isp": "Newserverlife LLC",
     "country_code": "KZ",
     "fetched_at": "2026-10-16T21:21:07Z"
+  },
+  "104.28.165.208": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "CA",
+    "fetched_at": "2026-10-17T00:34:43Z"
+  },
+  "20.164.200.228": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "ZA",
+    "fetched_at": "2026-10-17T00:34:43Z"
+  },
+  "51.158.170.123": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-17T00:34:43Z"
+  },
+  "47.76.57.83": {
+    "asn": 45102,
+    "org": "Alibaba Cloud - HK",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "HK",
+    "fetched_at": "2026-10-17T00:34:43Z"
   }
 }
