@@ -6060,5 +6060,19 @@
     "isp": "Scaleway SAS",
     "country_code": "NL",
     "fetched_at": "2026-10-17T05:40:56Z"
+  },
+  "104.28.153.225": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-10-17T10:55:38Z"
+  },
+  "154.64.239.22": {
+    "asn": 174,
+    "org": "PSINet, Inc.",
+    "isp": "Cogent Communications, LLC",
+    "country_code": "US",
+    "fetched_at": "2026-10-17T10:55:38Z"
   }
 }
