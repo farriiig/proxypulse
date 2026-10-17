@@ -6130,5 +6130,54 @@
     "isp": "Leaseweb Japan K.K.",
     "country_code": "JP",
     "fetched_at": "2026-10-17T20:43:46Z"
+  },
+  "83.222.23.81": {
+    "asn": 205516,
+    "org": "Beget LLC",
+    "isp": "NLS ASTANA LLP",
+    "country_code": "KZ",
+    "fetched_at": "2026-10-17T23:12:37Z"
+  },
+  "2a05:9400::10f9": {
+    "asn": 204957,
+    "org": "Green Floid LLC",
+    "isp": "ROUTE 95 LLC",
+    "country_code": "US",
+    "fetched_at": "2026-10-17T23:12:37Z"
+  },
+  "104.28.165.54": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-10-17T23:12:37Z"
+  },
+  "54.36.174.140": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "PL",
+    "fetched_at": "2026-10-17T23:12:37Z"
+  },
+  "51.158.236.230": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-17T23:12:37Z"
+  },
+  "51.15.125.150": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-17T23:12:37Z"
+  },
+  "78.17.171.62": {
+    "asn": 219147,
+    "org": "InterLIR Marketplace",
+    "isp": "Moskalev Georgiy",
+    "country_code": "PL",
+    "fetched_at": "2026-10-17T23:12:37Z"
   }
 }
