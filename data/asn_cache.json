@@ -6074,5 +6074,26 @@
     "isp": "Cogent Communications, LLC",
     "country_code": "US",
     "fetched_at": "2026-10-17T10:55:38Z"
+  },
+  "104.28.160.31": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-10-17T14:16:26Z"
+  },
+  "104.28.153.154": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-10-17T14:16:26Z"
+  },
+  "45.132.75.213": {
+    "asn": 63473,
+    "org": "Prinode AB",
+    "isp": "HostHatch, LLC",
+    "country_code": "SG",
+    "fetched_at": "2026-10-17T14:16:26Z"
   }
 }
