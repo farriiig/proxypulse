@@ -6179,5 +6179,19 @@
     "isp": "Moskalev Georgiy",
     "country_code": "PL",
     "fetched_at": "2026-10-17T23:12:37Z"
+  },
+  "195.123.235.177": {
+    "asn": 204957,
+    "org": "Green Floid LLC",
+    "isp": "ROUTE 95 LLC",
+    "country_code": "US",
+    "fetched_at": "2026-10-18T01:11:05Z"
+  },
+  "104.28.152.170": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-10-18T01:11:05Z"
   }
 }
