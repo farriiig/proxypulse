@@ -6235,5 +6235,40 @@
     "isp": "Scaleway SAS",
     "country_code": "FR",
     "fetched_at": "2026-10-18T11:21:21Z"
+  },
+  "177.1.192.74": {
+    "asn": 197462,
+    "org": "UPHOST SOLUTIONS LIMITED",
+    "isp": "UPHOST SOLUTIONS LIMITED",
+    "country_code": "PL",
+    "fetched_at": "2026-10-18T15:58:21Z"
+  },
+  "104.28.162.252": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-10-18T15:58:21Z"
+  },
+  "188.241.241.236": {
+    "asn": 57403,
+    "org": "HFM S.R.L",
+    "isp": "HFM S.R.L",
+    "country_code": "DE",
+    "fetched_at": "2026-10-18T15:58:21Z"
+  },
+  "188.241.241.122": {
+    "asn": 57403,
+    "org": "HFM S.R.L",
+    "isp": "HFM S.R.L",
+    "country_code": "DE",
+    "fetched_at": "2026-10-18T15:58:21Z"
+  },
+  "188.241.241.235": {
+    "asn": 57403,
+    "org": "HFM S.R.L",
+    "isp": "HFM S.R.L",
+    "country_code": "DE",
+    "fetched_at": "2026-10-18T15:58:21Z"
   }
 }
