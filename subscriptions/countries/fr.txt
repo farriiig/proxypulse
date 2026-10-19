@@ -1,1 +1,4 @@
+trojan://humanity@188.114.98.0:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.calmlunch.com&fp=chrome&ech=cloudflare-ech.com+udp://1.1.1.1&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇺🇸
+trojan://humanity@188.114.98.0:443?path=//assignment&security=tls&alpn=http/1.1&insecure=0&host=www.calmlunch.com&fp=chrome&ech=cloudflare-ech.com+udp://1.1.1.1&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇺🇸
 hysteria2://dongtaiwang.com@62.210.124.146:22000?insecure=1&sni=www.microsoft.com#🇫🇷
+vless://aca886aa-9b51-4eb2-8d7a-12d6b89caf4d@188.225.57.92:443?encryption=none&fp=ios&host=cdn-01.funvideos.video&path=/api/53d53ac3/a7fa61/096357bebc62&security=tls&sni=cdn-01.funvideos.video&type=ws#🇷🇺
