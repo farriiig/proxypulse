@@ -6424,5 +6424,33 @@
     "isp": "NetLab Global",
     "country_code": "US",
     "fetched_at": "2026-10-19T17:34:28Z"
+  },
+  "104.28.152.165": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-10-19T22:28:25Z"
+  },
+  "4.210.68.244": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "IE",
+    "fetched_at": "2026-10-19T22:28:25Z"
+  },
+  "132.243.175.144": {
+    "asn": 200019,
+    "org": "ALEXHOST SRL",
+    "isp": "ALEXHOST SRL",
+    "country_code": "CH",
+    "fetched_at": "2026-10-19T22:28:25Z"
+  },
+  "216.106.186.66": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-19T22:28:25Z"
   }
 }
