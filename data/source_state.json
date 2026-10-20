@@ -1,8 +1,8 @@
 {
   "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/configs/proxy_configs_tested.txt": {
-    "total_fetches": 167,
-    "successful_fetches": 167,
+    "total_fetches": 168,
+    "successful_fetches": 168,
     "reliability": 100.0,
-    "reputation": 99.5
+    "reputation": 99.3
   }
 }
