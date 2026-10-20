@@ -6536,5 +6536,33 @@
     "isp": "Podaon SIA",
     "country_code": "DE",
     "fetched_at": "2026-10-20T18:32:18Z"
+  },
+  "2.27.254.7": {
+    "asn": 209693,
+    "org": "1Cent Host",
+    "isp": "OC NETWORKS LIMITED",
+    "country_code": "DE",
+    "fetched_at": "2026-10-20T22:23:25Z"
+  },
+  "45.128.60.127": {
+    "asn": 51765,
+    "org": "BEAFORT LIMITED",
+    "isp": "Oy Crea Nova Hosting Solution Ltd",
+    "country_code": "FI",
+    "fetched_at": "2026-10-20T22:23:25Z"
+  },
+  "104.28.165.53": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-10-20T22:23:25Z"
+  },
+  "80.174.118.78": {
+    "asn": 30088,
+    "org": "Private Customer",
+    "isp": "GTHost",
+    "country_code": "IT",
+    "fetched_at": "2026-10-20T22:23:25Z"
   }
 }
