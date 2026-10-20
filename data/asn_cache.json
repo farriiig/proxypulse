@@ -6487,5 +6487,54 @@
     "isp": "Scaleway SAS",
     "country_code": "NL",
     "fetched_at": "2026-10-20T13:39:29Z"
+  },
+  "46.225.46.136": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-10-20T18:32:18Z"
+  },
+  "4.221.37.89": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "ZA",
+    "fetched_at": "2026-10-20T18:32:18Z"
+  },
+  "80.174.118.69": {
+    "asn": 30088,
+    "org": "Private Customer",
+    "isp": "GTHost",
+    "country_code": "IT",
+    "fetched_at": "2026-10-20T18:32:18Z"
+  },
+  "80.174.118.33": {
+    "asn": 30088,
+    "org": "Private Customer",
+    "isp": "GTHost",
+    "country_code": "IT",
+    "fetched_at": "2026-10-20T18:32:18Z"
+  },
+  "80.174.118.51": {
+    "asn": 30088,
+    "org": "Private Customer",
+    "isp": "GTHost",
+    "country_code": "IT",
+    "fetched_at": "2026-10-20T18:32:18Z"
+  },
+  "216.106.186.124": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-20T18:32:18Z"
+  },
+  "212.43.158.171": {
+    "asn": 211381,
+    "org": "Podaon SIA",
+    "isp": "Podaon SIA",
+    "country_code": "DE",
+    "fetched_at": "2026-10-20T18:32:18Z"
   }
 }
