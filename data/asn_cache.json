@@ -6473,5 +6473,19 @@
     "isp": "Cloudflare, Inc.",
     "country_code": "US",
     "fetched_at": "2026-10-20T07:43:38Z"
+  },
+  "216.106.186.60": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-20T13:39:29Z"
+  },
+  "51.158.182.140": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-20T13:39:29Z"
   }
 }
