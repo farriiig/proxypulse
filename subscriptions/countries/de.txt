@@ -1,9 +1,9 @@
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#🇩🇪
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@188.241.241.122:443?security=tls&sni=de2.dedushka.top&alpn=http/1.1&type=tcp&headerType=none#🇷🇴
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@188.241.241.235:443?security=tls&sni=de9.dedushka.top&alpn=http/1.1&type=tcp&headerType=none#🇷🇴
 trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@188.241.241.236:443?security=tls&sni=de10.dedushka.top&alpn=http/1.1&type=tcp&headerType=none#🇷🇴
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de2.dedushka.top:443?security=tls&sni=de2.dedushka.top&alpn=http/1.1&type=tcp&headerType=none#🇷🇴
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de9.dedushka.top:443?security=tls&sni=de9.dedushka.top&alpn=http/1.1&type=tcp&headerType=none#🇷🇴
+trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@188.241.241.235:443?security=tls&sni=de9.dedushka.top&alpn=http/1.1&type=tcp&headerType=none#🇷🇴
+vless://2f35965a-9a9b-45fd-ba32-987296dfb6be@150.40.126.21:443?mode=gun&security=reality&encryption=none&pbk=gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ&fp=firefox&type=grpc&serviceName=edge.v2.FeedService&sni=rs3.univesalsrv.com&sid=35d05b666e2c6cdf#🇷🇸
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@64.188.98.171:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
+trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de9.dedushka.top:443?security=tls&sni=de9.dedushka.top&alpn=http/1.1&type=tcp&headerType=none#🇷🇴
+trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de4.dedushka.top:443?security=tls&sni=de4.dedushka.top&alpn=http/1.1&type=tcp&headerType=none#🇷🇴
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@de.1.23.h2corp.org:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de10.dedushka.top:443?security=tls&sni=de10.dedushka.top&alpn=http/1.1&type=tcp&headerType=none#🇷🇴
+vless://a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d@hoert1rert.localip.ir:2087?encryption=none&security=tls&sni=hoert1rert.localip.ir&alpn=http/1.1&type=ws&host=hoert1rert.localip.ir&path=/hokm#🇩🇪

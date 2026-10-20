@@ -1,33 +1,33 @@
 {
   "version": "1.3.0",
-  "generated_at": "2026-10-19T22:27:58Z",
+  "generated_at": "2026-10-20T01:54:13Z",
   "test_level": "TCP pre-check + bounded end-to-end egress validation",
   "egress_test_level": "sing-box tunnel + Cloudflare final IP/country check",
   "source_count": 1,
   "source_ok": 1,
-  "discovered_nodes": 208,
-  "scanned_nodes": 208,
-  "online_nodes": 146,
+  "discovered_nodes": 215,
+  "scanned_nodes": 215,
+  "online_nodes": 153,
   "offline_nodes": 62,
-  "online_rate": 70.2,
-  "avg_score": 87.9,
-  "avg_gaming_score": 81.1,
-  "avg_latency_ms": 105.5,
+  "online_rate": 71.2,
+  "avg_score": 90.2,
+  "avg_gaming_score": 84.8,
+  "avg_latency_ms": 81.3,
   "reality_nodes": 37,
   "protocols": {
     "hysteria2": 72,
-    "ss": 32,
-    "trojan": 14,
-    "vless": 85,
+    "ss": 34,
+    "trojan": 11,
+    "vless": 93,
     "vmess": 5
   },
   "statuses": {
-    "DEGRADING": 2,
-    "HEALTHY": 82,
-    "NEW": 27,
+    "DEGRADING": 4,
+    "HEALTHY": 119,
+    "NEW": 1,
     "OFFLINE": 62,
-    "STABLE": 28,
-    "WEAK": 7
+    "STABLE": 23,
+    "WEAK": 6
   },
   "subscriptions": {
     "recommended": {
@@ -85,7 +85,7 @@
       "qr_path": "subscriptions/qr/best100.svg"
     },
     "verified": {
-      "count": 65,
+      "count": 66,
       "path": "subscriptions/verified.txt",
       "base64_path": "subscriptions/verified.base64.txt",
       "qr_path": "subscriptions/qr/verified.svg"
@@ -103,13 +103,13 @@
       "qr_path": "subscriptions/qr/stable.svg"
     },
     "fast": {
-      "count": 64,
+      "count": 100,
       "path": "subscriptions/fast.txt",
       "base64_path": "subscriptions/fast.base64.txt",
       "qr_path": "subscriptions/qr/fast.svg"
     },
     "gaming": {
-      "count": 66,
+      "count": 100,
       "path": "subscriptions/gaming.txt",
       "base64_path": "subscriptions/gaming.base64.txt",
       "qr_path": "subscriptions/qr/gaming.svg"
@@ -121,7 +121,7 @@
       "qr_path": "subscriptions/qr/reality.svg"
     },
     "healthy": {
-      "count": 82,
+      "count": 100,
       "path": "subscriptions/healthy.txt",
       "base64_path": "subscriptions/healthy.base64.txt",
       "qr_path": "subscriptions/qr/healthy.svg"
@@ -133,19 +133,19 @@
       "qr_path": "subscriptions/qr/hysteria2.svg"
     },
     "ss": {
-      "count": 32,
+      "count": 34,
       "path": "subscriptions/ss.txt",
       "base64_path": "subscriptions/ss.base64.txt",
       "qr_path": "subscriptions/qr/ss.svg"
     },
     "trojan": {
-      "count": 14,
+      "count": 11,
       "path": "subscriptions/trojan.txt",
       "base64_path": "subscriptions/trojan.base64.txt",
       "qr_path": "subscriptions/qr/trojan.svg"
     },
     "vless": {
-      "count": 85,
+      "count": 93,
       "path": "subscriptions/vless.txt",
       "base64_path": "subscriptions/vless.base64.txt",
       "qr_path": "subscriptions/qr/vless.svg"
@@ -159,7 +159,7 @@
   },
   "country_subscriptions": {
     "nl": {
-      "count": 29,
+      "count": 30,
       "path": "subscriptions/countries/nl.txt",
       "base64_path": "subscriptions/countries/nl.base64.txt",
       "qr_path": "subscriptions/countries/qr/nl.svg",
@@ -167,12 +167,12 @@
       "asn_count": 3
     },
     "us": {
-      "count": 13,
+      "count": 15,
       "path": "subscriptions/countries/us.txt",
       "base64_path": "subscriptions/countries/us.base64.txt",
       "qr_path": "subscriptions/countries/qr/us.svg",
       "code": "US",
-      "asn_count": 6
+      "asn_count": 7
     },
     "de": {
       "count": 9,
@@ -180,14 +180,14 @@
       "base64_path": "subscriptions/countries/de.base64.txt",
       "qr_path": "subscriptions/countries/qr/de.svg",
       "code": "DE",
-      "asn_count": 3
+      "asn_count": 4
     },
-    "kr": {
+    "ca": {
       "count": 2,
-      "path": "subscriptions/countries/kr.txt",
-      "base64_path": "subscriptions/countries/kr.base64.txt",
-      "qr_path": "subscriptions/countries/qr/kr.svg",
-      "code": "KR",
+      "path": "subscriptions/countries/ca.txt",
+      "base64_path": "subscriptions/countries/ca.base64.txt",
+      "qr_path": "subscriptions/countries/qr/ca.svg",
+      "code": "CA",
       "asn_count": 1
     },
     "sg": {
@@ -196,14 +196,6 @@
       "base64_path": "subscriptions/countries/sg.base64.txt",
       "qr_path": "subscriptions/countries/qr/sg.svg",
       "code": "SG",
-      "asn_count": 1
-    },
-    "ca": {
-      "count": 1,
-      "path": "subscriptions/countries/ca.txt",
-      "base64_path": "subscriptions/countries/ca.base64.txt",
-      "qr_path": "subscriptions/countries/qr/ca.svg",
-      "code": "CA",
       "asn_count": 1
     },
     "ch": {
@@ -220,14 +212,6 @@
       "base64_path": "subscriptions/countries/fr.base64.txt",
       "qr_path": "subscriptions/countries/qr/fr.svg",
       "code": "FR",
-      "asn_count": 1
-    },
-    "gb": {
-      "count": 1,
-      "path": "subscriptions/countries/gb.txt",
-      "base64_path": "subscriptions/countries/gb.base64.txt",
-      "qr_path": "subscriptions/countries/qr/gb.svg",
-      "code": "GB",
       "asn_count": 1
     },
     "hk": {
@@ -254,20 +238,20 @@
       "code": "IT",
       "asn_count": 1
     },
+    "kr": {
+      "count": 1,
+      "path": "subscriptions/countries/kr.txt",
+      "base64_path": "subscriptions/countries/kr.base64.txt",
+      "qr_path": "subscriptions/countries/qr/kr.svg",
+      "code": "KR",
+      "asn_count": 1
+    },
     "pl": {
       "count": 1,
       "path": "subscriptions/countries/pl.txt",
       "base64_path": "subscriptions/countries/pl.base64.txt",
       "qr_path": "subscriptions/countries/qr/pl.svg",
       "code": "PL",
-      "asn_count": 1
-    },
-    "ru": {
-      "count": 1,
-      "path": "subscriptions/countries/ru.txt",
-      "base64_path": "subscriptions/countries/ru.base64.txt",
-      "qr_path": "subscriptions/countries/qr/ru.svg",
-      "code": "RU",
       "asn_count": 1
     },
     "za": {
@@ -279,19 +263,19 @@
       "asn_count": 1
     }
   },
-  "egress_tested_nodes": 146,
-  "egress_verified_nodes": 65,
-  "egress_geolocated_nodes": 65,
-  "egress_success_rate": 44.5,
+  "egress_tested_nodes": 153,
+  "egress_verified_nodes": 66,
+  "egress_geolocated_nodes": 66,
+  "egress_success_rate": 43.1,
   "egress_failure_reasons": {
-    "TLS_HANDSHAKE": 62,
-    "EGRESS_TIMEOUT": 10,
-    "OTHER": 9
+    "TLS_HANDSHAKE": 67,
+    "OTHER": 12,
+    "EGRESS_TIMEOUT": 8
   },
   "median_survival_score": 100.0,
-  "asn_diversity_count": 17,
-  "asn_enriched_nodes": 65,
-  "egress_country_count": 15,
+  "asn_diversity_count": 18,
+  "asn_enriched_nodes": 66,
+  "egress_country_count": 13,
   "egress_runtime_available": true,
   "settings": {
     "scan_limit": 800,
