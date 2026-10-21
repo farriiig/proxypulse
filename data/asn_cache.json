@@ -6683,5 +6683,47 @@
     "isp": "BARTOSZ WASZAK trading as HOSTEAM S.C. TOMASZ GROSZEWSKI BARTOSZ WASZAK LUKASZ GROSZEWSKI",
     "country_code": "PL",
     "fetched_at": "2026-10-21T18:45:05Z"
+  },
+  "2.27.69.128": {
+    "asn": 215590,
+    "org": "Frankfurt, Germany",
+    "isp": "DpkgSoft International Limited",
+    "country_code": "DE",
+    "fetched_at": "2026-10-21T22:27:17Z"
+  },
+  "104.28.152.246": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-10-21T22:27:17Z"
+  },
+  "176.122.177.140": {
+    "asn": 25820,
+    "org": "Cluster Logic Inc",
+    "isp": "IT7 Networks Inc",
+    "country_code": "US",
+    "fetched_at": "2026-10-21T22:27:17Z"
+  },
+  "130.49.189.158": {
+    "asn": 215540,
+    "org": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+    "isp": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+    "country_code": "AL",
+    "fetched_at": "2026-10-21T22:27:17Z"
+  },
+  "46.17.44.216": {
+    "asn": 51659,
+    "org": "LLC Baxet",
+    "isp": "LLC Baxet",
+    "country_code": "RU",
+    "fetched_at": "2026-10-21T22:27:17Z"
+  },
+  "94.140.112.22": {
+    "asn": 43513,
+    "org": "Sia Nano IT",
+    "isp": "Sia Nano IT",
+    "country_code": "LV",
+    "fetched_at": "2026-10-21T22:27:17Z"
   }
 }
