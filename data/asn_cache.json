@@ -6564,5 +6564,33 @@
     "isp": "GTHost",
     "country_code": "IT",
     "fetched_at": "2026-10-20T22:23:25Z"
+  },
+  "104.28.152.160": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-10-21T01:41:43Z"
+  },
+  "193.233.253.180": {
+    "asn": 215540,
+    "org": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+    "isp": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+    "country_code": "DK",
+    "fetched_at": "2026-10-21T01:41:43Z"
+  },
+  "135.125.228.72": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "DE",
+    "fetched_at": "2026-10-21T01:41:43Z"
+  },
+  "95.179.154.40": {
+    "asn": 20473,
+    "org": "Vultr Holdings LLC Amsterdam",
+    "isp": "The Constant Company, LLC",
+    "country_code": "NL",
+    "fetched_at": "2026-10-21T01:41:43Z"
   }
 }
