@@ -6725,5 +6725,19 @@
     "isp": "Sia Nano IT",
     "country_code": "LV",
     "fetched_at": "2026-10-21T22:27:17Z"
+  },
+  "80.174.118.24": {
+    "asn": 30088,
+    "org": "Private Customer",
+    "isp": "GTHost",
+    "country_code": "IT",
+    "fetched_at": "2026-10-22T01:36:46Z"
+  },
+  "80.174.118.96": {
+    "asn": 30088,
+    "org": "Private Customer",
+    "isp": "GTHost",
+    "country_code": "IT",
+    "fetched_at": "2026-10-22T01:36:46Z"
   }
 }
