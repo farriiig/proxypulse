@@ -6774,5 +6774,26 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-10-22T18:37:57Z"
+  },
+  "80.174.118.60": {
+    "asn": 30088,
+    "org": "Private Customer",
+    "isp": "GTHost",
+    "country_code": "IT",
+    "fetched_at": "2026-10-22T22:26:50Z"
+  },
+  "80.174.118.87": {
+    "asn": 30088,
+    "org": "Private Customer",
+    "isp": "GTHost",
+    "country_code": "IT",
+    "fetched_at": "2026-10-22T22:26:50Z"
+  },
+  "47.88.79.34": {
+    "asn": 45102,
+    "org": "Alibaba Cloud - US",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "US",
+    "fetched_at": "2026-10-22T22:26:50Z"
   }
 }
