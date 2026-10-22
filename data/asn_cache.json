@@ -6739,5 +6739,12 @@
     "isp": "GTHost",
     "country_code": "IT",
     "fetched_at": "2026-10-22T01:36:46Z"
+  },
+  "20.238.33.54": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "IE",
+    "fetched_at": "2026-10-22T07:43:27Z"
   }
 }
