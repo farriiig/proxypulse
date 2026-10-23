@@ -1,6 +1,5 @@
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.176.204.18:19999#🇬🇧
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#🇩🇪
 trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@188.241.241.235:443?security=tls&sni=de9.dedushka.top&alpn=http/1.1&type=tcp&headerType=none#🇷🇴
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@188.241.241.236:443?security=tls&sni=de10.dedushka.top&alpn=http/1.1&type=tcp&headerType=none#🇷🇴
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@64.188.98.171:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de6.dedushka.top:443?security=tls&sni=de6.dedushka.top&alpn=http/1.1&type=tcp&headerType=none#🇷🇴
+vless://a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d@hoert1rert.localip.ir:2087?encryption=none&security=tls&sni=hoert1rert.localip.ir&alpn=http/1.1&type=ws&host=hoert1rert.localip.ir&path=/hokm#🇩🇪

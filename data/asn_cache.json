@@ -6802,5 +6802,12 @@
     "isp": "GTHost",
     "country_code": "IT",
     "fetched_at": "2026-10-23T01:37:35Z"
+  },
+  "185.226.94.199": {
+    "asn": 205196,
+    "org": "Big Core LLC, Turkey",
+    "isp": "BIG CORE LLC",
+    "country_code": "TR",
+    "fetched_at": "2026-10-23T07:41:16Z"
   }
 }
