@@ -6795,5 +6795,12 @@
     "isp": "Alibaba US Technology Co., Ltd.",
     "country_code": "US",
     "fetched_at": "2026-10-22T22:26:50Z"
+  },
+  "80.174.118.42": {
+    "asn": 30088,
+    "org": "Private Customer",
+    "isp": "GTHost",
+    "country_code": "IT",
+    "fetched_at": "2026-10-23T01:37:35Z"
   }
 }
