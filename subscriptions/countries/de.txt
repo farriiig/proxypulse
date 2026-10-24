@@ -1,4 +1,3 @@
-vless://66dc1927-8528-4f1e-bb74-5a9c7aa8ea8c@188.225.27.229:443?encryption=none&flow=xtls-rprx-vision&fp=safari&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&security=reality&sid=88d9dc52ef39c8bd&sni=bridge.rkitman.ru&type=raw#🇷🇺
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.176.204.18:19999#🇬🇧
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#🇩🇪
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@64.188.98.171:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
