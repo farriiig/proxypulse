@@ -1,5 +1,5 @@
+vless://66dc1927-8528-4f1e-bb74-5a9c7aa8ea8c@188.225.27.229:443?encryption=none&flow=xtls-rprx-vision&fp=safari&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&security=reality&sid=88d9dc52ef39c8bd&sni=bridge.rkitman.ru&type=raw#🇷🇺
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.176.204.18:19999#🇬🇧
-vless://d4833ea6-5064-4f4a-8384-507e0d67a086@185.4.115.36:2094?security=reality&encryption=none&pbk=jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs&headerType=none&fp=edge&type=tcp&flow=xtls-rprx-vision&sni=www.apple.com&sid=55986a94e2228791#🇳🇱
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#🇩🇪
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@64.188.98.171:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@de.1.23.h2corp.org:443?insecure=1&sni=germany3.h2corp.local#🇩🇪
