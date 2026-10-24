@@ -6886,5 +6886,12 @@
     "isp": "LLC Baxet",
     "country_code": "RU",
     "fetched_at": "2026-10-24T07:24:53Z"
+  },
+  "50.7.156.125": {
+    "asn": 30058,
+    "org": "FDCservers.net",
+    "isp": "FDCservers.net",
+    "country_code": "DE",
+    "fetched_at": "2026-10-24T16:42:08Z"
   }
 }
