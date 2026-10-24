@@ -6858,5 +6858,19 @@
     "isp": "FDCservers.net",
     "country_code": "HK",
     "fetched_at": "2026-10-23T22:19:42Z"
+  },
+  "111.90.143.184": {
+    "asn": 45839,
+    "org": "Shinjiru Technology Sdn Bhd",
+    "isp": "Shinjiru Technology Sdn Bhd",
+    "country_code": "MY",
+    "fetched_at": "2026-10-24T01:41:13Z"
+  },
+  "20.223.233.241": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "IE",
+    "fetched_at": "2026-10-24T01:41:13Z"
   }
 }
