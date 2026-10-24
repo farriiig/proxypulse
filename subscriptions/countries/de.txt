@@ -1,5 +1,5 @@
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.176.204.18:19999#🇬🇧
 vless://c720cb74-4c84-4fce-b8ae-637dbaa16199@217.19.122.156:443?encryption=none&fp=safari&host=z1q3pv4g78.rucdncomp.pro&path=/useraction/events/b892639b7195/&security=tls&sni=z1q3pv4g78.rucdncomp.pro&type=ws#🇷🇺
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.176.204.18:19999#🇬🇧
 vless://a443d7bf-f506-46ce-b64d-cf8891c0a9f7@217.19.122.156:443?alpn=http/1.1&encryption=none&fp=chrome&host=z1q3pv4g78.rucdncomp.pro&path=/useraction/events/b892639b7195/&security=tls&sni=z1q3pv4g78.rucdncomp.pro&type=ws#🇷🇺
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#🇩🇪
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@64.188.98.171:443?insecure=1&sni=germany3.h2corp.local#🇩🇪

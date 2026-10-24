@@ -6872,5 +6872,19 @@
     "isp": "Microsoft Corporation",
     "country_code": "IE",
     "fetched_at": "2026-10-24T01:41:13Z"
+  },
+  "185.237.99.228": {
+    "asn": 210329,
+    "org": "O.M.C. COMPUTERS & COMMUNICATIONS LTD",
+    "isp": "Kamatera Inc",
+    "country_code": "GB",
+    "fetched_at": "2026-10-24T07:24:53Z"
+  },
+  "195.133.5.194": {
+    "asn": 51659,
+    "org": "Baxet Group Inc.",
+    "isp": "LLC Baxet",
+    "country_code": "RU",
+    "fetched_at": "2026-10-24T07:24:53Z"
   }
 }
