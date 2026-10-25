@@ -6914,5 +6914,40 @@
     "isp": "FiberState, LLC",
     "country_code": "US",
     "fetched_at": "2026-10-24T19:33:47Z"
+  },
+  "167.233.147.148": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-10-25T17:06:19Z"
+  },
+  "20.123.22.113": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "IE",
+    "fetched_at": "2026-10-25T17:06:19Z"
+  },
+  "185.176.206.133": {
+    "asn": 63023,
+    "org": "Lite Info LLC",
+    "isp": "GTHost",
+    "country_code": "GB",
+    "fetched_at": "2026-10-25T17:06:19Z"
+  },
+  "216.106.186.155": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-25T17:06:19Z"
+  },
+  "188.253.7.44": {
+    "asn": 38136,
+    "org": "Akari Networks Limited",
+    "isp": "Akari Networks Limited",
+    "country_code": "TW",
+    "fetched_at": "2026-10-25T17:06:19Z"
   }
 }
