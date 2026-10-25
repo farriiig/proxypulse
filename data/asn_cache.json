@@ -6949,5 +6949,19 @@
     "isp": "Akari Networks Limited",
     "country_code": "TW",
     "fetched_at": "2026-10-25T17:06:19Z"
+  },
+  "193.160.140.117": {
+    "asn": 218568,
+    "org": "Shabalov Grigoriy Pavlovich",
+    "isp": "Shabalov Grigoriy Pavlovich",
+    "country_code": "RU",
+    "fetched_at": "2026-10-25T22:38:56Z"
+  },
+  "185.98.63.6": {
+    "asn": 218568,
+    "org": "Shabalov Grigoriy Pavlovich",
+    "isp": "Shabalov Grigoriy Pavlovich",
+    "country_code": "TR",
+    "fetched_at": "2026-10-25T22:38:56Z"
   }
 }
