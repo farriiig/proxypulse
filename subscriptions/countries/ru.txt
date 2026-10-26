@@ -1,0 +1,2 @@
+vless://dc23cc43-ded8-47d1-b39e-778a6bd7b42f@193.223.104.106:8443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=apple.com#🇹🇷
+vless://37ca5f34-2531-4fda-a781-20f3845fea88@193.233.221.86:443?security=reality&encryption=none&pbk=2iedjEliJfyf7VYxQjSHRiY0RY9ylwj-GtO4MCfuQhg&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=capableconjuretarnish.clarionconsult.info&sid=a50534e181896415#🇷🇺

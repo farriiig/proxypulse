@@ -6970,5 +6970,47 @@
     "isp": "M247 Europe SRL",
     "country_code": "AU",
     "fetched_at": "2026-10-26T01:18:32Z"
+  },
+  "193.233.221.86": {
+    "asn": 216246,
+    "org": "AEZA GROUP LLC",
+    "isp": "AEZA GROUP LLC",
+    "country_code": "RU",
+    "fetched_at": "2026-10-26T15:17:07Z"
+  },
+  "103.91.147.203": {
+    "asn": 219202,
+    "org": "NEUROSIGNAL LLC",
+    "isp": "NEUROSIGNAL LLC",
+    "country_code": "FR",
+    "fetched_at": "2026-10-26T15:17:07Z"
+  },
+  "54.37.2.245": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-10-26T15:17:07Z"
+  },
+  "193.223.104.106": {
+    "asn": 219202,
+    "org": "Neurosignal LLC",
+    "isp": "NEUROSIGNAL LLC",
+    "country_code": "RU",
+    "fetched_at": "2026-10-26T15:17:07Z"
+  },
+  "20.164.41.194": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "ZA",
+    "fetched_at": "2026-10-26T15:17:07Z"
+  },
+  "80.174.118.15": {
+    "asn": 30088,
+    "org": "Private Customer",
+    "isp": "GTHost",
+    "country_code": "IT",
+    "fetched_at": "2026-10-26T15:17:07Z"
   }
 }
