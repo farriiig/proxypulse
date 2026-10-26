@@ -7012,5 +7012,33 @@
     "isp": "GTHost",
     "country_code": "IT",
     "fetched_at": "2026-10-26T15:17:07Z"
+  },
+  "2a0b:4141:820:286::2": {
+    "asn": 213887,
+    "org": "WAIcore Ltd",
+    "isp": "WAIcore Ltd",
+    "country_code": "DE",
+    "fetched_at": "2026-10-26T20:38:21Z"
+  },
+  "54.37.0.184": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-10-26T20:38:21Z"
+  },
+  "193.160.141.50": {
+    "asn": 218568,
+    "org": "Advanced Placement Technologies LLC",
+    "isp": "Shabalov Grigoriy Pavlovich",
+    "country_code": "RU",
+    "fetched_at": "2026-10-26T20:38:21Z"
+  },
+  "104.253.216.227": {
+    "asn": 57043,
+    "org": "Subnet Digital LLC",
+    "isp": "HOSTKEY B.V.",
+    "country_code": "NL",
+    "fetched_at": "2026-10-26T20:38:21Z"
   }
 }
