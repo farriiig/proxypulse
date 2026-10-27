@@ -235,7 +235,7 @@
     "org": "TOO Beget",
     "isp": "Beget LLC",
     "country_code": "RU",
-    "fetched_at": "2026-09-27T12:19:33Z"
+    "fetched_at": "2026-10-27T23:50:41Z"
   },
   "87.239.249.137": {
     "asn": 57043,
@@ -655,28 +655,28 @@
     "org": "Datacamp Limited",
     "isp": "Datacamp Limited",
     "country_code": "US",
-    "fetched_at": "2026-09-27T13:08:21Z"
+    "fetched_at": "2026-10-27T23:50:41Z"
   },
   "37.19.198.236": {
     "asn": 212238,
     "org": "Datacamp Limited",
     "isp": "Datacamp Limited",
     "country_code": "US",
-    "fetched_at": "2026-09-27T13:08:21Z"
+    "fetched_at": "2026-10-27T23:50:41Z"
   },
   "37.19.198.243": {
     "asn": 212238,
     "org": "Datacamp Limited",
     "isp": "Datacamp Limited",
     "country_code": "US",
-    "fetched_at": "2026-09-27T13:08:21Z"
+    "fetched_at": "2026-10-27T23:50:41Z"
   },
   "37.19.198.244": {
     "asn": 212238,
     "org": "Datacamp Limited",
     "isp": "Datacamp Limited",
     "country_code": "US",
-    "fetched_at": "2026-09-27T13:08:21Z"
+    "fetched_at": "2026-10-27T23:50:41Z"
   },
   "84.247.155.196": {
     "asn": 141995,
@@ -753,7 +753,7 @@
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-09-27T17:49:14Z"
+    "fetched_at": "2026-10-27T23:50:41Z"
   },
   "193.29.139.212": {
     "asn": 47172,
@@ -809,14 +809,14 @@
     "org": "OVH US LLC",
     "isp": "OVH SAS",
     "country_code": "US",
-    "fetched_at": "2026-09-27T17:49:14Z"
+    "fetched_at": "2026-10-27T23:50:41Z"
   },
   "51.222.136.236": {
     "asn": 16276,
     "org": "OVH Hosting, Inc.",
     "isp": "OVH SAS",
     "country_code": "CA",
-    "fetched_at": "2026-09-27T17:49:14Z"
+    "fetched_at": "2026-10-27T23:50:41Z"
   },
   "2.58.81.221": {
     "asn": 51167,
@@ -991,7 +991,7 @@
     "org": "Microsoft Corporation",
     "isp": "Microsoft Corporation",
     "country_code": "ZA",
-    "fetched_at": "2026-09-27T21:26:55Z"
+    "fetched_at": "2026-10-27T23:50:41Z"
   },
   "142.4.216.225": {
     "asn": 16276,
@@ -1012,14 +1012,14 @@
     "org": "OVH US LLC",
     "isp": "OVH SAS",
     "country_code": "US",
-    "fetched_at": "2026-09-27T21:26:55Z"
+    "fetched_at": "2026-10-27T23:50:41Z"
   },
   "94.156.250.148": {
     "asn": 136258,
     "org": "Brainstorm Network, INC",
     "isp": "BrainStorm Network, Inc",
     "country_code": "GB",
-    "fetched_at": "2026-09-27T21:26:55Z"
+    "fetched_at": "2026-10-27T23:50:41Z"
   },
   "79.127.200.172": {
     "asn": 60068,
@@ -1047,7 +1047,7 @@
     "org": "OVH SAS",
     "isp": "OVH SAS",
     "country_code": "IT",
-    "fetched_at": "2026-09-27T21:26:55Z"
+    "fetched_at": "2026-10-27T23:50:41Z"
   },
   "141.227.134.63": {
     "asn": 16276,
@@ -7110,5 +7110,19 @@
     "isp": "NEUROSIGNAL LLC",
     "country_code": "RU",
     "fetched_at": "2026-10-27T19:29:12Z"
+  },
+  "45.9.12.110": {
+    "asn": 33993,
+    "org": "UFO Hosting LLC",
+    "isp": "UFO Hosting LLC",
+    "country_code": "RU",
+    "fetched_at": "2026-10-27T23:50:41Z"
+  },
+  "193.202.113.3": {
+    "asn": 214716,
+    "org": "WEYRO LTD",
+    "isp": "WEYRO LTD",
+    "country_code": "GB",
+    "fetched_at": "2026-10-27T23:50:41Z"
   }
 }
