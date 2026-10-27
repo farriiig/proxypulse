@@ -7040,5 +7040,26 @@
     "isp": "HOSTKEY B.V.",
     "country_code": "NL",
     "fetched_at": "2026-10-26T20:38:21Z"
+  },
+  "77.42.12.225": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "FI",
+    "fetched_at": "2026-10-27T00:34:07Z"
+  },
+  "193.233.230.107": {
+    "asn": 216246,
+    "org": "AEZA GROUP LLC",
+    "isp": "AEZA GROUP LLC",
+    "country_code": "RU",
+    "fetched_at": "2026-10-27T00:34:07Z"
+  },
+  "31.13.208.245": {
+    "asn": 215439,
+    "org": "play2go.cloud - Cheap and reliable hosting",
+    "isp": "PLAY2GO INTERNATIONAL LIMITED",
+    "country_code": "FI",
+    "fetched_at": "2026-10-27T00:34:07Z"
   }
 }
