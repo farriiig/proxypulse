@@ -7061,5 +7061,47 @@
     "isp": "PLAY2GO INTERNATIONAL LIMITED",
     "country_code": "FI",
     "fetched_at": "2026-10-27T00:34:07Z"
+  },
+  "193.160.141.104": {
+    "asn": 218568,
+    "org": "Advanced Placement Technologies LLC",
+    "isp": "Shabalov Grigoriy Pavlovich",
+    "country_code": "RU",
+    "fetched_at": "2026-10-27T06:24:53Z"
+  },
+  "54.37.2.137": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-10-27T06:24:53Z"
+  },
+  "2.29.101.158": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "FI",
+    "fetched_at": "2026-10-27T06:24:53Z"
+  },
+  "193.160.141.81": {
+    "asn": 218568,
+    "org": "Advanced Placement Technologies LLC",
+    "isp": "Shabalov Grigoriy Pavlovich",
+    "country_code": "RU",
+    "fetched_at": "2026-10-27T06:24:53Z"
+  },
+  "216.106.186.82": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-27T06:24:53Z"
+  },
+  "216.106.186.33": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-27T06:24:53Z"
   }
 }
