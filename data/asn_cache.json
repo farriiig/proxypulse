@@ -1040,7 +1040,7 @@
     "org": "OVH Hosting, Inc.",
     "isp": "OVH SAS",
     "country_code": "CA",
-    "fetched_at": "2026-09-27T21:26:55Z"
+    "fetched_at": "2026-10-28T13:11:25Z"
   },
   "57.131.48.45": {
     "asn": 16276,
@@ -1362,7 +1362,7 @@
     "org": "OVH US LLC",
     "isp": "OVH SAS",
     "country_code": "US",
-    "fetched_at": "2026-09-28T06:05:29Z"
+    "fetched_at": "2026-10-28T13:11:25Z"
   },
   "2a01:ecc0:3c0:b5::2": {
     "asn": 207957,
@@ -1474,7 +1474,7 @@
     "org": "Datacamp Limited",
     "isp": "Datacamp Limited",
     "country_code": "SG",
-    "fetched_at": "2026-09-28T06:05:29Z"
+    "fetched_at": "2026-10-28T13:11:25Z"
   },
   "216.106.187.60": {
     "asn": 63023,
@@ -7145,5 +7145,12 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-10-28T05:54:34Z"
+  },
+  "193.160.140.159": {
+    "asn": 218568,
+    "org": "Shabalov Grigoriy Pavlovich",
+    "isp": "Shabalov Grigoriy Pavlovich",
+    "country_code": "RU",
+    "fetched_at": "2026-10-28T13:11:25Z"
   }
 }
