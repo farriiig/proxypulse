@@ -1061,7 +1061,7 @@
     "org": "Scaleway SAS",
     "isp": "Scaleway SAS",
     "country_code": "FR",
-    "fetched_at": "2026-09-27T21:26:55Z"
+    "fetched_at": "2026-10-28T05:54:34Z"
   },
   "64.188.98.252": {
     "asn": 207957,
@@ -1166,7 +1166,7 @@
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-09-28T00:52:40Z"
+    "fetched_at": "2026-10-28T05:54:34Z"
   },
   "2001:b011:3802:a2b:cd89:2b6e:8dc4:5fb3": {
     "asn": 3462,
@@ -1222,7 +1222,7 @@
     "org": "OVH US LLC",
     "isp": "OVH SAS",
     "country_code": "US",
-    "fetched_at": "2026-09-28T00:52:41Z"
+    "fetched_at": "2026-10-28T05:54:34Z"
   },
   "2001:bc8:32d7:17b::100": {
     "asn": 12876,
@@ -7124,5 +7124,26 @@
     "isp": "WEYRO LTD",
     "country_code": "GB",
     "fetched_at": "2026-10-27T23:50:41Z"
+  },
+  "78.135.73.168": {
+    "asn": 51722,
+    "org": "PIXOOF TEKNOLOJI ANONIM SIRKETI",
+    "isp": "Pixoof Teknoloji Anonim Sirketi",
+    "country_code": "TR",
+    "fetched_at": "2026-10-28T05:54:34Z"
+  },
+  "2.27.118.10": {
+    "asn": 213905,
+    "org": "INYC HOLDING LIMITED",
+    "isp": "ISPLABS LIMITED",
+    "country_code": "NL",
+    "fetched_at": "2026-10-28T05:54:34Z"
+  },
+  "185.230.230.142": {
+    "asn": 63023,
+    "org": "Lite Info LLC",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-28T05:54:34Z"
   }
 }
