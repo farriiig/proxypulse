@@ -438,7 +438,7 @@
     "org": "OVH SAS",
     "isp": "OVH SAS",
     "country_code": "PL",
-    "fetched_at": "2026-09-27T12:57:12Z"
+    "fetched_at": "2026-10-28T23:19:00Z"
   },
   "193.29.139.151": {
     "asn": 47172,
@@ -564,7 +564,7 @@
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-09-27T13:08:21Z"
+    "fetched_at": "2026-10-28T23:19:00Z"
   },
   "193.29.139.193": {
     "asn": 47172,
@@ -578,14 +578,14 @@
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-09-27T13:08:21Z"
+    "fetched_at": "2026-10-28T23:19:00Z"
   },
   "193.29.139.219": {
     "asn": 47172,
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-09-27T13:08:21Z"
+    "fetched_at": "2026-10-28T23:19:00Z"
   },
   "193.29.139.196": {
     "asn": 47172,
@@ -830,7 +830,7 @@
     "org": "OVH US LLC",
     "isp": "OVH SAS",
     "country_code": "US",
-    "fetched_at": "2026-09-27T17:49:14Z"
+    "fetched_at": "2026-10-28T23:19:00Z"
   },
   "143.110.161.156": {
     "asn": 14061,
@@ -1327,7 +1327,7 @@
     "org": "OVH SAS",
     "isp": "OVH SAS",
     "country_code": "GB",
-    "fetched_at": "2026-09-28T00:52:41Z"
+    "fetched_at": "2026-10-28T23:19:00Z"
   },
   "66.163.118.73": {
     "asn": 63023,
@@ -2174,7 +2174,7 @@
     "org": "The Constant Company, LLC",
     "isp": "The Constant Company, LLC",
     "country_code": "KR",
-    "fetched_at": "2026-09-28T22:08:10Z"
+    "fetched_at": "2026-10-28T23:19:00Z"
   },
   "54.37.131.126": {
     "asn": 16276,
@@ -7194,5 +7194,82 @@
     "isp": "Shenzhen Tencent Computer Systems Company Limited",
     "country_code": "US",
     "fetched_at": "2026-10-28T18:55:32Z"
+  },
+  "2a0f:1140:140:fe::6": {
+    "asn": 34959,
+    "org": "KVIKTEL LLC",
+    "isp": "KVIKTEL LLC",
+    "country_code": "RU",
+    "fetched_at": "2026-10-28T23:19:00Z"
+  },
+  "2a0c:5d00:2002::1189:a717": {
+    "asn": 207569,
+    "org": "POWER-SERVERS-ROLE-ORG",
+    "isp": "IHOR HOSTING LTD",
+    "country_code": "FI",
+    "fetched_at": "2026-10-28T23:19:00Z"
+  },
+  "104.239.12.81": {
+    "asn": 57043,
+    "org": "GLOBALIT DOO",
+    "isp": "HOSTKEY B.V.",
+    "country_code": "NL",
+    "fetched_at": "2026-10-28T23:19:00Z"
+  },
+  "80.66.78.91": {
+    "asn": 215540,
+    "org": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+    "isp": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+    "country_code": "SE",
+    "fetched_at": "2026-10-28T23:19:00Z"
+  },
+  "102.133.224.160": {
+    "asn": 8075,
+    "org": "Microsoft",
+    "isp": "Microsoft Corporation",
+    "country_code": "ZA",
+    "fetched_at": "2026-10-28T23:19:00Z"
+  },
+  "51.241.209.6": {
+    "asn": 212238,
+    "org": "Private Customer",
+    "isp": "Datacamp Limited",
+    "country_code": "AT",
+    "fetched_at": "2026-10-28T23:19:00Z"
+  },
+  "217.60.72.225": {
+    "asn": 207567,
+    "org": "Intezio Worldwide Limited",
+    "isp": "Intezio Worldwide Limited",
+    "country_code": "FI",
+    "fetched_at": "2026-10-28T23:19:00Z"
+  },
+  "129.213.91.185": {
+    "asn": 31898,
+    "org": "Oracle Public Cloud",
+    "isp": "Oracle Corporation",
+    "country_code": "US",
+    "fetched_at": "2026-10-28T23:19:00Z"
+  },
+  "162.249.125.133": {
+    "asn": 25198,
+    "org": "INTERKVM HOST SRL",
+    "isp": "INTERKVM HOST SRL",
+    "country_code": "RO",
+    "fetched_at": "2026-10-28T23:19:00Z"
+  },
+  "130.49.161.70": {
+    "asn": 214798,
+    "org": "Digital City FZE",
+    "isp": "Digital City FZE",
+    "country_code": "NL",
+    "fetched_at": "2026-10-28T23:19:00Z"
+  },
+  "8.209.247.109": {
+    "asn": 45102,
+    "org": "Shiodome Sumitomo Blog 1-9-2 TOKYO",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "JP",
+    "fetched_at": "2026-10-28T23:19:00Z"
   }
 }
