@@ -7292,5 +7292,19 @@
     "isp": "OVH SAS",
     "country_code": "CA",
     "fetched_at": "2026-10-29T05:58:54Z"
+  },
+  "2a0f:1140:140:fe::11": {
+    "asn": 34959,
+    "org": "KVIKTEL LLC",
+    "isp": "KVIKTEL LLC",
+    "country_code": "RU",
+    "fetched_at": "2026-10-29T13:17:46Z"
+  },
+  "51.158.206.97": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-29T13:17:46Z"
   }
 }
