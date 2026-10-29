@@ -431,7 +431,7 @@
     "org": "OVH SAS",
     "isp": "OVH SAS",
     "country_code": "PL",
-    "fetched_at": "2026-09-27T12:57:12Z"
+    "fetched_at": "2026-10-29T23:23:02Z"
   },
   "2001:41d0:602:d8c::": {
     "asn": 16276,
@@ -767,7 +767,7 @@
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-09-27T17:49:14Z"
+    "fetched_at": "2026-10-29T23:23:02Z"
   },
   "193.29.139.152": {
     "asn": 47172,
@@ -1320,7 +1320,7 @@
     "org": "GLOBALTELEHOST Corp.",
     "isp": "GTHost",
     "country_code": "US",
-    "fetched_at": "2026-09-28T00:52:41Z"
+    "fetched_at": "2026-10-29T23:23:02Z"
   },
   "57.129.132.223": {
     "asn": 16276,
@@ -2167,7 +2167,7 @@
     "org": "Linode",
     "isp": "Akamai Technologies, Inc.",
     "country_code": "IN",
-    "fetched_at": "2026-09-28T22:08:10Z"
+    "fetched_at": "2026-10-29T23:23:02Z"
   },
   "141.164.45.187": {
     "asn": 20473,
@@ -2251,7 +2251,7 @@
     "org": "Oracle Public Cloud",
     "isp": "Oracle Corporation",
     "country_code": "KR",
-    "fetched_at": "2026-09-28T22:08:10Z"
+    "fetched_at": "2026-10-29T23:23:02Z"
   },
   "167.17.68.89": {
     "asn": 63023,
@@ -2300,7 +2300,7 @@
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-09-29T02:03:55Z"
+    "fetched_at": "2026-10-29T23:23:02Z"
   },
   "173.244.56.6": {
     "asn": 137409,
@@ -2587,7 +2587,7 @@
     "org": "Vapeline Technology",
     "isp": "Zenixcloud Inc",
     "country_code": "US",
-    "fetched_at": "2026-09-29T20:54:18Z"
+    "fetched_at": "2026-10-29T23:23:02Z"
   },
   "205.185.126.59": {
     "asn": 53667,
@@ -7320,5 +7320,54 @@
     "isp": "Scaleway SAS",
     "country_code": "NL",
     "fetched_at": "2026-10-29T19:02:10Z"
+  },
+  "50.7.252.50": {
+    "asn": 30058,
+    "org": "FDCservers.net",
+    "isp": "FDCservers.net",
+    "country_code": "SG",
+    "fetched_at": "2026-10-29T23:23:02Z"
+  },
+  "2a01:f900:11:278::1": {
+    "asn": 44620,
+    "org": "Netlen Internet Hizmetleri Ltd. Sti.",
+    "isp": "Netlen Internet Hizmetleri Ltd. Sti.",
+    "country_code": "TR",
+    "fetched_at": "2026-10-29T23:23:02Z"
+  },
+  "130.94.17.194": {
+    "asn": 154177,
+    "org": "LIGHT NODE LIMITED",
+    "isp": "LIGHT NODE LIMITED",
+    "country_code": "US",
+    "fetched_at": "2026-10-29T23:23:02Z"
+  },
+  "2a05:d012:6c4:1c01:ae94:e557:478e:2870": {
+    "asn": 16509,
+    "org": "Amazon Data Services Ireland Ltd",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "FR",
+    "fetched_at": "2026-10-29T23:23:02Z"
+  },
+  "134.195.196.211": {
+    "asn": 62563,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GLOBALTELEHOST Corp.",
+    "country_code": "CA",
+    "fetched_at": "2026-10-29T23:23:02Z"
+  },
+  "23.162.200.198": {
+    "asn": 62563,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GLOBALTELEHOST Corp.",
+    "country_code": "CA",
+    "fetched_at": "2026-10-29T23:23:02Z"
+  },
+  "149.88.23.202": {
+    "asn": 212238,
+    "org": "Datacamp Limited",
+    "isp": "Datacamp Limited",
+    "country_code": "SG",
+    "fetched_at": "2026-10-29T23:23:02Z"
   }
 }
