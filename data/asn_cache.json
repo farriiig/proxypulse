@@ -1208,7 +1208,7 @@
     "org": "OVH US LLC",
     "isp": "OVH SAS",
     "country_code": "US",
-    "fetched_at": "2026-09-28T00:52:40Z"
+    "fetched_at": "2026-10-29T05:58:54Z"
   },
   "51.79.85.185": {
     "asn": 16276,
@@ -1345,10 +1345,10 @@
   },
   "156.245.232.239": {
     "asn": 54801,
-    "org": "Zillion Network Inc.",
+    "org": "HONG KONG LIGHTLAYER TECHNOLOGY CO., LIMITED",
     "isp": "Zillion Network Inc.",
     "country_code": "HK",
-    "fetched_at": "2026-09-28T00:52:41Z"
+    "fetched_at": "2026-10-29T05:58:54Z"
   },
   "150.241.101.80": {
     "asn": 207957,
@@ -7271,5 +7271,26 @@
     "isp": "Alibaba US Technology Co., Ltd.",
     "country_code": "JP",
     "fetched_at": "2026-10-28T23:19:00Z"
+  },
+  "185.229.190.95": {
+    "asn": 60068,
+    "org": "Datacamp Limited",
+    "isp": "Datacamp Limited",
+    "country_code": "NL",
+    "fetched_at": "2026-10-29T05:58:54Z"
+  },
+  "20.164.216.117": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "ZA",
+    "fetched_at": "2026-10-29T05:58:54Z"
+  },
+  "51.222.12.127": {
+    "asn": 16276,
+    "org": "OVH Hosting, Inc.",
+    "isp": "OVH SAS",
+    "country_code": "CA",
+    "fetched_at": "2026-10-29T05:58:54Z"
   }
 }
