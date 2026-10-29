@@ -1229,7 +1229,7 @@
     "org": "Scaleway SAS",
     "isp": "Scaleway SAS",
     "country_code": "FR",
-    "fetched_at": "2026-09-28T00:52:41Z"
+    "fetched_at": "2026-10-29T19:02:10Z"
   },
   "64.188.98.254": {
     "asn": 207957,
@@ -7306,5 +7306,19 @@
     "isp": "Scaleway SAS",
     "country_code": "NL",
     "fetched_at": "2026-10-29T13:17:46Z"
+  },
+  "178.253.16.185": {
+    "asn": 207569,
+    "org": "POWER-SERVERS-ROLE-ORG",
+    "isp": "IHOR HOSTING LTD",
+    "country_code": "FI",
+    "fetched_at": "2026-10-29T19:02:10Z"
+  },
+  "51.15.125.138": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-29T19:02:10Z"
   }
 }
