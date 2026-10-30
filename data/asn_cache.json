@@ -1215,7 +1215,7 @@
     "org": "OVH Hosting, Inc.",
     "isp": "OVH SAS",
     "country_code": "CA",
-    "fetched_at": "2026-09-28T00:52:40Z"
+    "fetched_at": "2026-10-30T13:09:46Z"
   },
   "15.204.247.124": {
     "asn": 16276,
@@ -7411,5 +7411,26 @@
     "isp": "Oracle Corporation",
     "country_code": "US",
     "fetched_at": "2026-10-30T05:59:57Z"
+  },
+  "216.152.155.158": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-30T13:09:46Z"
+  },
+  "51.15.74.254": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-30T13:09:46Z"
+  },
+  "8.217.186.60": {
+    "asn": 45102,
+    "org": "Aliyun Computing Co.LTD",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "HK",
+    "fetched_at": "2026-10-30T13:09:46Z"
   }
 }
