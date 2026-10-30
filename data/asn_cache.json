@@ -7432,5 +7432,33 @@
     "isp": "Alibaba US Technology Co., Ltd.",
     "country_code": "HK",
     "fetched_at": "2026-10-30T13:09:46Z"
+  },
+  "67.159.6.178": {
+    "asn": 30058,
+    "org": "FDCservers.net",
+    "isp": "FDCservers.net",
+    "country_code": "NL",
+    "fetched_at": "2026-10-30T18:40:45Z"
+  },
+  "216.152.155.23": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-30T18:40:45Z"
+  },
+  "216.152.156.159": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-30T18:40:45Z"
+  },
+  "51.15.97.188": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-30T18:40:45Z"
   }
 }
