@@ -2195,7 +2195,7 @@
     "org": "Alibaba Cloud Singapore Private Limited",
     "isp": "Alibaba US Technology Co., Ltd.",
     "country_code": "HK",
-    "fetched_at": "2026-09-28T22:08:10Z"
+    "fetched_at": "2026-10-30T23:02:22Z"
   },
   "216.106.183.35": {
     "asn": 63023,
@@ -2216,7 +2216,7 @@
     "org": "Alibaba Cloud - HK",
     "isp": "Alibaba US Technology Co., Ltd.",
     "country_code": "HK",
-    "fetched_at": "2026-09-28T22:08:10Z"
+    "fetched_at": "2026-10-30T23:02:22Z"
   },
   "198.57.27.190": {
     "asn": 62563,
@@ -2776,7 +2776,7 @@
     "org": "Dedicated.com",
     "isp": "Dedicated.com",
     "country_code": "US",
-    "fetched_at": "2026-09-30T00:33:59Z"
+    "fetched_at": "2026-10-30T23:02:22Z"
   },
   "51.159.148.139": {
     "asn": 12876,
@@ -7460,5 +7460,26 @@
     "isp": "Scaleway SAS",
     "country_code": "NL",
     "fetched_at": "2026-10-30T18:40:45Z"
+  },
+  "64.176.7.205": {
+    "asn": 20473,
+    "org": "Vultr Holdings, LLC",
+    "isp": "The Constant Company, LLC",
+    "country_code": "CL",
+    "fetched_at": "2026-10-30T23:02:22Z"
+  },
+  "47.243.167.44": {
+    "asn": 45102,
+    "org": "Alibaba Cloud - HK",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "HK",
+    "fetched_at": "2026-10-30T23:02:22Z"
+  },
+  "2a01:4f8:c010:4cca::1": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-10-30T23:02:22Z"
   }
 }
