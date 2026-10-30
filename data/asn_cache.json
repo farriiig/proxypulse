@@ -7369,5 +7369,47 @@
     "isp": "Datacamp Limited",
     "country_code": "SG",
     "fetched_at": "2026-10-29T23:23:02Z"
+  },
+  "143.246.41.114": {
+    "asn": 219095,
+    "org": "Paul Sagov",
+    "isp": "Paul Sagov",
+    "country_code": "EE",
+    "fetched_at": "2026-10-30T05:59:57Z"
+  },
+  "193.108.119.29": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "DE",
+    "fetched_at": "2026-10-30T05:59:57Z"
+  },
+  "193.108.119.193": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "DE",
+    "fetched_at": "2026-10-30T05:59:57Z"
+  },
+  "208.69.78.159": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "CH",
+    "fetched_at": "2026-10-30T05:59:57Z"
+  },
+  "51.15.125.45": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-10-30T05:59:57Z"
+  },
+  "2603:c028:4501:3d88:b782:2bc:9b2c:f38a": {
+    "asn": 31898,
+    "org": "Oracle Corporation",
+    "isp": "Oracle Corporation",
+    "country_code": "US",
+    "fetched_at": "2026-10-30T05:59:57Z"
   }
 }
