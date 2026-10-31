@@ -7481,5 +7481,19 @@
     "isp": "Hetzner Online GmbH",
     "country_code": "DE",
     "fetched_at": "2026-10-30T23:02:22Z"
+  },
+  "201.10.91.207": {
+    "asn": 219095,
+    "org": "ASTRA NETWORKS LTD",
+    "isp": "Paul Sagov",
+    "country_code": "PL",
+    "fetched_at": "2026-10-31T02:30:49Z"
+  },
+  "94.183.206.212": {
+    "asn": 219506,
+    "org": "Turtleguard",
+    "isp": "Vladislav Doniy",
+    "country_code": "NL",
+    "fetched_at": "2026-10-31T02:30:49Z"
   }
 }

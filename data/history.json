@@ -1,14 +1,5 @@
 [
   {
-    "at": "2026-09-27T17:48:30Z",
-    "online": 215,
-    "avg_latency_ms": 166.5,
-    "verified": 151,
-    "tunnel_success_rate": 75.5,
-    "survival_score": 100.0,
-    "countries": 17
-  },
-  {
     "at": "2026-09-27T21:26:14Z",
     "online": 200,
     "avg_latency_ms": 131.6,
@@ -1510,5 +1501,14 @@
     "tunnel_success_rate": 61.7,
     "survival_score": 100.0,
     "countries": 15
+  },
+  {
+    "at": "2026-10-31T02:30:09Z",
+    "online": 161,
+    "avg_latency_ms": 153.8,
+    "verified": 94,
+    "tunnel_success_rate": 58.4,
+    "survival_score": 100.0,
+    "countries": 12
   }
 ]
