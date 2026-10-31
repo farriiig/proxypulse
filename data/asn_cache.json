@@ -7495,5 +7495,19 @@
     "isp": "Vladislav Doniy",
     "country_code": "NL",
     "fetched_at": "2026-10-31T02:30:49Z"
+  },
+  "216.152.155.59": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-31T09:48:22Z"
+  },
+  "216.152.155.50": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-31T09:48:22Z"
   }
 }
