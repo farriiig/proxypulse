@@ -7712,5 +7712,117 @@
     "isp": "The Constant Company, LLC",
     "country_code": "KR",
     "fetched_at": "2026-10-31T15:47:18Z"
+  },
+  "185.84.162.254": {
+    "asn": 9123,
+    "org": "TimeWeb",
+    "isp": "JSC TIMEWEB",
+    "country_code": "RU",
+    "fetched_at": "2026-10-31T20:04:08Z"
+  },
+  "178.105.48.213": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-10-31T20:04:08Z"
+  },
+  "2.31.94.19": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-10-31T20:04:08Z"
+  },
+  "2a02:20b3:103:3d::1": {
+    "asn": 49981,
+    "org": "WorldStream B.V.",
+    "isp": "WorldStream B.V.",
+    "country_code": "NL",
+    "fetched_at": "2026-10-31T20:04:08Z"
+  },
+  "193.151.160.133": {
+    "asn": 63023,
+    "org": "Lite Info LLC",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-31T20:04:08Z"
+  },
+  "167.88.61.175": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-31T20:04:08Z"
+  },
+  "169.197.140.208": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-31T20:04:08Z"
+  },
+  "169.197.140.214": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-31T20:04:08Z"
+  },
+  "216.152.147.85": {
+    "asn": 62563,
+    "org": "GTHost",
+    "isp": "GLOBALTELEHOST Corp.",
+    "country_code": "CA",
+    "fetched_at": "2026-10-31T20:04:08Z"
+  },
+  "216.152.156.219": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-31T20:04:08Z"
+  },
+  "66.163.112.31": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-31T20:04:08Z"
+  },
+  "66.163.114.124": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-10-31T20:04:08Z"
+  },
+  "149.104.87.33": {
+    "asn": 154177,
+    "org": "Lightnode-MX",
+    "isp": "LIGHT NODE LIMITED",
+    "country_code": "MX",
+    "fetched_at": "2026-10-31T20:04:08Z"
+  },
+  "130.94.52.157": {
+    "asn": 154177,
+    "org": "LIGHT NODE LIMITED",
+    "isp": "LIGHT NODE LIMITED",
+    "country_code": "PH",
+    "fetched_at": "2026-10-31T20:04:08Z"
+  },
+  "38.60.200.237": {
+    "asn": 154177,
+    "org": "LightNode-TH",
+    "isp": "LIGHT NODE LIMITED",
+    "country_code": "TH",
+    "fetched_at": "2026-10-31T20:04:08Z"
+  },
+  "104.160.191.232": {
+    "asn": 46844,
+    "org": "Sharktech",
+    "isp": "Sharktech",
+    "country_code": "US",
+    "fetched_at": "2026-10-31T20:04:08Z"
   }
 }
