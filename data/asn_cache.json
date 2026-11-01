@@ -8062,5 +8062,40 @@
     "isp": "SAKURA LINK LIMITED",
     "country_code": "HK",
     "fetched_at": "2026-11-01T19:46:35Z"
+  },
+  "47.251.25.74": {
+    "asn": 45102,
+    "org": "Alibaba Cloud - US",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "US",
+    "fetched_at": "2026-11-01T23:41:39Z"
+  },
+  "2a0b:4141:820:12d6::2": {
+    "asn": 213887,
+    "org": "WAIcore Ltd",
+    "isp": "WAIcore Ltd",
+    "country_code": "DE",
+    "fetched_at": "2026-11-01T23:41:39Z"
+  },
+  "167.88.61.52": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-01T23:41:39Z"
+  },
+  "66.163.112.171": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-01T23:41:39Z"
+  },
+  "66.163.127.9": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "NL",
+    "fetched_at": "2026-11-01T23:41:39Z"
   }
 }
