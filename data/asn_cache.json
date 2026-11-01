@@ -7957,5 +7957,33 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-01T06:22:53Z"
+  },
+  "169.197.140.218": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-01T14:21:24Z"
+  },
+  "66.163.112.13": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-01T14:21:24Z"
+  },
+  "66.163.114.166": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-01T14:21:24Z"
+  },
+  "51.158.184.236": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-11-01T14:21:24Z"
   }
 }
