@@ -7985,5 +7985,82 @@
     "isp": "Scaleway SAS",
     "country_code": "NL",
     "fetched_at": "2026-11-01T14:21:24Z"
+  },
+  "153.56.178.104": {
+    "asn": 51247,
+    "org": "Serverio technologijos MB",
+    "isp": "SkyCore Technologies L.L.C-FZ",
+    "country_code": "NL",
+    "fetched_at": "2026-11-01T19:46:35Z"
+  },
+  "84.32.151.248": {
+    "asn": 16125,
+    "org": "Private Customer",
+    "isp": "UAB Cherry Servers",
+    "country_code": "LT",
+    "fetched_at": "2026-11-01T19:46:35Z"
+  },
+  "79.141.164.81": {
+    "asn": 59711,
+    "org": "HZ Hosting Ltd",
+    "isp": "HZ Hosting Ltd",
+    "country_code": "NL",
+    "fetched_at": "2026-11-01T19:46:35Z"
+  },
+  "138.124.61.114": {
+    "asn": 210644,
+    "org": "AEZA GROUP LLC",
+    "isp": "AEZA GROUP LLC",
+    "country_code": "DE",
+    "fetched_at": "2026-11-01T19:46:35Z"
+  },
+  "2a02:27ae:8000::741": {
+    "asn": 21100,
+    "org": "Green Floid LLC",
+    "isp": "ROUTE 95 LLC",
+    "country_code": "IT",
+    "fetched_at": "2026-11-01T19:46:35Z"
+  },
+  "46.8.125.64": {
+    "asn": 197703,
+    "org": "FIRST SERVER LIMITED",
+    "isp": "IP MARKET - FZCO",
+    "country_code": "AE",
+    "fetched_at": "2026-11-01T19:46:35Z"
+  },
+  "45.154.26.63": {
+    "asn": 56309,
+    "org": "Legaco Networks B.V.",
+    "isp": "Siamdata Communication Co.,ltd.",
+    "country_code": "TH",
+    "fetched_at": "2026-11-01T19:46:35Z"
+  },
+  "66.163.114.132": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-01T19:46:35Z"
+  },
+  "8.222.176.249": {
+    "asn": 45102,
+    "org": "Alibaba Cloud Singapore Private Limited",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "SG",
+    "fetched_at": "2026-11-01T19:46:35Z"
+  },
+  "142.111.15.199": {
+    "asn": 149440,
+    "org": "Evoxt ID",
+    "isp": "Evoxt Sdn. Bhd.",
+    "country_code": "ID",
+    "fetched_at": "2026-11-01T19:46:35Z"
+  },
+  "87.83.110.181": {
+    "asn": 49304,
+    "org": "SAKURA INTERNATIONAL INVESTMENT LIMITED",
+    "isp": "SAKURA LINK LIMITED",
+    "country_code": "HK",
+    "fetched_at": "2026-11-01T19:46:35Z"
   }
 }
