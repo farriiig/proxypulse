@@ -935,7 +935,7 @@
     "org": "DigitalOcean, LLC",
     "isp": "DigitalOcean, LLC",
     "country_code": "US",
-    "fetched_at": "2026-09-27T21:26:55Z"
+    "fetched_at": "2026-11-02T23:55:53Z"
   },
   "185.191.118.73": {
     "asn": 213896,
@@ -2552,7 +2552,7 @@
     "org": "New Jersey Network",
     "isp": "Clouvider Limited",
     "country_code": "US",
-    "fetched_at": "2026-09-29T20:54:18Z"
+    "fetched_at": "2026-11-02T23:55:53Z"
   },
   "162.120.69.88": {
     "asn": 62240,
@@ -2895,7 +2895,7 @@
     "org": "Clouvider Limited",
     "isp": "Clouvider Limited",
     "country_code": "US",
-    "fetched_at": "2026-09-30T13:52:39Z"
+    "fetched_at": "2026-11-02T23:55:53Z"
   },
   "45.144.112.54": {
     "asn": 62240,
@@ -3357,7 +3357,7 @@
     "org": "New Jersey Network",
     "isp": "Clouvider Limited",
     "country_code": "US",
-    "fetched_at": "2026-10-02T05:50:34Z"
+    "fetched_at": "2026-11-02T23:55:53Z"
   },
   "217.60.33.10": {
     "asn": 197574,
@@ -8188,5 +8188,26 @@
     "isp": "NetLab Global",
     "country_code": "US",
     "fetched_at": "2026-11-02T17:13:16Z"
+  },
+  "76.164.203.238": {
+    "asn": 25198,
+    "org": "INTERKVM HOST SRL",
+    "isp": "Interkvm Host SRL",
+    "country_code": "ES",
+    "fetched_at": "2026-11-02T23:55:53Z"
+  },
+  "165.154.63.139": {
+    "asn": 135377,
+    "org": "UCLOUD INFORMATION TECHNOLOGY HK LIMITED",
+    "isp": "UCLOUD INFORMATION TECHNOLOGY HK LIMITED",
+    "country_code": "HK",
+    "fetched_at": "2026-11-02T23:55:53Z"
+  },
+  "192.159.101.165": {
+    "asn": 206804,
+    "org": "ESTNOC-GLOBAL",
+    "isp": "Realcloud OU",
+    "country_code": "RU",
+    "fetched_at": "2026-11-02T23:55:53Z"
   }
 }
