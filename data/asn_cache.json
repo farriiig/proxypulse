@@ -8097,5 +8097,47 @@
     "isp": "GTHost",
     "country_code": "NL",
     "fetched_at": "2026-11-01T23:41:39Z"
+  },
+  "88.216.211.90": {
+    "asn": 213896,
+    "org": "Private Customer",
+    "isp": "UAB Cherry Servers",
+    "country_code": "DE",
+    "fetched_at": "2026-11-02T06:24:01Z"
+  },
+  "149.22.87.204": {
+    "asn": 212238,
+    "org": "Datacamp Limited",
+    "isp": "Datacamp Limited",
+    "country_code": "JP",
+    "fetched_at": "2026-11-02T06:24:01Z"
+  },
+  "216.152.147.48": {
+    "asn": 62563,
+    "org": "GTHost",
+    "isp": "GLOBALTELEHOST Corp.",
+    "country_code": "CA",
+    "fetched_at": "2026-11-02T06:24:01Z"
+  },
+  "38.60.224.241": {
+    "asn": 154177,
+    "org": "Lightnode-MX",
+    "isp": "LIGHT NODE LIMITED",
+    "country_code": "MX",
+    "fetched_at": "2026-11-02T06:24:01Z"
+  },
+  "130.94.50.86": {
+    "asn": 154177,
+    "org": "LIGHT NODE LIMITED",
+    "isp": "LIGHT NODE LIMITED",
+    "country_code": "PH",
+    "fetched_at": "2026-11-02T06:24:01Z"
+  },
+  "38.60.200.21": {
+    "asn": 154177,
+    "org": "LightNode-TH",
+    "isp": "LIGHT NODE LIMITED",
+    "country_code": "TH",
+    "fetched_at": "2026-11-02T06:24:01Z"
   }
 }

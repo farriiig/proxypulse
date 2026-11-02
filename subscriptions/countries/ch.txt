@@ -1,4 +1,6 @@
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.19:443?security=tls&sni=www.yourultimateprofessionalcareerhub.com&type=tcp&headerType=none#🇨🇭
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.60:443?security=tls&sni=cdn.yourultimateprofessionalcareerhub.com&type=tcp&headerType=none#🇨🇭
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.29:443?security=tls&sni=learn.yourultimateprofessionalcareerhub.com&type=tcp&headerType=none#🇨🇭
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.33:443?security=tls&sni=courses.yourultimateprofessionalcareerhub.com&type=tcp&headerType=none#🇨🇭
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.60:443?security=tls&sni=cdn.yourultimateprofessionalcareerhub.com&type=tcp&headerType=none#🇨🇭
+vless://241306b3-9f27-4ed3-9524-6c0792c55856@ch2.h1cloud.net:25879?type=raw&security=reality&fp=firefox&pbk=XuI492LMe1OPIwQH5TQlIo33JRqMM3kfnto62tbx5FU&sid=f1a7a14461a3f389&sni=www.bing.com#🇳🇱
+vless://241306b3-9f27-4ed3-9524-6c0792c55856@ch2.h1cloud.net:25879?type=tcp&encryption=none&sni=www.bing.com&security=reality&pbk=XuI492LMe1OPIwQH5TQlIo33JRqMM3kfnto62tbx5FU&sid=f1a7a14461a3f389&fp=qq#🇳🇱
