@@ -3693,7 +3693,7 @@
     "org": "GLOBALTELEHOST Corp.",
     "isp": "GTHost",
     "country_code": "US",
-    "fetched_at": "2026-10-03T21:26:24Z"
+    "fetched_at": "2026-11-03T06:59:03Z"
   },
   "20.238.125.195": {
     "asn": 8075,
@@ -8209,5 +8209,26 @@
     "isp": "Realcloud OU",
     "country_code": "RU",
     "fetched_at": "2026-11-02T23:55:53Z"
+  },
+  "192.159.101.168": {
+    "asn": 206804,
+    "org": "ESTNOC-GLOBAL",
+    "isp": "Realcloud OU",
+    "country_code": "RU",
+    "fetched_at": "2026-11-03T06:59:03Z"
+  },
+  "66.163.127.107": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "NL",
+    "fetched_at": "2026-11-03T06:59:03Z"
+  },
+  "149.248.50.252": {
+    "asn": 20473,
+    "org": "The Constant Company, LLC",
+    "isp": "The Constant Company, LLC",
+    "country_code": "CA",
+    "fetched_at": "2026-11-03T06:59:03Z"
   }
 }

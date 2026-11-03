@@ -1,0 +1,2 @@
+vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@185.178.208.167:443?alpn=http/1.1&encryption=none&fp=firefox&host=lorettmay.top&path=/blog/posts&security=tls&sni=lorettmay.top&type=ws#🇷🇺
+vless://2232d904-8e6a-4202-8240-6efd8aec02e9@185.178.208.167:443?alpn=http/1.1&encryption=none&fp=chrome&host=lorettmay.top&path=/blog/posts&security=tls&sni=lorettmay.top&type=ws#🇷🇺
