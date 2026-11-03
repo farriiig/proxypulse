@@ -1,2 +1,3 @@
+vless://4d8132cb-f4e3-428c-91ff-2b4f7a868551@84.23.52.120:28448?alpn=h2,http/1.1&path=/lovelive&security=tls&sni=pl.sparxiecn.com&type=ws&fp=firefox#🇷🇺
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2aGVleHl6@54.36.174.140:443#🇵🇱
 ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@51.83.192.80:8388#🇵🇱

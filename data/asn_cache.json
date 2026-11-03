@@ -3686,7 +3686,7 @@
     "org": "Oracle Public Cloud",
     "isp": "Oracle Corporation",
     "country_code": "JP",
-    "fetched_at": "2026-10-03T21:26:24Z"
+    "fetched_at": "2026-11-03T15:19:00Z"
   },
   "169.197.142.22": {
     "asn": 63023,
@@ -8230,5 +8230,47 @@
     "isp": "The Constant Company, LLC",
     "country_code": "CA",
     "fetched_at": "2026-11-03T06:59:03Z"
+  },
+  "76.164.203.250": {
+    "asn": 25198,
+    "org": "INTERKVM HOST SRL",
+    "isp": "Interkvm Host SRL",
+    "country_code": "ES",
+    "fetched_at": "2026-11-03T15:19:00Z"
+  },
+  "191.44.113.41": {
+    "asn": 198550,
+    "org": "Datagio Systems Ltd.",
+    "isp": "NODE HOST LIMITED",
+    "country_code": "PL",
+    "fetched_at": "2026-11-03T15:19:00Z"
+  },
+  "151.158.198.60": {
+    "asn": 154516,
+    "org": "Perfect Internet Residential",
+    "isp": "PERFECT NETWORK SDN. BHD.",
+    "country_code": "MY",
+    "fetched_at": "2026-11-03T15:19:00Z"
+  },
+  "2a0d:5600:160:f48b:1b79:c820:2383:ab01": {
+    "asn": 9009,
+    "org": "M247 Europe SRL",
+    "isp": "M247 Europe SRL",
+    "country_code": "FI",
+    "fetched_at": "2026-11-03T15:19:00Z"
+  },
+  "66.163.127.225": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "NL",
+    "fetched_at": "2026-11-03T15:19:00Z"
+  },
+  "2.26.99.150": {
+    "asn": 215439,
+    "org": "play2go.cloud - Cheap and reliable hosting",
+    "isp": "PLAY2GO INTERNATIONAL LIMITED",
+    "country_code": "DE",
+    "fetched_at": "2026-11-03T15:19:00Z"
   }
 }
