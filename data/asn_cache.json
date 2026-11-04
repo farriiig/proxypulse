@@ -8335,5 +8335,12 @@
     "isp": "GTHost",
     "country_code": "NL",
     "fetched_at": "2026-11-04T02:26:15Z"
+  },
+  "188.130.209.217": {
+    "asn": 213220,
+    "org": "Delta Ltd",
+    "isp": "Delta Ltd",
+    "country_code": "RU",
+    "fetched_at": "2026-11-04T18:41:52Z"
   }
 }

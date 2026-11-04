@@ -1,2 +1,1 @@
 hysteria2://dongtaiwang.com@62.210.124.146:22000?insecure=1&sni=www.microsoft.com#🇫🇷
-vless://fbda2834-b1e7-4148-afb9-deda31036a30@w.geogame.ir:2053?encryption=none&security=tls&sni=w.geogame.ir&fp=chrome&alpn=h2,http/1.1&ech=AF/+DQBbAAAgACCtCCV2+T2TCcNWgmmXvltmj5tzoKlieBzbAPbBAF0eIQAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADAAx3Lmdlb2dhbWUuaXIAAA==&type=tcp&headerType=none#🇫🇷
