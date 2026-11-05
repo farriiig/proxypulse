@@ -8405,5 +8405,68 @@
     "isp": "OVH SAS",
     "country_code": "FR",
     "fetched_at": "2026-11-05T16:32:40Z"
+  },
+  "49.51.39.148": {
+    "asn": 132203,
+    "org": "Tencent cloud computing Beijing Co., Ltd.",
+    "isp": "Shenzhen Tencent Computer Systems Company Limited",
+    "country_code": "US",
+    "fetched_at": "2026-11-05T22:42:33Z"
+  },
+  "130.94.52.37": {
+    "asn": 154177,
+    "org": "LIGHT NODE LIMITED",
+    "isp": "LIGHT NODE LIMITED",
+    "country_code": "PH",
+    "fetched_at": "2026-11-05T22:42:33Z"
+  },
+  "103.88.232.55": {
+    "asn": 396356,
+    "org": "Latitude.sh",
+    "isp": "Latitude.sh",
+    "country_code": "BR",
+    "fetched_at": "2026-11-05T22:42:33Z"
+  },
+  "2001:41d0:24c:9d00::": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-11-05T22:42:33Z"
+  },
+  "2001:41d0:306:2839::": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-11-05T22:42:33Z"
+  },
+  "2001:41d0:24c:9b00::": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-11-05T22:42:33Z"
+  },
+  "209.38.42.238": {
+    "asn": 14061,
+    "org": "DigitalOcean, LLC",
+    "isp": "DigitalOcean, LLC",
+    "country_code": "NL",
+    "fetched_at": "2026-11-05T22:42:33Z"
+  },
+  "188.166.81.135": {
+    "asn": 14061,
+    "org": "Digital Ocean, Inc.",
+    "isp": "DigitalOcean, LLC",
+    "country_code": "NL",
+    "fetched_at": "2026-11-05T22:42:33Z"
+  },
+  "2402:1f00:8001:135c::": {
+    "asn": 16276,
+    "org": "OVH SINGAPOR DC",
+    "isp": "OVH SAS",
+    "country_code": "SG",
+    "fetched_at": "2026-11-05T22:42:33Z"
   }
 }
