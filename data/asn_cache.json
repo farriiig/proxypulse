@@ -3742,7 +3742,7 @@
     "org": "Oracle Public Cloud",
     "isp": "Oracle Corporation",
     "country_code": "IN",
-    "fetched_at": "2026-10-04T00:44:51Z"
+    "fetched_at": "2026-11-05T00:25:49Z"
   },
   "186.190.211.67": {
     "asn": 63023,
@@ -3756,7 +3756,7 @@
     "org": "Oracle Corporation",
     "isp": "Oracle Corporation",
     "country_code": "US",
-    "fetched_at": "2026-10-04T00:44:51Z"
+    "fetched_at": "2026-11-05T00:25:49Z"
   },
   "2a02:7b40:3e4d:9e01::1": {
     "asn": 212531,
@@ -8342,5 +8342,40 @@
     "isp": "Delta Ltd",
     "country_code": "RU",
     "fetched_at": "2026-11-04T18:41:52Z"
+  },
+  "45.129.242.56": {
+    "asn": 199058,
+    "org": "SERVA ONE LTD",
+    "isp": "SERVA ONE LTD",
+    "country_code": "DE",
+    "fetched_at": "2026-11-05T00:25:49Z"
+  },
+  "167.17.71.167": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "ES",
+    "fetched_at": "2026-11-05T00:25:49Z"
+  },
+  "15.204.246.108": {
+    "asn": 16276,
+    "org": "OVH US LLC",
+    "isp": "OVH SAS",
+    "country_code": "US",
+    "fetched_at": "2026-11-05T00:25:49Z"
+  },
+  "129.154.61.196": {
+    "asn": 31898,
+    "org": "Oracle Corporation",
+    "isp": "Oracle Corporation",
+    "country_code": "KR",
+    "fetched_at": "2026-11-05T00:25:49Z"
+  },
+  "172.86.108.79": {
+    "asn": 14956,
+    "org": "RouterHosting LLC",
+    "isp": "RouterHosting LLC",
+    "country_code": "US",
+    "fetched_at": "2026-11-05T00:25:49Z"
   }
 }

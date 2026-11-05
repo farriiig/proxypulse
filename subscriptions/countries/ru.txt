@@ -1,1 +1,0 @@
-vless://2f4de908-b22e-48e9-9e57-fc86acf02c56@185.229.9.135:443?security=tls&sni=lesotorg-kirov.ru&alpn=http/1.1&type=ws&path=/chws&host=lesotorg-kirov.ru&fp=android#🇷🇺
