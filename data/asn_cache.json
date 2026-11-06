@@ -1313,7 +1313,7 @@
     "org": "Oracle Public Cloud",
     "isp": "Oracle Corporation",
     "country_code": "KR",
-    "fetched_at": "2026-09-28T00:52:41Z"
+    "fetched_at": "2026-11-06T03:29:29Z"
   },
   "38.110.1.246": {
     "asn": 63023,
@@ -3980,7 +3980,7 @@
     "org": "Oracle Corporation",
     "isp": "Oracle Corporation",
     "country_code": "US",
-    "fetched_at": "2026-10-04T21:37:38Z"
+    "fetched_at": "2026-11-06T03:29:29Z"
   },
   "2.26.27.226": {
     "asn": 213520,
@@ -8468,5 +8468,19 @@
     "isp": "OVH SAS",
     "country_code": "SG",
     "fetched_at": "2026-11-05T22:42:33Z"
+  },
+  "45.157.235.11": {
+    "asn": 58212,
+    "org": "dataforest GmbH",
+    "isp": "dataforest GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-11-06T03:29:29Z"
+  },
+  "193.108.119.34": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "DE",
+    "fetched_at": "2026-11-06T03:29:29Z"
   }
 }
