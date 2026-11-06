@@ -8482,5 +8482,26 @@
     "isp": "GTHost",
     "country_code": "DE",
     "fetched_at": "2026-11-06T03:29:29Z"
+  },
+  "217.60.25.114": {
+    "asn": 207567,
+    "org": "Intezio Worldwide Limited",
+    "isp": "Intezio Worldwide Limited",
+    "country_code": "PL",
+    "fetched_at": "2026-11-06T12:13:43Z"
+  },
+  "193.108.119.96": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "DE",
+    "fetched_at": "2026-11-06T12:13:43Z"
+  },
+  "130.94.51.219": {
+    "asn": 154177,
+    "org": "LIGHT NODE LIMITED",
+    "isp": "LIGHT NODE LIMITED",
+    "country_code": "PH",
+    "fetched_at": "2026-11-06T12:13:43Z"
   }
 }
