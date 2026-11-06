@@ -2559,7 +2559,7 @@
     "org": "Clouvider Limited",
     "isp": "Clouvider Limited",
     "country_code": "US",
-    "fetched_at": "2026-09-29T20:54:18Z"
+    "fetched_at": "2026-11-06T19:32:18Z"
   },
   "185.195.57.174": {
     "asn": 62240,
@@ -8503,5 +8503,33 @@
     "isp": "LIGHT NODE LIMITED",
     "country_code": "PH",
     "fetched_at": "2026-11-06T12:13:43Z"
+  },
+  "148.135.86.162": {
+    "asn": 35916,
+    "org": "Private Customer",
+    "isp": "MULTACOM CORPORATION",
+    "country_code": "US",
+    "fetched_at": "2026-11-06T19:32:18Z"
+  },
+  "83.229.15.197": {
+    "asn": 199524,
+    "org": "G-Core Labs S.A.",
+    "isp": "G-Core Labs S.A.",
+    "country_code": "KZ",
+    "fetched_at": "2026-11-06T19:32:18Z"
+  },
+  "185.215.132.133": {
+    "asn": 63023,
+    "org": "Lite Info LLC",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-06T19:32:18Z"
+  },
+  "38.22.17.139": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-06T19:32:18Z"
   }
 }
