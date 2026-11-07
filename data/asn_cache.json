@@ -8643,5 +8643,33 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-07T18:06:54Z"
+  },
+  "82.148.255.201": {
+    "asn": 203273,
+    "org": "Parcel2Go.com Limited",
+    "isp": "NetCrafters OU",
+    "country_code": "GB",
+    "fetched_at": "2026-11-07T21:59:21Z"
+  },
+  "89.105.218.146": {
+    "asn": 24875,
+    "org": "NovoServe B.V.",
+    "isp": "NovoServe B.V.",
+    "country_code": "NL",
+    "fetched_at": "2026-11-07T21:59:21Z"
+  },
+  "149.88.107.74": {
+    "asn": 212238,
+    "org": "Datacamp Limited",
+    "isp": "Datacamp Limited",
+    "country_code": "SG",
+    "fetched_at": "2026-11-07T21:59:21Z"
+  },
+  "119.46.51.45": {
+    "asn": 138915,
+    "org": "True Internet Corporation Co. Ltd.",
+    "isp": "Kaopu Cloud HK Limited",
+    "country_code": "TH",
+    "fetched_at": "2026-11-07T21:59:21Z"
   }
 }
