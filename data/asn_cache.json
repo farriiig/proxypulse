@@ -4764,7 +4764,7 @@
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-10-08T16:36:55Z"
+    "fetched_at": "2026-11-07T18:06:54Z"
   },
   "2001:1600:13:101::1964": {
     "asn": 29222,
@@ -8629,5 +8629,19 @@
     "isp": "Melbikomas UAB",
     "country_code": "AE",
     "fetched_at": "2026-11-07T06:12:22Z"
+  },
+  "130.49.177.193": {
+    "asn": 41745,
+    "org": "Baykov Ilya Sergeevich",
+    "isp": "Baykov Ilya Sergeevich",
+    "country_code": "DE",
+    "fetched_at": "2026-11-07T18:06:54Z"
+  },
+  "216.106.178.169": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-07T18:06:54Z"
   }
 }
