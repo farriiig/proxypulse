@@ -8552,5 +8552,82 @@
     "isp": "GTHost",
     "country_code": "ES",
     "fetched_at": "2026-11-07T00:09:11Z"
+  },
+  "188.130.209.196": {
+    "asn": 213220,
+    "org": "Delta Ltd",
+    "isp": "Delta Ltd",
+    "country_code": "RU",
+    "fetched_at": "2026-11-07T06:12:21Z"
+  },
+  "94.183.167.155": {
+    "asn": 219506,
+    "org": "ETERNITY INTERNATIONAL LIMITED",
+    "isp": "Vladislav Doniy",
+    "country_code": "PL",
+    "fetched_at": "2026-11-07T06:12:21Z"
+  },
+  "3.114.220.22": {
+    "asn": 16509,
+    "org": "Amazon Data Services Japan",
+    "isp": "Amazon.com, Inc.",
+    "country_code": "JP",
+    "fetched_at": "2026-11-07T06:12:22Z"
+  },
+  "136.0.197.99": {
+    "asn": 209604,
+    "org": "InterLIR LLC",
+    "isp": "2E TELEKOMUNIKASYON LTD STI",
+    "country_code": "US",
+    "fetched_at": "2026-11-07T06:12:22Z"
+  },
+  "167.88.63.99": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-07T06:12:21Z"
+  },
+  "38.121.43.18": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-07T06:12:21Z"
+  },
+  "38.22.17.129": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-07T06:12:22Z"
+  },
+  "67.220.73.178": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-07T06:12:22Z"
+  },
+  "84.20.27.183": {
+    "asn": 212238,
+    "org": "GTT Communications Inc.",
+    "isp": "Datacamp Limited",
+    "country_code": "US",
+    "fetched_at": "2026-11-07T06:12:22Z"
+  },
+  "149.40.57.134": {
+    "asn": 212238,
+    "org": "Datacamp Limited",
+    "isp": "Datacamp Limited",
+    "country_code": "US",
+    "fetched_at": "2026-11-07T06:12:22Z"
+  },
+  "2a06:f902:4001:100::8e3a:c9b4": {
+    "asn": 8849,
+    "org": "Melbikomas UAB",
+    "isp": "Melbikomas UAB",
+    "country_code": "AE",
+    "fetched_at": "2026-11-07T06:12:22Z"
   }
 }
