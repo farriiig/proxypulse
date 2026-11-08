@@ -8727,5 +8727,12 @@
     "isp": "Melbikomas UAB",
     "country_code": "AE",
     "fetched_at": "2026-11-08T09:09:27Z"
+  },
+  "31.7.60.251": {
+    "asn": 51852,
+    "org": "Private Layer INC",
+    "isp": "Private Layer INC",
+    "country_code": "CH",
+    "fetched_at": "2026-11-08T16:04:00Z"
   }
 }
