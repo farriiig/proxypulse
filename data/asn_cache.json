@@ -8734,5 +8734,19 @@
     "isp": "Private Layer INC",
     "country_code": "CH",
     "fetched_at": "2026-11-08T16:04:00Z"
+  },
+  "81.17.18.109": {
+    "asn": 51852,
+    "org": "Private Layer INC",
+    "isp": "Private Layer INC",
+    "country_code": "CH",
+    "fetched_at": "2026-11-08T20:35:29Z"
+  },
+  "66.163.122.46": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-08T20:35:29Z"
   }
 }
