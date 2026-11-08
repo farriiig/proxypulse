@@ -8713,5 +8713,19 @@
     "isp": "Pfcloud UG haftungsbeschrankt",
     "country_code": "NL",
     "fetched_at": "2026-11-08T01:30:06Z"
+  },
+  "194.104.9.44": {
+    "asn": 41745,
+    "org": "Baykov Ilya Sergeevich",
+    "isp": "Baykov Ilya Sergeevich",
+    "country_code": "NL",
+    "fetched_at": "2026-11-08T09:09:27Z"
+  },
+  "2a06:f902:4001:100::100d:2697": {
+    "asn": 8849,
+    "org": "Melbikomas UAB",
+    "isp": "Melbikomas UAB",
+    "country_code": "AE",
+    "fetched_at": "2026-11-08T09:09:27Z"
   }
 }
