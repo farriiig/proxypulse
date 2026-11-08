@@ -8671,5 +8671,47 @@
     "isp": "Kaopu Cloud HK Limited",
     "country_code": "TH",
     "fetched_at": "2026-11-07T21:59:21Z"
+  },
+  "185.126.67.33": {
+    "asn": 198883,
+    "org": "ASDhere Ltd.",
+    "isp": "Tabunscic Anatoli",
+    "country_code": "DE",
+    "fetched_at": "2026-11-08T01:30:06Z"
+  },
+  "2a03:f80:7:8a69::1": {
+    "asn": 57169,
+    "org": "Edis GmbH",
+    "isp": "EDIS GmbH",
+    "country_code": "RU",
+    "fetched_at": "2026-11-08T01:30:06Z"
+  },
+  "176.65.144.221": {
+    "asn": 209413,
+    "org": "DEDIK SERVICES LIMITED",
+    "isp": "DEDIK SERVICES LIMITED",
+    "country_code": "CH",
+    "fetched_at": "2026-11-08T01:30:06Z"
+  },
+  "2a12:3200:1003:7::50": {
+    "asn": 25198,
+    "org": "ZetServers RO",
+    "isp": "Interkvm Host SRL",
+    "country_code": "RO",
+    "fetched_at": "2026-11-08T01:30:06Z"
+  },
+  "47.77.218.179": {
+    "asn": 45102,
+    "org": "Alibaba Cloud LLC",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "US",
+    "fetched_at": "2026-11-08T01:30:06Z"
+  },
+  "176.65.151.175": {
+    "asn": 51396,
+    "org": "Pfcloud UG",
+    "isp": "Pfcloud UG haftungsbeschrankt",
+    "country_code": "NL",
+    "fetched_at": "2026-11-08T01:30:06Z"
   }
 }
