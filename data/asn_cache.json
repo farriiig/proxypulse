@@ -1383,7 +1383,7 @@
     "org": "Microsoft Corporation",
     "isp": "Microsoft Corporation",
     "country_code": "ZA",
-    "fetched_at": "2026-09-28T06:05:29Z"
+    "fetched_at": "2026-11-09T18:55:19Z"
   },
   "91.196.32.163": {
     "asn": 207957,
@@ -8818,5 +8818,19 @@
     "isp": "GTHost",
     "country_code": "GB",
     "fetched_at": "2026-11-09T01:00:04Z"
+  },
+  "89.105.195.157": {
+    "asn": 24875,
+    "org": "NovoServe B.V.",
+    "isp": "NovoServe B.V.",
+    "country_code": "NL",
+    "fetched_at": "2026-11-09T18:55:19Z"
+  },
+  "136.176.65.251": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-09T18:55:19Z"
   }
 }
