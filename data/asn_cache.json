@@ -8748,5 +8748,75 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-08T20:35:29Z"
+  },
+  "94.183.206.78": {
+    "asn": 219506,
+    "org": "TurtleGuard",
+    "isp": "Vladislav Doniy",
+    "country_code": "NL",
+    "fetched_at": "2026-11-09T01:00:04Z"
+  },
+  "5.61.34.26": {
+    "asn": 28753,
+    "org": "3NT Solutions LLP",
+    "isp": "Leaseweb Deutschland GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-11-09T01:00:03Z"
+  },
+  "95.85.232.179": {
+    "asn": 213887,
+    "org": "WAIcore Ltd",
+    "isp": "WAIcore Ltd",
+    "country_code": "DE",
+    "fetched_at": "2026-11-09T01:00:04Z"
+  },
+  "178.17.61.11": {
+    "asn": 213887,
+    "org": "WAIcore Ltd",
+    "isp": "WAIcore Ltd",
+    "country_code": "FI",
+    "fetched_at": "2026-11-09T01:00:03Z"
+  },
+  "167.104.223.204": {
+    "asn": 214716,
+    "org": "WEYRO LTD",
+    "isp": "WEYRO LTD",
+    "country_code": "GB",
+    "fetched_at": "2026-11-09T01:00:04Z"
+  },
+  "138.199.55.243": {
+    "asn": 212238,
+    "org": "Datacamp Limited",
+    "isp": "Datacamp Limited",
+    "country_code": "SE",
+    "fetched_at": "2026-11-09T01:00:04Z"
+  },
+  "66.163.118.115": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "ES",
+    "fetched_at": "2026-11-09T01:00:04Z"
+  },
+  "66.163.122.81": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-09T01:00:04Z"
+  },
+  "149.28.177.190": {
+    "asn": 20473,
+    "org": "The Constant Company, LLC",
+    "isp": "The Constant Company, LLC",
+    "country_code": "AU",
+    "fetched_at": "2026-11-09T01:00:04Z"
+  },
+  "149.7.16.228": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "GB",
+    "fetched_at": "2026-11-09T01:00:04Z"
   }
 }
