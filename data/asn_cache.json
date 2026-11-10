@@ -5020,10 +5020,10 @@
   },
   "103.11.76.248": {
     "asn": 35916,
-    "org": "5G NETWORK OPERATIONS PTY LTD",
+    "org": "UberGlobal UBRCBR",
     "isp": "MULTACOM CORPORATION",
     "country_code": "US",
-    "fetched_at": "2026-10-10T20:09:46Z"
+    "fetched_at": "2026-11-10T23:30:28Z"
   },
   "51.158.236.158": {
     "asn": 12876,
@@ -9084,5 +9084,26 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-10T17:57:26Z"
+  },
+  "51.158.206.29": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-11-10T23:30:28Z"
+  },
+  "2a05:9402::269": {
+    "asn": 204957,
+    "org": "Green Floid LLC",
+    "isp": "ROUTE 95 LLC",
+    "country_code": "US",
+    "fetched_at": "2026-11-10T23:30:28Z"
+  },
+  "23.254.194.136": {
+    "asn": 36352,
+    "org": "Racknerd LLC",
+    "isp": "HostPapa",
+    "country_code": "US",
+    "fetched_at": "2026-11-10T23:30:28Z"
   }
 }
