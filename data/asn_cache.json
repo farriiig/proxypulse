@@ -200,7 +200,7 @@
     "org": "Scaleway - Amsterdam, Netherlands",
     "isp": "Scaleway SAS",
     "country_code": "NL",
-    "fetched_at": "2026-09-27T12:19:33Z"
+    "fetched_at": "2026-11-10T02:15:36Z"
   },
   "51.158.206.80": {
     "asn": 12876,
@@ -256,7 +256,7 @@
     "org": "Oracle Corporation",
     "isp": "Oracle Corporation",
     "country_code": "NL",
-    "fetched_at": "2026-09-27T12:19:33Z"
+    "fetched_at": "2026-11-10T02:15:36Z"
   },
   "137.74.16.237": {
     "asn": 16276,
@@ -4953,7 +4953,7 @@
     "org": "Alibaba Cloud - HK",
     "isp": "Alibaba US Technology Co., Ltd.",
     "country_code": "HK",
-    "fetched_at": "2026-10-10T01:49:00Z"
+    "fetched_at": "2026-11-10T02:15:36Z"
   },
   "47.243.194.125": {
     "asn": 45102,
@@ -8832,5 +8832,180 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-09T18:55:19Z"
+  },
+  "2a02:27ac::20d1": {
+    "asn": 50979,
+    "org": "Green Floid LLC",
+    "isp": "ROUTE 95 LLC",
+    "country_code": "LV",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "2a12:6fc4:8000::5c1": {
+    "asn": 8254,
+    "org": "Green Floid LLC",
+    "isp": "GREEN FLOID LLC",
+    "country_code": "ES",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "2a12:6fc1::2d9": {
+    "asn": 204957,
+    "org": "Green Floid LLC",
+    "isp": "ROUTE 95 LLC",
+    "country_code": "US",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "51.158.206.19": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "51.158.206.34": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "193.124.17.190": {
+    "asn": 57043,
+    "org": "Reliable Communications s.r.o.",
+    "isp": "HOSTKEY B.V.",
+    "country_code": "NL",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "87.199.205.28": {
+    "asn": 216071,
+    "org": "SERVERS TECH FZCO",
+    "isp": "SERVERS TECH FZCO",
+    "country_code": "NL",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "2a12:6fc3:8000::3d9": {
+    "asn": 8254,
+    "org": "Green Floid LLC",
+    "isp": "GREEN FLOID LLC",
+    "country_code": "GR",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "47.251.108.158": {
+    "asn": 45102,
+    "org": "Alibaba Cloud - US",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "US",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "83.147.18.3": {
+    "asn": 215311,
+    "org": "REGXA LLC",
+    "isp": "Regxa Company for Information Technology Ltd",
+    "country_code": "GB",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "72.35.246.39": {
+    "asn": 213459,
+    "org": "Snowd Security OU",
+    "isp": "Snowd Security OU",
+    "country_code": "FI",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "104.28.218.38": {
+    "asn": 13335,
+    "org": "Cloudflare, Inc.",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "NL",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "149.88.107.47": {
+    "asn": 212238,
+    "org": "Datacamp Limited",
+    "isp": "Datacamp Limited",
+    "country_code": "SG",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "193.108.119.83": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "DE",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "193.108.119.134": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "DE",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "45.63.30.142": {
+    "asn": 20473,
+    "org": "Vultr Holdings, LLC",
+    "isp": "The Constant Company, LLC",
+    "country_code": "AU",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "66.163.122.25": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "216.128.185.90": {
+    "asn": 20473,
+    "org": "The Constant Company, LLC",
+    "isp": "The Constant Company, LLC",
+    "country_code": "CA",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "81.168.109.184": {
+    "asn": 9304,
+    "org": "Private Customer",
+    "isp": "HGC Global Communications Limited",
+    "country_code": "HK",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "154.47.19.225": {
+    "asn": 212238,
+    "org": "Datacamp Limited",
+    "isp": "Datacamp Limited",
+    "country_code": "AT",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "47.250.135.244": {
+    "asn": 45102,
+    "org": "Alibaba Cloud LLC",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "MY",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "138.199.55.230": {
+    "asn": 212238,
+    "org": "Datacamp Limited",
+    "isp": "Datacamp Limited",
+    "country_code": "SE",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "38.128.66.241": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "38.107.226.5": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "172.111.36.147": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-10T02:15:36Z"
   }
 }
