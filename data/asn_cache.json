@@ -9007,5 +9007,75 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-10T02:15:36Z"
+  },
+  "185.56.45.79": {
+    "asn": 399486,
+    "org": "Private Customer",
+    "isp": "12651980 CANADA INC.",
+    "country_code": "GB",
+    "fetched_at": "2026-11-10T10:03:00Z"
+  },
+  "89.105.195.156": {
+    "asn": 24875,
+    "org": "NovoServe B.V.",
+    "isp": "NovoServe B.V.",
+    "country_code": "NL",
+    "fetched_at": "2026-11-10T10:03:00Z"
+  },
+  "185.215.184.52": {
+    "asn": 202759,
+    "org": "RJ Network OU",
+    "isp": "RJ Network OU",
+    "country_code": "EE",
+    "fetched_at": "2026-11-10T10:03:00Z"
+  },
+  "145.223.68.58": {
+    "asn": 215311,
+    "org": "REGXA LLC",
+    "isp": "Regxa Company for Information Technology Ltd",
+    "country_code": "FR",
+    "fetched_at": "2026-11-10T10:03:00Z"
+  },
+  "194.87.233.93": {
+    "asn": 57043,
+    "org": "Reliable Communications s.r.o.",
+    "isp": "HOSTKEY B.V.",
+    "country_code": "NL",
+    "fetched_at": "2026-11-10T10:03:00Z"
+  },
+  "20.166.20.135": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "IE",
+    "fetched_at": "2026-11-10T10:03:00Z"
+  },
+  "79.127.184.104": {
+    "asn": 212238,
+    "org": "Datacamp Limited",
+    "isp": "Datacamp Limited",
+    "country_code": "CH",
+    "fetched_at": "2026-11-10T10:03:00Z"
+  },
+  "88.216.195.135": {
+    "asn": 204770,
+    "org": "Private Customer",
+    "isp": "UAB Cherry Servers",
+    "country_code": "US",
+    "fetched_at": "2026-11-10T10:03:00Z"
+  },
+  "2a06:f902:4001:100::54c8:9799": {
+    "asn": 8849,
+    "org": "Melbikomas UAB",
+    "isp": "Melbikomas UAB",
+    "country_code": "AE",
+    "fetched_at": "2026-11-10T10:03:00Z"
+  },
+  "116.88.224.217": {
+    "asn": 55430,
+    "org": "Starhub Cable Vision LTD",
+    "isp": "Starhub Ltd.",
+    "country_code": "SG",
+    "fetched_at": "2026-11-10T10:03:00Z"
   }
 }
