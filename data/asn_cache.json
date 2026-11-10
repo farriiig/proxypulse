@@ -9077,5 +9077,12 @@
     "isp": "Starhub Ltd.",
     "country_code": "SG",
     "fetched_at": "2026-11-10T10:03:00Z"
+  },
+  "66.163.112.142": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-10T17:57:26Z"
   }
 }
