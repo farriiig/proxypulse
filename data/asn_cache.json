@@ -9105,5 +9105,47 @@
     "isp": "HostPapa",
     "country_code": "US",
     "fetched_at": "2026-11-10T23:30:28Z"
+  },
+  "2a01:ecc0:d80:4b::2": {
+    "asn": 207957,
+    "org": "SERV.HOST GROUP LTD",
+    "isp": "SERV.HOST GROUP LTD",
+    "country_code": "IT",
+    "fetched_at": "2026-11-11T06:43:21Z"
+  },
+  "46.28.71.247": {
+    "asn": 8254,
+    "org": "Green Floid LLC",
+    "isp": "GREEN FLOID LLC",
+    "country_code": "ES",
+    "fetched_at": "2026-11-11T06:43:21Z"
+  },
+  "185.126.67.69": {
+    "asn": 198883,
+    "org": "ASDhere Ltd.",
+    "isp": "Tabunscic Anatoli",
+    "country_code": "DE",
+    "fetched_at": "2026-11-11T06:43:21Z"
+  },
+  "201.58.189.102": {
+    "asn": 219337,
+    "org": "play2go.cloud - Cheap and reliable hosting",
+    "isp": "PLAY2GO - FZCO",
+    "country_code": "PL",
+    "fetched_at": "2026-11-11T06:43:21Z"
+  },
+  "79.127.139.242": {
+    "asn": 212238,
+    "org": "Datacamp Limited",
+    "isp": "Datacamp Limited",
+    "country_code": "ES",
+    "fetched_at": "2026-11-11T06:43:21Z"
+  },
+  "66.163.118.244": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "ES",
+    "fetched_at": "2026-11-11T06:43:21Z"
   }
 }
