@@ -9147,5 +9147,19 @@
     "isp": "GTHost",
     "country_code": "ES",
     "fetched_at": "2026-11-11T06:43:21Z"
+  },
+  "176.97.68.100": {
+    "asn": 9009,
+    "org": "3NT Solutions LLP",
+    "isp": "M247 Europe SRL",
+    "country_code": "AU",
+    "fetched_at": "2026-11-11T15:24:02Z"
+  },
+  "2001:41d0:800:3e81::": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-11-11T15:24:02Z"
   }
 }
