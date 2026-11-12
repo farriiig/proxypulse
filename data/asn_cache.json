@@ -9273,5 +9273,26 @@
     "isp": "SH ONLINE ILETISIM ANONIM SIRKETI",
     "country_code": "TR",
     "fetched_at": "2026-11-12T12:54:27Z"
+  },
+  "23.230.52.119": {
+    "asn": 58291,
+    "org": "EGIHosting",
+    "isp": "ColoCenter b.v.",
+    "country_code": "US",
+    "fetched_at": "2026-11-12T20:55:27Z"
+  },
+  "169.197.140.247": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-12T20:55:27Z"
+  },
+  "216.152.155.54": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-12T20:55:27Z"
   }
 }
