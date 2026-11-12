@@ -9224,5 +9224,33 @@
     "isp": "Melbikomas UAB",
     "country_code": "AE",
     "fetched_at": "2026-11-11T22:46:54Z"
+  },
+  "2a12:bec4:1bb0:1cd4::2": {
+    "asn": 213520,
+    "org": "Senko Digital LLC",
+    "isp": "Senko Digital LLC",
+    "country_code": "DE",
+    "fetched_at": "2026-11-12T03:54:22Z"
+  },
+  "185.215.184.48": {
+    "asn": 202759,
+    "org": "RJ Network OU",
+    "isp": "RJ Network OU",
+    "country_code": "EE",
+    "fetched_at": "2026-11-12T03:54:22Z"
+  },
+  "67.216.207.144": {
+    "asn": 25820,
+    "org": "Cluster Logic Inc",
+    "isp": "IT7 Networks Inc",
+    "country_code": "US",
+    "fetched_at": "2026-11-12T03:54:22Z"
+  },
+  "62.93.166.184": {
+    "asn": 212238,
+    "org": "GTT Communications Inc.",
+    "isp": "Datacamp Limited",
+    "country_code": "SE",
+    "fetched_at": "2026-11-12T03:54:22Z"
   }
 }
