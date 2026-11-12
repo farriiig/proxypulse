@@ -9252,5 +9252,26 @@
     "isp": "Datacamp Limited",
     "country_code": "SE",
     "fetched_at": "2026-11-12T03:54:22Z"
+  },
+  "176.65.136.38": {
+    "asn": 198584,
+    "org": "PIO-Hosting GmbH",
+    "isp": "PIO-Hosting GmbH",
+    "country_code": "NL",
+    "fetched_at": "2026-11-12T12:54:27Z"
+  },
+  "94.237.97.200": {
+    "asn": 202053,
+    "org": "UpCloud Cloud Servers",
+    "isp": "UpCloud Ltd",
+    "country_code": "DE",
+    "fetched_at": "2026-11-12T12:54:27Z"
+  },
+  "31.210.52.74": {
+    "asn": 49334,
+    "org": "SH ONLINE ILETISIM ANONIM SIRKETI",
+    "isp": "SH ONLINE ILETISIM ANONIM SIRKETI",
+    "country_code": "TR",
+    "fetched_at": "2026-11-12T12:54:27Z"
   }
 }

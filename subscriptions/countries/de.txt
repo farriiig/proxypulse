@@ -1,4 +1,4 @@
-vless://4b50270b-5caf-4c34-b3da-17b4525604a6@188.225.37.175:443?alpn=http/1.1&encryption=none&fp=firefox&host=cryptoventura.online&path=/api/de3/live&security=tls&sni=cryptoventura.online&type=ws#🇷🇺
-vless://1fe01c8a-ab37-4e95-bbfc-95d4a608931e@150.241.79.124:443?security=reality&encryption=none&pbk=dlhvkjq7Sj-TT__FLwUJzFLMDCk8bgi85Uz4qDU-5FM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=de1.waspnest.space&sid=5212dad2aa9723d7#🇩🇪
-ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#🇩🇪
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@193.108.117.84:19999#🇩🇪
+vless://4b50270b-5caf-4c34-b3da-17b4525604a6@188.225.37.175:443?alpn=http/1.1&encryption=none&fp=edge&host=cryptoventura.online&path=/api/de3/live&security=tls&sni=cryptoventura.online&type=ws#🇷🇺
+ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#🇩🇪
+ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206WVphMWhZcksveGlsWkVmTUpiR0ZQQWROMU9oL1lJVklvRHB5RFp3SFc1RT06ek40SmsrbitWYTBNeEJyVHVuam15YitWWi9HalBzMnhCNFYwd0xWTSt4dz0@tuns.rupfem.ir:8080#🇩🇪
