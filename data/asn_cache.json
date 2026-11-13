@@ -5520,7 +5520,7 @@
     "org": "GTHost",
     "isp": "GTHost",
     "country_code": "US",
-    "fetched_at": "2026-10-13T22:54:13Z"
+    "fetched_at": "2026-11-13T23:40:55Z"
   },
   "67.220.95.3": {
     "asn": 63023,
@@ -9336,5 +9336,68 @@
     "isp": "OVH SAS",
     "country_code": "US",
     "fetched_at": "2026-11-13T17:51:41Z"
+  },
+  "72.56.90.165": {
+    "asn": 210976,
+    "org": "Timeweb, LLP",
+    "isp": "Timeweb, LLP",
+    "country_code": "NL",
+    "fetched_at": "2026-11-13T23:40:55Z"
+  },
+  "2a05:9406::1369": {
+    "asn": 204957,
+    "org": "Green Floid LLC",
+    "isp": "ROUTE 95 LLC",
+    "country_code": "CH",
+    "fetched_at": "2026-11-13T23:40:55Z"
+  },
+  "2a01:4f9:c014:be9e::1": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "FI",
+    "fetched_at": "2026-11-13T23:40:55Z"
+  },
+  "15.235.184.127": {
+    "asn": 16276,
+    "org": "OVH Singapore PTE. LTD",
+    "isp": "OVH SAS",
+    "country_code": "SG",
+    "fetched_at": "2026-11-13T23:40:55Z"
+  },
+  "2a06:f901:4001:100::b99e:5f4c": {
+    "asn": 8849,
+    "org": "Melbikomas UAB",
+    "isp": "Melbikomas UAB",
+    "country_code": "NG",
+    "fetched_at": "2026-11-13T23:40:55Z"
+  },
+  "31.210.52.78": {
+    "asn": 49334,
+    "org": "SH ONLINE ILETISIM ANONIM SIRKETI",
+    "isp": "SH ONLINE ILETISIM ANONIM SIRKETI",
+    "country_code": "TR",
+    "fetched_at": "2026-11-13T23:40:55Z"
+  },
+  "2a06:f901:4001:100::84ee:55e7": {
+    "asn": 8849,
+    "org": "Melbikomas UAB",
+    "isp": "Melbikomas UAB",
+    "country_code": "NG",
+    "fetched_at": "2026-11-13T23:40:55Z"
+  },
+  "23.174.104.82": {
+    "asn": 149513,
+    "org": "Infinite Portal LLC",
+    "isp": "Vertex Connectivity LLC",
+    "country_code": "US",
+    "fetched_at": "2026-11-13T23:40:55Z"
+  },
+  "172.111.38.246": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-13T23:40:55Z"
   }
 }
