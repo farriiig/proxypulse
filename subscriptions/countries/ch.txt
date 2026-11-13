@@ -1,0 +1,2 @@
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.158:443?security=tls&sni=api.yourultimateprofessionalcareerhub.com&type=tcp&headerType=none#🇨🇭
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.222:443?security=tls&sni=yourultimateprofessionalcareerhub.com&type=tcp&headerType=none#🇨🇭

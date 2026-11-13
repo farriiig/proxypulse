@@ -5513,7 +5513,7 @@
     "org": "GLOBALTELEHOST Corp.",
     "isp": "GTHost",
     "country_code": "US",
-    "fetched_at": "2026-10-13T22:54:13Z"
+    "fetched_at": "2026-11-13T01:56:09Z"
   },
   "67.220.85.46": {
     "asn": 63023,
@@ -5527,7 +5527,7 @@
     "org": "GTHost",
     "isp": "GTHost",
     "country_code": "US",
-    "fetched_at": "2026-10-13T22:54:13Z"
+    "fetched_at": "2026-11-13T01:56:09Z"
   },
   "2404:8c80:ff00::13f": {
     "asn": 206300,
@@ -9294,5 +9294,12 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-12T20:55:27Z"
+  },
+  "2a01:4f8:1c1b:2a70::1": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-11-13T01:56:09Z"
   }
 }
