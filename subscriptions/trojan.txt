@@ -1,12 +1,9 @@
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.132:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=courses.findconnectwithemployersandbuildprofessionalnetwork.com#🇺🇸
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.67:443?security=tls&sni=courses.explorecreativejobsandenhanceyourcareerportfolio.com&type=tcp&headerType=none#🇺🇸
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.29:443?security=tls&sni=blog.iloverussia2026.com&path=/#🇩🇪
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.122.26:443?security=tls&sni=blog.searchnationwidecareerchangehelperandguidancetoday.com&type=tcp&headerType=none#🇺🇸
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.33:443?security=tls&sni=courses.yourultimateprofessionalcareerhub.com&path=/#🇨🇭
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.214:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com#🇺🇸
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.7.205:443?security=tls&sni=advanceyouremploymentskillsandcareerdevelopmenthub.com&path=/#🇨🇱
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.158:443?security=tls&sni=api.yourultimateprofessionalcareerhub.com&type=tcp&headerType=none#🇨🇭
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.222:443?security=tls&sni=yourultimateprofessionalcareerhub.com&type=tcp&headerType=none#🇨🇭
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@15.235.184.127:443?security=tls&sni=exploredigitaljobplatformandfindonlinework.com&path=/#🇸🇬
-trojan://d7563108-615c-4338-a7bd-77f359869a4a@sclass-b1.catcat321.com:20027?security=tls&sni=hk.catxstar.com&path=/#🇺🇸
 trojan://d7563108-615c-4338-a7bd-77f359869a4a@sclass-b1.catcat321.com:20028?security=tls&sni=hk.catxstar.com&type=tcp&path=/#🇺🇸
-trojan://d9064589-74af-432a-9390-5d8a9da281bf@sclass-c1.catcat321.com:20086?security=tls&sni=hk.catxstar.com&path=/#🇭🇰
-trojan://d9064589-74af-432a-9390-5d8a9da281bf@sclass-00.catcat321.com:20123?security=tls&sni=hk.catxstar.com&type=tcp&headerType=none&path=/&allow_insecure=1#🇭🇰
+trojan://d7563108-615c-4338-a7bd-77f359869a4a@sclass-01.catcat321.com:20103?security=tls&sni=hk.catxstar.com&path=/#🇺🇸
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@15.235.184.127:443?security=tls&sni=exploredigitaljobplatformandfindonlinework.com&path=/#🇸🇬

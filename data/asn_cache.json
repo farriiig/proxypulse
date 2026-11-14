@@ -4708,7 +4708,7 @@
     "org": "Datacamp Limited",
     "isp": "Datacamp Limited",
     "country_code": "US",
-    "fetched_at": "2026-10-07T22:04:09Z"
+    "fetched_at": "2026-11-14T19:18:14Z"
   },
   "157.228.152.186": {
     "asn": 204339,
@@ -9448,5 +9448,47 @@
     "isp": "GTHost",
     "country_code": "DE",
     "fetched_at": "2026-11-14T14:16:59Z"
+  },
+  "46.29.255.123": {
+    "asn": 57858,
+    "org": "Angelnet Limited",
+    "isp": "Angelnet Limited",
+    "country_code": "SE",
+    "fetched_at": "2026-11-14T19:18:14Z"
+  },
+  "45.198.55.32": {
+    "asn": 215691,
+    "org": "AP Interactive Solutions",
+    "isp": "AP INTERACTIVE SOLUTIONS SL",
+    "country_code": "ES",
+    "fetched_at": "2026-11-14T19:18:14Z"
+  },
+  "23.191.200.208": {
+    "asn": 401401,
+    "org": "Unredacted Inc",
+    "isp": "Unredacted Inc",
+    "country_code": "US",
+    "fetched_at": "2026-11-14T19:18:14Z"
+  },
+  "162.251.62.31": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-14T19:18:14Z"
+  },
+  "167.17.64.22": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "FR",
+    "fetched_at": "2026-11-14T19:18:14Z"
+  },
+  "2a06:f901:4001:100::a913:10ff": {
+    "asn": 8849,
+    "org": "Melbikomas UAB",
+    "isp": "Melbikomas UAB",
+    "country_code": "NG",
+    "fetched_at": "2026-11-14T19:18:14Z"
   }
 }
