@@ -2755,7 +2755,7 @@
     "org": "New Jersey Network",
     "isp": "Clouvider Limited",
     "country_code": "US",
-    "fetched_at": "2026-09-30T00:33:59Z"
+    "fetched_at": "2026-11-14T23:58:44Z"
   },
   "2a14:3f87:f001:11::a": {
     "asn": 64289,
@@ -3126,7 +3126,7 @@
     "org": "New Jersey Network",
     "isp": "Clouvider Limited",
     "country_code": "US",
-    "fetched_at": "2026-10-01T06:07:50Z"
+    "fetched_at": "2026-11-14T23:58:44Z"
   },
   "45.144.112.55": {
     "asn": 62240,
@@ -9490,5 +9490,40 @@
     "isp": "Melbikomas UAB",
     "country_code": "NG",
     "fetched_at": "2026-11-14T19:18:14Z"
+  },
+  "94.183.164.146": {
+    "asn": 219506,
+    "org": "Vladislav Doniy",
+    "isp": "Vladislav Doniy",
+    "country_code": "NL",
+    "fetched_at": "2026-11-14T23:58:44Z"
+  },
+  "9.163.235.73": {
+    "asn": 8075,
+    "org": "Microsoft Limited",
+    "isp": "Microsoft Corporation",
+    "country_code": "NL",
+    "fetched_at": "2026-11-14T23:58:44Z"
+  },
+  "79.182.70.190": {
+    "asn": 218736,
+    "org": "H1CLOUD LTD",
+    "isp": "H1CLOUD LTD",
+    "country_code": "NL",
+    "fetched_at": "2026-11-14T23:58:44Z"
+  },
+  "2001:41d0:2005:100::f53": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "IT",
+    "fetched_at": "2026-11-14T23:58:44Z"
+  },
+  "103.14.27.207": {
+    "asn": 396356,
+    "org": "Latitude.sh",
+    "isp": "Latitude.sh",
+    "country_code": "BR",
+    "fetched_at": "2026-11-14T23:58:44Z"
   }
 }
