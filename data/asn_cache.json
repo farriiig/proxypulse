@@ -9399,5 +9399,40 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-13T23:40:55Z"
+  },
+  "129.101.105.29": {
+    "asn": 9123,
+    "org": "JSC TIMEWEB",
+    "isp": "JSC TIMEWEB",
+    "country_code": "RU",
+    "fetched_at": "2026-11-14T06:41:57Z"
+  },
+  "172.213.24.16": {
+    "asn": 8075,
+    "org": "Microsoft Limited",
+    "isp": "Microsoft Corporation",
+    "country_code": "IT",
+    "fetched_at": "2026-11-14T06:41:57Z"
+  },
+  "209.200.246.148": {
+    "asn": 215311,
+    "org": "REGXA LLC",
+    "isp": "Regxa Company for Information Technology Ltd",
+    "country_code": "CA",
+    "fetched_at": "2026-11-14T06:41:57Z"
+  },
+  "2001:41d0:701:1100::b4b7": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "DE",
+    "fetched_at": "2026-11-14T06:41:57Z"
+  },
+  "209.248.57.105": {
+    "asn": 49304,
+    "org": "Sakura Communications Limited",
+    "isp": "SAKURA LINK LIMITED",
+    "country_code": "US",
+    "fetched_at": "2026-11-14T06:41:57Z"
   }
 }
