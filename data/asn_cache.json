@@ -9434,5 +9434,19 @@
     "isp": "SAKURA LINK LIMITED",
     "country_code": "US",
     "fetched_at": "2026-11-14T06:41:57Z"
+  },
+  "198.100.154.175": {
+    "asn": 16276,
+    "org": "OVH Hosting, Inc.",
+    "isp": "OVH SAS",
+    "country_code": "CA",
+    "fetched_at": "2026-11-14T14:16:59Z"
+  },
+  "193.108.119.81": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "DE",
+    "fetched_at": "2026-11-14T14:16:59Z"
   }
 }
