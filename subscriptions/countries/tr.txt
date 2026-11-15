@@ -1,2 +1,2 @@
-trojan://d7563108-615c-4338-a7bd-77f359869a4a@sclass-b1.catcat321.com:20028?security=tls&sni=hk.catxstar.com&path=/#🇺🇸
+vless://facb802c-de2e-11f1-9a22-a3404e852f3b@185.39.204.117:10002?encryption=none&security=tls&sni=tr2.vpnjantit.com&type=ws&path=/vpnjantit#🇹🇷
 trojan://d7563108-615c-4338-a7bd-77f359869a4a@sclass-b1.catcat321.com:20027?security=tls&sni=hk.catxstar.com&type=tcp&path=/#🇺🇸
