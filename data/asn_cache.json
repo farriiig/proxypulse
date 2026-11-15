@@ -3133,7 +3133,7 @@
     "org": "New York Network",
     "isp": "Clouvider Limited",
     "country_code": "US",
-    "fetched_at": "2026-10-01T06:07:50Z"
+    "fetched_at": "2026-11-15T20:26:24Z"
   },
   "91.239.157.84": {
     "asn": 62240,
@@ -9525,5 +9525,40 @@
     "isp": "Latitude.sh",
     "country_code": "BR",
     "fetched_at": "2026-11-14T23:58:44Z"
+  },
+  "65.109.188.84": {
+    "asn": 24940,
+    "org": "Hetzner Online GmbH",
+    "isp": "Hetzner Online GmbH",
+    "country_code": "FI",
+    "fetched_at": "2026-11-15T20:26:24Z"
+  },
+  "146.70.147.90": {
+    "asn": 9009,
+    "org": "M247 Miami Infrastructure",
+    "isp": "M247 Europe SRL",
+    "country_code": "US",
+    "fetched_at": "2026-11-15T20:26:24Z"
+  },
+  "168.138.205.100": {
+    "asn": 31898,
+    "org": "Oracle Public Cloud",
+    "isp": "Oracle Corporation",
+    "country_code": "JP",
+    "fetched_at": "2026-11-15T20:26:24Z"
+  },
+  "23.166.88.127": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "CH",
+    "fetched_at": "2026-11-15T20:26:24Z"
+  },
+  "87.121.38.52": {
+    "asn": 205007,
+    "org": "Neterra Ltd.",
+    "isp": "Maxim Azarov trading as eServer",
+    "country_code": "RS",
+    "fetched_at": "2026-11-15T20:26:24Z"
   }
 }
