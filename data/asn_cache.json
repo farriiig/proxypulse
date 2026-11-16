@@ -9630,5 +9630,40 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-16T08:03:52Z"
+  },
+  "195.211.98.43": {
+    "asn": 204957,
+    "org": "ROUTE 95 LLC",
+    "isp": "ROUTE 95 LLC",
+    "country_code": "US",
+    "fetched_at": "2026-11-16T18:40:15Z"
+  },
+  "138.124.36.182": {
+    "asn": 213887,
+    "org": "WAIcore Ltd",
+    "isp": "WAIcore Ltd",
+    "country_code": "DE",
+    "fetched_at": "2026-11-16T18:40:15Z"
+  },
+  "185.231.101.90": {
+    "asn": 30893,
+    "org": "No ACK Group Holding AB",
+    "isp": "No ACK Group Holding AB",
+    "country_code": "SE",
+    "fetched_at": "2026-11-16T18:40:15Z"
+  },
+  "193.243.189.64": {
+    "asn": 56655,
+    "org": "Gigahost AS",
+    "isp": "Gigahost AS",
+    "country_code": "NO",
+    "fetched_at": "2026-11-16T18:40:15Z"
+  },
+  "172.111.36.123": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-16T18:40:15Z"
   }
 }

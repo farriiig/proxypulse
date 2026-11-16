@@ -1,4 +1,4 @@
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.176.204.18:19999#🇬🇧
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#🇩🇪
-vless://c0c949fc-2ed6-4597-b680-a1a3276ebf87@188.225.24.62:443?alpn=h2,http/1.1&encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=img.bokovskay.app&type=raw#🇷🇺
+vless://3422d3c1-dec4-4387-96da-d1b56c5f2318@81.163.22.224:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=hST-TEsr1xreXNQfhUTOzebidKRb0quzlQXXXhGgu3c&security=reality&sid=a1b2c3d4e5f60708&sni=yastatic.sbs&type=raw#🇷🇺
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@57.129.83.85:19999#🇩🇪
