@@ -9609,5 +9609,26 @@
     "isp": "M247 Europe SRL",
     "country_code": "RS",
     "fetched_at": "2026-11-16T01:07:36Z"
+  },
+  "45.145.56.212": {
+    "asn": 198883,
+    "org": "ASDhere Ltd.",
+    "isp": "Tabunscic Anatoli",
+    "country_code": "DE",
+    "fetched_at": "2026-11-16T08:03:52Z"
+  },
+  "212.227.235.66": {
+    "asn": 8560,
+    "org": "IONOS SE",
+    "isp": "IONOS SE",
+    "country_code": "ES",
+    "fetched_at": "2026-11-16T08:03:52Z"
+  },
+  "216.152.156.242": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-16T08:03:52Z"
   }
 }
