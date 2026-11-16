@@ -5807,7 +5807,7 @@
     "org": "Datacamp Limited",
     "isp": "Datacamp Limited",
     "country_code": "US",
-    "fetched_at": "2026-10-15T22:26:58Z"
+    "fetched_at": "2026-11-16T01:07:36Z"
   },
   "2.56.126.222": {
     "asn": 203273,
@@ -5982,7 +5982,7 @@
     "org": "TOO Tol ko litsenzionnyye produkty 191040025262",
     "isp": "Newserverlife LLC",
     "country_code": "KZ",
-    "fetched_at": "2026-10-16T21:21:07Z"
+    "fetched_at": "2026-11-16T01:07:36Z"
   },
   "104.28.165.208": {
     "asn": 13335,
@@ -9560,5 +9560,54 @@
     "isp": "Maxim Azarov trading as eServer",
     "country_code": "RS",
     "fetched_at": "2026-11-15T20:26:24Z"
+  },
+  "45.145.56.213": {
+    "asn": 198883,
+    "org": "ASDhere Ltd.",
+    "isp": "Tabunscic Anatoli",
+    "country_code": "DE",
+    "fetched_at": "2026-11-16T01:07:36Z"
+  },
+  "2a05:541:121:5a::1": {
+    "asn": 215540,
+    "org": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+    "isp": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+    "country_code": "TR",
+    "fetched_at": "2026-11-16T01:07:36Z"
+  },
+  "151.241.19.36": {
+    "asn": 393406,
+    "org": "Private Customer",
+    "isp": "DigitalOcean, LLC",
+    "country_code": "NL",
+    "fetched_at": "2026-11-16T01:07:36Z"
+  },
+  "216.152.155.63": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-16T01:07:36Z"
+  },
+  "216.152.156.212": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-16T01:07:36Z"
+  },
+  "66.163.118.40": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "ES",
+    "fetched_at": "2026-11-16T01:07:36Z"
+  },
+  "38.180.101.235": {
+    "asn": 9009,
+    "org": "3NT Solutions LLP",
+    "isp": "M247 Europe SRL",
+    "country_code": "RS",
+    "fetched_at": "2026-11-16T01:07:36Z"
   }
 }
