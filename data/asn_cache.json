@@ -5576,7 +5576,7 @@
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-10-14T01:59:13Z"
+    "fetched_at": "2026-11-17T12:04:11Z"
   },
   "51.158.236.235": {
     "asn": 12876,
@@ -9854,5 +9854,26 @@
     "isp": "The Constant Company, LLC",
     "country_code": "BR",
     "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "193.108.119.3": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "DE",
+    "fetched_at": "2026-11-17T12:04:11Z"
+  },
+  "23.166.88.189": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "CH",
+    "fetched_at": "2026-11-17T12:04:11Z"
+  },
+  "2a06:f901:4001:100::fb34:e7ba": {
+    "asn": 8849,
+    "org": "Melbikomas UAB",
+    "isp": "Melbikomas UAB",
+    "country_code": "NG",
+    "fetched_at": "2026-11-17T12:04:11Z"
   }
 }
