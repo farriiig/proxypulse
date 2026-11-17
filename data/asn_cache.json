@@ -3672,7 +3672,7 @@
     "org": "OVH SAS",
     "isp": "OVH SAS",
     "country_code": "FR",
-    "fetched_at": "2026-10-03T21:26:24Z"
+    "fetched_at": "2026-11-17T21:04:36Z"
   },
   "45.32.57.118": {
     "asn": 20473,
@@ -9875,5 +9875,89 @@
     "isp": "Melbikomas UAB",
     "country_code": "NG",
     "fetched_at": "2026-11-17T12:04:11Z"
+  },
+  "179.253.101.162": {
+    "asn": 218296,
+    "org": "Cloud Solutions Global LTD",
+    "isp": "CLOUD SOLUTIONS GLOBAL LTD",
+    "country_code": "PL",
+    "fetched_at": "2026-11-17T21:04:36Z"
+  },
+  "2001:41d0:801:2000::508a": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "GB",
+    "fetched_at": "2026-11-17T21:04:36Z"
+  },
+  "137.184.89.151": {
+    "asn": 14061,
+    "org": "DigitalOcean, LLC",
+    "isp": "DigitalOcean, LLC",
+    "country_code": "US",
+    "fetched_at": "2026-11-17T21:04:36Z"
+  },
+  "149.88.106.74": {
+    "asn": 212238,
+    "org": "Datacamp Limited",
+    "isp": "Datacamp Limited",
+    "country_code": "SG",
+    "fetched_at": "2026-11-17T21:04:36Z"
+  },
+  "167.88.62.203": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-17T21:04:36Z"
+  },
+  "185.162.118.6": {
+    "asn": 212238,
+    "org": "Lite Info LLC",
+    "isp": "Datacamp Limited",
+    "country_code": "IT",
+    "fetched_at": "2026-11-17T21:04:36Z"
+  },
+  "139.84.231.142": {
+    "asn": 20473,
+    "org": "The Constant Company, LLC",
+    "isp": "The Constant Company, LLC",
+    "country_code": "ZA",
+    "fetched_at": "2026-11-17T21:04:36Z"
+  },
+  "193.108.119.15": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "DE",
+    "fetched_at": "2026-11-17T21:04:36Z"
+  },
+  "66.163.114.45": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-17T21:04:36Z"
+  },
+  "2001:41d0:342:4800::": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-11-17T21:04:36Z"
+  },
+  "168.110.63.247": {
+    "asn": 31898,
+    "org": "Oracle Corporation",
+    "isp": "Oracle Corporation",
+    "country_code": "JP",
+    "fetched_at": "2026-11-17T21:04:36Z"
+  },
+  "38.91.107.57": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-17T21:04:36Z"
   }
 }

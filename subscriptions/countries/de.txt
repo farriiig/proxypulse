@@ -1,8 +1,6 @@
-vless://8197b9b9-8945-460f-99c9-325ef8a8a7c3@185.79.19.8:443?flow=xtls-rprx-vision&security=reality&sni=fazuno.net&fp=chrome&pbk=YLcEO7lE6TeHKOMwRMkzLwaka7JOCbV8WCQ15eQVWEE&sid=1d482377da&type=tcp&headerType=none&host=fazuno.net&path=/#🇩🇪
-vless://352a250d-080b-47b5-b7db-f9f8fa31c551@187.7.206.179:443?flow=xtls-rprx-vision&security=tls&encryption=none&sni=1fw71df.virtual-network.lol&fp=firefox&type=tcp&path=/&allow_insecure=0#🇺🇸
-vless://8197b9b9-8945-460f-99c9-325ef8a8a7c3@152.53.125.101:443?flow=xtls-rprx-vision&security=reality&sni=de2.gofizzin.com&fp=chrome&pbk=m3J9Bfs2xGS8VbnVTFUa4amevu0VjeumlNK6DKMLuis&sid=951ff4eb&path=/#🇩🇪
-vless://8197b9b9-8945-460f-99c9-325ef8a8a7c3@152.53.125.101:443?flow=xtls-rprx-vision&security=reality&sni=de2.gofizzin.com&fp=firefox&pbk=m3J9Bfs2xGS8VbnVTFUa4amevu0VjeumlNK6DKMLuis&sid=951ff4eb&type=tcp&headerType=none&host=de2.gofizzin.com&path=/#🇩🇪
+vless://88e79aa6-f431-4453-8dcc-652a0c747198@88.216.70.125:443?security=tls&encryption=none&sni=o685y.save-node.com&fp=firefox&type=ws&host=o685y.save-node.com&path=/api/se1k2rfxlsuer3ry4u6e84kl8rqp721p&allow_insecure=0#🇩🇪
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@193.108.119.3:19999#🇩🇪
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.176.204.18:19999#🇬🇧
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.193:443?security=tls&sni=resources.iloverussia2026.com&path=/#🇩🇪
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#🇩🇪
+vless://352a250d-080b-47b5-b7db-f9f8fa31c551@187.7.206.179:443?flow=xtls-rprx-vision&security=tls&encryption=none&sni=1fw71df.virtual-network.lol&fp=firefox&type=tcp&path=/&allow_insecure=0#🇺🇸
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@57.129.83.85:19999#🇩🇪
