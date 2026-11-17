@@ -2,15 +2,15 @@
   {
     "url": "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/configs/proxy_configs_tested.txt",
     "status": "ok",
-    "fetch_ms": 118.0,
-    "bytes_read": 39743,
-    "fetched": 188,
-    "valid": 188,
-    "unique": 188,
-    "total_fetches": 278,
-    "successful_fetches": 278,
+    "fetch_ms": 73.8,
+    "bytes_read": 56095,
+    "fetched": 267,
+    "valid": 267,
+    "unique": 267,
+    "total_fetches": 279,
+    "successful_fetches": 279,
     "reliability": 100.0,
-    "reputation": 99.8,
+    "reputation": 99.9,
     "error": null
   }
 ]

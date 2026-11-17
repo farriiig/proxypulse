@@ -9665,5 +9665,194 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-16T18:40:15Z"
+  },
+  "167.17.69.171": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "2a05:9404::1c79": {
+    "asn": 204957,
+    "org": "Green Floid LLC",
+    "isp": "ROUTE 95 LLC",
+    "country_code": "PL",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "47.253.226.114": {
+    "asn": 45102,
+    "org": "Alibaba Cloud - US",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "US",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "77.90.15.140": {
+    "asn": 215365,
+    "org": "GHOSTNET GmbH",
+    "isp": "Tom Gewiese",
+    "country_code": "SE",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "88.216.36.75": {
+    "asn": 213896,
+    "org": "Private Customer",
+    "isp": "UAB Cherry Servers",
+    "country_code": "DE",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "132.243.212.204": {
+    "asn": 218731,
+    "org": "Andris Jakovlevs",
+    "isp": "Andris Jakovlevs",
+    "country_code": "PL",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "187.7.206.179": {
+    "asn": 197574,
+    "org": "ExpressHost LTD",
+    "isp": "ExpressHost Ltd",
+    "country_code": "DE",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "64.118.147.121": {
+    "asn": 138997,
+    "org": "Eons Data Communications Limited",
+    "isp": "Eons Data Communications Limited",
+    "country_code": "JP",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "152.53.125.101": {
+    "asn": 197540,
+    "org": "netcup GmbH",
+    "isp": "netcup GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "185.79.19.2": {
+    "asn": 51202,
+    "org": "NUXOA GmbH",
+    "isp": "NUXOA GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "195.72.61.243": {
+    "asn": 215960,
+    "org": "Hollander & Jacobsen UG haftungsbeschraenkt",
+    "isp": "Hollander & Jacobsen UG haftungsbeschraenkt",
+    "country_code": "SE",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "212.98.224.35": {
+    "asn": 48678,
+    "org": "Vodafone Net Iletisim Hizmetler AS",
+    "isp": "Pentech Bilisim Teknolojileri Sanayi Ve Ticaret Limited Sirketi",
+    "country_code": "TR",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "45.91.93.47": {
+    "asn": 63473,
+    "org": "Prinode AB",
+    "isp": "HostHatch, LLC",
+    "country_code": "GB",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "84.32.49.84": {
+    "asn": 214159,
+    "org": "Private Customer",
+    "isp": "UAB Cherry Servers",
+    "country_code": "SE",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "185.191.117.121": {
+    "asn": 213896,
+    "org": "UAB Cherry Servers",
+    "isp": "UAB Cherry Servers",
+    "country_code": "DE",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "67.159.52.81": {
+    "asn": 30058,
+    "org": "FDCservers.net",
+    "isp": "FDCservers.net",
+    "country_code": "SG",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "88.216.130.235": {
+    "asn": 214159,
+    "org": "Private Customer",
+    "isp": "UAB Cherry Servers",
+    "country_code": "SE",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "94.249.195.50": {
+    "asn": 215365,
+    "org": "GHOSTNET GmbH",
+    "isp": "Tom Gewiese",
+    "country_code": "DE",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "31.76.32.180": {
+    "asn": 202226,
+    "org": "Great Flower",
+    "isp": "Emil Vitukhnovskii trading as Great Flower",
+    "country_code": "DE",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "153.52.85.193": {
+    "asn": 219095,
+    "org": "Paul Sagov",
+    "isp": "Paul Sagov",
+    "country_code": "DE",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "87.199.201.72": {
+    "asn": 216071,
+    "org": "SERVERS TECH FZCO",
+    "isp": "SERVERS TECH FZCO",
+    "country_code": "NL",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "2001:41d0:404:200::3015": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "FR",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "167.17.64.27": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "FR",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "38.22.17.219": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "158.247.253.243": {
+    "asn": 20473,
+    "org": "The Constant Company, LLC",
+    "isp": "The Constant Company, LLC",
+    "country_code": "KR",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "216.152.155.176": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-17T02:30:23Z"
+  },
+  "216.238.104.154": {
+    "asn": 20473,
+    "org": "The Constant Company, LLC",
+    "isp": "The Constant Company, LLC",
+    "country_code": "BR",
+    "fetched_at": "2026-11-17T02:30:23Z"
   }
 }
