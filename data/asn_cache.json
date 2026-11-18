@@ -2545,7 +2545,7 @@
     "org": "Scaleway - Amsterdam, Netherlands",
     "isp": "Scaleway SAS",
     "country_code": "NL",
-    "fetched_at": "2026-09-29T20:54:18Z"
+    "fetched_at": "2026-11-18T20:41:00Z"
   },
   "185.195.57.169": {
     "asn": 62240,
@@ -9987,5 +9987,19 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-18T11:55:27Z"
+  },
+  "2a01:ecc0:3c0:bf::2": {
+    "asn": 207957,
+    "org": "SERV.HOST GROUP LTD",
+    "isp": "SERV.HOST GROUP LTD",
+    "country_code": "DE",
+    "fetched_at": "2026-11-18T20:41:00Z"
+  },
+  "66.163.122.113": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-18T20:41:00Z"
   }
 }
