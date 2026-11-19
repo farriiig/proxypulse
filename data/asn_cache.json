@@ -5268,7 +5268,7 @@
     "org": "OVH SAS",
     "isp": "OVH SAS",
     "country_code": "GB",
-    "fetched_at": "2026-10-11T22:07:14Z"
+    "fetched_at": "2026-11-19T02:39:31Z"
   },
   "2a03:6f01:1:2::2:1c16": {
     "asn": 9123,
@@ -6451,7 +6451,7 @@
     "org": "GTHost",
     "isp": "GTHost",
     "country_code": "US",
-    "fetched_at": "2026-10-19T22:28:25Z"
+    "fetched_at": "2026-11-19T02:39:31Z"
   },
   "104.28.163.175": {
     "asn": 13335,
@@ -10001,5 +10001,61 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-18T20:41:00Z"
+  },
+  "167.104.223.233": {
+    "asn": 214716,
+    "org": "WEYRO LTD",
+    "isp": "WEYRO LTD",
+    "country_code": "GB",
+    "fetched_at": "2026-11-19T02:39:31Z"
+  },
+  "89.41.182.79": {
+    "asn": 33911,
+    "org": "HZONE SRL",
+    "isp": "Tennet Telecom SRL",
+    "country_code": "RO",
+    "fetched_at": "2026-11-19T02:39:31Z"
+  },
+  "84.32.217.0": {
+    "asn": 214159,
+    "org": "Private Customer",
+    "isp": "UAB Cherry Servers",
+    "country_code": "SE",
+    "fetched_at": "2026-11-19T02:39:31Z"
+  },
+  "80.47.11.123": {
+    "asn": 201814,
+    "org": "MEVSPACE sp. z o.o.",
+    "isp": "MEVSPACE sp. z o.o.",
+    "country_code": "PL",
+    "fetched_at": "2026-11-19T02:39:31Z"
+  },
+  "66.163.114.245": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-19T02:39:31Z"
+  },
+  "193.108.119.87": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "DE",
+    "fetched_at": "2026-11-19T02:39:31Z"
+  },
+  "142.202.51.42": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "GB",
+    "fetched_at": "2026-11-19T02:39:31Z"
+  },
+  "38.91.100.16": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-19T02:39:31Z"
   }
 }
