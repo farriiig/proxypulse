@@ -10057,5 +10057,26 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-19T02:39:31Z"
+  },
+  "91.217.10.237": {
+    "asn": 49791,
+    "org": "SERGEI MURATOV",
+    "isp": "Newserverlife LLC",
+    "country_code": "KZ",
+    "fetched_at": "2026-11-19T11:52:24Z"
+  },
+  "38.64.138.135": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-19T11:52:24Z"
+  },
+  "38.11.50.193": {
+    "asn": 54600,
+    "org": "PEG TECH INC",
+    "isp": "PEG TECH INC",
+    "country_code": "US",
+    "fetched_at": "2026-11-19T11:52:24Z"
   }
 }
