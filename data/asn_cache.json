@@ -6479,7 +6479,7 @@
     "org": "GTHost",
     "isp": "GTHost",
     "country_code": "US",
-    "fetched_at": "2026-10-20T13:39:29Z"
+    "fetched_at": "2026-11-20T02:24:13Z"
   },
   "51.158.182.140": {
     "asn": 12876,
@@ -10092,5 +10092,19 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-19T20:47:24Z"
+  },
+  "2a14:a087:3:86::2": {
+    "asn": 198883,
+    "org": "ASDhere Ltd.",
+    "isp": "Tabunscic Anatoli",
+    "country_code": "DE",
+    "fetched_at": "2026-11-20T02:24:13Z"
+  },
+  "185.241.195.242": {
+    "asn": 47764,
+    "org": "LLC VK",
+    "isp": "LLC VK",
+    "country_code": "RU",
+    "fetched_at": "2026-11-20T02:24:13Z"
   }
 }
