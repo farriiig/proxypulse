@@ -6528,7 +6528,7 @@
     "org": "GTHost",
     "isp": "GTHost",
     "country_code": "US",
-    "fetched_at": "2026-10-20T18:32:18Z"
+    "fetched_at": "2026-11-20T20:30:57Z"
   },
   "212.43.158.171": {
     "asn": 211381,
@@ -10141,5 +10141,26 @@
     "isp": "Internetport Sweden AB",
     "country_code": "SE",
     "fetched_at": "2026-11-20T11:53:34Z"
+  },
+  "109.248.170.119": {
+    "asn": 203087,
+    "org": "Fedinyak Sergey Vyacheslavovich",
+    "isp": "Fedinyak Sergey Vyacheslavovich",
+    "country_code": "KZ",
+    "fetched_at": "2026-11-20T20:30:57Z"
+  },
+  "2a0f:b240:18:115::1": {
+    "asn": 214716,
+    "org": "WEYRO LTD",
+    "isp": "WEYRO LTD",
+    "country_code": "NL",
+    "fetched_at": "2026-11-20T20:30:57Z"
+  },
+  "23.162.152.22": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "FR",
+    "fetched_at": "2026-11-20T20:30:57Z"
   }
 }
