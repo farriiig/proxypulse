@@ -3791,7 +3791,7 @@
     "org": "OVH SAS",
     "isp": "OVH SAS",
     "country_code": "FR",
-    "fetched_at": "2026-10-04T13:17:39Z"
+    "fetched_at": "2026-11-20T11:53:34Z"
   },
   "31.207.7.150": {
     "asn": 218731,
@@ -10106,5 +10106,40 @@
     "isp": "LLC VK",
     "country_code": "RU",
     "fetched_at": "2026-11-20T02:24:13Z"
+  },
+  "138.16.248.202": {
+    "asn": 47764,
+    "org": "LLC VK",
+    "isp": "LLC VK",
+    "country_code": "RU",
+    "fetched_at": "2026-11-20T11:53:34Z"
+  },
+  "31.77.228.53": {
+    "asn": 202226,
+    "org": "Great Flower",
+    "isp": "Emil Vitukhnovskii trading as Great Flower",
+    "country_code": "PL",
+    "fetched_at": "2026-11-20T11:53:34Z"
+  },
+  "57.131.21.102": {
+    "asn": 16276,
+    "org": "OVH SAS",
+    "isp": "OVH SAS",
+    "country_code": "IT",
+    "fetched_at": "2026-11-20T11:53:34Z"
+  },
+  "184.107.106.77": {
+    "asn": 32613,
+    "org": "Leaseweb Canada Inc.",
+    "isp": "Leaseweb Canada Inc.",
+    "country_code": "CA",
+    "fetched_at": "2026-11-20T11:53:34Z"
+  },
+  "95.143.196.97": {
+    "asn": 49770,
+    "org": "Internetport Sweden AB",
+    "isp": "Internetport Sweden AB",
+    "country_code": "SE",
+    "fetched_at": "2026-11-20T11:53:34Z"
   }
 }
