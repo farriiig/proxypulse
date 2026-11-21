@@ -10260,5 +10260,40 @@
     "isp": "M247 Europe SRL",
     "country_code": "GB",
     "fetched_at": "2026-11-21T11:23:23Z"
+  },
+  "195.216.168.101": {
+    "asn": 214504,
+    "org": "Andrey Voskresenskiy",
+    "isp": "Hostman LTD",
+    "country_code": "DE",
+    "fetched_at": "2026-11-21T19:27:46Z"
+  },
+  "45.38.143.210": {
+    "asn": 56971,
+    "org": "Subnet Digital LLC",
+    "isp": "CGI GLOBAL LIMITED",
+    "country_code": "LV",
+    "fetched_at": "2026-11-21T19:27:46Z"
+  },
+  "208.69.78.249": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "CH",
+    "fetched_at": "2026-11-21T19:27:46Z"
+  },
+  "149.88.106.73": {
+    "asn": 212238,
+    "org": "Datacamp Limited",
+    "isp": "Datacamp Limited",
+    "country_code": "SG",
+    "fetched_at": "2026-11-21T19:27:46Z"
+  },
+  "200.102.179.179": {
+    "asn": 210699,
+    "org": "Colocation America Corporation",
+    "isp": "WEDEPLOY SAS",
+    "country_code": "US",
+    "fetched_at": "2026-11-21T19:27:46Z"
   }
 }
