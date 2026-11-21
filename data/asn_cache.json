@@ -10232,5 +10232,33 @@
     "isp": "The Constant Company, LLC",
     "country_code": "JP",
     "fetched_at": "2026-11-21T02:28:02Z"
+  },
+  "2.27.26.194": {
+    "asn": 215730,
+    "org": "H2.NEXUS Frankfurt Network",
+    "isp": "H2NEXUS CLOUD SERVICES - FZCO",
+    "country_code": "GE",
+    "fetched_at": "2026-11-21T11:23:23Z"
+  },
+  "45.90.59.15": {
+    "asn": 204957,
+    "org": "ROUTE 95 LLC",
+    "isp": "ROUTE 95 LLC",
+    "country_code": "CH",
+    "fetched_at": "2026-11-21T11:23:23Z"
+  },
+  "20.107.212.150": {
+    "asn": 8075,
+    "org": "Microsoft Corporation",
+    "isp": "Microsoft Corporation",
+    "country_code": "IE",
+    "fetched_at": "2026-11-21T11:23:23Z"
+  },
+  "141.98.101.178": {
+    "asn": 9009,
+    "org": "M247 LTD Manchester Infrastructure",
+    "isp": "M247 Europe SRL",
+    "country_code": "GB",
+    "fetched_at": "2026-11-21T11:23:23Z"
   }
 }
