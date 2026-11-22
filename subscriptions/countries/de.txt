@@ -1,4 +1,5 @@
+vless://88e79aa6-f431-4453-8dcc-652a0c747198@188.114.98.0:443?encryption=none&security=tls&sni=o685y.save-node.com&alpn=http/1.1&type=ws&host=o685y.save-node.com&path=/api/se1k2rfxlsuer3ry4u6e84kl8rqp721p#🇺🇸
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@23.157.88.43:19999#🇩🇪
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#🇩🇪
-vless://920b3cd9-4f82-4669-bbd2-d4a28b9052c6@195.216.168.101:9543?security=reality&encryption=none&pbk=M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=storage.yandexcloud.net&sid=123abcdf#🇪🇸
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@57.129.83.85:19999#🇩🇪
+vless://88e79aa6-f431-4453-8dcc-652a0c747198@leviko-de6156.shopingggg.ir:443?encryption=none&security=tls&sni=o685y.save-node.com&type=ws&host=o685y.save-node.com&path=/api/se1k2rfxlsuer3ry4u6e84kl8rqp721p#🇩🇪

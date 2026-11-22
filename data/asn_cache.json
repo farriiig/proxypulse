@@ -1544,7 +1544,7 @@
     "org": "GTHost",
     "isp": "GTHost",
     "country_code": "US",
-    "fetched_at": "2026-09-28T06:22:31Z"
+    "fetched_at": "2026-11-22T00:26:27Z"
   },
   "104.28.155.197": {
     "asn": 13335,
@@ -10295,5 +10295,33 @@
     "isp": "WEDEPLOY SAS",
     "country_code": "US",
     "fetched_at": "2026-11-21T19:27:46Z"
+  },
+  "94.183.164.91": {
+    "asn": 219506,
+    "org": "Vladislav Doniy",
+    "isp": "Vladislav Doniy",
+    "country_code": "NL",
+    "fetched_at": "2026-11-22T00:26:27Z"
+  },
+  "200.181.82.226": {
+    "asn": 210699,
+    "org": "WEDEPLOY SAS",
+    "isp": "WEDEPLOY SAS",
+    "country_code": "HK",
+    "fetched_at": "2026-11-22T00:26:27Z"
+  },
+  "2a06:f901:4001:100::3ef6:9b54": {
+    "asn": 8849,
+    "org": "Melbikomas UAB",
+    "isp": "Melbikomas UAB",
+    "country_code": "NG",
+    "fetched_at": "2026-11-22T00:26:27Z"
+  },
+  "85.237.206.10": {
+    "asn": 401443,
+    "org": "Private Customer",
+    "isp": "WAP.AC LLC",
+    "country_code": "TW",
+    "fetched_at": "2026-11-22T00:26:27Z"
   }
 }
