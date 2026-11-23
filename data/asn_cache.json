@@ -10820,5 +10820,40 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-23T03:46:27Z"
+  },
+  "2401:b60:5:b977:ef4b:99d6:ba92:6710": {
+    "asn": 61112,
+    "org": "HYTRON NETWORK HK",
+    "isp": "AKILE LTD",
+    "country_code": "HK",
+    "fetched_at": "2026-11-23T14:54:09Z"
+  },
+  "2401:b60:5:2c29:5ace:ec47:26f:21ed": {
+    "asn": 61112,
+    "org": "HYTRON NETWORK HK",
+    "isp": "AKILE LTD",
+    "country_code": "HK",
+    "fetched_at": "2026-11-23T14:54:09Z"
+  },
+  "158.101.151.157": {
+    "asn": 31898,
+    "org": "Oracle Public Cloud",
+    "isp": "Oracle Corporation",
+    "country_code": "JP",
+    "fetched_at": "2026-11-23T14:54:09Z"
+  },
+  "2a06:f902:4001:100::bf1d:aafe": {
+    "asn": 8849,
+    "org": "Melbikomas UAB",
+    "isp": "Melbikomas UAB",
+    "country_code": "AE",
+    "fetched_at": "2026-11-23T14:54:09Z"
+  },
+  "161.33.20.255": {
+    "asn": 31898,
+    "org": "Oracle Corporation",
+    "isp": "Oracle Corporation",
+    "country_code": "JP",
+    "fetched_at": "2026-11-23T14:54:09Z"
   }
 }
