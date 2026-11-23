@@ -3382,10 +3382,10 @@
   },
   "2.59.253.251": {
     "asn": 215730,
-    "org": "H2nexus LTD",
+    "org": "H2NEXUS LTD",
     "isp": "H2NEXUS CLOUD SERVICES - FZCO",
     "country_code": "PL",
-    "fetched_at": "2026-10-02T12:49:07Z"
+    "fetched_at": "2026-11-23T03:46:27Z"
   },
   "45.136.228.234": {
     "asn": 210644,
@@ -10715,5 +10715,110 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-22T22:32:16Z"
+  },
+  "94.177.131.113": {
+    "asn": 199524,
+    "org": "G-Core Labs S.A.",
+    "isp": "G-Core Labs S.A.",
+    "country_code": "JP",
+    "fetched_at": "2026-11-23T03:46:27Z"
+  },
+  "51.158.206.26": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-11-23T03:46:27Z"
+  },
+  "2a09:bac5:58c1:3200::4fb:1": {
+    "asn": 13335,
+    "org": "Cloudflare London, LLC",
+    "isp": "Cloudflare, Inc.",
+    "country_code": "TR",
+    "fetched_at": "2026-11-23T03:46:27Z"
+  },
+  "178.162.254.38": {
+    "asn": 28753,
+    "org": "Leaseweb Deutschland GmbH",
+    "isp": "Leaseweb Deutschland GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-11-23T03:46:27Z"
+  },
+  "51.15.19.206": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-11-23T03:46:27Z"
+  },
+  "66.163.118.62": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "ES",
+    "fetched_at": "2026-11-23T03:46:27Z"
+  },
+  "66.163.118.166": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "ES",
+    "fetched_at": "2026-11-23T03:46:27Z"
+  },
+  "66.163.127.44": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "NL",
+    "fetched_at": "2026-11-23T03:46:27Z"
+  },
+  "193.108.117.61": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "DE",
+    "fetched_at": "2026-11-23T03:46:27Z"
+  },
+  "38.91.100.69": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-23T03:46:27Z"
+  },
+  "38.91.106.182": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-23T03:46:27Z"
+  },
+  "38.128.66.212": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-23T03:46:27Z"
+  },
+  "38.22.17.64": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-23T03:46:27Z"
+  },
+  "38.22.17.89": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-23T03:46:27Z"
+  },
+  "38.22.17.251": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-23T03:46:27Z"
   }
 }

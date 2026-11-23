@@ -1,0 +1,2 @@
+vless://03fcc618-b93d-6796-6aed-8a38c975d581@kuruish.org:443?encryption=none&security=tls&type=tcp&headerType=none#🇨🇦
+ss://YWVzLTEyOC1nY206QndscWg3R2NGQg@168.138.205.100:53758#🇯🇵

@@ -1,7 +1,10 @@
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.152:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=learn.connectingpeoplewithgreatjobs.com#🇨🇦
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.89:443?security=tls&sni=www.connectingpeoplewithgreatjobs.com&type=tcp&headerType=none#🇨🇦
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.85:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=cdn.connectingpeoplewithgreatjobs.com#🇨🇦
-ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.78:8388#🇨🇦
-vmess://eyJhZGQiOiAiMTM0LjE5NS4xOTYuMjExIiwgImFpZCI6IDAsICJob3N0IjogIjEzNC4xOTUuMTk2LjIxMSIsICJpZCI6ICJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAicG9ydCI6IDE4MDAwLCAicHMiOiAi8J+HqPCfh6YgNDMgLSBDQSAtIFZNZXNzIC0gMTgwMDAiLCAic25pIjogIjEzNC4xOTUuMTk2LjIxMSIsICJ0bHMiOiAibm9uZSIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIiwgIm5hbWUiOiAidjJnbyB8IPCfh6jwn4emIENBIHwgVk1FU1MgfCAxNyIsICJzY3kiOiAiYXV0byJ9
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.74:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=api.connectingpeoplewithgreatjobs.com#🇨🇦
 ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@51.222.136.236:8882#🇨🇦
-ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@192.99.151.230:8388#🇨🇦
+vmess://eyJhZGQiOiAiMTM0LjE5NS4xOTYuMjExIiwgImFpZCI6IDAsICJob3N0IjogIjEzNC4xOTUuMTk2LjIxMSIsICJpZCI6ICJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAicG9ydCI6IDE4MDAwLCAicHMiOiAi8J+HqPCfh6YgNDMgLSBDQSAtIFZNZXNzIC0gMTgwMDAiLCAic25pIjogIjEzNC4xOTUuMTk2LjIxMSIsICJ0bHMiOiAibm9uZSIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIiwgIm5hbWUiOiAidjJnbyB8IPCfh6jwn4emIENBIHwgVk1FU1MgfCAxNyIsICJzY3kiOiAiYXV0byJ9
 ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@51.79.85.185:8118#🇨🇦
+ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@192.99.151.230:8388#🇨🇦
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@158.51.121.221:19999#🇨🇦
+ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.78:8388#🇨🇦
