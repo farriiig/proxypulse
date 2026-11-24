@@ -6759,7 +6759,7 @@
     "org": "Lite Info LLC",
     "isp": "GTHost",
     "country_code": "US",
-    "fetched_at": "2026-10-22T18:37:57Z"
+    "fetched_at": "2026-11-24T14:23:50Z"
   },
   "45.86.51.142": {
     "asn": 63023,
@@ -11030,5 +11030,61 @@
     "isp": "GTHost",
     "country_code": "US",
     "fetched_at": "2026-11-24T02:19:30Z"
+  },
+  "216.227.161.95": {
+    "asn": 30058,
+    "org": "FDCservers.net",
+    "isp": "FDCservers.net",
+    "country_code": "US",
+    "fetched_at": "2026-11-24T14:23:50Z"
+  },
+  "93.123.85.81": {
+    "asn": 58212,
+    "org": "dataforest GmbH",
+    "isp": "dataforest GmbH",
+    "country_code": "DE",
+    "fetched_at": "2026-11-24T14:23:50Z"
+  },
+  "82.118.16.187": {
+    "asn": 21100,
+    "org": "Green Floid LLC",
+    "isp": "ROUTE 95 LLC",
+    "country_code": "IT",
+    "fetched_at": "2026-11-24T14:23:50Z"
+  },
+  "79.182.39.163": {
+    "asn": 218736,
+    "org": "H1CLOUD LTD",
+    "isp": "H1CLOUD LTD",
+    "country_code": "NL",
+    "fetched_at": "2026-11-24T14:23:50Z"
+  },
+  "40.160.86.43": {
+    "asn": 16276,
+    "org": "OVH US LLC",
+    "isp": "OVH SAS",
+    "country_code": "US",
+    "fetched_at": "2026-11-24T14:23:50Z"
+  },
+  "216.73.157.142": {
+    "asn": 53724,
+    "org": "EXTRAVM LLC",
+    "isp": "EXTRAVM LLC",
+    "country_code": "NL",
+    "fetched_at": "2026-11-24T14:23:50Z"
+  },
+  "186.190.215.4": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "CH",
+    "fetched_at": "2026-11-24T14:23:50Z"
+  },
+  "23.162.152.127": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "FR",
+    "fetched_at": "2026-11-24T14:23:50Z"
   }
 }
