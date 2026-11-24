@@ -2566,7 +2566,7 @@
     "org": "New Jersey Network",
     "isp": "Clouvider Limited",
     "country_code": "US",
-    "fetched_at": "2026-09-29T20:54:18Z"
+    "fetched_at": "2026-11-24T23:31:42Z"
   },
   "2a14:7c0:1742:505d::1": {
     "asn": 51396,
@@ -6514,7 +6514,7 @@
     "org": "Private Customer",
     "isp": "GTHost",
     "country_code": "IT",
-    "fetched_at": "2026-10-20T18:32:18Z"
+    "fetched_at": "2026-11-24T23:31:42Z"
   },
   "80.174.118.51": {
     "asn": 30088,
@@ -6934,7 +6934,7 @@
     "org": "Lite Info LLC",
     "isp": "GTHost",
     "country_code": "GB",
-    "fetched_at": "2026-10-25T17:06:19Z"
+    "fetched_at": "2026-11-24T23:31:42Z"
   },
   "216.106.186.155": {
     "asn": 63023,
@@ -11086,5 +11086,26 @@
     "isp": "GTHost",
     "country_code": "FR",
     "fetched_at": "2026-11-24T14:23:50Z"
+  },
+  "132.243.242.115": {
+    "asn": 214504,
+    "org": "NETAXIS GROUP LTD",
+    "isp": "Hostman LTD",
+    "country_code": "NL",
+    "fetched_at": "2026-11-24T23:31:42Z"
+  },
+  "2607:f748:c2:107:1c00:7cff:fe00:515": {
+    "asn": 32613,
+    "org": "Leaseweb Canada Inc.",
+    "isp": "Leaseweb Canada Inc.",
+    "country_code": "CA",
+    "fetched_at": "2026-11-24T23:31:42Z"
+  },
+  "2607:5300:205:200::43aa": {
+    "asn": 16276,
+    "org": "OVH Hosting, Inc.",
+    "isp": "OVH SAS",
+    "country_code": "CA",
+    "fetched_at": "2026-11-24T23:31:42Z"
   }
 }
