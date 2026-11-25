@@ -1,9 +1,6 @@
 ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.77:8388#🇨🇦
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.79:443?security=tls&sni=blog.connectingpeoplewithgreatjobs.com&path=/#🇨🇦
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.85:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=cdn.connectingpeoplewithgreatjobs.com#🇨🇦
-vless://03fcc618-b93d-6796-6aed-8a38c975d581@kuruish.org:443?security=tls&encryption=none&insecure=0&host=kuruish.org&headerType=none&type=tcp&allowInsecure=0&sni=kuruish.org#🇺🇸
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.93:443?security=tls&sni=connectingpeoplewithgreatjobs.com#🇨🇦
-vmess://eyJhZGQiOiAiMTM0LjE5NS4xOTYuMjExIiwgImFpZCI6IDAsICJob3N0IjogIjEzNC4xOTUuMTk2LjIxMSIsICJpZCI6ICJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLCAibmFtZSI6ICJ2MmdvIHwg8J+HqPCfh6YgQ0EgfCBWTUVTUyB8IDMyMCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiLyIsICJwb3J0IjogMTgwMDAsICJwcyI6ICLwn4eo8J+HpiA5MyAtIENBIC0gVk1lc3MgLSAxODAwMCIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiMTM0LjE5NS4xOTYuMjExIiwgInRscyI6ICJub25lIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
 ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@51.222.12.127:445#🇨🇦
-ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@192.99.151.230:8388#🇨🇦
+vless://03fcc618-b93d-6796-6aed-8a38c975d581@kuruish.org:443?security=tls&encryption=none&insecure=0&host=kuruish.org&headerType=none&type=tcp&allowInsecure=0&sni=kuruish.org#🇨🇦
+vmess://eyJhZGQiOiAiMjMuMTYyLjIwMC4xOTgiLCAiYWlkIjogMCwgImlkIjogImY4YzhkYzNkLTBkMzctNDZiMC04YjM0LWE3MjMyODgyZmNmZSIsICJuZXQiOiAidGNwIiwgInBvcnQiOiAxODAwMCwgInBzIjogIvCfh6jwn4emIDExOSAtIENBIC0gVk1lc3MgLSAxODAwMCIsICJzY3kiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInRscyI6ICJub25lIiwgInR5cGUiOiAiIiwgInYiOiAiMiIsICJuYW1lIjogInYyZ28gfCDwn4eo8J+HpiBDQSB8IFZNRVNTIHwgMzkyIn0=
 ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@51.222.141.125:445#🇨🇦
+ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@192.99.151.230:8388#🇨🇦

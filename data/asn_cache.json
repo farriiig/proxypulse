@@ -2580,7 +2580,7 @@
     "org": "LogicWeb Inc.",
     "isp": "GSL Networks Pty LTD",
     "country_code": "US",
-    "fetched_at": "2026-09-29T20:54:18Z"
+    "fetched_at": "2026-11-25T08:49:59Z"
   },
   "45.207.207.25": {
     "asn": 402506,
@@ -5037,7 +5037,7 @@
     "org": "THE WEB IS WHAT WE MAKE OF IT",
     "isp": "Black HOST Ltd",
     "country_code": "NL",
-    "fetched_at": "2026-10-10T23:39:19Z"
+    "fetched_at": "2026-11-25T08:49:59Z"
   },
   "2.26.55.163": {
     "asn": 215439,
@@ -11107,5 +11107,82 @@
     "isp": "OVH SAS",
     "country_code": "CA",
     "fetched_at": "2026-11-24T23:31:42Z"
+  },
+  "51.158.206.87": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-11-25T08:49:59Z"
+  },
+  "51.158.206.98": {
+    "asn": 12876,
+    "org": "Scaleway - Amsterdam, Netherlands",
+    "isp": "Scaleway SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-11-25T08:49:59Z"
+  },
+  "143.246.136.128": {
+    "asn": 213535,
+    "org": "YottaSrc",
+    "isp": "YottaSrc",
+    "country_code": "TR",
+    "fetched_at": "2026-11-25T08:49:59Z"
+  },
+  "94.103.168.62": {
+    "asn": 214919,
+    "org": "GHOSTNET GmbH",
+    "isp": "Kabat OU",
+    "country_code": "DE",
+    "fetched_at": "2026-11-25T08:49:59Z"
+  },
+  "2001:41d0:ab02::4:0:1b7": {
+    "asn": 16276,
+    "org": "OVH BV",
+    "isp": "OVH SAS",
+    "country_code": "NL",
+    "fetched_at": "2026-11-25T08:49:59Z"
+  },
+  "195.123.235.183": {
+    "asn": 204957,
+    "org": "Green Floid LLC",
+    "isp": "ROUTE 95 LLC",
+    "country_code": "US",
+    "fetched_at": "2026-11-25T08:49:59Z"
+  },
+  "81.90.29.98": {
+    "asn": 215540,
+    "org": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+    "isp": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+    "country_code": "NL",
+    "fetched_at": "2026-11-25T08:49:59Z"
+  },
+  "146.19.196.142": {
+    "asn": 8849,
+    "org": "Melbikomas UAB",
+    "isp": "Melbikomas UAB",
+    "country_code": "SG",
+    "fetched_at": "2026-11-25T08:49:59Z"
+  },
+  "141.98.101.182": {
+    "asn": 9009,
+    "org": "M247 LTD Manchester Infrastructure",
+    "isp": "M247 Europe SRL",
+    "country_code": "GB",
+    "fetched_at": "2026-11-25T08:49:59Z"
+  },
+  "141.98.101.179": {
+    "asn": 9009,
+    "org": "M247 LTD Manchester Infrastructure",
+    "isp": "M247 Europe SRL",
+    "country_code": "GB",
+    "fetched_at": "2026-11-25T08:49:59Z"
+  },
+  "162.251.60.97": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-25T08:49:59Z"
   }
 }
