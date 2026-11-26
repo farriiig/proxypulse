@@ -11240,5 +11240,117 @@
     "isp": "OVH SAS",
     "country_code": "FR",
     "fetched_at": "2026-11-25T19:25:58Z"
+  },
+  "179.254.94.184": {
+    "asn": 209604,
+    "org": "2e Telekomunikasyon Ltd. Sti.",
+    "isp": "2E TELEKOMUNIKASYON LTD STI",
+    "country_code": "US",
+    "fetched_at": "2026-11-26T12:50:54Z"
+  },
+  "153.52.69.249": {
+    "asn": 51248,
+    "org": "TA Consulting & Services GmbH",
+    "isp": "Host-Telecom.com s.r.o.",
+    "country_code": "CZ",
+    "fetched_at": "2026-11-26T12:50:54Z"
+  },
+  "146.103.42.78": {
+    "asn": 215311,
+    "org": "REGXA LLC",
+    "isp": "Regxa Company for Information Technology Ltd",
+    "country_code": "DE",
+    "fetched_at": "2026-11-26T12:50:54Z"
+  },
+  "2605:a140:2330:1411::1": {
+    "asn": 40021,
+    "org": "Contabo Inc.",
+    "isp": "Contabo Inc.",
+    "country_code": "US",
+    "fetched_at": "2026-11-26T12:50:54Z"
+  },
+  "2.27.60.178": {
+    "asn": 210457,
+    "org": "Kyonix Networks Limited",
+    "isp": "Kyonix Networks Limited",
+    "country_code": "DE",
+    "fetched_at": "2026-11-26T12:50:54Z"
+  },
+  "179.253.101.112": {
+    "asn": 218296,
+    "org": "Cloud Solutions Global LTD",
+    "isp": "CLOUD SOLUTIONS GLOBAL LTD",
+    "country_code": "PL",
+    "fetched_at": "2026-11-26T12:50:54Z"
+  },
+  "2a02:c207:2292:6156::1": {
+    "asn": 51167,
+    "org": "Contabo GmbH",
+    "isp": "Contabo GmbH",
+    "country_code": "FR",
+    "fetched_at": "2026-11-26T12:50:54Z"
+  },
+  "31.76.93.111": {
+    "asn": 202226,
+    "org": "Great Flower",
+    "isp": "Emil Vitukhnovskii trading as Great Flower",
+    "country_code": "DE",
+    "fetched_at": "2026-11-26T12:50:54Z"
+  },
+  "31.76.77.231": {
+    "asn": 215439,
+    "org": "play2go.cloud - Cheap and reliable hosting",
+    "isp": "PLAY2GO INTERNATIONAL LIMITED",
+    "country_code": "FI",
+    "fetched_at": "2026-11-26T12:50:54Z"
+  },
+  "185.213.23.63": {
+    "asn": 136258,
+    "org": "oneprovider.com - Oslo Infrastructure",
+    "isp": "BrainStorm Network, Inc",
+    "country_code": "NO",
+    "fetched_at": "2026-11-26T12:50:54Z"
+  },
+  "2604:a880:800:14:0:2:69c9:4000": {
+    "asn": 14061,
+    "org": "DigitalOcean, LLC",
+    "isp": "DigitalOcean, LLC",
+    "country_code": "US",
+    "fetched_at": "2026-11-26T12:50:54Z"
+  },
+  "47.87.64.133": {
+    "asn": 45102,
+    "org": "Alibaba Cloud LLC",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "TH",
+    "fetched_at": "2026-11-26T12:50:54Z"
+  },
+  "8.213.211.160": {
+    "asn": 45102,
+    "org": "Alibaba Cloud Singapore Private Limited",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "TH",
+    "fetched_at": "2026-11-26T12:50:54Z"
+  },
+  "146.56.112.110": {
+    "asn": 31898,
+    "org": "Oracle Corporation",
+    "isp": "Oracle Corporation",
+    "country_code": "KR",
+    "fetched_at": "2026-11-26T12:50:54Z"
+  },
+  "172.111.36.244": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-26T12:50:54Z"
+  },
+  "46.29.235.162": {
+    "asn": 215540,
+    "org": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+    "isp": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+    "country_code": "DK",
+    "fetched_at": "2026-11-26T12:50:54Z"
   }
 }
