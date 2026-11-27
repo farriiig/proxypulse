@@ -186,7 +186,7 @@
     "org": "Scaleway - Amsterdam, Netherlands",
     "isp": "Scaleway SAS",
     "country_code": "NL",
-    "fetched_at": "2026-10-27T13:21:25Z"
+    "fetched_at": "2026-11-27T15:15:45Z"
   },
   "51.158.206.12": {
     "asn": 12876,
@@ -207,21 +207,21 @@
     "org": "Scaleway - Amsterdam, Netherlands",
     "isp": "Scaleway SAS",
     "country_code": "NL",
-    "fetched_at": "2026-10-27T13:21:25Z"
+    "fetched_at": "2026-11-27T15:15:45Z"
   },
   "51.158.206.8": {
     "asn": 12876,
     "org": "Scaleway - Amsterdam, Netherlands",
     "isp": "Scaleway SAS",
     "country_code": "NL",
-    "fetched_at": "2026-10-27T13:21:25Z"
+    "fetched_at": "2026-11-27T15:15:45Z"
   },
   "51.158.206.96": {
     "asn": 12876,
     "org": "Scaleway - Amsterdam, Netherlands",
     "isp": "Scaleway SAS",
     "country_code": "NL",
-    "fetched_at": "2026-10-27T13:21:25Z"
+    "fetched_at": "2026-11-27T15:15:45Z"
   },
   "2a01:4ff:1f0:95ac::1": {
     "asn": 212317,
@@ -389,7 +389,7 @@
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-10-27T13:21:25Z"
+    "fetched_at": "2026-11-27T15:15:45Z"
   },
   "193.29.139.147": {
     "asn": 47172,
@@ -403,7 +403,7 @@
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-10-27T13:21:25Z"
+    "fetched_at": "2026-11-27T15:15:45Z"
   },
   "193.29.139.184": {
     "asn": 47172,
@@ -417,7 +417,7 @@
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-10-27T13:21:25Z"
+    "fetched_at": "2026-11-27T15:15:45Z"
   },
   "2607:5300:60:15e1::": {
     "asn": 16276,
@@ -634,7 +634,7 @@
     "org": "M247 LTD Manchester Infrastructure",
     "isp": "M247 Europe SRL",
     "country_code": "GB",
-    "fetched_at": "2026-10-27T19:29:12Z"
+    "fetched_at": "2026-11-27T15:15:45Z"
   },
   "156.146.38.167": {
     "asn": 60068,
@@ -648,7 +648,7 @@
     "org": "Datacamp Limited",
     "isp": "Datacamp Limited",
     "country_code": "US",
-    "fetched_at": "2026-10-27T19:29:12Z"
+    "fetched_at": "2026-11-27T15:15:45Z"
   },
   "37.19.198.160": {
     "asn": 212238,
@@ -774,14 +774,14 @@
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-10-27T19:29:12Z"
+    "fetched_at": "2026-11-27T15:15:45Z"
   },
   "193.29.139.169": {
     "asn": 47172,
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-10-27T19:29:12Z"
+    "fetched_at": "2026-11-27T15:15:45Z"
   },
   "45.82.67.34": {
     "asn": 49981,
@@ -816,7 +816,7 @@
     "org": "OVH Hosting, Inc.",
     "isp": "OVH SAS",
     "country_code": "CA",
-    "fetched_at": "2026-10-27T23:50:41Z"
+    "fetched_at": "2026-11-27T15:15:45Z"
   },
   "2.58.81.221": {
     "asn": 51167,
@@ -1362,7 +1362,7 @@
     "org": "OVH US LLC",
     "isp": "OVH SAS",
     "country_code": "US",
-    "fetched_at": "2026-10-28T13:11:25Z"
+    "fetched_at": "2026-11-27T15:15:45Z"
   },
   "2a01:ecc0:3c0:b5::2": {
     "asn": 207957,
@@ -1474,7 +1474,7 @@
     "org": "Datacamp Limited",
     "isp": "Datacamp Limited",
     "country_code": "SG",
-    "fetched_at": "2026-10-28T13:11:25Z"
+    "fetched_at": "2026-11-27T15:15:45Z"
   },
   "216.106.187.60": {
     "asn": 63023,
@@ -11450,5 +11450,68 @@
     "isp": "GTHost",
     "country_code": "GB",
     "fetched_at": "2026-11-27T05:08:27Z"
+  },
+  "51.194.118.38": {
+    "asn": 402394,
+    "org": "Private Customer",
+    "isp": "Vuedge Tech LLC",
+    "country_code": "NL",
+    "fetched_at": "2026-11-27T15:15:45Z"
+  },
+  "50.7.159.122": {
+    "asn": 30058,
+    "org": "FDCservers.net",
+    "isp": "FDCservers.net",
+    "country_code": "JP",
+    "fetched_at": "2026-11-27T15:15:45Z"
+  },
+  "184.107.179.150": {
+    "asn": 32613,
+    "org": "Leaseweb Canada Inc.",
+    "isp": "Leaseweb Canada Inc.",
+    "country_code": "CA",
+    "fetched_at": "2026-11-27T15:15:45Z"
+  },
+  "8.209.221.90": {
+    "asn": 45102,
+    "org": "Shiodome Sumitomo Blog 1-9-2 TOKYO",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "JP",
+    "fetched_at": "2026-11-27T15:15:45Z"
+  },
+  "8.216.15.30": {
+    "asn": 45102,
+    "org": "Alibaba Cloud Singapore Private Limited",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "JP",
+    "fetched_at": "2026-11-27T15:15:45Z"
+  },
+  "8.216.15.55": {
+    "asn": 45102,
+    "org": "Alibaba Cloud Singapore Private Limited",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "JP",
+    "fetched_at": "2026-11-27T15:15:45Z"
+  },
+  "8.216.17.189": {
+    "asn": 45102,
+    "org": "Alibaba Cloud Singapore Private Limited",
+    "isp": "Alibaba US Technology Co., Ltd.",
+    "country_code": "JP",
+    "fetched_at": "2026-11-27T15:15:45Z"
+  },
+  "211.233.33.228": {
+    "asn": 3786,
+    "org": "LG DACOM KIDC",
+    "isp": "LG DACOM Corporation",
+    "country_code": "KR",
+    "fetched_at": "2026-11-27T15:15:45Z"
+  },
+  "149.88.107.51": {
+    "asn": 212238,
+    "org": "Datacamp Limited",
+    "isp": "Datacamp Limited",
+    "country_code": "SG",
+    "fetched_at": "2026-11-27T15:15:45Z"
   }
 }
