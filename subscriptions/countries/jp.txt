@@ -1,9 +1,0 @@
-vless://66171cbe-0b4b-4b24-99f6-d5a822f4dc9a@158.101.151.157:443?security=reality&encryption=none&pbk=99eQkMBHqOEKororOWKFlmH8M0o9VaVpV9w1vQIxhz8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.microsoft.com&sid=684c7531e599dec0#🇯🇵
-ss://YWVzLTI1Ni1nY206MTIzNDU2@8.216.18.189:5555#🇯🇵
-ss://YWVzLTI1Ni1nY206MTIzNDU2@8.216.8.185:5555#🇯🇵
-ss://YWVzLTI1Ni1nY206MTIzNDU2@8.216.5.230:5555#🇯🇵
-ss://YWVzLTI1Ni1nY206MTIzNDU2@8.216.9.41:5555#🇯🇵
-ss://YWVzLTI1Ni1nY206MTIzNDU2@47.91.2.13:5555#🇯🇵
-ss://YWVzLTI1Ni1nY206MTIzNDU2@8.211.174.60:5555#🇯🇵
-ss://YWVzLTI1Ni1nY206MTIzNDU2@8.216.9.154:5555#🇯🇵
-ss://YWVzLTI1Ni1nY206MTIzNDU2@8.216.9.151:5555#🇯🇵

@@ -473,7 +473,7 @@
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-10-27T13:21:25Z"
+    "fetched_at": "2026-11-27T05:08:27Z"
   },
   "193.29.139.204": {
     "asn": 47172,
@@ -508,7 +508,7 @@
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-10-27T13:21:25Z"
+    "fetched_at": "2026-11-27T05:08:27Z"
   },
   "193.29.139.221": {
     "asn": 47172,
@@ -557,7 +557,7 @@
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-10-27T19:29:12Z"
+    "fetched_at": "2026-11-27T05:08:27Z"
   },
   "193.29.139.237": {
     "asn": 47172,
@@ -592,14 +592,14 @@
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-10-27T19:29:12Z"
+    "fetched_at": "2026-11-27T05:08:27Z"
   },
   "193.29.139.164": {
     "asn": 47172,
     "org": "Greenhost BV",
     "isp": "Greenhost BV",
     "country_code": "NL",
-    "fetched_at": "2026-10-27T19:29:12Z"
+    "fetched_at": "2026-11-27T05:08:27Z"
   },
   "193.29.139.148": {
     "asn": 47172,
@@ -809,7 +809,7 @@
     "org": "OVH US LLC",
     "isp": "OVH SAS",
     "country_code": "US",
-    "fetched_at": "2026-10-27T23:50:41Z"
+    "fetched_at": "2026-11-27T05:08:27Z"
   },
   "51.222.136.236": {
     "asn": 16276,
@@ -1012,7 +1012,7 @@
     "org": "OVH US LLC",
     "isp": "OVH SAS",
     "country_code": "US",
-    "fetched_at": "2026-10-27T23:50:41Z"
+    "fetched_at": "2026-11-27T05:08:27Z"
   },
   "94.156.250.148": {
     "asn": 136258,
@@ -11422,5 +11422,33 @@
     "isp": "Alibaba US Technology Co., Ltd.",
     "country_code": "JP",
     "fetched_at": "2026-11-26T22:25:40Z"
+  },
+  "171.22.183.175": {
+    "asn": 62005,
+    "org": "BlueVPS OU",
+    "isp": "BlueVPS OU",
+    "country_code": "NL",
+    "fetched_at": "2026-11-27T05:08:27Z"
+  },
+  "2a02:27ae:8000::739": {
+    "asn": 21100,
+    "org": "Green Floid LLC",
+    "isp": "ROUTE 95 LLC",
+    "country_code": "IT",
+    "fetched_at": "2026-11-27T05:08:27Z"
+  },
+  "38.99.82.140": {
+    "asn": 63023,
+    "org": "GLOBALTELEHOST Corp.",
+    "isp": "GTHost",
+    "country_code": "US",
+    "fetched_at": "2026-11-27T05:08:27Z"
+  },
+  "66.163.117.141": {
+    "asn": 63023,
+    "org": "GTHost",
+    "isp": "GTHost",
+    "country_code": "GB",
+    "fetched_at": "2026-11-27T05:08:27Z"
   }
 }
