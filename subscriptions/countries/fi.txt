@@ -1,0 +1,1 @@
+vless://17ead557-8407-42ae-b9a1-f11a869f99c6@ifi1.modemjibi.com:993?encryption=none&type=ws&security=tls&path=/&sni=ifi1.modemjibi.com.&alpn=http/1.1&fp=chrome#🇫🇮
